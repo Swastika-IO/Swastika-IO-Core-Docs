@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants
+  id: SWCmsConstants
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.#ctor
+  - Swastika.Cms.Lib.SWCmsConstants.CONST_DEFAULT_CONNECTION
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants
+  nameWithType: SWCmsConstants
+  fullName: Swastika.Cms.Lib.SWCmsConstants
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public class SWCmsConstants : Object'
+    content.vb: >-
+      Public Class SWCmsConstants
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.CONST_DEFAULT_CONNECTION
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.CONST_DEFAULT_CONNECTION
+  id: CONST_DEFAULT_CONNECTION
+  parent: Swastika.Cms.Lib.SWCmsConstants
+  langs:
+  - csharp
+  - vb
+  name: CONST_DEFAULT_CONNECTION
+  nameWithType: SWCmsConstants.CONST_DEFAULT_CONNECTION
+  fullName: Swastika.Cms.Lib.SWCmsConstants.CONST_DEFAULT_CONNECTION
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string CONST_DEFAULT_CONNECTION = "CmsConnection"
+    return:
+      type: System.String
+    content.vb: Public Const CONST_DEFAULT_CONNECTION As String = "CmsConnection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.#ctor
+  commentId: M:Swastika.Cms.Lib.SWCmsConstants.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.SWCmsConstants
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants()
+  nameWithType: SWCmsConstants.SWCmsConstants()
+  fullName: Swastika.Cms.Lib.SWCmsConstants.SWCmsConstants()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public SWCmsConstants()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.SWCmsConstants.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: false
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.SWCmsConstants.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.#ctor
+  isExternal: true
+  name: SWCmsConstants
+  nameWithType: SWCmsConstants.SWCmsConstants
+  fullName: Swastika.Cms.Lib.SWCmsConstants.SWCmsConstants

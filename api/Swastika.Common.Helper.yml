@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Common.Helper
+  commentId: N:Swastika.Common.Helper
+  id: Swastika.Common.Helper
+  children:
+  - Swastika.Common.Helper.CommonHelper
+  - Swastika.Common.Helper.SEOHelper
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Common.Helper
+  nameWithType: Swastika.Common.Helper
+  fullName: Swastika.Common.Helper
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.Common.Helper.CommonHelper
+  commentId: T:Swastika.Common.Helper.CommonHelper
+  isExternal: true
+  name: CommonHelper
+  nameWithType: CommonHelper
+  fullName: Swastika.Common.Helper.CommonHelper
+- uid: Swastika.Common.Helper.SEOHelper
+  commentId: T:Swastika.Common.Helper.SEOHelper
+  isExternal: true
+  name: SEOHelper
+  nameWithType: SEOHelper
+  fullName: Swastika.Common.Helper.SEOHelper

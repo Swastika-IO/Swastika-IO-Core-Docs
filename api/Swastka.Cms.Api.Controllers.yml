@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Api.Controllers
+  commentId: N:Swastka.Cms.Api.Controllers
+  id: Swastka.Cms.Api.Controllers
+  children:
+  - Swastka.Cms.Api.Controllers.ApiArticleController
+  - Swastka.Cms.Api.Controllers.ApiMediaController
+  - Swastka.Cms.Api.Controllers.ApiModuleDataController
+  - Swastka.Cms.Api.Controllers.ApiNavigationController
+  - Swastka.Cms.Api.Controllers.ApiProductController
+  langs:
+  - csharp
+  - vb
+  name: Swastka.Cms.Api.Controllers
+  nameWithType: Swastka.Cms.Api.Controllers
+  fullName: Swastka.Cms.Api.Controllers
+  type: Namespace
+  assemblies:
+  - Swastka.Cms.Api
+references:
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiArticleController
+  isExternal: true
+  name: ApiArticleController
+  nameWithType: ApiArticleController
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController
+- uid: Swastka.Cms.Api.Controllers.ApiMediaController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiMediaController
+  isExternal: true
+  name: ApiMediaController
+  nameWithType: ApiMediaController
+  fullName: Swastka.Cms.Api.Controllers.ApiMediaController
+- uid: Swastka.Cms.Api.Controllers.ApiModuleDataController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiModuleDataController
+  isExternal: true
+  name: ApiModuleDataController
+  nameWithType: ApiModuleDataController
+  fullName: Swastka.Cms.Api.Controllers.ApiModuleDataController
+- uid: Swastka.Cms.Api.Controllers.ApiNavigationController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiNavigationController
+  isExternal: true
+  name: ApiNavigationController
+  nameWithType: ApiNavigationController
+  fullName: Swastka.Cms.Api.Controllers.ApiNavigationController
+- uid: Swastka.Cms.Api.Controllers.ApiProductController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiProductController
+  isExternal: true
+  name: ApiProductController
+  nameWithType: ApiProductController
+  fullName: Swastka.Cms.Api.Controllers.ApiProductController

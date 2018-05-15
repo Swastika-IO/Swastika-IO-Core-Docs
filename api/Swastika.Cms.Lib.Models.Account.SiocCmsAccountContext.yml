@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  commentId: T:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  id: SiocCmsAccountContext
+  parent: Swastika.Cms.Lib.Models.Account
+  children:
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsAccountContext
+  nameWithType: SiocCmsAccountContext
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class SiocCmsAccountContext : ApplicationDbContext'
+    content.vb: >-
+      Public Class SiocCmsAccountContext
+
+          Inherits ApplicationDbContext
+  inheritance:
+  - System.Object
+  - Swastika.Identity.Data.ApplicationDbContext
+  inheritedMembers:
+  - Swastika.Identity.Data.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Swastika.Identity.Data.ApplicationDbContext.Clients
+  - Swastika.Identity.Data.ApplicationDbContext.RefreshTokens
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})
+  id: '#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})'
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsAccountContext(DbContextOptions<ApplicationDbContext>)
+  nameWithType: SiocCmsAccountContext.SiocCmsAccountContext(DbContextOptions<ApplicationDbContext>)
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext(Microsoft.EntityFrameworkCore.DbContextOptions<Swastika.Identity.Data.ApplicationDbContext>)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public SiocCmsAccountContext(DbContextOptions<ApplicationDbContext> options)
+    parameters:
+    - id: options
+      type: Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext}
+    content.vb: Public Sub New(options As DbContextOptions(Of ApplicationDbContext))
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor*
+  nameWithType.vb: SiocCmsAccountContext.SiocCmsAccountContext(DbContextOptions(Of ApplicationDbContext))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext(Microsoft.EntityFrameworkCore.DbContextOptions(Of Swastika.Identity.Data.ApplicationDbContext))
+  name.vb: SiocCmsAccountContext(DbContextOptions(Of ApplicationDbContext))
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsAccountContext()
+  nameWithType: SiocCmsAccountContext.SiocCmsAccountContext()
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public SiocCmsAccountContext()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  id: OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: OnConfiguring(DbContextOptionsBuilder)
+  nameWithType: SiocCmsAccountContext.OnConfiguring(DbContextOptionsBuilder)
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    parameters:
+    - id: optionsBuilder
+      type: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+    content.vb: Protected Overrides Sub OnConfiguring(optionsBuilder As DbContextOptionsBuilder)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Swastika.Cms.Lib.Models.Account
+  commentId: N:Swastika.Cms.Lib.Models.Account
+  isExternal: false
+  name: Swastika.Cms.Lib.Models.Account
+  nameWithType: Swastika.Cms.Lib.Models.Account
+  fullName: Swastika.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Swastika.Identity.Data.ApplicationDbContext
+  commentId: T:Swastika.Identity.Data.ApplicationDbContext
+  parent: Swastika.Identity.Data
+  isExternal: true
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: Swastika.Identity.Data.ApplicationDbContext
+- uid: Swastika.Identity.Data.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Swastika.Identity.Data.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Swastika.Identity.Data.ApplicationDbContext
+  isExternal: true
+  name: OnModelCreating(ModelBuilder)
+  nameWithType: ApplicationDbContext.OnModelCreating(ModelBuilder)
+  fullName: Swastika.Identity.Data.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  spec.csharp:
+  - uid: Swastika.Identity.Data.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+    name: OnModelCreating
+    nameWithType: ApplicationDbContext.OnModelCreating
+    fullName: Swastika.Identity.Data.ApplicationDbContext.OnModelCreating
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.ModelBuilder
+    name: ModelBuilder
+    nameWithType: ModelBuilder
+    fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastika.Identity.Data.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+    name: OnModelCreating
+    nameWithType: ApplicationDbContext.OnModelCreating
+    fullName: Swastika.Identity.Data.ApplicationDbContext.OnModelCreating
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.EntityFrameworkCore.ModelBuilder
+    name: ModelBuilder
+    nameWithType: ModelBuilder
+    fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Data.ApplicationDbContext.Clients
+  commentId: P:Swastika.Identity.Data.ApplicationDbContext.Clients
+  parent: Swastika.Identity.Data.ApplicationDbContext
+  isExternal: true
+  name: Clients
+  nameWithType: ApplicationDbContext.Clients
+  fullName: Swastika.Identity.Data.ApplicationDbContext.Clients
+- uid: Swastika.Identity.Data.ApplicationDbContext.RefreshTokens
+  commentId: P:Swastika.Identity.Data.ApplicationDbContext.RefreshTokens
+  parent: Swastika.Identity.Data.ApplicationDbContext
+  isExternal: true
+  name: RefreshTokens
+  nameWithType: ApplicationDbContext.RefreshTokens
+  fullName: Swastika.Identity.Data.ApplicationDbContext.RefreshTokens
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Data
+  commentId: N:Swastika.Identity.Data
+  isExternal: false
+  name: Swastika.Identity.Data
+  nameWithType: Swastika.Identity.Data
+  fullName: Swastika.Identity.Data
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  isExternal: true
+  name: SiocCmsAccountContext
+  nameWithType: SiocCmsAccountContext.SiocCmsAccountContext
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext
+- uid: Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext}'
+  definition: Microsoft.EntityFrameworkCore.DbContextOptions`1
+  name: DbContextOptions<ApplicationDbContext>
+  nameWithType: DbContextOptions<ApplicationDbContext>
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptions<Swastika.Identity.Data.ApplicationDbContext>
+  nameWithType.vb: DbContextOptions(Of ApplicationDbContext)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbContextOptions(Of Swastika.Identity.Data.ApplicationDbContext)
+  name.vb: DbContextOptions(Of ApplicationDbContext)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Identity.Data.ApplicationDbContext
+    name: ApplicationDbContext
+    nameWithType: ApplicationDbContext
+    fullName: Swastika.Identity.Data.ApplicationDbContext
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Identity.Data.ApplicationDbContext
+    name: ApplicationDbContext
+    nameWithType: ApplicationDbContext
+    fullName: Swastika.Identity.Data.ApplicationDbContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+  isExternal: true
+  name: DbContextOptions<>
+  nameWithType: DbContextOptions<>
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptions<>
+  nameWithType.vb: DbContextOptions(Of )
+  fullName.vb: Microsoft.EntityFrameworkCore.DbContextOptions(Of )
+  name.vb: DbContextOptions(Of )
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring
+  isExternal: true
+  name: OnConfiguring
+  nameWithType: SiocCmsAccountContext.OnConfiguring
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring
+- uid: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+  isExternal: true
+  name: DbContextOptionsBuilder
+  nameWithType: DbContextOptionsBuilder
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder

@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  id: SWCmsConstants.ConfigurationKeyword
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.ConfigurationKeyword
+  nameWithType: SWCmsConstants.ConfigurationKeyword
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public class ConfigurationKeyword : Object'
+    content.vb: >-
+      Public Class ConfigurationKeyword
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  id: ConnectionString
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: SWCmsConstants.ConfigurationKeyword.ConnectionString
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string ConnectionString = "ConnectionString"
+    return:
+      type: System.String
+    content.vb: Public Const ConnectionString As String = "ConnectionString"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  id: Theme
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: SWCmsConstants.ConfigurationKeyword.Theme
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Theme = "Theme"
+    return:
+      type: System.String
+    content.vb: Public Const Theme As String = "Theme"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  id: ThemeId
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ThemeId
+  nameWithType: SWCmsConstants.ConfigurationKeyword.ThemeId
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string ThemeId = "ThemeId"
+    return:
+      type: System.String
+    content.vb: Public Const ThemeId As String = "ThemeId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
+  commentId: M:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationKeyword()
+  nameWithType: SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword()
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public ConfigurationKeyword()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: false
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
+  isExternal: true
+  name: ConfigurationKeyword
+  nameWithType: SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword

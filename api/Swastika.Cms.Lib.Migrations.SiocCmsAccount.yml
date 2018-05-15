@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  commentId: N:Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  id: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  children:
+  - Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  nameWithType: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Lib
+references:
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account
+  commentId: T:Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account
+  isExternal: true
+  name: First_Account
+  nameWithType: First_Account
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account

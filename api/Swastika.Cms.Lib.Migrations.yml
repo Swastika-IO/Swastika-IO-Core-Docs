@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Migrations
+  commentId: N:Swastika.Cms.Lib.Migrations
+  id: Swastika.Cms.Lib.Migrations
+  children:
+  - Swastika.Cms.Lib.Migrations.first
+  - Swastika.Cms.Lib.Migrations.upd_product
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Lib.Migrations
+  nameWithType: Swastika.Cms.Lib.Migrations
+  fullName: Swastika.Cms.Lib.Migrations
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Lib
+references:
+- uid: Swastika.Cms.Lib.Migrations.first
+  commentId: T:Swastika.Cms.Lib.Migrations.first
+  isExternal: true
+  name: first
+  nameWithType: first
+  fullName: Swastika.Cms.Lib.Migrations.first
+- uid: Swastika.Cms.Lib.Migrations.upd_product
+  commentId: T:Swastika.Cms.Lib.Migrations.upd_product
+  isExternal: true
+  name: upd_product
+  nameWithType: upd_product
+  fullName: Swastika.Cms.Lib.Migrations.upd_product
