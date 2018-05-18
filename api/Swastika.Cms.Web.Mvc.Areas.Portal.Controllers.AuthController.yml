@@ -28,7 +28,6 @@ items:
     content: 'public class AuthController : BaseController<AuthController>'
     content.vb: >-
       Public Class AuthController
-
           Inherits BaseController(Of AuthController)
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public class TemplateFolder : Object'
     content.vb: >-
       Public Class TemplateFolder
-
           Inherits Object
   inheritance:
   - System.Object

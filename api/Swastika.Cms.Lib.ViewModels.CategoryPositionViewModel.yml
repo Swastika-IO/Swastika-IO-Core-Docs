@@ -28,7 +28,6 @@ items:
     content: 'public class CategoryPositionViewModel : ViewModelBase<SiocCmsContext, SiocCategoryPosition, CategoryPositionViewModel>'
     content.vb: >-
       Public Class CategoryPositionViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocCategoryPosition, CategoryPositionViewModel)
   inheritance:
   - System.Object

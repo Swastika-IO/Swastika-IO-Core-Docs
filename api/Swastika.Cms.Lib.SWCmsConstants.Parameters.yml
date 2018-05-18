@@ -29,7 +29,6 @@ items:
     content: 'public class Parameters : Object'
     content.vb: >-
       Public Class Parameters
-
           Inherits Object
   inheritance:
   - System.Object

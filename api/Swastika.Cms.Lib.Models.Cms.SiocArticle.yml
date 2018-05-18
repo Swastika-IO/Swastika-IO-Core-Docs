@@ -52,7 +52,6 @@ items:
     content: 'public class SiocArticle : Object'
     content.vb: >-
       Public Class SiocArticle
-
           Inherits Object
   inheritance:
   - System.Object

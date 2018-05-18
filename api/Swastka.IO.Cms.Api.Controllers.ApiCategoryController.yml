@@ -32,7 +32,6 @@ items:
     content: 'public class ApiCategoryController : BaseApiController<SiocCmsContext, SiocCategory>'
     content.vb: >-
       Public Class ApiCategoryController
-
           Inherits BaseApiController(Of SiocCmsContext, SiocCategory)
   inheritance:
   - System.Object

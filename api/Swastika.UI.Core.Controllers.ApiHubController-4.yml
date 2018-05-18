@@ -30,7 +30,6 @@ items:
     - id: TView
     content.vb: >-
       Public MustInherit Class ApiHubController(Of THub As BaseSignalRHub, TDbContext As DbContext, TModel As Class, TView As ViewModelBase(Of TDbContext, TModel, TView))
-
           Inherits BaseApiController(Of TDbContext, TModel, TView)
   inheritance:
   - System.Object

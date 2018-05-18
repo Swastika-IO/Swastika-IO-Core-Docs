@@ -29,7 +29,6 @@ items:
     - id: TModel
     content.vb: >-
       Public MustInherit Class ApiHubController(Of THub As BaseSignalRHub, TDbContext As DbContext, TModel As Class)
-
           Inherits BaseApiController(Of TDbContext, TModel)
   inheritance:
   - System.Object

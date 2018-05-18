@@ -24,7 +24,6 @@ items:
     content: 'public class MainFooter : ViewComponent'
     content.vb: >-
       Public Class MainFooter
-
           Inherits ViewComponent
   inheritance:
   - System.Object

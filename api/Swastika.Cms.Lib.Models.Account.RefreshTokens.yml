@@ -28,7 +28,6 @@ items:
     content: 'public class RefreshTokens : Object'
     content.vb: >-
       Public Class RefreshTokens
-
           Inherits Object
   inheritance:
   - System.Object

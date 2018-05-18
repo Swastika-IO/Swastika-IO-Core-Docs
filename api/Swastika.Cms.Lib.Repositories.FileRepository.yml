@@ -47,7 +47,6 @@ items:
     content: 'public class FileRepository : Object'
     content.vb: >-
       Public Class FileRepository
-
           Inherits Object
   inheritance:
   - System.Object

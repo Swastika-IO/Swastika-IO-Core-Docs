@@ -31,7 +31,6 @@ items:
     content: 'public class SupportedCulture : Object'
     content.vb: >-
       Public Class SupportedCulture
-
           Inherits Object
   inheritance:
   - System.Object

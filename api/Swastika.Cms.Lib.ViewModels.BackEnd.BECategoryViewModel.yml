@@ -71,7 +71,6 @@ items:
     content: 'public class BECategoryViewModel : ViewModelBase<SiocCmsContext, SiocCategory, BECategoryViewModel>'
     content.vb: >-
       Public Class BECategoryViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocCategory, BECategoryViewModel)
   inheritance:
   - System.Object

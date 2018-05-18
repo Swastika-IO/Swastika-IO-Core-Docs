@@ -31,7 +31,6 @@ items:
     - id: TResult
     content.vb: >-
       Public Class RepositoryResponse(Of TResult)
-
           Inherits Object
   inheritance:
   - System.Object

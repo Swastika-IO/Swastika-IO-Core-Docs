@@ -37,7 +37,6 @@ items:
     content: 'public class SiocFile : Object'
     content.vb: >-
       Public Class SiocFile
-
           Inherits Object
   inheritance:
   - System.Object

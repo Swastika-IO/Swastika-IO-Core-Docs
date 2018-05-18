@@ -31,7 +31,6 @@ items:
     - id: T
     content.vb: >-
       Public MustInherit Class ValueObject(Of T As ValueObject(Of T))
-
           Inherits Object
   inheritance:
   - System.Object

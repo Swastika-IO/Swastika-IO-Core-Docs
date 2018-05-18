@@ -28,10 +28,7 @@ items:
     content: 'public sealed class FileFolderEnum : Enum'
     content.vb: >-
       Public NotInheritable Class FileFolderEnum
-
           Inherits
-
-
 
            Enum
   inheritance:

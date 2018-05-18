@@ -55,7 +55,6 @@ items:
     - id: TModel
     content.vb: >-
       Public MustInherit Class ModelRepositoryBase(Of TDbContext As DbContext, TModel As Class)
-
           Inherits Object
   inheritance:
   - System.Object

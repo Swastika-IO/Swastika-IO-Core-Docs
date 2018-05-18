@@ -31,7 +31,6 @@ items:
     content: 'public class BEProductMediaViewModel : ViewModelBase<SiocCmsContext, SiocProductMedia, BEProductMediaViewModel>'
     content.vb: >-
       Public Class BEProductMediaViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocProductMedia, BEProductMediaViewModel)
   inheritance:
   - System.Object

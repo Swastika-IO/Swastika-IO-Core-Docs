@@ -24,7 +24,6 @@ items:
     content: 'public class FactorViewModel : Object'
     content.vb: >-
       Public Class FactorViewModel
-
           Inherits Object
   inheritance:
   - System.Object

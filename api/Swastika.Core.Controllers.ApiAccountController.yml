@@ -28,7 +28,6 @@ items:
     content: 'public class ApiAccountController : BaseApiController'
     content.vb: >-
       Public Class ApiAccountController
-
           Inherits BaseApiController
   inheritance:
   - System.Object

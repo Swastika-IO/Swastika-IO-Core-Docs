@@ -39,7 +39,6 @@ items:
     - id: TModel
     content.vb: >-
       Public MustInherit Class ExpandViewModelBase(Of TDbContext As DbContext, TModel As Class)
-
           Inherits Object
   inheritance:
   - System.Object

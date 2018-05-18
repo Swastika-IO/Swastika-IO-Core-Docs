@@ -44,7 +44,6 @@ items:
     content: 'public class BEModuleDataViewModel : ViewModelBase<SiocCmsContext, SiocModuleData, BEModuleDataViewModel>'
     content.vb: >-
       Public Class BEModuleDataViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocModuleData, BEModuleDataViewModel)
   inheritance:
   - System.Object
@@ -366,7 +365,6 @@ items:
   syntax:
     content: >-
       public T GetValue<T>(string name)
-
           where T : IConvertible
     parameters:
     - id: name

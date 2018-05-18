@@ -67,7 +67,6 @@ items:
     - id: TContext
     content.vb: >-
       Public MustInherit Class RepositoryBase(Of TModel As Class, TView As ViewModelBase(Of TModel, TView), TContext As DbContext)
-
           Inherits Object
   inheritance:
   - System.Object

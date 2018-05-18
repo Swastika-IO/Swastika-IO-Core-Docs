@@ -32,7 +32,6 @@ items:
     content: 'public class ModuleAttributeValueViewModel : ViewModelBase<SiocCmsContext, SiocModuleAttributeValue, ModuleAttributeValueViewModel>'
     content.vb: >-
       Public Class ModuleAttributeValueViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocModuleAttributeValue, ModuleAttributeValueViewModel)
   inheritance:
   - System.Object

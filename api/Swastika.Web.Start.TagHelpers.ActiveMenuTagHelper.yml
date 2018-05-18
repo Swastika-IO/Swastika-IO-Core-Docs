@@ -30,7 +30,6 @@ items:
     content: 'public class ActiveMenuTagHelper : TagHelper'
     content.vb: >-
       Public Class ActiveMenuTagHelper
-
           Inherits TagHelper
   inheritance:
   - System.Object

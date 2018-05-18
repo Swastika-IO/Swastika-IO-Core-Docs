@@ -25,7 +25,6 @@ items:
     content: 'public class ConfigureTwoFactorViewModel : Object'
     content.vb: >-
       Public Class ConfigureTwoFactorViewModel
-
           Inherits Object
   inheritance:
   - System.Object

@@ -24,7 +24,6 @@ items:
     content: 'public class Modals : ViewComponent'
     content.vb: >-
       Public Class Modals
-
           Inherits ViewComponent
   inheritance:
   - System.Object

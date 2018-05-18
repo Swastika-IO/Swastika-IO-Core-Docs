@@ -23,7 +23,6 @@ items:
     content: 'public static class IdentityBasedData : Object'
     content.vb: >-
       Public Module IdentityBasedData
-
           Inherits Object
   inheritance:
   - System.Object

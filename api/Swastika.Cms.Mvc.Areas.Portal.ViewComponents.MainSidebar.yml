@@ -24,7 +24,6 @@ items:
     content: 'public class MainSidebar : ViewComponent'
     content.vb: >-
       Public Class MainSidebar
-
           Inherits ViewComponent
   inheritance:
   - System.Object

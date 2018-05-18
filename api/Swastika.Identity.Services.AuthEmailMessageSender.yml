@@ -24,9 +24,7 @@ items:
     content: 'public class AuthEmailMessageSender : Object, IEmailSender'
     content.vb: >-
       Public Class AuthEmailMessageSender
-
           Inherits Object
-
           Implements IEmailSender
   inheritance:
   - System.Object

@@ -55,7 +55,6 @@ items:
     content: 'public class sw_cms_structureContext : DbContext'
     content.vb: >-
       Public Class sw_cms_structureContext
-
           Inherits DbContext
   inheritance:
   - System.Object

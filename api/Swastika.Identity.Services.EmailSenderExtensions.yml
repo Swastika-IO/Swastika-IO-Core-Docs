@@ -23,7 +23,6 @@ items:
     content: 'public static class EmailSenderExtensions : Object'
     content.vb: >-
       Public Module EmailSenderExtensions
-
           Inherits Object
   inheritance:
   - System.Object

@@ -31,7 +31,6 @@ items:
     content: 'public class SiocCategoryPosition : Object'
     content.vb: >-
       Public Class SiocCategoryPosition
-
           Inherits Object
   inheritance:
   - System.Object

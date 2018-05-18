@@ -24,7 +24,6 @@ items:
     content: 'public class LoginWithRecoveryCodeViewModel : Object'
     content.vb: >-
       Public Class LoginWithRecoveryCodeViewModel
-
           Inherits Object
   inheritance:
   - System.Object

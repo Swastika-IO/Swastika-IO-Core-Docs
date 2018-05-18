@@ -24,7 +24,6 @@ items:
     content: 'public class ClaimsRequirementHandler : AuthorizationHandler<ClaimRequirement>'
     content.vb: >-
       Public Class ClaimsRequirementHandler
-
           Inherits AuthorizationHandler(Of ClaimRequirement)
   inheritance:
   - System.Object

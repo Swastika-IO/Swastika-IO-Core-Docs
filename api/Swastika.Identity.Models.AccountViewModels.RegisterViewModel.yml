@@ -32,7 +32,6 @@ items:
     content: 'public class RegisterViewModel : Object'
     content.vb: >-
       Public Class RegisterViewModel
-
           Inherits Object
   inheritance:
   - System.Object

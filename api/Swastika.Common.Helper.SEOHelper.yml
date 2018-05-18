@@ -27,7 +27,6 @@ items:
     content: 'public class SEOHelper : Object'
     content.vb: >-
       Public Class SEOHelper
-
           Inherits Object
   inheritance:
   - System.Object

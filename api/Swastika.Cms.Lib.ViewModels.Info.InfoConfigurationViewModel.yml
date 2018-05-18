@@ -29,7 +29,6 @@ items:
     content: 'public class InfoConfigurationViewModel : ViewModelBase<SiocCmsContext, SiocConfiguration, InfoConfigurationViewModel>'
     content.vb: >-
       Public Class InfoConfigurationViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocConfiguration, InfoConfigurationViewModel)
   inheritance:
   - System.Object

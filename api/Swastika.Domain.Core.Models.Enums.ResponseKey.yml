@@ -26,10 +26,7 @@ items:
     content: 'public sealed class ResponseKey : Enum'
     content.vb: >-
       Public NotInheritable Class ResponseKey
-
           Inherits
-
-
 
            Enum
   inheritance:

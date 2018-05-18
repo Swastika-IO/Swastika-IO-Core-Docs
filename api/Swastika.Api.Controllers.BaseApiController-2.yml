@@ -39,7 +39,6 @@ items:
     - id: TModel
     content.vb: >-
       Public Class BaseApiController(Of TDbContext As DbContext, TModel As Class)
-
           Inherits Controller
   inheritance:
   - System.Object

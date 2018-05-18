@@ -32,7 +32,6 @@ items:
     content: 'public class HomeController : BaseController<HomeController>'
     content.vb: >-
       Public Class HomeController
-
           Inherits BaseController(Of HomeController)
   inheritance:
   - System.Object

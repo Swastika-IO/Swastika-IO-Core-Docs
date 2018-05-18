@@ -70,7 +70,6 @@ items:
     content: 'public class BEArticleViewModel : ViewModelBase<SiocCmsContext, SiocArticle, BEArticleViewModel>'
     content.vb: >-
       Public Class BEArticleViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocArticle, BEArticleViewModel)
   inheritance:
   - System.Object

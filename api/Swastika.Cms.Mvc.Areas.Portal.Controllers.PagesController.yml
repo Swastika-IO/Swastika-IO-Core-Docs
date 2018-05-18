@@ -30,7 +30,6 @@ items:
     content: 'public class PagesController : BaseController<PagesController>'
     content.vb: >-
       Public Class PagesController
-
           Inherits BaseController(Of PagesController)
   inheritance:
   - System.Object

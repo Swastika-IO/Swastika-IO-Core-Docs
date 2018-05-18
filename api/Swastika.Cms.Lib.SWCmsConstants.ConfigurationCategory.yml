@@ -26,10 +26,7 @@ items:
     content: 'public sealed class ConfigurationCategory : Enum'
     content.vb: >-
       Public NotInheritable Class ConfigurationCategory
-
           Inherits
-
-
 
            Enum
   inheritance:

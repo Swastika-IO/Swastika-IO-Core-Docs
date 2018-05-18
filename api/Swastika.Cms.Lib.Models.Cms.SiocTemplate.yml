@@ -41,7 +41,6 @@ items:
     content: 'public class SiocTemplate : Object'
     content.vb: >-
       Public Class SiocTemplate
-
           Inherits Object
   inheritance:
   - System.Object

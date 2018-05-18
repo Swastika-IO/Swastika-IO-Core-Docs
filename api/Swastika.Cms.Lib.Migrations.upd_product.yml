@@ -26,7 +26,6 @@ items:
     content: 'public class upd_product : Migration'
     content.vb: >-
       Public Class upd_product
-
           Inherits Migration
   inheritance:
   - System.Object

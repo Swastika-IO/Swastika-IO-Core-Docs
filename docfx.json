@@ -25,7 +25,7 @@
           "**/sample/**",
           "**/samples/**",
           "**/includes/**",
-          "_site/**"
+          "docs/**"
         ],
         "src": "."
       }
@@ -39,13 +39,13 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "_site/**"
+          "docs/**"
         ],
         "src": "."
       }
     ],
     "overwrite": [],
-    "dest": "_site",
+    "dest": "docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

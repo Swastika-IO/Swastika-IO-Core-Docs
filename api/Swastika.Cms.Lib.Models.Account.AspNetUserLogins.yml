@@ -31,7 +31,6 @@ items:
     content: 'public class AspNetUserLogins : Object'
     content.vb: >-
       Public Class AspNetUserLogins
-
           Inherits Object
   inheritance:
   - System.Object

@@ -27,7 +27,6 @@ items:
     content: 'public class JWTSettings : Object'
     content.vb: >-
       Public Class JWTSettings
-
           Inherits Object
   inheritance:
   - System.Object

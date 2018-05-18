@@ -30,7 +30,6 @@ items:
     content: 'public class UserViewModel : Object'
     content.vb: >-
       Public Class UserViewModel
-
           Inherits Object
   inheritance:
   - System.Object

@@ -27,7 +27,6 @@ items:
     content: 'public class ApplicationDbContext : IdentityDbContext<ApplicationUser>'
     content.vb: >-
       Public Class ApplicationDbContext
-
           Inherits IdentityDbContext(Of ApplicationUser)
   inheritance:
   - System.Object

@@ -25,7 +25,6 @@ items:
     content: 'public class ErrorViewModel : Object'
     content.vb: >-
       Public Class ErrorViewModel
-
           Inherits Object
   inheritance:
   - System.Object

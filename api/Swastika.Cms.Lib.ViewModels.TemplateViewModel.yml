@@ -30,7 +30,6 @@ items:
     content: 'public class TemplateViewModel : Object'
     content.vb: >-
       Public Class TemplateViewModel
-
           Inherits Object
   inheritance:
   - System.Object

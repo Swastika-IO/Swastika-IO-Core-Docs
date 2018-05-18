@@ -28,7 +28,6 @@ items:
     content: 'public class LoginViewModel : Object'
     content.vb: >-
       Public Class LoginViewModel
-
           Inherits Object
   inheritance:
   - System.Object

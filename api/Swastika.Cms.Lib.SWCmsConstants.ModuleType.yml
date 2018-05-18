@@ -28,10 +28,7 @@ items:
     content: 'public sealed class ModuleType : Enum'
     content.vb: >-
       Public NotInheritable Class ModuleType
-
           Inherits
-
-
 
            Enum
   inheritance:

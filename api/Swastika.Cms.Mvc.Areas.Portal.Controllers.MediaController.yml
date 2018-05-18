@@ -24,7 +24,6 @@ items:
     content: 'public class MediaController : BaseController<MediaController>'
     content.vb: >-
       Public Class MediaController
-
           Inherits BaseController(Of MediaController)
   inheritance:
   - System.Object

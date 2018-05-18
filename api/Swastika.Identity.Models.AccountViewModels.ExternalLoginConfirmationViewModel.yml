@@ -24,7 +24,6 @@ items:
     content: 'public class ExternalLoginConfirmationViewModel : Object'
     content.vb: >-
       Public Class ExternalLoginConfirmationViewModel
-
           Inherits Object
   inheritance:
   - System.Object

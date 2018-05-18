@@ -25,7 +25,6 @@ items:
     content: 'public class SiocCmsAccountContext : ApplicationDbContext'
     content.vb: >-
       Public Class SiocCmsAccountContext
-
           Inherits ApplicationDbContext
   inheritance:
   - System.Object

@@ -24,7 +24,6 @@ items:
     content: 'public static class ExtendedClaimsProvider : Object'
     content.vb: >-
       Public Module ExtendedClaimsProvider
-
           Inherits Object
   inheritance:
   - System.Object

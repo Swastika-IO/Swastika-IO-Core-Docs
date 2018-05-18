@@ -32,7 +32,6 @@ items:
     content: 'public class SiocRelatedProduct : Object'
     content.vb: >-
       Public Class SiocRelatedProduct
-
           Inherits Object
   inheritance:
   - System.Object

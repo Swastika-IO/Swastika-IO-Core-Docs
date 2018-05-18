@@ -28,7 +28,6 @@ items:
     content: 'public class SiocParameter : Object'
     content.vb: >-
       Public Class SiocParameter
-
           Inherits Object
   inheritance:
   - System.Object

@@ -26,9 +26,7 @@ items:
     content: 'public class AspNetUser : Object, IUser'
     content.vb: >-
       Public Class AspNetUser
-
           Inherits Object
-
           Implements IUser
   inheritance:
   - System.Object

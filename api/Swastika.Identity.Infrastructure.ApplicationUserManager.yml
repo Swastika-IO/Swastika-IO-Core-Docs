@@ -23,7 +23,6 @@ items:
     content: 'public class ApplicationUserManager : UserManager<ApplicationUser>'
     content.vb: >-
       Public Class ApplicationUserManager
-
           Inherits UserManager(Of ApplicationUser)
   inheritance:
   - System.Object

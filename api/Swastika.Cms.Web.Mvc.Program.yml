@@ -25,7 +25,6 @@ items:
     content: 'public class Program : Object'
     content.vb: >-
       Public Class Program
-
           Inherits Object
   inheritance:
   - System.Object

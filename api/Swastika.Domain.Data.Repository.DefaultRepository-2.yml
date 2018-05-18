@@ -26,7 +26,6 @@ items:
     - id: TModel
     content.vb: >-
       Public Class DefaultRepository(Of TContext As DbContext, TModel As Class)
-
           Inherits ModelRepositoryBase(Of TContext, TModel)
   inheritance:
   - System.Object

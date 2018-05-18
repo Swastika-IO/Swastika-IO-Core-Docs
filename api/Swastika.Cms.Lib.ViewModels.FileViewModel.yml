@@ -30,7 +30,6 @@ items:
     content: 'public class FileViewModel : Object'
     content.vb: >-
       Public Class FileViewModel
-
           Inherits Object
   inheritance:
   - System.Object

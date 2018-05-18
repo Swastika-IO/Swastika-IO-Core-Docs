@@ -24,7 +24,6 @@ items:
     content: 'public class AddPhoneNumberViewModel : Object'
     content.vb: >-
       Public Class AddPhoneNumberViewModel
-
           Inherits Object
   inheritance:
   - System.Object

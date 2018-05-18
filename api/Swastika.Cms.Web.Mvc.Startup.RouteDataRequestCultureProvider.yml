@@ -26,7 +26,6 @@ items:
     content: 'public class RouteDataRequestCultureProvider : RequestCultureProvider'
     content.vb: >-
       Public Class RouteDataRequestCultureProvider
-
           Inherits RequestCultureProvider
   inheritance:
   - System.Object

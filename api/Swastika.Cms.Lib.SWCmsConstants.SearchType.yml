@@ -27,10 +27,7 @@ items:
     content: 'public sealed class SearchType : Enum'
     content.vb: >-
       Public NotInheritable Class SearchType
-
           Inherits
-
-
 
            Enum
   inheritance:

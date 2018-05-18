@@ -25,7 +25,6 @@ items:
     content: 'public class RemoveLoginViewModel : Object'
     content.vb: >-
       Public Class RemoveLoginViewModel
-
           Inherits Object
   inheritance:
   - System.Object

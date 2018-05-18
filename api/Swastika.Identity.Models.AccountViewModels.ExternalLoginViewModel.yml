@@ -24,7 +24,6 @@ items:
     content: 'public class ExternalLoginViewModel : Object'
     content.vb: >-
       Public Class ExternalLoginViewModel
-
           Inherits Object
   inheritance:
   - System.Object

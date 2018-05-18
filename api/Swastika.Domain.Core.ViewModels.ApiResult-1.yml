@@ -30,7 +30,6 @@ items:
     - id: T
     content.vb: >-
       Public Class ApiResult(Of T)
-
           Inherits Object
   inheritance:
   - System.Object

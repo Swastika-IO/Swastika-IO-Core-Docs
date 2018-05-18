@@ -24,7 +24,6 @@ items:
     content: 'public class BaseController : Controller'
     content.vb: >-
       Public Class BaseController
-
           Inherits Controller
   inheritance:
   - System.Object

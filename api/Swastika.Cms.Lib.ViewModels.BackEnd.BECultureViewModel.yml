@@ -32,7 +32,6 @@ items:
     content: 'public class BECultureViewModel : ViewModelBase<SiocCmsContext, SiocCulture, BECultureViewModel>'
     content.vb: >-
       Public Class BECultureViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocCulture, BECultureViewModel)
   inheritance:
   - System.Object

@@ -37,7 +37,6 @@ items:
     content: 'public class SiocComment : Object'
     content.vb: >-
       Public Class SiocComment
-
           Inherits Object
   inheritance:
   - System.Object

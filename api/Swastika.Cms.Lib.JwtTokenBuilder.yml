@@ -31,7 +31,6 @@ items:
     content: 'public sealed class JwtTokenBuilder : Object'
     content.vb: >-
       Public NotInheritable Class JwtTokenBuilder
-
           Inherits Object
   inheritance:
   - System.Object

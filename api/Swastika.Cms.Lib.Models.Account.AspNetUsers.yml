@@ -58,7 +58,6 @@ items:
     content: 'public class AspNetUsers : Object'
     content.vb: >-
       Public Class AspNetUsers
-
           Inherits Object
   inheritance:
   - System.Object

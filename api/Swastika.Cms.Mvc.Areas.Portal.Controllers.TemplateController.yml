@@ -29,7 +29,6 @@ items:
     content: 'public class TemplateController : BaseController<TemplateController>'
     content.vb: >-
       Public Class TemplateController
-
           Inherits BaseController(Of TemplateController)
   inheritance:
   - System.Object

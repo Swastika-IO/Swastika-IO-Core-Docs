@@ -27,7 +27,6 @@ items:
     content: 'public class FileStreamViewModel : Object'
     content.vb: >-
       Public Class FileStreamViewModel
-
           Inherits Object
   inheritance:
   - System.Object

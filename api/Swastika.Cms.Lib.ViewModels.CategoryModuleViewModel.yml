@@ -29,7 +29,6 @@ items:
     content: 'public class CategoryModuleViewModel : ViewModelBase<SiocCmsContext, SiocCategoryModule, CategoryModuleViewModel>'
     content.vb: >-
       Public Class CategoryModuleViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocCategoryModule, CategoryModuleViewModel)
   inheritance:
   - System.Object

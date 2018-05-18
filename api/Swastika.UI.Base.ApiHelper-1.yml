@@ -26,7 +26,6 @@ items:
     - id: T
     content.vb: >-
       Public Class ApiHelper(Of T)
-
           Inherits Object
   inheritance:
   - System.Object

@@ -24,9 +24,7 @@ items:
     content: 'public class ViewRenderService : Object, IViewRenderService'
     content.vb: >-
       Public Class ViewRenderService
-
           Inherits Object
-
           Implements IViewRenderService
   inheritance:
   - System.Object

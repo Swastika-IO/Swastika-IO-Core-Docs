@@ -25,7 +25,6 @@ items:
     content: 'public class ConfigurationType : Object'
     content.vb: >-
       Public Class ConfigurationType
-
           Inherits Object
   inheritance:
   - System.Object

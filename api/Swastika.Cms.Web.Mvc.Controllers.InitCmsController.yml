@@ -24,7 +24,6 @@ items:
     content: 'public class InitCmsController : BaseController<InitCmsController>'
     content.vb: >-
       Public Class InitCmsController
-
           Inherits BaseController(Of InitCmsController)
   inheritance:
   - System.Object

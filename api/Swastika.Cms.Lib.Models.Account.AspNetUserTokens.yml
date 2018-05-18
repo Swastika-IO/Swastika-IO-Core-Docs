@@ -28,7 +28,6 @@ items:
     content: 'public class AspNetUserTokens : Object'
     content.vb: >-
       Public Class AspNetUserTokens
-
           Inherits Object
   inheritance:
   - System.Object

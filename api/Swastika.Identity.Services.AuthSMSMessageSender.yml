@@ -24,9 +24,7 @@ items:
     content: 'public class AuthSMSMessageSender : Object, ISmsSender'
     content.vb: >-
       Public Class AuthSMSMessageSender
-
           Inherits Object
-
           Implements ISmsSender
   inheritance:
   - System.Object

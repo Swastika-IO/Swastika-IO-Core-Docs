@@ -27,7 +27,6 @@ items:
     content: 'public class Startup : Object'
     content.vb: >-
       Public Class Startup
-
           Inherits Object
   inheritance:
   - System.Object

@@ -27,7 +27,6 @@ items:
     - id: TView
     content.vb: >-
       Public Class DefaultRepository(Of TDbContext As DbContext, TModel As Class, TView As ViewModelBase(Of TDbContext, TModel, TView))
-
           Inherits ViewRepositoryBase(Of TDbContext, TModel, TView)
   inheritance:
   - System.Object

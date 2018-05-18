@@ -29,7 +29,6 @@ items:
     content: 'public class LanguageController : BaseController<LanguageController>'
     content.vb: >-
       Public Class LanguageController
-
           Inherits BaseController(Of LanguageController)
   inheritance:
   - System.Object

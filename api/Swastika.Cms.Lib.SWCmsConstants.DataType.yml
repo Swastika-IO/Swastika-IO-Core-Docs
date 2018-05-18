@@ -32,10 +32,7 @@ items:
     content: 'public sealed class DataType : Enum'
     content.vb: >-
       Public NotInheritable Class DataType
-
           Inherits
-
-
 
            Enum
   inheritance:

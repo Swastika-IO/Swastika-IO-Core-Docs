@@ -37,7 +37,6 @@ items:
     - id: T
     content.vb: >-
       Public Class BaseController(Of T)
-
           Inherits Controller
   inheritance:
   - System.Object

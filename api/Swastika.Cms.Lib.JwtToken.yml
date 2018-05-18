@@ -24,7 +24,6 @@ items:
     content: 'public sealed class JwtToken : Object'
     content.vb: >-
       Public NotInheritable Class JwtToken
-
           Inherits Object
   inheritance:
   - System.Object

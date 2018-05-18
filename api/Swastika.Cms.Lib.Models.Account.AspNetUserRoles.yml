@@ -29,7 +29,6 @@ items:
     content: 'public class AspNetUserRoles : Object'
     content.vb: >-
       Public Class AspNetUserRoles
-
           Inherits Object
   inheritance:
   - System.Object

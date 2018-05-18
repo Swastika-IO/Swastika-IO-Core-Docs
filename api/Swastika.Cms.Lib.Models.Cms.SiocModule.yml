@@ -44,7 +44,6 @@ items:
     content: 'public class SiocModule : Object'
     content.vb: >-
       Public Class SiocModule
-
           Inherits Object
   inheritance:
   - System.Object

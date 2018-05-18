@@ -29,7 +29,6 @@ items:
     content: 'public class SettingController : BaseController<SettingController>'
     content.vb: >-
       Public Class SettingController
-
           Inherits BaseController(Of SettingController)
   inheritance:
   - System.Object

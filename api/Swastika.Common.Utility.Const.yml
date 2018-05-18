@@ -37,7 +37,6 @@ items:
     content: 'public class Const : Object'
     content.vb: >-
       Public Class Const
-
           Inherits Object
   inheritance:
   - System.Object

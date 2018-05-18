@@ -36,7 +36,6 @@ items:
     content: 'public class RequestPaging : Object'
     content.vb: >-
       Public Class RequestPaging
-
           Inherits Object
   inheritance:
   - System.Object

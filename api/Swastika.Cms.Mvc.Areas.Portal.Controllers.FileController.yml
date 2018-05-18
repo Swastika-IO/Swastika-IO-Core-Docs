@@ -32,7 +32,6 @@ items:
     content: 'public class FileController : BaseController<FileController>'
     content.vb: >-
       Public Class FileController
-
           Inherits BaseController(Of FileController)
   inheritance:
   - System.Object

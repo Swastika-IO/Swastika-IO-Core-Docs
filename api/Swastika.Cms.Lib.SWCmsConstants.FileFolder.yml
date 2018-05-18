@@ -28,7 +28,6 @@ items:
     content: 'public class FileFolder : Object'
     content.vb: >-
       Public Class FileFolder
-
           Inherits Object
   inheritance:
   - System.Object

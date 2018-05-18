@@ -35,7 +35,6 @@ items:
     content: 'public class CommonRepository : Object'
     content.vb: >-
       Public Class CommonRepository
-
           Inherits Object
   inheritance:
   - System.Object

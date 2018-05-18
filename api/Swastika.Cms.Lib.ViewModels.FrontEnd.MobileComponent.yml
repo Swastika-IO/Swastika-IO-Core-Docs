@@ -29,7 +29,6 @@ items:
     content: 'public class MobileComponent : Object'
     content.vb: >-
       Public Class MobileComponent
-
           Inherits Object
   inheritance:
   - System.Object

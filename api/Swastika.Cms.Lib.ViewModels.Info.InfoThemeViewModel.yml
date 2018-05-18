@@ -33,7 +33,6 @@ items:
     content: 'public class InfoThemeViewModel : ViewModelBase<SiocCmsContext, SiocTheme, InfoThemeViewModel>'
     content.vb: >-
       Public Class InfoThemeViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocTheme, InfoThemeViewModel)
   inheritance:
   - System.Object

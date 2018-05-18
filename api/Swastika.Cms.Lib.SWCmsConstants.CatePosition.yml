@@ -27,10 +27,7 @@ items:
     content: 'public sealed class CatePosition : Enum'
     content.vb: >-
       Public NotInheritable Class CatePosition
-
           Inherits
-
-
 
            Enum
   inheritance:

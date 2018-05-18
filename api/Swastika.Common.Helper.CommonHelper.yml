@@ -35,7 +35,6 @@ items:
     content: 'public class CommonHelper : Object'
     content.vb: >-
       Public Class CommonHelper
-
           Inherits Object
   inheritance:
   - System.Object

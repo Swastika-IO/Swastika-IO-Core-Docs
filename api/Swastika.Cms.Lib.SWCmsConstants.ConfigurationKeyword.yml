@@ -26,7 +26,6 @@ items:
     content: 'public class ConfigurationKeyword : Object'
     content.vb: >-
       Public Class ConfigurationKeyword
-
           Inherits Object
   inheritance:
   - System.Object

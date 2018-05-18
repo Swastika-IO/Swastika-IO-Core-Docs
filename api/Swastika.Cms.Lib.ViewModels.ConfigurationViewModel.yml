@@ -32,7 +32,6 @@ items:
     content: 'public class ConfigurationViewModel : ViewModelBase<SiocCmsContext, SiocConfiguration, ConfigurationViewModel>'
     content.vb: >-
       Public Class ConfigurationViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocConfiguration, ConfigurationViewModel)
   inheritance:
   - System.Object

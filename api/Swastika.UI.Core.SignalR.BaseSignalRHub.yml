@@ -28,7 +28,6 @@ items:
     content: 'public abstract class BaseSignalRHub : Hub'
     content.vb: >-
       Public MustInherit Class BaseSignalRHub
-
           Inherits Hub
   inheritance:
   - System.Object

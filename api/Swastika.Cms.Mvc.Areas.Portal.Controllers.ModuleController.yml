@@ -37,7 +37,6 @@ items:
     content: 'public class ModuleController : BaseController<ModuleController>'
     content.vb: >-
       Public Class ModuleController
-
           Inherits BaseController(Of ModuleController)
   inheritance:
   - System.Object

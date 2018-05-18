@@ -27,7 +27,6 @@ items:
     content: 'public class SignalRClient : Object'
     content.vb: >-
       Public Class SignalRClient
-
           Inherits Object
   inheritance:
   - System.Object

@@ -28,7 +28,6 @@ items:
     content: 'public class IndexViewModel : Object'
     content.vb: >-
       Public Class IndexViewModel
-
           Inherits Object
   inheritance:
   - System.Object

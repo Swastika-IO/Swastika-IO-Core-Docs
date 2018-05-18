@@ -24,7 +24,6 @@ items:
     content: 'public class SWCmsConstants : Object'
     content.vb: >-
       Public Class SWCmsConstants
-
           Inherits Object
   inheritance:
   - System.Object

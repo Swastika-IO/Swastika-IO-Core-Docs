@@ -34,7 +34,6 @@ items:
     content: 'public class BELanguageViewModel : ViewModelBase<SiocCmsContext, SiocLanguage, BELanguageViewModel>'
     content.vb: >-
       Public Class BELanguageViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocLanguage, BELanguageViewModel)
   inheritance:
   - System.Object

@@ -28,7 +28,6 @@ items:
     content: 'public class TemplateRepository : Object'
     content.vb: >-
       Public Class TemplateRepository
-
           Inherits Object
   inheritance:
   - System.Object

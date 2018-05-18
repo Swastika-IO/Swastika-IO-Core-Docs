@@ -24,7 +24,6 @@ items:
   syntax:
     content: >-
       public interface IExpandViewModel<TModel>
-
           where TModel : class
     typeParameters:
     - id: TModel

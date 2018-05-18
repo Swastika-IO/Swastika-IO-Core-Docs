@@ -39,7 +39,6 @@ items:
     content: 'public class GlobalConfigurationService : Object'
     content.vb: >-
       Public Class GlobalConfigurationService
-
           Inherits Object
   inheritance:
   - System.Object

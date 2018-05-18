@@ -28,7 +28,6 @@ items:
     content: 'public class ActiveRouteTagHelper : TagHelper'
     content.vb: >-
       Public Class ActiveRouteTagHelper
-
           Inherits TagHelper
   inheritance:
   - System.Object

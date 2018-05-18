@@ -24,9 +24,7 @@ items:
     content: 'public class LanguageRouteConstraint : Object, IRouteConstraint'
     content.vb: >-
       Public Class LanguageRouteConstraint
-
           Inherits Object
-
           Implements IRouteConstraint
   inheritance:
   - System.Object

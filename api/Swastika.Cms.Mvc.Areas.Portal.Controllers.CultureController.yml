@@ -30,7 +30,6 @@ items:
     content: 'public class CultureController : BaseController<CultureController>'
     content.vb: >-
       Public Class CultureController
-
           Inherits BaseController(Of CultureController)
   inheritance:
   - System.Object

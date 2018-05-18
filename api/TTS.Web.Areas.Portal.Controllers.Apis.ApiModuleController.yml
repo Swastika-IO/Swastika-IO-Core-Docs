@@ -39,7 +39,6 @@ items:
     content: 'public class ApiModuleController : BaseController<ApiModuleController>'
     content.vb: >-
       Public Class ApiModuleController
-
           Inherits BaseController(Of ApiModuleController)
   inheritance:
   - System.Object

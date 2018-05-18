@@ -29,7 +29,6 @@ items:
   syntax:
     content: >-
       public interface IService<T, TView>
-
           where T : class where TView : class
     typeParameters:
     - id: T

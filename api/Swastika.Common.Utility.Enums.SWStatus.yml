@@ -28,10 +28,7 @@ items:
     content: 'public sealed class SWStatus : Enum'
     content.vb: >-
       Public NotInheritable Class SWStatus
-
           Inherits
-
-
 
            Enum
   inheritance:

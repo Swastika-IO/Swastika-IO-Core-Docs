@@ -29,7 +29,6 @@ items:
     content: 'public class RefreshTokenViewModel : ViewModelBase<SiocCmsAccountContext, RefreshTokens, RefreshTokenViewModel>'
     content.vb: >-
       Public Class RefreshTokenViewModel
-
           Inherits ViewModelBase(Of SiocCmsAccountContext, RefreshTokens, RefreshTokenViewModel)
   inheritance:
   - System.Object

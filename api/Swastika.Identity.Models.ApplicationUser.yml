@@ -39,7 +39,6 @@ items:
     content: 'public class ApplicationUser : IdentityUser'
     content.vb: >-
       Public Class ApplicationUser
-
           Inherits IdentityUser
   inheritance:
   - System.Object

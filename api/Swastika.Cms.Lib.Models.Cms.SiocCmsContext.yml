@@ -56,7 +56,6 @@ items:
     content: 'public class SiocCmsContext : DbContext'
     content.vb: >-
       Public Class SiocCmsContext
-
           Inherits DbContext
   inheritance:
   - System.Object

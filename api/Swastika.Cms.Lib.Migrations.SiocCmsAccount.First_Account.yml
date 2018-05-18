@@ -26,7 +26,6 @@ items:
     content: 'public class First_Account : Migration'
     content.vb: >-
       Public Class First_Account
-
           Inherits Migration
   inheritance:
   - System.Object

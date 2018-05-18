@@ -38,7 +38,6 @@ items:
     content: 'public class SWCmsHelper : Object'
     content.vb: >-
       Public Class SWCmsHelper
-
           Inherits Object
   inheritance:
   - System.Object

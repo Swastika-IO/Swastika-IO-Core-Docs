@@ -70,7 +70,6 @@ items:
     content: 'public class FEProductViewModel : ViewModelBase<SiocCmsContext, SiocProduct, FEProductViewModel>'
     content.vb: >-
       Public Class FEProductViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocProduct, FEProductViewModel)
   inheritance:
   - System.Object

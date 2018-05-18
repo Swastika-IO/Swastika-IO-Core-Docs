@@ -28,7 +28,6 @@ items:
     content: 'public class AspNetRoleClaims : Object'
     content.vb: >-
       Public Class AspNetRoleClaims
-
           Inherits Object
   inheritance:
   - System.Object

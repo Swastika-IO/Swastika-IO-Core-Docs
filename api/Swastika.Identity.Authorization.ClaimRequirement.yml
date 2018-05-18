@@ -25,9 +25,7 @@ items:
     content: 'public class ClaimRequirement : Object, IAuthorizationRequirement'
     content.vb: >-
       Public Class ClaimRequirement
-
           Inherits Object
-
           Implements IAuthorizationRequirement
   inheritance:
   - System.Object

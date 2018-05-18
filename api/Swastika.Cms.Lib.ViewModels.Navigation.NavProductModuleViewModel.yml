@@ -35,7 +35,6 @@ items:
     content: 'public class NavProductModuleViewModel : ViewModelBase<SiocCmsContext, SiocProductModule, NavProductModuleViewModel>'
     content.vb: >-
       Public Class NavProductModuleViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocProductModule, NavProductModuleViewModel)
   inheritance:
   - System.Object

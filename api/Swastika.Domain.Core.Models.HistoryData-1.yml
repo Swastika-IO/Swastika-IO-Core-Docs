@@ -29,7 +29,6 @@ items:
     - id: T
     content.vb: >-
       Public Class HistoryData(Of T As Class)
-
           Inherits Object
   inheritance:
   - System.Object

@@ -46,7 +46,6 @@ items:
     content: 'public class AuthConfiguration : Object'
     content.vb: >-
       Public Class AuthConfiguration
-
           Inherits Object
   inheritance:
   - System.Object

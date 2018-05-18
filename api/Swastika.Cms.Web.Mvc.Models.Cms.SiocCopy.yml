@@ -29,7 +29,6 @@ items:
     content: 'public class SiocCopy : Object'
     content.vb: >-
       Public Class SiocCopy
-
           Inherits Object
   inheritance:
   - System.Object

@@ -40,7 +40,6 @@ items:
     content: 'public class InfoFileViewModel : ViewModelBase<SiocCmsContext, SiocFile, InfoFileViewModel>'
     content.vb: >-
       Public Class InfoFileViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocFile, InfoFileViewModel)
   inheritance:
   - System.Object

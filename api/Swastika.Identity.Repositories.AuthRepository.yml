@@ -23,7 +23,6 @@ items:
     content: 'public class AuthRepository : UserManager<ApplicationUser>'
     content.vb: >-
       Public Class AuthRepository
-
           Inherits UserManager(Of ApplicationUser)
   inheritance:
   - System.Object

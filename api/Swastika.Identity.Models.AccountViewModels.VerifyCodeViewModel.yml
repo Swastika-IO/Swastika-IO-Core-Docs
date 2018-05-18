@@ -28,7 +28,6 @@ items:
     content: 'public class VerifyCodeViewModel : Object'
     content.vb: >-
       Public Class VerifyCodeViewModel
-
           Inherits Object
   inheritance:
   - System.Object

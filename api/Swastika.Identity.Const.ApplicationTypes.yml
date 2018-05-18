@@ -25,10 +25,7 @@ items:
     content: 'public sealed class ApplicationTypes : Enum'
     content.vb: >-
       Public NotInheritable Class ApplicationTypes
-
           Inherits
-
-
 
            Enum
   inheritance:

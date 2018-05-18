@@ -30,7 +30,6 @@ items:
     content: 'public class Client : Object'
     content.vb: >-
       Public Class Client
-
           Inherits Object
   inheritance:
   - System.Object

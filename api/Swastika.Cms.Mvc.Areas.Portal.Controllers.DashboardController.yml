@@ -24,7 +24,6 @@ items:
     content: 'public class DashboardController : BaseController<DashboardController>'
     content.vb: >-
       Public Class DashboardController
-
           Inherits BaseController(Of DashboardController)
   inheritance:
   - System.Object

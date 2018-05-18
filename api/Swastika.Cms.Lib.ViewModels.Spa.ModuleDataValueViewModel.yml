@@ -29,7 +29,6 @@ items:
     content: 'public class ModuleDataValueViewModel : Object'
     content.vb: >-
       Public Class ModuleDataValueViewModel
-
           Inherits Object
   inheritance:
   - System.Object

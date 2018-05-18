@@ -33,7 +33,6 @@ items:
     content: 'public class SiocArticleMedia : Object'
     content.vb: >-
       Public Class SiocArticleMedia
-
           Inherits Object
   inheritance:
   - System.Object

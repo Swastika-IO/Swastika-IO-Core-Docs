@@ -23,7 +23,6 @@ items:
     content: 'public class Enums : Object'
     content.vb: >-
       Public Class Enums
-
           Inherits Object
   inheritance:
   - System.Object

@@ -30,7 +30,6 @@ items:
     content: 'public class AspNetUserClaims : Object'
     content.vb: >-
       Public Class AspNetUserClaims
-
           Inherits Object
   inheritance:
   - System.Object

@@ -39,7 +39,6 @@ items:
     content: 'public class ProfileController : Controller'
     content.vb: >-
       Public Class ProfileController
-
           Inherits Controller
   inheritance:
   - System.Object

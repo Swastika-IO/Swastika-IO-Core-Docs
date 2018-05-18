@@ -27,7 +27,6 @@ items:
     content: 'public class BEParameterViewModel : ViewModelBase<SiocCmsContext, SiocParameter, BEParameterViewModel>'
     content.vb: >-
       Public Class BEParameterViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocParameter, BEParameterViewModel)
   inheritance:
   - System.Object

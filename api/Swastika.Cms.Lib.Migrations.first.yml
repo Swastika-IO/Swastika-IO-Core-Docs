@@ -26,7 +26,6 @@ items:
     content: 'public class first : Migration'
     content.vb: >-
       Public Class first
-
           Inherits Migration
   inheritance:
   - System.Object

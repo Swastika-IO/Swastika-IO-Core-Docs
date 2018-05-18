@@ -27,7 +27,6 @@ items:
     content: 'public class SendCodeViewModel : Object'
     content.vb: >-
       Public Class SendCodeViewModel
-
           Inherits Object
   inheritance:
   - System.Object

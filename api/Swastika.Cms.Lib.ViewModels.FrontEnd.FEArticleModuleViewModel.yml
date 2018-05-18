@@ -30,7 +30,6 @@ items:
     content: 'public class FEArticleModuleViewModel : ViewModelBase<SiocCmsContext, SiocArticleModule, FEArticleModuleViewModel>'
     content.vb: >-
       Public Class FEArticleModuleViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocArticleModule, FEArticleModuleViewModel)
   inheritance:
   - System.Object

@@ -23,7 +23,6 @@ items:
     content: 'public class Common : Object'
     content.vb: >-
       Public Class Common
-
           Inherits Object
   inheritance:
   - System.Object

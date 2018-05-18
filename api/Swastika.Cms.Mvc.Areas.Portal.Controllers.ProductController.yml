@@ -34,7 +34,6 @@ items:
     content: 'public class ProductController : BaseController<ProductController>'
     content.vb: >-
       Public Class ProductController
-
           Inherits BaseController(Of ProductController)
   inheritance:
   - System.Object

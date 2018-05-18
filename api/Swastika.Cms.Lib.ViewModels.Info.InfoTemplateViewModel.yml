@@ -39,7 +39,6 @@ items:
     content: 'public class InfoTemplateViewModel : ViewModelBase<SiocCmsContext, SiocTemplate, InfoTemplateViewModel>'
     content.vb: >-
       Public Class InfoTemplateViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocTemplate, InfoTemplateViewModel)
   inheritance:
   - System.Object

@@ -24,7 +24,6 @@ items:
     content: 'public class HeaderNavbar : ViewComponent'
     content.vb: >-
       Public Class HeaderNavbar
-
           Inherits ViewComponent
   inheritance:
   - System.Object

@@ -30,7 +30,6 @@ items:
     content: 'public class ThemeController : BaseController<ThemeController>'
     content.vb: >-
       Public Class ThemeController
-
           Inherits BaseController(Of ThemeController)
   inheritance:
   - System.Object

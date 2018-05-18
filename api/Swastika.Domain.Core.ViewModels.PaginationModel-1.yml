@@ -31,7 +31,6 @@ items:
     - id: T
     content.vb: >-
       Public Class PaginationModel(Of T)
-
           Inherits Object
   inheritance:
   - System.Object

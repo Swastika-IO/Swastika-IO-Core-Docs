@@ -28,7 +28,6 @@ items:
     content: 'public class ModuleFieldViewModel : Object'
     content.vb: >-
       Public Class ModuleFieldViewModel
-
           Inherits Object
   inheritance:
   - System.Object

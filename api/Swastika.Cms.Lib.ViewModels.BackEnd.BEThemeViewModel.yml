@@ -38,7 +38,6 @@ items:
     content: 'public class BEThemeViewModel : ViewModelBase<SiocCmsContext, SiocTheme, BEThemeViewModel>'
     content.vb: >-
       Public Class BEThemeViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocTheme, BEThemeViewModel)
   inheritance:
   - System.Object

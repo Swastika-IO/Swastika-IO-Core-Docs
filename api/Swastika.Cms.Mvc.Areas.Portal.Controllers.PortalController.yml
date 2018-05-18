@@ -27,7 +27,6 @@ items:
     content: 'public class PortalController : BaseController<PortalController>'
     content.vb: >-
       Public Class PortalController
-
           Inherits BaseController(Of PortalController)
   inheritance:
   - System.Object

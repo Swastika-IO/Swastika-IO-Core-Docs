@@ -23,7 +23,6 @@ items:
     content: 'public static class JwtSecurityKey : Object'
     content.vb: >-
       Public Module JwtSecurityKey
-
           Inherits Object
   inheritance:
   - System.Object

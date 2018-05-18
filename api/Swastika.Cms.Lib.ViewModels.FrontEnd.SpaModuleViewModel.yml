@@ -41,7 +41,6 @@ items:
     content: 'public class SpaModuleViewModel : ViewModelBase<SiocCmsContext, SiocModule, SpaModuleViewModel>'
     content.vb: >-
       Public Class SpaModuleViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocModule, SpaModuleViewModel)
   inheritance:
   - System.Object

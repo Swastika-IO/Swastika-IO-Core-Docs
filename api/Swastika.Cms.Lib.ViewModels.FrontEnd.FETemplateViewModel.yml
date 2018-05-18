@@ -52,7 +52,6 @@ items:
     content: 'public class FETemplateViewModel : ViewModelBase<SiocCmsContext, SiocTemplate, FETemplateViewModel>'
     content.vb: >-
       Public Class FETemplateViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocTemplate, FETemplateViewModel)
   inheritance:
   - System.Object

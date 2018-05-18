@@ -27,7 +27,6 @@ items:
     content: 'public class ExtraProperty : Object'
     content.vb: >-
       Public Class ExtraProperty
-
           Inherits Object
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public class InitCmsViewModel : Object'
     content.vb: >-
       Public Class InitCmsViewModel
-
           Inherits Object
   inheritance:
   - System.Object

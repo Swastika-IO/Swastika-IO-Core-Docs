@@ -32,7 +32,6 @@ items:
     content: 'public class SiocLanguage : Object'
     content.vb: >-
       Public Class SiocLanguage
-
           Inherits Object
   inheritance:
   - System.Object

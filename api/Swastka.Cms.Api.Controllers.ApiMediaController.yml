@@ -31,7 +31,6 @@ items:
     content: 'public class ApiMediaController : BaseApiController<SiocCmsContext, SiocMedia>'
     content.vb: >-
       Public Class ApiMediaController
-
           Inherits BaseApiController(Of SiocCmsContext, SiocMedia)
   inheritance:
   - System.Object

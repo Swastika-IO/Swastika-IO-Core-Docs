@@ -24,7 +24,6 @@ items:
     content: 'public class ApiFileController : BaseApiController'
     content.vb: >-
       Public Class ApiFileController
-
           Inherits BaseApiController
   inheritance:
   - System.Object

@@ -31,10 +31,7 @@ items:
     content: 'public sealed class ManageMessageId : Enum'
     content.vb: >-
       Public NotInheritable Class ManageMessageId
-
           Inherits
-
-
 
            Enum
   inheritance:

@@ -53,7 +53,6 @@ items:
     content: 'public class SpaArticleViewModel : ViewModelBase<SiocCmsContext, SiocArticle, SpaArticleViewModel>'
     content.vb: >-
       Public Class SpaArticleViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocArticle, SpaArticleViewModel)
   inheritance:
   - System.Object

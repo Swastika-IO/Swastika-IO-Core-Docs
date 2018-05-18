@@ -50,7 +50,6 @@ items:
     content: 'public class InfoCategoryViewModel : ViewModelBase<SiocCmsContext, SiocCategory, InfoCategoryViewModel>'
     content.vb: >-
       Public Class InfoCategoryViewModel
-
           Inherits ViewModelBase(Of SiocCmsContext, SiocCategory, InfoCategoryViewModel)
   inheritance:
   - System.Object
