@@ -57,10 +57,12 @@ What things you need to install the software and how to install them
 
 1. Download the source code from [Github](https://github.com/Swastika-IO/Swastika-IO-Core)
 2. Restore dotnet core Nuget's packages
+
 ```bash
 cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
 dotnet restore
 ```
+
 3. Build dotnet core packages
 ```bash
 cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
@@ -112,4 +114,4 @@ This project has been developed using:
 * And more...
 
 ## Tags
-#### Asp.Net Core CMS, Asp.Net Core MVC CMS, C# Core CMS, NetCoreCMS, Core CMS, Modular Architecture, CMS Theme, CMS Widget, Multilangual CMS, .Net CMS Platform, .Net CMS Open Source, .Net CMS Comparison 2017, .Net CMS System, .Net CMS Framework, .Net CMS Open Source MVC, .Net CMS tools, .Net CMS website, Content Management System, Blog Engine, DotNet Core,
+Asp.Net Core CMS, Asp.Net Core MVC CMS, C# Core CMS, NetCoreCMS, Core CMS, Modular Architecture, CMS Theme, CMS Widget, Multilangual CMS, .Net CMS Platform, .Net CMS Open Source, .Net CMS Comparison 2017, .Net CMS System, .Net CMS Framework, .Net CMS Open Source MVC, .Net CMS tools, .Net CMS website, Content Management System, Blog Engine, DotNet Core,
