@@ -39,11 +39,6 @@ Btw, the word ‘swastika’ is a Sanskrit word (‘svasktika’) meaning ‘It 
   - **Admin Portal:**
 ![Swastika I/O Admin Portal Bootstrap 4](https://swastika-io.github.io/Swastika-IO-Admin/img/white.png "Swastika I/O Admin Portal Bootstrap 4")
 
-**References:**
-- [Learn the History of the Swastika](https://www.thoughtco.com/the-history-of-the-swastika-1778288)
-- [The symbol of the Swastika and its 12,000-year-old history](http://www.ancient-origins.net/myths-legends/symbol-swastika-and-its-12000-year-old-history-001312)
-- [What Is the Origin of the Swastika](https://www.thoughtco.com/what-is-the-origin-of-the-swastika-116913)
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
