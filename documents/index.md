@@ -64,15 +64,19 @@ dotnet restore
 ```
 
 3. Build dotnet core packages
+
 ```bash
 cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
 dotnet build
 ```
+
 4. Then run! That it's!
+
 ```bash
 cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
 dotnet run
 ```
+
 5. Now you can access the site from your localhost (e.g. http://localhost:58511)
 
 Or just simple click "_run.bat" file inside "[github-project-folder]\src\Swastika.Cms.Web.Mvc" folder. :)
