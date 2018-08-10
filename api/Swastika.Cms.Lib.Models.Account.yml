@@ -51,6 +51,7 @@ references:
   fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
 - uid: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
   commentId: T:Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+  parent: Swastika.Cms.Lib.Models.Account
   isExternal: true
   name: AspNetUserRoles
   nameWithType: AspNetUserRoles

@@ -12,6 +12,8 @@ items:
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.CreatedBy
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.CreatedDateTime
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.CssClass
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Excerpt
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Fields
@@ -19,10 +21,12 @@ items:
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Icon
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Id
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Image
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Layout
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Level
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Modules
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Name
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Products
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
@@ -38,6 +42,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Type
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UpdatedBy
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UpdatedDateTime
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.View
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Views
   langs:
@@ -184,7 +189,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -221,7 +225,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function RemoveRelatedModelsAsync(view As FECategoryViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel}.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.RemoveRelatedModelsAsync*
   modifiers.csharp:
   - public
@@ -258,7 +261,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function RemoveRelatedModels(view As FECategoryViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel}.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public
@@ -1016,6 +1018,156 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize
+  commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize
+  id: PageSize
+  parent: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: FECategoryViewModel.PageSize
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.FrontEnd
+  syntax:
+    content: public Nullable<int> PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property PageSize As Nullable(Of Integer)
+  overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias
+  commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias
+  id: UrlAlias
+  parent: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: UrlAlias
+  nameWithType: FECategoryViewModel.UrlAlias
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.FrontEnd
+  syntax:
+    content: public ApiUrlAliasViewModel UrlAlias { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+    content.vb: Public Property UrlAlias As ApiUrlAliasViewModel
+  overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl
+  id: DetailsUrl
+  parent: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: DetailsUrl
+  nameWithType: FECategoryViewModel.DetailsUrl
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.FrontEnd
+  syntax:
+    content: public string DetailsUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DetailsUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain
+  commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain
+  id: Domain
+  parent: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: FECategoryViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.FrontEnd
+  syntax:
+    content: public string Domain { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Domain As String
+  overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl
+  id: ImageUrl
+  parent: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: FECategoryViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.FrontEnd
+  syntax:
+    content: public string ImageUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ImageUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.View
   commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.View
   id: View
@@ -4954,6 +5106,49 @@ references:
   name: Tags
   nameWithType: FECategoryViewModel.Tags
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Tags
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: FECategoryViewModel.PageSize
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.PageSize
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias
+  isExternal: true
+  name: UrlAlias
+  nameWithType: FECategoryViewModel.UrlAlias
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.UrlAlias
+- uid: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+  parent: Swastika.Cms.Lib.ViewModels.Api
+  isExternal: true
+  name: ApiUrlAliasViewModel
+  nameWithType: ApiUrlAliasViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Api
+  commentId: N:Swastika.Cms.Lib.ViewModels.Api
+  isExternal: false
+  name: Swastika.Cms.Lib.ViewModels.Api
+  nameWithType: Swastika.Cms.Lib.ViewModels.Api
+  fullName: Swastika.Cms.Lib.ViewModels.Api
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl
+  isExternal: true
+  name: DetailsUrl
+  nameWithType: FECategoryViewModel.DetailsUrl
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.DetailsUrl
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: FECategoryViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.Domain
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl
+  isExternal: true
+  name: ImageUrl
+  nameWithType: FECategoryViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.ImageUrl
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.View*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.View
   isExternal: true

@@ -1,4 +1,11 @@
 ### YamlMime:TableOfContent
+- uid: RewriteRules
+  name: RewriteRules
+  items:
+  - uid: RewriteRules.MethodRules
+    name: MethodRules
+  - uid: RewriteRules.RedirectImageRequests
+    name: RedirectImageRequests
 - uid: Swastika.Api.Controllers
   name: Swastika.Api.Controllers
   items:
@@ -10,6 +17,11 @@
   - uid: Swastika.Api.Controllers.BaseApiController`2
     name: BaseApiController<TDbContext, TModel>
     name.vb: BaseApiController(Of TDbContext, TModel)
+- uid: Swastika.Cms.Api.Controllers
+  name: Swastika.Cms.Api.Controllers
+  items:
+  - uid: Swastika.Cms.Api.Controllers.ApiAccountController
+    name: ApiAccountController
 - uid: Swastika.Cms.Lib
   name: Swastika.Cms.Lib
   items:
@@ -35,12 +47,14 @@
     name: SWCmsConstants.DataType
   - uid: Swastika.Cms.Lib.SWCmsConstants.Default
     name: SWCmsConstants.Default
+  - uid: Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder
+    name: SWCmsConstants.EnumFileFolder
+  - uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    name: SWCmsConstants.EnumTemplateFolder
   - uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder
     name: SWCmsConstants.FileFolder
-  - uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
-    name: SWCmsConstants.FileFolderEnum
-  - uid: Swastika.Cms.Lib.SWCmsConstants.JWTSettings
-    name: SWCmsConstants.JWTSettings
+  - uid: Swastika.Cms.Lib.SWCmsConstants.JwtSettings
+    name: SWCmsConstants.JwtSettings
   - uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType
     name: SWCmsConstants.ModuleType
   - uid: Swastika.Cms.Lib.SWCmsConstants.Parameters
@@ -49,22 +63,22 @@
     name: SWCmsConstants.SearchType
   - uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
     name: SWCmsConstants.TemplateFolder
-  - uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum
-    name: SWCmsConstants.TemplateFolderEnum
+  - uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+    name: SWCmsConstants.UrlAliasType
   - uid: Swastika.Cms.Lib.SWCmsConstants.ViewModelType
     name: SWCmsConstants.ViewModelType
-  - uid: Swastika.Cms.Lib.SWCmsHelper
-    name: SWCmsHelper
+  - uid: Swastika.Cms.Lib.SwCmsHelper
+    name: SwCmsHelper
 - uid: Swastika.Cms.Lib.Migrations
   name: Swastika.Cms.Lib.Migrations
   items:
-  - uid: Swastika.Cms.Lib.Migrations.first
-    name: first
-  - uid: Swastika.Cms.Lib.Migrations.upd_product
-    name: upd_product
+  - uid: Swastika.Cms.Lib.Migrations.init
+    name: init
 - uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount
   name: Swastika.Cms.Lib.Migrations.SiocCmsAccount
   items:
+  - uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+    name: add_refreshtoken_username
   - uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account
     name: First_Account
 - uid: Swastika.Cms.Lib.Models.Account
@@ -113,6 +127,10 @@
     name: SiocCategoryProduct
   - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
     name: SiocCmsContext
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+    name: SiocCmsCustomer
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+    name: SiocCmsUser
   - uid: Swastika.Cms.Lib.Models.Cms.SiocComment
     name: SiocComment
   - uid: Swastika.Cms.Lib.Models.Cms.SiocConfiguration
@@ -121,6 +139,8 @@
     name: SiocCopy
   - uid: Swastika.Cms.Lib.Models.Cms.SiocCulture
     name: SiocCulture
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCustomer
+    name: SiocCustomer
   - uid: Swastika.Cms.Lib.Models.Cms.SiocFile
     name: SiocFile
   - uid: Swastika.Cms.Lib.Models.Cms.SiocLanguage
@@ -139,8 +159,18 @@
     name: SiocModuleData
   - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
     name: SiocModuleProduct
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    name: SiocOrder
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    name: SiocOrderItem
   - uid: Swastika.Cms.Lib.Models.Cms.SiocParameter
     name: SiocParameter
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+    name: SiocPortalPage
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    name: SiocPortalPageNavigation
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    name: SiocPortalPageRole
   - uid: Swastika.Cms.Lib.Models.Cms.SiocPosition
     name: SiocPosition
   - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct
@@ -155,6 +185,8 @@
     name: SiocTemplate
   - uid: Swastika.Cms.Lib.Models.Cms.SiocTheme
     name: SiocTheme
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+    name: SiocUrlAlias
 - uid: Swastika.Cms.Lib.Repositories
   name: Swastika.Cms.Lib.Repositories
   items:
@@ -167,10 +199,12 @@
 - uid: Swastika.Cms.Lib.Services
   name: Swastika.Cms.Lib.Services
   items:
+  - uid: Swastika.Cms.Lib.Services.CmsConfiguration
+    name: CmsConfiguration
+  - uid: Swastika.Cms.Lib.Services.CmsCultureConfiguration
+    name: CmsCultureConfiguration
   - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService
     name: GlobalConfigurationService
-  - uid: Swastika.Cms.Lib.Services.GlobalLanguageService
-    name: GlobalLanguageService
   - uid: Swastika.Cms.Lib.Services.IViewRenderService
     name: IViewRenderService
   - uid: Swastika.Cms.Lib.Services.Translator
@@ -194,6 +228,8 @@
     name: ConfigurationViewModel
   - uid: Swastika.Cms.Lib.ViewModels.DashboardViewModel
     name: DashboardViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+    name: DataValueViewModel
   - uid: Swastika.Cms.Lib.ViewModels.ExtraProperty
     name: ExtraProperty
   - uid: Swastika.Cms.Lib.ViewModels.FileStreamViewModel
@@ -210,6 +246,10 @@
     name: ModuleDataValueViewModel
   - uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
     name: ModuleFieldViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel
+    name: SiteSettingsViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel
+    name: SpaModuleDataValueViewModel
   - uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel
     name: TemplateViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Account
@@ -217,9 +257,55 @@
   items:
   - uid: Swastika.Cms.Lib.ViewModels.Account.RefreshTokenViewModel
     name: RefreshTokenViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Account.RoleViewModel
+    name: RoleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel
+    name: UserRoleViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Api
+  name: Swastika.Cms.Lib.ViewModels.Api
+  items:
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiCategoryViewModel
+    name: ApiCategoryViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiConfigurationViewModel
+    name: ApiConfigurationViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiCultureViewModel
+    name: ApiCultureViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiCustomerViewModel
+    name: ApiCustomerViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiFilePageViewModel
+    name: ApiFilePageViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiInitCmsViewModel
+    name: ApiInitCmsViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiLanguageViewModel
+    name: ApiLanguageViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiModuleDataViewModel
+    name: ApiModuleDataViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiModuleViewModel
+    name: ApiModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiOrderItemViewModel
+    name: ApiOrderItemViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiOrderViewModel
+    name: ApiOrderViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiTemplateViewModel
+    name: ApiTemplateViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiThemeViewModel
+    name: ApiThemeViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+    name: ApiUrlAliasViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Api.InitCulture
+    name: InitCulture
+  - uid: Swastika.Cms.Lib.ViewModels.Api.ModuleDataValueViewModel
+    name: ModuleDataValueViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Backend
+  name: Swastika.Cms.Lib.ViewModels.Backend
+  items:
+  - uid: Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel
+    name: BEUserViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd
   name: Swastika.Cms.Lib.ViewModels.BackEnd
   items:
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel
+    name: ApiProductViewModel
   - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel
     name: BEArticleMediaViewModel
   - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
@@ -228,6 +314,8 @@
     name: BEArticleViewModel
   - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
     name: BECategoryViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel
+    name: BEConfigurationViewModel
   - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel
     name: BECultureViewModel
   - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
@@ -250,6 +338,8 @@
     name: BETemplateViewModel
   - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
     name: BEThemeViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel
+    name: UserViewModel
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd
   name: Swastika.Cms.Lib.ViewModels.FrontEnd
   items:
@@ -259,6 +349,8 @@
     name: FEArticleViewModel
   - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
     name: FECategoryViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel
+    name: FEMediaViewModel
   - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
     name: FEModuleViewModel
   - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel
@@ -290,31 +382,47 @@
     name: InfoModuleDataViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Info.InfoModuleViewModel
     name: InfoModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoOrderViewModel
+    name: InfoOrderViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoPortalPageViewModel
+    name: InfoPortalPageViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel
     name: InfoProductViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Info.InfoTemplateViewModel
     name: InfoTemplateViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel
     name: InfoThemeViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
+    name: InfoUserViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Navigation
   name: Swastika.Cms.Lib.ViewModels.Navigation
   items:
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleMediaViewModel
     name: NavArticleMediaViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     name: NavCategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel
+    name: NavCategoryCategoryViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryProductViewModel
     name: NavCategoryProductViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     name: NavModuleArticleViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleProductViewModel
     name: NavModuleProductViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageRoleViewModel
+    name: NavPortalPageRoleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageViewModel
+    name: NavPortalPageViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavProductMediaViewModel
     name: NavProductMediaViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavProductModuleViewModel
     name: NavProductModuleViewModel
   - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavRelatedProductViewModel
     name: NavRelatedProductViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavUserRoleViewModel
+    name: NavUserRoleViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Spa
   name: Swastika.Cms.Lib.ViewModels.Spa
   items:
@@ -327,62 +435,15 @@
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers
   name: Swastika.Cms.Mvc.Areas.Portal.Controllers
   items:
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController
-    name: ArticlesController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController
-    name: CultureController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController
-    name: DashboardController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController
-    name: FileController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController
-    name: MediaController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController
-    name: ModuleController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController
-    name: PagesController
   - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
     name: PortalController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController
-    name: ProductController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController
-    name: ProfileController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
-    name: ProfileController.ManageMessageId
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController
-    name: SettingController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController
-    name: TemplateController
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController
-    name: ThemeController
-- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
-  name: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
-  items:
-  - uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs
-    name: Breadcrumbs
-  - uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
-    name: ControlSidebar
-  - uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
-    name: HeaderNavbar
-  - uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter
-    name: MainFooter
-  - uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar
-    name: MainSidebar
-  - uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals
-    name: Modals
-- uid: Swastika.Cms.Mvc.Areas.User.Controllers
-  name: Swastika.Cms.Mvc.Areas.User.Controllers
-  items:
-  - uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
-    name: ProfileController
-  - uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
-    name: ProfileController.ManageMessageId
 - uid: Swastika.Cms.Mvc.Controllers
   name: Swastika.Cms.Mvc.Controllers
   items:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController<T>
-    name.vb: BaseController(Of T)
+  - uid: Swastika.Cms.Mvc.Controllers.BackendController
+    name: BackendController
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController
+    name: BaseController
   - uid: Swastika.Cms.Mvc.Controllers.HomeController
     name: HomeController
 - uid: Swastika.Cms.Mvc.TagHelpers
@@ -406,19 +467,8 @@
     name: Startup
   - uid: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey
     name: Startup.JwtSecurityKey
-  - uid: Swastika.Cms.Web.Mvc.Startup.LanguageRouteConstraint
-    name: Startup.LanguageRouteConstraint
-  - uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
-    name: Startup.RouteDataRequestCultureProvider
-- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
-  name: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
-  items:
-  - uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController
-    name: AuthController
-  - uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
-    name: Common
-  - uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController
-    name: LanguageController
+  - uid: Swastika.Cms.Web.Mvc.StartupEnhancementHostingStartup
+    name: StartupEnhancementHostingStartup
 - uid: Swastika.Cms.Web.Mvc.Controllers
   name: Swastika.Cms.Web.Mvc.Controllers
   items:
@@ -429,81 +479,22 @@
   items:
   - uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
     name: ErrorViewModel
-- uid: Swastika.Cms.Web.Mvc.Models.Cms
-  name: Swastika.Cms.Web.Mvc.Models.Cms
-  items:
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
-    name: SiocArticle
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia
-    name: SiocArticleMedia
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule
-    name: SiocArticleModule
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategory
-    name: SiocCategory
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle
-    name: SiocCategoryArticle
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryCategory
-    name: SiocCategoryCategory
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryModule
-    name: SiocCategoryModule
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryPosition
-    name: SiocCategoryPosition
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryProduct
-    name: SiocCategoryProduct
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocComment
-    name: SiocComment
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocConfiguration
-    name: SiocConfiguration
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
-    name: SiocCopy
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture
-    name: SiocCulture
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocFile
-    name: SiocFile
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocLanguage
-    name: SiocLanguage
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocMedia
-    name: SiocMedia
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModule
-    name: SiocModule
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle
-    name: SiocModuleArticle
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleAttributeSet
-    name: SiocModuleAttributeSet
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleAttributeValue
-    name: SiocModuleAttributeValue
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleData
-    name: SiocModuleData
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleProduct
-    name: SiocModuleProduct
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
-    name: SiocParameter
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocPosition
-    name: SiocPosition
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocProduct
-    name: SiocProduct
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocProductMedia
-    name: SiocProductMedia
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocProductModule
-    name: SiocProductModule
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocRelatedProduct
-    name: SiocRelatedProduct
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocTemplate
-    name: SiocTemplate
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocTheme
-    name: SiocTheme
-  - uid: Swastika.Cms.Web.Mvc.Models.Cms.sw_cms_structureContext
-    name: sw_cms_structureContext
 - uid: Swastika.Cms.Web.Mvc.Models.Identity
   name: Swastika.Cms.Web.Mvc.Models.Identity
   items:
-  - uid: Swastika.Cms.Web.Mvc.Models.Identity.JWTSettings
-    name: JWTSettings
+  - uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+    name: JwtSettings
 - uid: Swastika.Common.Helper
   name: Swastika.Common.Helper
   items:
   - uid: Swastika.Common.Helper.CommonHelper
     name: CommonHelper
+  - uid: Swastika.Common.Helper.GravatarHtmlHelper
+    name: GravatarHtmlHelper
+  - uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    name: GravatarHtmlHelper.DefaultImage
+  - uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+    name: GravatarHtmlHelper.Rating
   - uid: Swastika.Common.Helper.SEOHelper
     name: SEOHelper
 - uid: Swastika.Common.Utility
@@ -515,11 +506,6 @@
     name: Enums
   - uid: Swastika.Common.Utility.Enums.SWStatus
     name: Enums.SWStatus
-- uid: Swastika.Core.Controllers
-  name: Swastika.Core.Controllers
-  items:
-  - uid: Swastika.Core.Controllers.ApiAccountController
-    name: ApiAccountController
 - uid: Swastika.Domain.Core.Interfaces
   name: Swastika.Domain.Core.Interfaces
   items:
@@ -760,32 +746,45 @@
   items:
   - uid: Swastka.Cms.Api.Controllers.ApiArticleController
     name: ApiArticleController
+  - uid: Swastka.Cms.Api.Controllers.ApiCategoryController
+    name: ApiCategoryController
+  - uid: Swastka.Cms.Api.Controllers.ApiConfigurationController
+    name: ApiConfigurationController
+  - uid: Swastka.Cms.Api.Controllers.ApiCultureController
+    name: ApiCultureController
+  - uid: Swastka.Cms.Api.Controllers.ApiCustomerController
+    name: ApiCustomerController
+  - uid: Swastka.Cms.Api.Controllers.ApiFileController
+    name: ApiFileController
+  - uid: Swastka.Cms.Api.Controllers.ApiLanguageController
+    name: ApiLanguageController
   - uid: Swastka.Cms.Api.Controllers.ApiMediaController
     name: ApiMediaController
+  - uid: Swastka.Cms.Api.Controllers.ApiModuleController
+    name: ApiModuleController
   - uid: Swastka.Cms.Api.Controllers.ApiModuleDataController
     name: ApiModuleDataController
   - uid: Swastka.Cms.Api.Controllers.ApiNavigationController
     name: ApiNavigationController
+  - uid: Swastka.Cms.Api.Controllers.ApiNavPageModuleController
+    name: ApiNavPageModuleController
+  - uid: Swastka.Cms.Api.Controllers.ApiPortalController
+    name: ApiPortalController
   - uid: Swastka.Cms.Api.Controllers.ApiProductController
     name: ApiProductController
+  - uid: Swastka.Cms.Api.Controllers.ApiRoleController
+    name: ApiRoleController
+  - uid: Swastka.Cms.Api.Controllers.ApiTemplateController
+    name: ApiTemplateController
+  - uid: Swastka.Cms.Api.Controllers.ApiThemeController
+    name: ApiThemeController
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController
+    name: BaseApiController
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController`3
+    name: BaseApiController<TDbContext, TModel, TView>
+    name.vb: BaseApiController(Of TDbContext, TModel, TView)
 - uid: Swastka.Cms.Web
   name: Swastka.Cms.Web
   items:
   - uid: Swastka.Cms.Web.Startup
     name: Startup
-- uid: Swastka.IO.Cms.Api.Controllers
-  name: Swastka.IO.Cms.Api.Controllers
-  items:
-  - uid: Swastka.IO.Cms.Api.Controllers.ApiCategoryController
-    name: ApiCategoryController
-  - uid: Swastka.IO.Cms.Api.Controllers.ApiFileController
-    name: ApiFileController
-  - uid: Swastka.IO.Cms.Api.Controllers.ApiModuleController
-    name: ApiModuleController
-  - uid: Swastka.IO.Cms.Api.Controllers.ApiTemplateController
-    name: ApiTemplateController
-- uid: TTS.Web.Areas.Portal.Controllers.Apis
-  name: TTS.Web.Areas.Portal.Controllers.Apis
-  items:
-  - uid: TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController
-    name: ApiModuleController

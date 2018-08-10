@@ -1,15 +1,15 @@
 ---
-title: Swastika I/O Core preview documentation
-author: guardrex
+title: All about Swastika I/O Core
+author: smilefounder
 description: Swastika I/O is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc).
 manager: Smilefounder
 ms.author: Swastika I/O Team
 ms.custom: mvc
 ms.date: 04/16/2018
 ms.prod: asp.net-core
-ms.technology: aspnet
-ms.topic: article
-uid: client-side/blazor/index
+ms.technology: aspnet core
+ms.topic: tutorial
+uid: client-side/swastika-io/index
 ---
 # Swastika I/O
 

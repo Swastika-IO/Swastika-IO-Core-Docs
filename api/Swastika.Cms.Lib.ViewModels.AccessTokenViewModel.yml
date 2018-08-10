@@ -14,6 +14,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.Issued
   - Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.Refresh_token
   - Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.Token_type
+  - Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData
   langs:
   - csharp
   - vb
@@ -305,6 +306,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData
+  commentId: P:Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData
+  id: UserData
+  parent: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserData
+  nameWithType: AccessTokenViewModel.UserData
+  fullName: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public InfoUserViewModel UserData { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
+    content.vb: Public Property UserData As InfoUserViewModel
+  overload: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Swastika.Cms.Lib.ViewModels
   commentId: N:Swastika.Cms.Lib.ViewModels
@@ -398,3 +429,22 @@ references:
   name: DeviceId
   nameWithType: AccessTokenViewModel.DeviceId
   fullName: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.DeviceId
+- uid: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData
+  isExternal: true
+  name: UserData
+  nameWithType: AccessTokenViewModel.UserData
+  fullName: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.UserData
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
+  parent: Swastika.Cms.Lib.ViewModels.Info
+  isExternal: true
+  name: InfoUserViewModel
+  nameWithType: InfoUserViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Info
+  commentId: N:Swastika.Cms.Lib.ViewModels.Info
+  isExternal: false
+  name: Swastika.Cms.Lib.ViewModels.Info
+  nameWithType: Swastika.Cms.Lib.ViewModels.Info
+  fullName: Swastika.Cms.Lib.ViewModels.Info

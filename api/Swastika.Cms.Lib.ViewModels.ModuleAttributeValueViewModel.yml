@@ -102,7 +102,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub Validate(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue,Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel}.Validate(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel.Validate*
   modifiers.csharp:
   - public
@@ -139,7 +138,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function SaveSubModels(parent As SiocModuleAttributeValue, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue,Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel}.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel.SaveSubModels*
   modifiers.csharp:
   - public
@@ -176,7 +174,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function RemoveRelatedModels(view As ModuleAttributeValueViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue,Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel}.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public

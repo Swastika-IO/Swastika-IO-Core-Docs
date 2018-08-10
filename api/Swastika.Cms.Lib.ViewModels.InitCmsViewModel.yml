@@ -6,12 +6,15 @@ items:
   parent: Swastika.Cms.Lib.ViewModels
   children:
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.#ctor
+  - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.DataBaseName
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.DataBasePassword
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.DataBaseServer
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.DataBaseUser
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.IsUseLocal
+  - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString
   - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbName
+  - Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin
   langs:
   - csharp
   - vb
@@ -243,6 +246,96 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString
+  commentId: P:Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString
+  id: LocalDbConnectionString
+  parent: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: LocalDbConnectionString
+  nameWithType: InitCmsViewModel.LocalDbConnectionString
+  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string LocalDbConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LocalDbConnectionString As String
+  overload: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin
+  commentId: P:Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin
+  id: SuperAdmin
+  parent: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: SuperAdmin
+  nameWithType: InitCmsViewModel.SuperAdmin
+  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string SuperAdmin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SuperAdmin As String
+  overload: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword
+  commentId: P:Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword
+  id: AdminPassword
+  parent: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: AdminPassword
+  nameWithType: InitCmsViewModel.AdminPassword
+  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string AdminPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdminPassword As String
+  overload: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Swastika.Cms.Lib.ViewModels
   commentId: N:Swastika.Cms.Lib.ViewModels
@@ -319,3 +412,21 @@ references:
   name: LocalDbName
   nameWithType: InitCmsViewModel.LocalDbName
   fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbName
+- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString
+  isExternal: true
+  name: LocalDbConnectionString
+  nameWithType: InitCmsViewModel.LocalDbConnectionString
+  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.LocalDbConnectionString
+- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin
+  isExternal: true
+  name: SuperAdmin
+  nameWithType: InitCmsViewModel.SuperAdmin
+  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.SuperAdmin
+- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword
+  isExternal: true
+  name: AdminPassword
+  nameWithType: InitCmsViewModel.AdminPassword
+  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel.AdminPassword

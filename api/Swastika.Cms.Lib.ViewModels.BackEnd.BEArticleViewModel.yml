@@ -11,9 +11,13 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ActivedTemplate
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.CloneSubModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel,System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture},Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Content
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.CreatedBy
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.CreatedDateTime
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Excerpt
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
@@ -23,14 +27,20 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Image
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImageFileStream
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImageUrl
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.JMediaNavs
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.LastModified
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ListTag
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.MediaNavs
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ModifiedBy
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ModuleNavs
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Modules
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
@@ -40,6 +50,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.SeoKeywords
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.SeoName
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.SeoTitle
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Source
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Tags
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Template
@@ -50,6 +61,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ThumbnailFileStream
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ThumbnailUrl
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Title
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Type
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.View
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Views
@@ -197,7 +209,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -232,7 +243,6 @@ items:
     return:
       type: Swastika.Cms.Lib.Models.Cms.SiocArticle
     content.vb: Public Overrides Function ParseModel(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As SiocArticle
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ParseModel*
   modifiers.csharp:
   - public
@@ -269,7 +279,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function SaveSubModelsAsync(parent As SiocArticle, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.SaveSubModelsAsync*
   modifiers.csharp:
   - public
@@ -308,7 +317,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function CloneSubModelsAsync(parent As BEArticleViewModel, cloneCultures As List(Of SupportedCulture), _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.CloneSubModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel,System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture},Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.CloneSubModelsAsync*
   nameWithType.vb: BEArticleViewModel.CloneSubModelsAsync(BEArticleViewModel, List(Of SupportedCulture), SiocCmsContext, IDbContextTransaction)
   modifiers.csharp:
@@ -348,7 +356,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function RemoveRelatedModelsAsync(view As BEArticleViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.RemoveRelatedModelsAsync*
   modifiers.csharp:
   - public
@@ -374,9 +381,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public override RepositoryResponse<bool> RemoveRelatedModels(BEArticleViewModel model, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public override RepositoryResponse<bool> RemoveRelatedModels(BEArticleViewModel view, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: model
+    - id: view
       type: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
     - id: _context
       type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
@@ -384,8 +391,7 @@ items:
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
-    content.vb: Public Overrides Function RemoveRelatedModels(model As BEArticleViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+    content.vb: Public Overrides Function RemoveRelatedModels(view As BEArticleViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public
@@ -422,7 +428,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function SaveSubModels(parent As SiocArticle, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.SaveSubModels*
   modifiers.csharp:
   - public
@@ -574,6 +579,66 @@ items:
       type: System.String
     content.vb: Public Property ExtraProperties As String
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ExtraProperties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price
+  id: Price
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: BEArticleViewModel.Price
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public double Price { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Price As Double
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit
+  id: PriceUnit
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: BEArticleViewModel.PriceUnit
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PriceUnit As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit*
   modifiers.csharp:
   - public
   - get
@@ -1060,6 +1125,306 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code
+  id: Code
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: BEArticleViewModel.Code
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Code As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled
+  id: TotalSaled
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: TotalSaled
+  nameWithType: BEArticleViewModel.TotalSaled
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public int TotalSaled { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalSaled As Integer
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice
+  id: DealPrice
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: DealPrice
+  nameWithType: BEArticleViewModel.DealPrice
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public Nullable<double> DealPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public Property DealPrice As Nullable(Of Double)
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount
+  id: Discount
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Discount
+  nameWithType: BEArticleViewModel.Discount
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public double Discount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Discount As Double
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice
+  id: ImportPrice
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: ImportPrice
+  nameWithType: BEArticleViewModel.ImportPrice
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public double ImportPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ImportPrice As Double
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material
+  id: Material
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: BEArticleViewModel.Material
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Material As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice
+  id: NormalPrice
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: NormalPrice
+  nameWithType: BEArticleViewModel.NormalPrice
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public double NormalPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property NormalPrice As Double
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount
+  id: PackageCount
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: PackageCount
+  nameWithType: BEArticleViewModel.PackageCount
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public int PackageCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PackageCount As Integer
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size
+  id: Size
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: BEArticleViewModel.Size
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string Size { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Size As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
+  id: Domain
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: BEArticleViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string Domain { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Domain As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories
   id: Categories
@@ -1078,11 +1443,11 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<CategoryArticleViewModel> Categories { get; set; }
+    content: public List<NavCategoryArticleViewModel> Categories { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}
-    content.vb: Public Property Categories As List(Of CategoryArticleViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}
+    content.vb: Public Property Categories As List(Of NavCategoryArticleViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories*
   modifiers.csharp:
   - public
@@ -1108,11 +1473,11 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<ModuleArticleViewModel> Modules { get; set; }
+    content: public List<NavModuleArticleViewModel> Modules { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}
-    content.vb: Public Property Modules As List(Of ModuleArticleViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}
+    content.vb: Public Property Modules As List(Of NavModuleArticleViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Modules*
   modifiers.csharp:
   - public
@@ -1138,11 +1503,11 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<BEArticleModuleViewModel> ModuleNavs { get; set; }
+    content: public List<NavArticleModuleViewModel> ModuleNavs { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}
-    content.vb: Public Property ModuleNavs As List(Of BEArticleModuleViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}
+    content.vb: Public Property ModuleNavs As List(Of NavArticleModuleViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ModuleNavs*
   modifiers.csharp:
   - public
@@ -1330,36 +1695,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
-  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
-  id: Properties
-  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
-  langs:
-  - csharp
-  - vb
-  name: Properties
-  nameWithType: BEArticleViewModel.Properties
-  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
-  syntax:
-    content: public List<ExtraProperty> Properties { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ExtraProperty}
-    content.vb: Public Property Properties As List(Of ExtraProperty)
-  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.View
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.View
   id: View
@@ -1510,36 +1845,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
-  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
-  id: Domain
-  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
-  langs:
-  - csharp
-  - vb
-  name: Domain
-  nameWithType: BEArticleViewModel.Domain
-  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
-  syntax:
-    content: public string Domain { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Domain As String
-  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImageUrl
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImageUrl
   id: ImageUrl
@@ -1600,6 +1905,66 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
+  id: Properties
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: BEArticleViewModel.Properties
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public List<ExtraProperty> Properties { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ExtraProperty}
+    content.vb: Public Property Properties As List(Of ExtraProperty)
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl
+  id: DetailsUrl
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  langs:
+  - csharp
+  - vb
+  name: DetailsUrl
+  nameWithType: BEArticleViewModel.DetailsUrl
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string DetailsUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DetailsUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd
   commentId: N:Swastika.Cms.Lib.ViewModels.BackEnd
@@ -5217,6 +5582,25 @@ references:
   name: ExtraProperties
   nameWithType: BEArticleViewModel.ExtraProperties
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ExtraProperties
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price
+  isExternal: true
+  name: Price
+  nameWithType: BEArticleViewModel.Price
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Price
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: BEArticleViewModel.PriceUnit
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PriceUnit
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Icon*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Icon
   isExternal: true
@@ -5449,21 +5833,124 @@ references:
   name: Tags
   nameWithType: BEArticleViewModel.Tags
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Tags
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code
+  isExternal: true
+  name: Code
+  nameWithType: BEArticleViewModel.Code
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Code
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled
+  isExternal: true
+  name: TotalSaled
+  nameWithType: BEArticleViewModel.TotalSaled
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TotalSaled
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice
+  isExternal: true
+  name: DealPrice
+  nameWithType: BEArticleViewModel.DealPrice
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DealPrice
+- uid: System.Nullable{System.Double}
+  commentId: '!:System.Nullable{System.Double}'
+  definition: System.Nullable`1
+  name: Nullable<Double>
+  nameWithType: Nullable<Double>
+  fullName: System.Nullable<System.Double>
+  nameWithType.vb: Nullable(Of Double)
+  fullName.vb: System.Nullable(Of System.Double)
+  name.vb: Nullable(Of Double)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount
+  isExternal: true
+  name: Discount
+  nameWithType: BEArticleViewModel.Discount
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Discount
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice
+  isExternal: true
+  name: ImportPrice
+  nameWithType: BEArticleViewModel.ImportPrice
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImportPrice
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material
+  isExternal: true
+  name: Material
+  nameWithType: BEArticleViewModel.Material
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Material
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice
+  isExternal: true
+  name: NormalPrice
+  nameWithType: BEArticleViewModel.NormalPrice
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.NormalPrice
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount
+  isExternal: true
+  name: PackageCount
+  nameWithType: BEArticleViewModel.PackageCount
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.PackageCount
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size
+  isExternal: true
+  name: Size
+  nameWithType: BEArticleViewModel.Size
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Size
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: BEArticleViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories
   isExternal: true
   name: Categories
   nameWithType: BEArticleViewModel.Categories
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Categories
-- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}
-  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}'
+- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}
+  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}'
   definition: System.Collections.Generic.List`1
-  name: List<CategoryArticleViewModel>
-  nameWithType: List<CategoryArticleViewModel>
-  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel>
-  nameWithType.vb: List(Of CategoryArticleViewModel)
-  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel)
-  name.vb: List(Of CategoryArticleViewModel)
+  name: List<NavCategoryArticleViewModel>
+  nameWithType: List<NavCategoryArticleViewModel>
+  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel>
+  nameWithType.vb: List(Of NavCategoryArticleViewModel)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel)
+  name.vb: List(Of NavCategoryArticleViewModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5473,10 +5960,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
-    name: CategoryArticleViewModel
-    nameWithType: CategoryArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+    name: NavCategoryArticleViewModel
+    nameWithType: NavCategoryArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -5490,10 +5977,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
-    name: CategoryArticleViewModel
-    nameWithType: CategoryArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+    name: NavCategoryArticleViewModel
+    nameWithType: NavCategoryArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -5504,15 +5991,15 @@ references:
   name: Modules
   nameWithType: BEArticleViewModel.Modules
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Modules
-- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}
-  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}'
+- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}
+  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}'
   definition: System.Collections.Generic.List`1
-  name: List<ModuleArticleViewModel>
-  nameWithType: List<ModuleArticleViewModel>
-  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel>
-  nameWithType.vb: List(Of ModuleArticleViewModel)
-  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel)
-  name.vb: List(Of ModuleArticleViewModel)
+  name: List<NavModuleArticleViewModel>
+  nameWithType: List<NavModuleArticleViewModel>
+  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel>
+  nameWithType.vb: List(Of NavModuleArticleViewModel)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel)
+  name.vb: List(Of NavModuleArticleViewModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5522,10 +6009,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
-    name: ModuleArticleViewModel
-    nameWithType: ModuleArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
+    name: NavModuleArticleViewModel
+    nameWithType: NavModuleArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -5539,10 +6026,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
-    name: ModuleArticleViewModel
-    nameWithType: ModuleArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
+    name: NavModuleArticleViewModel
+    nameWithType: NavModuleArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -5553,15 +6040,15 @@ references:
   name: ModuleNavs
   nameWithType: BEArticleViewModel.ModuleNavs
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ModuleNavs
-- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}
-  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}'
+- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}
+  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}'
   definition: System.Collections.Generic.List`1
-  name: List<BEArticleModuleViewModel>
-  nameWithType: List<BEArticleModuleViewModel>
-  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel>
-  nameWithType.vb: List(Of BEArticleModuleViewModel)
-  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel)
-  name.vb: List(Of BEArticleModuleViewModel)
+  name: List<NavArticleModuleViewModel>
+  nameWithType: List<NavArticleModuleViewModel>
+  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel>
+  nameWithType.vb: List(Of NavArticleModuleViewModel)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel)
+  name.vb: List(Of NavArticleModuleViewModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5571,10 +6058,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
-    name: BEArticleModuleViewModel
-    nameWithType: BEArticleModuleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
+    nameWithType: NavArticleModuleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -5588,10 +6075,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
-    name: BEArticleModuleViewModel
-    nameWithType: BEArticleModuleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
+    nameWithType: NavArticleModuleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -5736,55 +6223,6 @@ references:
   name: ThumbnailFileStream
   nameWithType: BEArticleViewModel.ThumbnailFileStream
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ThumbnailFileStream
-- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties*
-  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
-  isExternal: true
-  name: Properties
-  nameWithType: BEArticleViewModel.Properties
-  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
-- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ExtraProperty}
-  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ExtraProperty}'
-  definition: System.Collections.Generic.List`1
-  name: List<ExtraProperty>
-  nameWithType: List<ExtraProperty>
-  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.ExtraProperty>
-  nameWithType.vb: List(Of ExtraProperty)
-  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.ExtraProperty)
-  name.vb: List(Of ExtraProperty)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.ExtraProperty
-    name: ExtraProperty
-    nameWithType: ExtraProperty
-    fullName: Swastika.Cms.Lib.ViewModels.ExtraProperty
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.ExtraProperty
-    name: ExtraProperty
-    nameWithType: ExtraProperty
-    fullName: Swastika.Cms.Lib.ViewModels.ExtraProperty
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.View*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.View
   isExternal: true
@@ -5865,12 +6303,6 @@ references:
   name: TemplateFolder
   nameWithType: BEArticleViewModel.TemplateFolder
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.TemplateFolder
-- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain*
-  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
-  isExternal: true
-  name: Domain
-  nameWithType: BEArticleViewModel.Domain
-  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Domain
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImageUrl*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ImageUrl
   isExternal: true
@@ -5883,3 +6315,58 @@ references:
   name: ThumbnailUrl
   nameWithType: BEArticleViewModel.ThumbnailUrl
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.ThumbnailUrl
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
+  isExternal: true
+  name: Properties
+  nameWithType: BEArticleViewModel.Properties
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.Properties
+- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ExtraProperty}
+  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ExtraProperty}'
+  definition: System.Collections.Generic.List`1
+  name: List<ExtraProperty>
+  nameWithType: List<ExtraProperty>
+  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.ExtraProperty>
+  nameWithType.vb: List(Of ExtraProperty)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.ExtraProperty)
+  name.vb: List(Of ExtraProperty)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.ViewModels.ExtraProperty
+    name: ExtraProperty
+    nameWithType: ExtraProperty
+    fullName: Swastika.Cms.Lib.ViewModels.ExtraProperty
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.ViewModels.ExtraProperty
+    name: ExtraProperty
+    nameWithType: ExtraProperty
+    fullName: Swastika.Cms.Lib.ViewModels.ExtraProperty
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl
+  isExternal: true
+  name: DetailsUrl
+  nameWithType: BEArticleViewModel.DetailsUrl
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.DetailsUrl

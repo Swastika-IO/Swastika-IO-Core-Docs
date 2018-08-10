@@ -214,7 +214,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -249,7 +248,6 @@ items:
     return:
       type: Swastika.Cms.Lib.Models.Cms.SiocProduct
     content.vb: Public Overrides Function ParseModel(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As SiocProduct
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ParseModel*
   modifiers.csharp:
   - public
@@ -286,7 +284,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function SaveSubModelsAsync(parent As SiocProduct, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.SaveSubModelsAsync*
   modifiers.csharp:
   - public
@@ -325,7 +322,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function CloneSubModelsAsync(parent As BEProductViewModel, cloneCultures As List(Of SupportedCulture), _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.CloneSubModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel,System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture},Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.CloneSubModelsAsync*
   nameWithType.vb: BEProductViewModel.CloneSubModelsAsync(BEProductViewModel, List(Of SupportedCulture), SiocCmsContext, IDbContextTransaction)
   modifiers.csharp:
@@ -365,7 +361,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function RemoveRelatedModelsAsync(view As BEProductViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.RemoveRelatedModelsAsync*
   modifiers.csharp:
   - public
@@ -391,9 +386,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public override RepositoryResponse<bool> RemoveRelatedModels(BEProductViewModel model, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public override RepositoryResponse<bool> RemoveRelatedModels(BEProductViewModel view, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: model
+    - id: view
       type: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel
     - id: _context
       type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
@@ -401,8 +396,7 @@ items:
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
-    content.vb: Public Overrides Function RemoveRelatedModels(model As BEProductViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+    content.vb: Public Overrides Function RemoveRelatedModels(view As BEProductViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public
@@ -439,7 +433,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function SaveSubModels(parent As SiocProduct, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel}.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.SaveSubModels*
   modifiers.csharp:
   - public
@@ -1407,6 +1400,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
+  id: Domain
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: BEProductViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string Domain { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Domain As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Categories
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Categories
   id: Categories
@@ -1977,36 +2000,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
-  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
-  id: Domain
-  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel
-  langs:
-  - csharp
-  - vb
-  name: Domain
-  nameWithType: BEProductViewModel.Domain
-  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
-  syntax:
-    content: public string Domain { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Domain As String
-  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ImageUrl
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ImageUrl
   id: ImageUrl
@@ -6092,6 +6085,12 @@ references:
   name: Size
   nameWithType: BEProductViewModel.Size
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Size
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: BEProductViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Categories*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Categories
   isExternal: true
@@ -6532,12 +6531,6 @@ references:
   name: TemplateFolder
   nameWithType: BEProductViewModel.TemplateFolder
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.TemplateFolder
-- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain*
-  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
-  isExternal: true
-  name: Domain
-  nameWithType: BEProductViewModel.Domain
-  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.Domain
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ImageUrl*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ImageUrl
   isExternal: true

@@ -91,12 +91,12 @@
   
   
   <a id="Swastika_Cms_Web_Mvc_Startup__ctor_" data-uid="Swastika.Cms.Web.Mvc.Startup.#ctor*"></a>
-  <h4 id="Swastika_Cms_Web_Mvc_Startup__ctor_Microsoft_AspNetCore_Hosting_IHostingEnvironment_" data-uid="Swastika.Cms.Web.Mvc.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">Startup(IHostingEnvironment)</h4>
+  <h4 id="Swastika_Cms_Web_Mvc_Startup__ctor_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="Swastika.Cms.Web.Mvc.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">Startup(IConfiguration)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Startup(IHostingEnvironment env)</code></pre>
+    <pre><code class="lang-csharp hljs">public Startup(IConfiguration configuration)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -109,8 +109,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Hosting.IHostingEnvironment</span></td>
-        <td><span class="parametername">env</span></td>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -124,7 +124,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string CONST_ROUTE_DEFAULT_CULTURE = &quot;en-us&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string CONST_ROUTE_DEFAULT_CULTURE = &quot;vi-vn&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +151,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IConfigurationRoot Configuration { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IConfiguration Configuration { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +163,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfigurationRoot</span></td>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -173,12 +173,12 @@
   
   
   <a id="Swastika_Cms_Web_Mvc_Startup_ConfigCookieAuth_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth*"></a>
-  <h4 id="Swastika_Cms_Web_Mvc_Startup_ConfigCookieAuth_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfigurationRoot_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationRoot)">ConfigCookieAuth(IServiceCollection, IConfigurationRoot)</h4>
+  <h4 id="Swastika_Cms_Web_Mvc_Startup_ConfigCookieAuth_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">ConfigCookieAuth(IServiceCollection, IConfiguration)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ConfigCookieAuth(IServiceCollection services, IConfigurationRoot Configuration)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void ConfigCookieAuth(IServiceCollection services, IConfiguration Configuration)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,7 +196,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfigurationRoot</span></td>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">Configuration</span></td>
         <td></td>
       </tr>
@@ -205,12 +205,12 @@
   
   
   <a id="Swastika_Cms_Web_Mvc_Startup_ConfigIdentity_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigIdentity*"></a>
-  <h4 id="Swastika_Cms_Web_Mvc_Startup_ConfigIdentity_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfigurationRoot_System_String_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationRoot,System.String)">ConfigIdentity(IServiceCollection, IConfigurationRoot, String)</h4>
+  <h4 id="Swastika_Cms_Web_Mvc_Startup_ConfigIdentity_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_System_String_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)">ConfigIdentity(IServiceCollection, IConfiguration, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ConfigIdentity(IServiceCollection services, IConfigurationRoot Configuration, string connectionName)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void ConfigIdentity(IServiceCollection services, IConfiguration Configuration, string connectionName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,7 +228,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfigurationRoot</span></td>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">Configuration</span></td>
         <td></td>
       </tr>
@@ -242,12 +242,12 @@
   
   
   <a id="Swastika_Cms_Web_Mvc_Startup_ConfigJWTToken_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken*"></a>
-  <h4 id="Swastika_Cms_Web_Mvc_Startup_ConfigJWTToken_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfigurationRoot_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationRoot)">ConfigJWTToken(IServiceCollection, IConfigurationRoot)</h4>
+  <h4 id="Swastika_Cms_Web_Mvc_Startup_ConfigJWTToken_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">ConfigJWTToken(IServiceCollection, IConfiguration)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ConfigJWTToken(IServiceCollection services, IConfigurationRoot Configuration)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void ConfigJWTToken(IServiceCollection services, IConfiguration Configuration)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,7 +265,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfigurationRoot</span></td>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">Configuration</span></td>
         <td></td>
       </tr>
@@ -274,12 +274,12 @@
   
   
   <a id="Swastika_Cms_Web_Mvc_Startup_Configure_" data-uid="Swastika.Cms.Web.Mvc.Startup.Configure*"></a>
-  <h4 id="Swastika_Cms_Web_Mvc_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IHostingEnvironment_Microsoft_Extensions_Logging_ILoggerFactory_" data-uid="Swastika.Cms.Web.Mvc.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">Configure(IApplicationBuilder, IHostingEnvironment, ILoggerFactory)</h4>
+  <h4 id="Swastika_Cms_Web_Mvc_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IHostingEnvironment_" data-uid="Swastika.Cms.Web.Mvc.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">Configure(IApplicationBuilder, IHostingEnvironment)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Configure(IApplicationBuilder app, IHostingEnvironment env)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -299,11 +299,6 @@
       <tr>
         <td><span class="xref">Microsoft.AspNetCore.Hosting.IHostingEnvironment</span></td>
         <td><span class="parametername">env</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.Extensions.Logging.ILoggerFactory</span></td>
-        <td><span class="parametername">loggerFactory</span></td>
         <td></td>
       </tr>
     </tbody>

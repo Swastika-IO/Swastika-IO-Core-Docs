@@ -8,11 +8,13 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocModule.#ctor
   - Swastika.Cms.Lib.Models.Cms.SiocModule.Description
   - Swastika.Cms.Lib.Models.Cms.SiocModule.Fields
+  - Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate
   - Swastika.Cms.Lib.Models.Cms.SiocModule.Id
   - Swastika.Cms.Lib.Models.Cms.SiocModule.Image
   - Swastika.Cms.Lib.Models.Cms.SiocModule.LastModified
   - Swastika.Cms.Lib.Models.Cms.SiocModule.ModifiedBy
   - Swastika.Cms.Lib.Models.Cms.SiocModule.Name
+  - Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize
   - Swastika.Cms.Lib.Models.Cms.SiocModule.Priority
   - Swastika.Cms.Lib.Models.Cms.SiocModule.SiocArticleModule
   - Swastika.Cms.Lib.Models.Cms.SiocModule.SiocCategoryModule
@@ -408,6 +410,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate
+  id: FormTemplate
+  parent: Swastika.Cms.Lib.Models.Cms.SiocModule
+  langs:
+  - csharp
+  - vb
+  name: FormTemplate
+  nameWithType: SiocModule.FormTemplate
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string FormTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormTemplate As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocModule.Title
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocModule.Title
   id: Title
@@ -462,6 +494,36 @@ items:
       type: System.Int32
     content.vb: Public Property Type As Integer
   overload: Swastika.Cms.Lib.Models.Cms.SiocModule.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize
+  id: PageSize
+  parent: Swastika.Cms.Lib.Models.Cms.SiocModule
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: SiocModule.PageSize
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public Nullable<int> PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property PageSize As Nullable(Of Integer)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize*
   modifiers.csharp:
   - public
   - get
@@ -895,6 +957,12 @@ references:
   name: Template
   nameWithType: SiocModule.Template
   fullName: Swastika.Cms.Lib.Models.Cms.SiocModule.Template
+- uid: Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate
+  isExternal: true
+  name: FormTemplate
+  nameWithType: SiocModule.FormTemplate
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocModule.FormTemplate
 - uid: Swastika.Cms.Lib.Models.Cms.SiocModule.Title*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocModule.Title
   isExternal: true
@@ -907,6 +975,55 @@ references:
   name: Type
   nameWithType: SiocModule.Type
   fullName: Swastika.Cms.Lib.Models.Cms.SiocModule.Type
+- uid: Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: SiocModule.PageSize
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocModule.PageSize
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Swastika.Cms.Lib.Models.Cms.SiocModule.SpecificultureNavigation*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocModule.SpecificultureNavigation
   isExternal: true

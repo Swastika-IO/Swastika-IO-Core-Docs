@@ -13,6 +13,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.CreatedBy
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.CreatedDateTime
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.CssClass
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.Domain
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.Excerpt
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
@@ -31,6 +32,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ListTag
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModifiedBy
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModuleNavs
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParentNavs
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PositionNavs
@@ -200,7 +202,6 @@ items:
     return:
       type: Swastika.Cms.Lib.Models.Cms.SiocCategory
     content.vb: Public Overrides Function ParseModel(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As SiocCategory
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel}.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParseModel*
   modifiers.csharp:
   - public
@@ -233,7 +234,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -270,7 +270,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function SaveSubModels(parent As SiocCategory, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel}.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.SaveSubModels*
   modifiers.csharp:
   - public
@@ -307,7 +306,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function SaveSubModelsAsync(parent As SiocCategory, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel}.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.SaveSubModelsAsync*
   modifiers.csharp:
   - public
@@ -397,15 +395,15 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<CategoryCategoryViewModel> GetParentNavs(SiocCmsContext context, IDbContextTransaction transaction)
+    content: public List<NavCategoryCategoryViewModel> GetParentNavs(SiocCmsContext context, IDbContextTransaction transaction)
     parameters:
     - id: context
       type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
     - id: transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel}
-    content.vb: Public Function GetParentNavs(context As SiocCmsContext, transaction As IDbContextTransaction) As List(Of CategoryCategoryViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel}
+    content.vb: Public Function GetParentNavs(context As SiocCmsContext, transaction As IDbContextTransaction) As List(Of NavCategoryCategoryViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.GetParentNavs*
   modifiers.csharp:
   - public
@@ -429,15 +427,15 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<CategoryCategoryViewModel> GetChildNavs(SiocCmsContext context, IDbContextTransaction transaction)
+    content: public List<NavCategoryCategoryViewModel> GetChildNavs(SiocCmsContext context, IDbContextTransaction transaction)
     parameters:
     - id: context
       type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
     - id: transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel}
-    content.vb: Public Function GetChildNavs(context As SiocCmsContext, transaction As IDbContextTransaction) As List(Of CategoryCategoryViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel}
+    content.vb: Public Function GetChildNavs(context As SiocCmsContext, transaction As IDbContextTransaction) As List(Of NavCategoryCategoryViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.GetChildNavs*
   modifiers.csharp:
   - public
@@ -1193,6 +1191,66 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize
+  id: PageSize
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: BECategoryViewModel.PageSize
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public Nullable<int> PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property PageSize As Nullable(Of Integer)
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl
+  id: DetailsUrl
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: DetailsUrl
+  nameWithType: BECategoryViewModel.DetailsUrl
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string DetailsUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DetailsUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModuleNavs
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModuleNavs
   id: ModuleNavs
@@ -1271,11 +1329,11 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<CategoryCategoryViewModel> ParentNavs { get; set; }
+    content: public List<NavCategoryCategoryViewModel> ParentNavs { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel}
-    content.vb: Public Property ParentNavs As List(Of CategoryCategoryViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel}
+    content.vb: Public Property ParentNavs As List(Of NavCategoryCategoryViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParentNavs*
   modifiers.csharp:
   - public
@@ -1301,11 +1359,11 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public List<CategoryCategoryViewModel> ChildNavs { get; set; }
+    content: public List<NavCategoryCategoryViewModel> ChildNavs { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel}
-    content.vb: Public Property ChildNavs As List(Of CategoryCategoryViewModel)
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel}
+    content.vb: Public Property ChildNavs As List(Of NavCategoryCategoryViewModel)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ChildNavs*
   modifiers.csharp:
   - public
@@ -1391,18 +1449,18 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.BackEnd
   syntax:
-    content: public string Domain { get; set; }
+    content: public string Domain { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Domain As String
+    content.vb: Public ReadOnly Property Domain As String
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.Domain*
   modifiers.csharp:
   - public
   - get
-  - set
   modifiers.vb:
   - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ImageUrl
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ImageUrl
   id: ImageUrl
@@ -5229,15 +5287,15 @@ references:
   name: GetParentNavs
   nameWithType: BECategoryViewModel.GetParentNavs
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.GetParentNavs
-- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel}
-  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel}'
+- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel}
+  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel}'
   definition: System.Collections.Generic.List`1
-  name: List<CategoryCategoryViewModel>
-  nameWithType: List<CategoryCategoryViewModel>
-  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel>
-  nameWithType.vb: List(Of CategoryCategoryViewModel)
-  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel)
-  name.vb: List(Of CategoryCategoryViewModel)
+  name: List<NavCategoryCategoryViewModel>
+  nameWithType: List<NavCategoryCategoryViewModel>
+  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel>
+  nameWithType.vb: List(Of NavCategoryCategoryViewModel)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel)
+  name.vb: List(Of NavCategoryCategoryViewModel)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5247,10 +5305,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel
-    name: CategoryCategoryViewModel
-    nameWithType: CategoryCategoryViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel
+    name: NavCategoryCategoryViewModel
+    nameWithType: NavCategoryCategoryViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -5264,10 +5322,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel
-    name: CategoryCategoryViewModel
-    nameWithType: CategoryCategoryViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel
+    name: NavCategoryCategoryViewModel
+    nameWithType: NavCategoryCategoryViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -5584,6 +5642,18 @@ references:
   name: ModifiedBy
   nameWithType: BECategoryViewModel.ModifiedBy
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModifiedBy
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: BECategoryViewModel.PageSize
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl
+  isExternal: true
+  name: DetailsUrl
+  nameWithType: BECategoryViewModel.DetailsUrl
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModuleNavs*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ModuleNavs
   isExternal: true

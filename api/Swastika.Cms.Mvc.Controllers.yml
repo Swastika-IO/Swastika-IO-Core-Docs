@@ -4,7 +4,8 @@ items:
   commentId: N:Swastika.Cms.Mvc.Controllers
   id: Swastika.Cms.Mvc.Controllers
   children:
-  - Swastika.Cms.Mvc.Controllers.BaseController`1
+  - Swastika.Cms.Mvc.Controllers.BackendController
+  - Swastika.Cms.Mvc.Controllers.BaseController
   - Swastika.Cms.Mvc.Controllers.HomeController
   langs:
   - csharp
@@ -16,48 +17,28 @@ items:
   assemblies:
   - Swastika.Cms.Web.Mvc
 references:
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController`1
+- uid: Swastika.Cms.Mvc.Controllers.BackendController
+  commentId: T:Swastika.Cms.Mvc.Controllers.BackendController
   isExternal: true
-  name: BaseController<T>
-  nameWithType: BaseController<T>
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>
-  nameWithType.vb: BaseController(Of T)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T)
-  name.vb: BaseController(Of T)
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController
-    nameWithType: BaseController
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController
-    nameWithType: BaseController
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: BackendController
+  nameWithType: BackendController
+  fullName: Swastika.Cms.Mvc.Controllers.BackendController
+- uid: Swastika.Cms.Mvc.Controllers.BaseController
+  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController
+  parent: Swastika.Cms.Mvc.Controllers
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController
 - uid: Swastika.Cms.Mvc.Controllers.HomeController
   commentId: T:Swastika.Cms.Mvc.Controllers.HomeController
   isExternal: true
   name: HomeController
   nameWithType: HomeController
   fullName: Swastika.Cms.Mvc.Controllers.HomeController
+- uid: Swastika.Cms.Mvc.Controllers
+  commentId: N:Swastika.Cms.Mvc.Controllers
+  isExternal: false
+  name: Swastika.Cms.Mvc.Controllers
+  nameWithType: Swastika.Cms.Mvc.Controllers
+  fullName: Swastika.Cms.Mvc.Controllers

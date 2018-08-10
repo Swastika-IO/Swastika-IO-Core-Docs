@@ -11,6 +11,7 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocTheme.Id
   - Swastika.Cms.Lib.Models.Cms.SiocTheme.Image
   - Swastika.Cms.Lib.Models.Cms.SiocTheme.Name
+  - Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl
   - Swastika.Cms.Lib.Models.Cms.SiocTheme.Priority
   - Swastika.Cms.Lib.Models.Cms.SiocTheme.SiocFile
   - Swastika.Cms.Lib.Models.Cms.SiocTheme.SiocTemplate
@@ -276,6 +277,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl
+  id: PreviewUrl
+  parent: Swastika.Cms.Lib.Models.Cms.SiocTheme
+  langs:
+  - csharp
+  - vb
+  name: PreviewUrl
+  nameWithType: SiocTheme.PreviewUrl
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string PreviewUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PreviewUrl As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocTheme.SiocFile
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocTheme.SiocFile
   id: SiocFile
@@ -423,6 +454,12 @@ references:
   name: Status
   nameWithType: SiocTheme.Status
   fullName: Swastika.Cms.Lib.Models.Cms.SiocTheme.Status
+- uid: Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl
+  isExternal: true
+  name: PreviewUrl
+  nameWithType: SiocTheme.PreviewUrl
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocTheme.PreviewUrl
 - uid: Swastika.Cms.Lib.Models.Cms.SiocTheme.SiocFile*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocTheme.SiocFile
   isExternal: true

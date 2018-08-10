@@ -5,7 +5,6 @@ items:
   id: SWCmsConstants.AuthConfiguration
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
   - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
   - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieAccessDeniedPath
@@ -43,18 +42,19 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class AuthConfiguration : Object'
+    content: 'public static class AuthConfiguration : Object'
     content.vb: >-
-      Public Class AuthConfiguration
+      Public Module AuthConfiguration
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
   id: ApiEndPoint
@@ -269,10 +269,10 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: public const string ConnectionString = "Server=115.77.190.113,4444;Database=stag_swastika_io;UID=sa;Pwd=sqlP@ssw0rd;MultipleActiveResultSets=true"
+    content: public const string ConnectionString = ""
     return:
       type: System.String
-    content.vb: Public Const ConnectionString As String = "Server=115.77.190.113,4444;Database=stag_swastika_io;UID=sa;Pwd=sqlP@ssw0rd;MultipleActiveResultSets=true"
+    content.vb: Public Const ConnectionString As String = ""
   modifiers.csharp:
   - public
   - const
@@ -559,31 +559,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
-  langs:
-  - csharp
-  - vb
-  name: AuthConfiguration()
-  nameWithType: SWCmsConstants.AuthConfiguration.AuthConfiguration()
-  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthConfiguration()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public AuthConfiguration()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
   commentId: P:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
   id: Audience
@@ -778,12 +753,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.#ctor
-  isExternal: true
-  name: AuthConfiguration
-  nameWithType: SWCmsConstants.AuthConfiguration.AuthConfiguration
-  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthConfiguration
 - uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience*
   commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
   isExternal: true

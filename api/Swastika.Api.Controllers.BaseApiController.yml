@@ -38,10 +38,6 @@ items:
           Inherits Controller
   inheritance:
   - System.Object
-  derivedClasses:
-  - Swastika.Core.Controllers.ApiAccountController
-  - Swastka.Cms.Api.Controllers.ApiNavigationController
-  - Swastka.IO.Cms.Api.Controllers.ApiFileController
   modifiers.csharp:
   - public
   - class

@@ -44,13 +44,6 @@ items:
   - System.Object
   derivedClasses:
   - Swastika.UI.Core.Controllers.ApiHubController`3
-  - Swastka.Cms.Api.Controllers.ApiArticleController
-  - Swastka.Cms.Api.Controllers.ApiMediaController
-  - Swastka.Cms.Api.Controllers.ApiModuleDataController
-  - Swastka.Cms.Api.Controllers.ApiProductController
-  - Swastka.IO.Cms.Api.Controllers.ApiCategoryController
-  - Swastka.IO.Cms.Api.Controllers.ApiModuleController
-  - Swastka.IO.Cms.Api.Controllers.ApiTemplateController
   nameWithType.vb: BaseApiController(Of TDbContext, TModel)
   modifiers.csharp:
   - public

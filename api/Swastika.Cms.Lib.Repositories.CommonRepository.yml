@@ -18,6 +18,7 @@ items:
   - Swastika.Cms.Lib.Repositories.CommonRepository.GetProductModuleNav(System.String,System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.Repositories.CommonRepository.GetProductModuleNavAsync(System.String,System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.Repositories.CommonRepository.Instance
+  - Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures(System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   langs:
   - csharp
   - vb
@@ -62,9 +63,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public RepositoryResponse<List<CategoryArticleViewModel>> GetCategoryArticleNav(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public RepositoryResponse<List<NavCategoryArticleViewModel>> GetCategoryArticleNav(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: articleId
+    - id: ArticleId
       type: System.String
     - id: specificulture
       type: System.String
@@ -73,8 +74,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}}
-    content.vb: Public Function GetCategoryArticleNav(articleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of CategoryArticleViewModel))
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}}
+    content.vb: Public Function GetCategoryArticleNav(ArticleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of NavCategoryArticleViewModel))
   overload: Swastika.Cms.Lib.Repositories.CommonRepository.GetCategoryArticleNav*
   modifiers.csharp:
   - public
@@ -98,9 +99,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public Task<RepositoryResponse<List<CategoryArticleViewModel>>> GetCategoryArticleNavAsync(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public Task<RepositoryResponse<List<NavCategoryArticleViewModel>>> GetCategoryArticleNavAsync(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: articleId
+    - id: ArticleId
       type: System.String
     - id: specificulture
       type: System.String
@@ -109,8 +110,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}}}
-    content.vb: Public Function GetCategoryArticleNavAsync(articleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of CategoryArticleViewModel)))
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}}}
+    content.vb: Public Function GetCategoryArticleNavAsync(ArticleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of NavCategoryArticleViewModel)))
   overload: Swastika.Cms.Lib.Repositories.CommonRepository.GetCategoryArticleNavAsync*
   modifiers.csharp:
   - public
@@ -134,9 +135,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public RepositoryResponse<List<ModuleArticleViewModel>> GetModuleArticleNav(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public RepositoryResponse<List<NavModuleArticleViewModel>> GetModuleArticleNav(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: articleId
+    - id: ArticleId
       type: System.String
     - id: specificulture
       type: System.String
@@ -145,8 +146,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}}
-    content.vb: Public Function GetModuleArticleNav(articleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of ModuleArticleViewModel))
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}}
+    content.vb: Public Function GetModuleArticleNav(ArticleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of NavModuleArticleViewModel))
   overload: Swastika.Cms.Lib.Repositories.CommonRepository.GetModuleArticleNav*
   modifiers.csharp:
   - public
@@ -170,9 +171,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public Task<RepositoryResponse<List<ModuleArticleViewModel>>> GetModuleArticleNavAsync(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public Task<RepositoryResponse<List<NavModuleArticleViewModel>>> GetModuleArticleNavAsync(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: articleId
+    - id: ArticleId
       type: System.String
     - id: specificulture
       type: System.String
@@ -181,8 +182,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}}}
-    content.vb: Public Function GetModuleArticleNavAsync(articleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of ModuleArticleViewModel)))
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}}}
+    content.vb: Public Function GetModuleArticleNavAsync(ArticleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of NavModuleArticleViewModel)))
   overload: Swastika.Cms.Lib.Repositories.CommonRepository.GetModuleArticleNavAsync*
   modifiers.csharp:
   - public
@@ -206,9 +207,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public RepositoryResponse<List<BEArticleModuleViewModel>> GetArticleModuleNav(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public RepositoryResponse<List<NavArticleModuleViewModel>> GetArticleModuleNav(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: articleId
+    - id: ArticleId
       type: System.String
     - id: specificulture
       type: System.String
@@ -217,8 +218,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}}
-    content.vb: Public Function GetArticleModuleNav(articleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of BEArticleModuleViewModel))
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}}
+    content.vb: Public Function GetArticleModuleNav(ArticleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of NavArticleModuleViewModel))
   overload: Swastika.Cms.Lib.Repositories.CommonRepository.GetArticleModuleNav*
   modifiers.csharp:
   - public
@@ -242,9 +243,9 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public Task<RepositoryResponse<List<InfoArticleModuleViewModel>>> GetArticleModuleNavAsync(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public Task<RepositoryResponse<List<NavArticleModuleViewModel>>> GetArticleModuleNavAsync(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: articleId
+    - id: ArticleId
       type: System.String
     - id: specificulture
       type: System.String
@@ -253,8 +254,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel}}}
-    content.vb: Public Function GetArticleModuleNavAsync(articleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of InfoArticleModuleViewModel)))
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}}}
+    content.vb: Public Function GetArticleModuleNavAsync(ArticleId As String, specificulture As String, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of NavArticleModuleViewModel)))
   overload: Swastika.Cms.Lib.Repositories.CommonRepository.GetArticleModuleNavAsync*
   modifiers.csharp:
   - public
@@ -476,6 +477,40 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures(System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures(System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: LoadCultures(System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.Repositories.CommonRepository
+  langs:
+  - csharp
+  - vb
+  name: LoadCultures(String, SiocCmsContext, IDbContextTransaction)
+  nameWithType: CommonRepository.LoadCultures(String, SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures(System.String, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Repositories
+  syntax:
+    content: public List<SupportedCulture> LoadCultures(string initCulture = null, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: initCulture
+      type: System.String
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}
+    content.vb: Public Function LoadCultures(initCulture As String = Nothing, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As List(Of SupportedCulture)
+  overload: Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Repositories.CommonRepository.Instance
   commentId: P:Swastika.Cms.Lib.Repositories.CommonRepository.Instance
   id: Instance
@@ -553,16 +588,16 @@ references:
   name: IDbContextTransaction
   nameWithType: IDbContextTransaction
   fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
-- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}}
-  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}}
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}}
   parent: Swastika.Domain.Core.ViewModels
   definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
-  name: RepositoryResponse<List<CategoryArticleViewModel>>
-  nameWithType: RepositoryResponse<List<CategoryArticleViewModel>>
-  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel>>
-  nameWithType.vb: RepositoryResponse(Of List(Of CategoryArticleViewModel))
-  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel))
-  name.vb: RepositoryResponse(Of List(Of CategoryArticleViewModel))
+  name: RepositoryResponse<List<NavCategoryArticleViewModel>>
+  nameWithType: RepositoryResponse<List<NavCategoryArticleViewModel>>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel>>
+  nameWithType.vb: RepositoryResponse(Of List(Of NavCategoryArticleViewModel))
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel))
+  name.vb: RepositoryResponse(Of List(Of NavCategoryArticleViewModel))
   spec.csharp:
   - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
     name: RepositoryResponse
@@ -580,10 +615,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
-    name: CategoryArticleViewModel
-    nameWithType: CategoryArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+    name: NavCategoryArticleViewModel
+    nameWithType: NavCategoryArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -608,10 +643,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
-    name: CategoryArticleViewModel
-    nameWithType: CategoryArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+    name: NavCategoryArticleViewModel
+    nameWithType: NavCategoryArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -676,15 +711,15 @@ references:
   name: GetCategoryArticleNavAsync
   nameWithType: CommonRepository.GetCategoryArticleNavAsync
   fullName: Swastika.Cms.Lib.Repositories.CommonRepository.GetCategoryArticleNavAsync
-- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}}}
-  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel}}}'
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel}}}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<RepositoryResponse<List<CategoryArticleViewModel>>>
-  nameWithType: Task<RepositoryResponse<List<CategoryArticleViewModel>>>
-  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel>>>
-  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of CategoryArticleViewModel)))
-  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel)))
-  name.vb: Task(Of RepositoryResponse(Of List(Of CategoryArticleViewModel)))
+  name: Task<RepositoryResponse<List<NavCategoryArticleViewModel>>>
+  nameWithType: Task<RepositoryResponse<List<NavCategoryArticleViewModel>>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of NavCategoryArticleViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel)))
+  name.vb: Task(Of RepositoryResponse(Of List(Of NavCategoryArticleViewModel)))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -710,10 +745,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
-    name: CategoryArticleViewModel
-    nameWithType: CategoryArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+    name: NavCategoryArticleViewModel
+    nameWithType: NavCategoryArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -749,10 +784,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
-    name: CategoryArticleViewModel
-    nameWithType: CategoryArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+    name: NavCategoryArticleViewModel
+    nameWithType: NavCategoryArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -807,16 +842,16 @@ references:
   name: GetModuleArticleNav
   nameWithType: CommonRepository.GetModuleArticleNav
   fullName: Swastika.Cms.Lib.Repositories.CommonRepository.GetModuleArticleNav
-- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}}
-  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}}
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}}
   parent: Swastika.Domain.Core.ViewModels
   definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
-  name: RepositoryResponse<List<ModuleArticleViewModel>>
-  nameWithType: RepositoryResponse<List<ModuleArticleViewModel>>
-  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel>>
-  nameWithType.vb: RepositoryResponse(Of List(Of ModuleArticleViewModel))
-  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel))
-  name.vb: RepositoryResponse(Of List(Of ModuleArticleViewModel))
+  name: RepositoryResponse<List<NavModuleArticleViewModel>>
+  nameWithType: RepositoryResponse<List<NavModuleArticleViewModel>>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel>>
+  nameWithType.vb: RepositoryResponse(Of List(Of NavModuleArticleViewModel))
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel))
+  name.vb: RepositoryResponse(Of List(Of NavModuleArticleViewModel))
   spec.csharp:
   - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
     name: RepositoryResponse
@@ -834,10 +869,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
-    name: ModuleArticleViewModel
-    nameWithType: ModuleArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
+    name: NavModuleArticleViewModel
+    nameWithType: NavModuleArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -862,10 +897,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
-    name: ModuleArticleViewModel
-    nameWithType: ModuleArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
+    name: NavModuleArticleViewModel
+    nameWithType: NavModuleArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -879,15 +914,15 @@ references:
   name: GetModuleArticleNavAsync
   nameWithType: CommonRepository.GetModuleArticleNavAsync
   fullName: Swastika.Cms.Lib.Repositories.CommonRepository.GetModuleArticleNavAsync
-- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}}}
-  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel}}}'
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel}}}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<RepositoryResponse<List<ModuleArticleViewModel>>>
-  nameWithType: Task<RepositoryResponse<List<ModuleArticleViewModel>>>
-  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel>>>
-  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of ModuleArticleViewModel)))
-  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel)))
-  name.vb: Task(Of RepositoryResponse(Of List(Of ModuleArticleViewModel)))
+  name: Task<RepositoryResponse<List<NavModuleArticleViewModel>>>
+  nameWithType: Task<RepositoryResponse<List<NavModuleArticleViewModel>>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of NavModuleArticleViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel)))
+  name.vb: Task(Of RepositoryResponse(Of List(Of NavModuleArticleViewModel)))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -913,10 +948,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
-    name: ModuleArticleViewModel
-    nameWithType: ModuleArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
+    name: NavModuleArticleViewModel
+    nameWithType: NavModuleArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -952,10 +987,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
-    name: ModuleArticleViewModel
-    nameWithType: ModuleArticleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
+    name: NavModuleArticleViewModel
+    nameWithType: NavModuleArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -972,16 +1007,16 @@ references:
   name: GetArticleModuleNav
   nameWithType: CommonRepository.GetArticleModuleNav
   fullName: Swastika.Cms.Lib.Repositories.CommonRepository.GetArticleModuleNav
-- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}}
-  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}}
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}}
   parent: Swastika.Domain.Core.ViewModels
   definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
-  name: RepositoryResponse<List<BEArticleModuleViewModel>>
-  nameWithType: RepositoryResponse<List<BEArticleModuleViewModel>>
-  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel>>
-  nameWithType.vb: RepositoryResponse(Of List(Of BEArticleModuleViewModel))
-  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel))
-  name.vb: RepositoryResponse(Of List(Of BEArticleModuleViewModel))
+  name: RepositoryResponse<List<NavArticleModuleViewModel>>
+  nameWithType: RepositoryResponse<List<NavArticleModuleViewModel>>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel>>
+  nameWithType.vb: RepositoryResponse(Of List(Of NavArticleModuleViewModel))
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel))
+  name.vb: RepositoryResponse(Of List(Of NavArticleModuleViewModel))
   spec.csharp:
   - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
     name: RepositoryResponse
@@ -999,10 +1034,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
-    name: BEArticleModuleViewModel
-    nameWithType: BEArticleModuleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
+    nameWithType: NavArticleModuleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -1027,10 +1062,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
-    name: BEArticleModuleViewModel
-    nameWithType: BEArticleModuleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
+    nameWithType: NavArticleModuleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -1044,15 +1079,15 @@ references:
   name: GetArticleModuleNavAsync
   nameWithType: CommonRepository.GetArticleModuleNavAsync
   fullName: Swastika.Cms.Lib.Repositories.CommonRepository.GetArticleModuleNavAsync
-- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel}}}
-  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel}}}'
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel}}}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<RepositoryResponse<List<InfoArticleModuleViewModel>>>
-  nameWithType: Task<RepositoryResponse<List<InfoArticleModuleViewModel>>>
-  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel>>>
-  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of InfoArticleModuleViewModel)))
-  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel)))
-  name.vb: Task(Of RepositoryResponse(Of List(Of InfoArticleModuleViewModel)))
+  name: Task<RepositoryResponse<List<NavArticleModuleViewModel>>>
+  nameWithType: Task<RepositoryResponse<List<NavArticleModuleViewModel>>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of NavArticleModuleViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel)))
+  name.vb: Task(Of RepositoryResponse(Of List(Of NavArticleModuleViewModel)))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -1078,10 +1113,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel
-    name: InfoArticleModuleViewModel
-    nameWithType: InfoArticleModuleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
+    nameWithType: NavArticleModuleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -1117,10 +1152,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel
-    name: InfoArticleModuleViewModel
-    nameWithType: InfoArticleModuleViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel
+  - uid: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
+    name: NavArticleModuleViewModel
+    nameWithType: NavArticleModuleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
     isExternal: true
   - name: )
     nameWithType: )
@@ -1623,6 +1658,93 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures*
+  commentId: Overload:Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures
+  isExternal: true
+  name: LoadCultures
+  nameWithType: CommonRepository.LoadCultures
+  fullName: Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures
+- uid: System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}
+  commentId: '!:System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}'
+  definition: System.Collections.Generic.List`1
+  name: List<SupportedCulture>
+  nameWithType: List<SupportedCulture>
+  fullName: System.Collections.Generic.List<Swastika.Domain.Core.Models.SupportedCulture>
+  nameWithType.vb: List(Of SupportedCulture)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Domain.Core.Models.SupportedCulture)
+  name.vb: List(Of SupportedCulture)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.Models.SupportedCulture
+    name: SupportedCulture
+    nameWithType: SupportedCulture
+    fullName: Swastika.Domain.Core.Models.SupportedCulture
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.Models.SupportedCulture
+    name: SupportedCulture
+    nameWithType: SupportedCulture
+    fullName: Swastika.Domain.Core.Models.SupportedCulture
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

@@ -31,7 +31,9 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SeoName
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SeoTitle
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocCategoryProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocModuleProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocProductMedia
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocProductModule
   - Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocRelatedProductS
@@ -909,36 +911,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
-  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
-  id: TotalSaled
-  parent: Swastika.Cms.Lib.Models.Cms.SiocProduct
-  langs:
-  - csharp
-  - vb
-  name: TotalSaled
-  nameWithType: SiocProduct.TotalSaled
-  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Models.Cms
-  syntax:
-    content: public int TotalSaled { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Property TotalSaled As Integer
-  overload: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.DealPrice
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.DealPrice
   id: DealPrice
@@ -1149,6 +1121,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
+  id: TotalSaled
+  parent: Swastika.Cms.Lib.Models.Cms.SiocProduct
+  langs:
+  - csharp
+  - vb
+  name: TotalSaled
+  nameWithType: SiocProduct.TotalSaled
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int TotalSaled { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalSaled As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SpecificultureNavigation
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.SpecificultureNavigation
   id: SpecificultureNavigation
@@ -1209,6 +1211,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment
+  id: SiocComment
+  parent: Swastika.Cms.Lib.Models.Cms.SiocProduct
+  langs:
+  - csharp
+  - vb
+  name: SiocComment
+  nameWithType: SiocProduct.SiocComment
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<SiocComment> SiocComment { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocComment}
+    content.vb: Public Property SiocComment As ICollection(Of SiocComment)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocModuleProduct
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocModuleProduct
   id: SiocModuleProduct
@@ -1233,6 +1265,36 @@ items:
       type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocModuleProduct}
     content.vb: Public Property SiocModuleProduct As ICollection(Of SiocModuleProduct)
   overload: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocModuleProduct*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem
+  id: SiocOrderItem
+  parent: Swastika.Cms.Lib.Models.Cms.SiocProduct
+  langs:
+  - csharp
+  - vb
+  name: SiocOrderItem
+  nameWithType: SiocProduct.SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<SiocOrderItem> SiocOrderItem { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocOrderItem}
+    content.vb: Public Property SiocOrderItem As ICollection(Of SiocOrderItem)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem*
   modifiers.csharp:
   - public
   - get
@@ -1697,12 +1759,6 @@ references:
   name: Code
   nameWithType: SiocProduct.Code
   fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.Code
-- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled*
-  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
-  isExternal: true
-  name: TotalSaled
-  nameWithType: SiocProduct.TotalSaled
-  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
 - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.DealPrice*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.DealPrice
   isExternal: true
@@ -1788,6 +1844,12 @@ references:
   name: Size
   nameWithType: SiocProduct.Size
   fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.Size
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
+  isExternal: true
+  name: TotalSaled
+  nameWithType: SiocProduct.TotalSaled
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.TotalSaled
 - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SpecificultureNavigation*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.SpecificultureNavigation
   isExternal: true
@@ -1888,6 +1950,55 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment
+  isExternal: true
+  name: SiocComment
+  nameWithType: SiocProduct.SiocComment
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocComment
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocComment}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocComment}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocComment>
+  nameWithType: ICollection<SiocComment>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Cms.SiocComment>
+  nameWithType.vb: ICollection(Of SiocComment)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Cms.SiocComment)
+  name.vb: ICollection(Of SiocComment)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocComment
+    name: SiocComment
+    nameWithType: SiocComment
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocComment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocComment
+    name: SiocComment
+    nameWithType: SiocComment
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocComment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocModuleProduct*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocModuleProduct
   isExternal: true
@@ -1933,6 +2044,55 @@ references:
     name: SiocModuleProduct
     nameWithType: SiocModuleProduct
     fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem
+  isExternal: true
+  name: SiocOrderItem
+  nameWithType: SiocProduct.SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct.SiocOrderItem
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocOrderItem}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocOrderItem}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocOrderItem>
+  nameWithType: ICollection<SiocOrderItem>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Cms.SiocOrderItem>
+  nameWithType.vb: ICollection(Of SiocOrderItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Cms.SiocOrderItem)
+  name.vb: ICollection(Of SiocOrderItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    name: SiocOrderItem
+    nameWithType: SiocOrderItem
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    name: SiocOrderItem
+    nameWithType: SiocOrderItem
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
     isExternal: true
   - name: )
     nameWithType: )

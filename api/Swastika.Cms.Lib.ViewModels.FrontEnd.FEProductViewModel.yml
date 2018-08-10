@@ -197,7 +197,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocProduct,Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -1243,18 +1242,18 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.FrontEnd
   syntax:
-    content: public string Domain { get; set; }
+    content: public string Domain { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Domain As String
+    content.vb: Public ReadOnly Property Domain As String
   overload: Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.Domain*
   modifiers.csharp:
   - public
   - get
-  - set
   modifiers.vb:
   - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.ImageUrl
   commentId: P:Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.ImageUrl
   id: ImageUrl

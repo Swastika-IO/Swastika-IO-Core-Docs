@@ -6,22 +6,17 @@ items:
   parent: Swastika.Cms.Lib.Services
   children:
   - Swastika.Cms.Lib.Services.GlobalConfigurationService.#ctor
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String)
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture
   - Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String,System.Int32)
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String)
   - Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String,System.String)
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures(Swastika.Cms.Lib.ViewModels.Api.InitCulture,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms(Swastika.Cms.Lib.ViewModels.Api.InitCulture)
   - Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.Name
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
-  - Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration(System.String,System.String,System.String)
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   langs:
   - csharp
   - vb
@@ -73,16 +68,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString
-  id: GetConnectionString
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms(Swastika.Cms.Lib.ViewModels.Api.InitCulture)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms(Swastika.Cms.Lib.ViewModels.Api.InitCulture)
+  id: InitSWCms(Swastika.Cms.Lib.ViewModels.Api.InitCulture)
   parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
   langs:
   - csharp
   - vb
-  name: GetConnectionString()
-  nameWithType: GlobalConfigurationService.GetConnectionString()
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString()
+  name: InitSWCms(InitCulture)
+  nameWithType: GlobalConfigurationService.InitSWCms(InitCulture)
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms(Swastika.Cms.Lib.ViewModels.Api.InitCulture)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -91,104 +86,28 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Services
   syntax:
-    content: public string GetConnectionString()
+    content: public Task<RepositoryResponse<bool>> InitSWCms(InitCulture culture)
+    parameters:
+    - id: culture
+      type: Swastika.Cms.Lib.ViewModels.Api.InitCulture
     return:
-      type: System.String
-    content.vb: Public Function GetConnectionString As String
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString
-  id: InitConnectionString
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: InitConnectionString()
-  nameWithType: GlobalConfigurationService.InitConnectionString()
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString()
-  type: Method
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public bool InitConnectionString()
-    return:
-      type: System.Boolean
-    content.vb: Public Function InitConnectionString As Boolean
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey
-  id: GetConfigConnectionKey
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: GetConfigConnectionKey()
-  nameWithType: GlobalConfigurationService.GetConfigConnectionKey()
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey()
-  type: Method
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public string GetConfigConnectionKey()
-    return:
-      type: System.String
-    content.vb: Public Function GetConfigConnectionKey As String
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms
-  id: InitSWCms
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: InitSWCms()
-  nameWithType: GlobalConfigurationService.InitSWCms()
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms()
-  type: Method
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public void InitSWCms()
-    content.vb: Public Sub InitSWCms
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Function InitSWCms(culture As InitCulture) As Task(Of RepositoryResponse(Of Boolean))
   overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
-  id: Refresh(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures(Swastika.Cms.Lib.ViewModels.Api.InitCulture,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures(Swastika.Cms.Lib.ViewModels.Api.InitCulture,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: InitCultures(Swastika.Cms.Lib.ViewModels.Api.InitCulture,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
   langs:
   - csharp
   - vb
-  name: Refresh(SiocCmsContext, IDbContextTransaction)
-  nameWithType: GlobalConfigurationService.Refresh(SiocCmsContext, IDbContextTransaction)
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name: InitCultures(InitCulture, SiocCmsContext, IDbContextTransaction)
+  nameWithType: GlobalConfigurationService.InitCultures(InitCulture, SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures(Swastika.Cms.Lib.ViewModels.Api.InitCulture, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -197,28 +116,94 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Services
   syntax:
-    content: public void Refresh(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: protected bool InitCultures(InitCulture culture, SiocCmsContext context, IDbContextTransaction transaction)
+    parameters:
+    - id: culture
+      type: Swastika.Cms.Lib.ViewModels.Api.InitCulture
+    - id: context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Protected Function InitCultures(culture As InitCulture, context As SiocCmsContext, transaction As IDbContextTransaction) As Boolean
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: InitPositions(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
+  langs:
+  - csharp
+  - vb
+  name: InitPositions(SiocCmsContext, IDbContextTransaction)
+  nameWithType: GlobalConfigurationService.InitPositions(SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: protected bool InitPositions(SiocCmsContext context, IDbContextTransaction transaction)
+    parameters:
+    - id: context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Protected Function InitPositions(context As SiocCmsContext, transaction As IDbContextTransaction) As Boolean
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RefreshAll(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
+  langs:
+  - csharp
+  - vb
+  name: RefreshAll(SiocCmsContext, IDbContextTransaction)
+  nameWithType: GlobalConfigurationService.RefreshAll(SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public void RefreshAll(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
     - id: _context
       type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
-    content.vb: Public Sub Refresh(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh*
+    content.vb: Public Sub RefreshAll(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration(System.String,System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration(System.String,System.String,System.String)
-  id: UpdateConfiguration(System.String,System.String,System.String)
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RefreshConfigurations(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
   langs:
   - csharp
   - vb
-  name: UpdateConfiguration(String, String, String)
-  nameWithType: GlobalConfigurationService.UpdateConfiguration(String, String, String)
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration(System.String, System.String, System.String)
+  name: RefreshConfigurations(SiocCmsContext, IDbContextTransaction)
+  nameWithType: GlobalConfigurationService.RefreshConfigurations(SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -227,30 +212,28 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Services
   syntax:
-    content: public void UpdateConfiguration(string key, string culture, string value)
+    content: public void RefreshConfigurations(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: key
-      type: System.String
-    - id: culture
-      type: System.String
-    - id: value
-      type: System.String
-    content.vb: Public Sub UpdateConfiguration(key As String, culture As String, value As String)
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration*
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    content.vb: Public Sub RefreshConfigurations(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String)
-  id: GetLocalString(System.String,System.String)
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
   langs:
   - csharp
   - vb
-  name: GetLocalString(String, String)
-  nameWithType: GlobalConfigurationService.GetLocalString(String, String)
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String, System.String)
+  name: RefreshCultures(SiocCmsContext, IDbContextTransaction)
+  nameWithType: GlobalConfigurationService.RefreshCultures(SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -259,16 +242,14 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Services
   syntax:
-    content: public string GetLocalString(string key, string culture)
+    content: public void RefreshCultures(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
-    - id: key
-      type: System.String
-    - id: culture
-      type: System.String
-    return:
-      type: System.String
-    content.vb: Public Function GetLocalString(key As String, culture As String) As String
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString*
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    content.vb: Public Sub RefreshCultures(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -291,7 +272,7 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Services
   syntax:
-    content: public string GetLocalString(string key, string culture, string defaultValue)
+    content: public string GetLocalString(string key, string culture, string defaultValue = null)
     parameters:
     - id: key
       type: System.String
@@ -301,46 +282,12 @@ items:
       type: System.String
     return:
       type: System.String
-    content.vb: Public Function GetLocalString(key As String, culture As String, defaultValue As String) As String
+    content.vb: Public Function GetLocalString(key As String, culture As String, defaultValue As String = Nothing) As String
   overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String)
-  id: GetLocalInt(System.String,System.String)
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: GetLocalInt(String, String)
-  nameWithType: GlobalConfigurationService.GetLocalInt(String, String)
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String, System.String)
-  type: Method
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public static int GetLocalInt(string key, string culture)
-    parameters:
-    - id: key
-      type: System.String
-    - id: culture
-      type: System.String
-    return:
-      type: System.Int32
-    content.vb: Public Shared Function GetLocalInt(key As String, culture As String) As Integer
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String,System.Int32)
   commentId: M:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String,System.Int32)
   id: GetLocalInt(System.String,System.String,System.Int32)
@@ -359,7 +306,7 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Services
   syntax:
-    content: public int GetLocalInt(string key, string culture, int defaultValue)
+    content: public int GetLocalInt(string key, string culture, int defaultValue = 0)
     parameters:
     - id: key
       type: System.String
@@ -369,164 +316,12 @@ items:
       type: System.Int32
     return:
       type: System.Int32
-    content.vb: Public Function GetLocalInt(key As String, culture As String, defaultValue As Integer) As Integer
+    content.vb: Public Function GetLocalInt(key As String, culture As String, defaultValue As Integer = 0) As Integer
   overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture
-  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture
-  id: Culture
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: Culture
-  nameWithType: GlobalConfigurationService.Culture
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public string Culture { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Culture As String
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Name
-  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.Name
-  id: Name
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: Name
-  nameWithType: GlobalConfigurationService.Name
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.Name
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public string Name { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Name As String
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.Name*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit
-  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit
-  id: IsInit
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: IsInit
-  nameWithType: GlobalConfigurationService.IsInit
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public bool IsInit { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsInit As Boolean
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString
-  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString
-  id: ConnectionString
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: ConnectionString
-  nameWithType: GlobalConfigurationService.ConnectionString
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public string ConnectionString { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property ConnectionString As String
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration
-  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration
-  id: ListConfiguration
-  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
-  langs:
-  - csharp
-  - vb
-  name: ListConfiguration
-  nameWithType: GlobalConfigurationService.ListConfiguration
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Services
-  syntax:
-    content: public static List<ConfigurationViewModel> ListConfiguration { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ConfigurationViewModel}
-    content.vb: Public Shared Property ListConfiguration As List(Of ConfigurationViewModel)
-  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance
   commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance
   id: Instance
@@ -559,6 +354,66 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture
+  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture
+  id: CmsCulture
+  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
+  langs:
+  - csharp
+  - vb
+  name: CmsCulture
+  nameWithType: GlobalConfigurationService.CmsCulture
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public CmsCultureConfiguration CmsCulture { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Services.CmsCultureConfiguration
+    content.vb: Public Property CmsCulture As CmsCultureConfiguration
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations
+  commentId: P:Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations
+  id: CmsConfigurations
+  parent: Swastika.Cms.Lib.Services.GlobalConfigurationService
+  langs:
+  - csharp
+  - vb
+  name: CmsConfigurations
+  nameWithType: GlobalConfigurationService.CmsConfigurations
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public CmsConfiguration CmsConfigurations { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Services.CmsConfiguration
+    content.vb: Public Property CmsConfigurations As CmsConfiguration
+  overload: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Swastika.Cms.Lib.Services
   commentId: N:Swastika.Cms.Lib.Services
@@ -585,50 +440,134 @@ references:
   name: GlobalConfigurationService
   nameWithType: GlobalConfigurationService.GlobalConfigurationService
   fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GlobalConfigurationService
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString
-  isExternal: true
-  name: GetConnectionString
-  nameWithType: GlobalConfigurationService.GetConnectionString
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString
-  isExternal: true
-  name: InitConnectionString
-  nameWithType: GlobalConfigurationService.InitConnectionString
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey
-  isExternal: true
-  name: GetConfigConnectionKey
-  nameWithType: GlobalConfigurationService.GetConfigConnectionKey
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey
 - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms*
   commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms
   isExternal: true
   name: InitSWCms
   nameWithType: GlobalConfigurationService.InitSWCms
   fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh
+- uid: Swastika.Cms.Lib.ViewModels.Api.InitCulture
+  commentId: T:Swastika.Cms.Lib.ViewModels.Api.InitCulture
+  parent: Swastika.Cms.Lib.ViewModels.Api
   isExternal: true
-  name: Refresh
-  nameWithType: GlobalConfigurationService.Refresh
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh
+  name: InitCulture
+  nameWithType: InitCulture
+  fullName: Swastika.Cms.Lib.ViewModels.Api.InitCulture
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<Boolean>>
+  nameWithType: Task<RepositoryResponse<Boolean>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean))
+  name.vb: Task(Of RepositoryResponse(Of Boolean))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.ViewModels.Api
+  commentId: N:Swastika.Cms.Lib.ViewModels.Api
+  isExternal: false
+  name: Swastika.Cms.Lib.ViewModels.Api
+  nameWithType: Swastika.Cms.Lib.ViewModels.Api
+  fullName: Swastika.Cms.Lib.ViewModels.Api
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures
+  isExternal: true
+  name: InitCultures
+  nameWithType: GlobalConfigurationService.InitCultures
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures
 - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
   commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsContext
   parent: Swastika.Cms.Lib.Models.Cms
@@ -641,24 +580,56 @@ references:
   name: IDbContextTransaction
   nameWithType: IDbContextTransaction
   fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: Swastika.Cms.Lib.Models.Cms
   commentId: N:Swastika.Cms.Lib.Models.Cms
   isExternal: false
   name: Swastika.Cms.Lib.Models.Cms
   nameWithType: Swastika.Cms.Lib.Models.Cms
   fullName: Swastika.Cms.Lib.Models.Cms
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions
   isExternal: true
-  name: UpdateConfiguration
-  nameWithType: GlobalConfigurationService.UpdateConfiguration
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration
+  name: InitPositions
+  nameWithType: GlobalConfigurationService.InitPositions
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll
+  isExternal: true
+  name: RefreshAll
+  nameWithType: GlobalConfigurationService.RefreshAll
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations
+  isExternal: true
+  name: RefreshConfigurations
+  nameWithType: GlobalConfigurationService.RefreshConfigurations
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures
+  isExternal: true
+  name: RefreshCultures
+  nameWithType: GlobalConfigurationService.RefreshCultures
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures
 - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString*
   commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString
   isExternal: true
   name: GetLocalString
   nameWithType: GlobalConfigurationService.GetLocalString
   fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt*
   commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt
   isExternal: true
@@ -672,117 +643,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture
-  isExternal: true
-  name: Culture
-  nameWithType: GlobalConfigurationService.Culture
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Name*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.Name
-  isExternal: true
-  name: Name
-  nameWithType: GlobalConfigurationService.Name
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.Name
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit
-  isExternal: true
-  name: IsInit
-  nameWithType: GlobalConfigurationService.IsInit
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString
-  isExternal: true
-  name: ConnectionString
-  nameWithType: GlobalConfigurationService.ConnectionString
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString
-- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration*
-  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration
-  isExternal: true
-  name: ListConfiguration
-  nameWithType: GlobalConfigurationService.ListConfiguration
-  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration
-- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ConfigurationViewModel}
-  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.ConfigurationViewModel}'
-  definition: System.Collections.Generic.List`1
-  name: List<ConfigurationViewModel>
-  nameWithType: List<ConfigurationViewModel>
-  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.ConfigurationViewModel>
-  nameWithType.vb: List(Of ConfigurationViewModel)
-  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.ConfigurationViewModel)
-  name.vb: List(Of ConfigurationViewModel)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
-    name: ConfigurationViewModel
-    nameWithType: ConfigurationViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
-    name: ConfigurationViewModel
-    nameWithType: ConfigurationViewModel
-    fullName: Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.List`1
-  isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: System.Collections.Generic.List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: System.Collections.Generic.List(Of )
-  name.vb: List(Of )
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance*
   commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance
   isExternal: true
@@ -796,3 +656,29 @@ references:
   name: GlobalConfigurationService
   nameWithType: GlobalConfigurationService
   fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture
+  isExternal: true
+  name: CmsCulture
+  nameWithType: GlobalConfigurationService.CmsCulture
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture
+- uid: Swastika.Cms.Lib.Services.CmsCultureConfiguration
+  commentId: T:Swastika.Cms.Lib.Services.CmsCultureConfiguration
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: CmsCultureConfiguration
+  nameWithType: CmsCultureConfiguration
+  fullName: Swastika.Cms.Lib.Services.CmsCultureConfiguration
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations
+  isExternal: true
+  name: CmsConfigurations
+  nameWithType: GlobalConfigurationService.CmsConfigurations
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations
+- uid: Swastika.Cms.Lib.Services.CmsConfiguration
+  commentId: T:Swastika.Cms.Lib.Services.CmsConfiguration
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: CmsConfiguration
+  nameWithType: CmsConfiguration
+  fullName: Swastika.Cms.Lib.Services.CmsConfiguration

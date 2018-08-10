@@ -162,7 +162,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -199,7 +198,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function RemoveRelatedModels(view As BEArticleModuleViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public
@@ -236,7 +234,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function SaveSubModels(parent As SiocArticleModule, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.SaveSubModels*
   modifiers.csharp:
   - public
@@ -273,7 +270,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function RemoveRelatedModelsAsync(view As BEArticleModuleViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.RemoveRelatedModelsAsync*
   modifiers.csharp:
   - public
@@ -310,7 +306,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function SaveSubModelsAsync(parent As SiocArticleModule, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel}.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocArticleModule,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.SaveSubModelsAsync*
   modifiers.csharp:
   - public

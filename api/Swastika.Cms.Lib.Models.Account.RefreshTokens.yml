@@ -11,6 +11,7 @@ items:
   - Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
   - Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
   - Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
   langs:
   - csharp
   - vb
@@ -152,6 +153,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  id: Username
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: RefreshTokens.Username
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
   commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
   id: ExpiresUtc
@@ -263,6 +294,12 @@ references:
   name: Email
   nameWithType: RefreshTokens.Email
   fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  isExternal: true
+  name: Username
+  nameWithType: RefreshTokens.Username
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
 - uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc*
   commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
   isExternal: true

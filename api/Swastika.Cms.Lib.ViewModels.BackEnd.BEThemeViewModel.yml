@@ -16,7 +16,9 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.IsActived
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.Name
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.TemplateFolder
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.templatePageSize
@@ -195,7 +197,6 @@ items:
     return:
       type: Swastika.Cms.Lib.Models.Cms.SiocTheme
     content.vb: Public Overrides Function ParseModel(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As SiocTheme
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel}.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.ParseModel*
   modifiers.csharp:
   - public
@@ -228,7 +229,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -265,7 +265,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function SaveSubModelsAsync(parent As SiocTheme, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel}.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModelsAsync*
   modifiers.csharp:
   - public
@@ -302,8 +301,79 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function RemoveRelatedModelsAsync(view As BEThemeViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel}.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModelsAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocTheme,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
+  langs:
+  - csharp
+  - vb
+  name: SaveSubModels(SiocTheme, SiocCmsContext, IDbContextTransaction)
+  nameWithType: BEThemeViewModel.SaveSubModels(SiocTheme, SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocTheme, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public override RepositoryResponse<bool> SaveSubModels(SiocTheme parent, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: parent
+      type: Swastika.Cms.Lib.Models.Cms.SiocTheme
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+    content.vb: Public Overrides Function SaveSubModels(parent As SiocTheme, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
+  langs:
+  - csharp
+  - vb
+  name: RemoveRelatedModels(BEThemeViewModel, SiocCmsContext, IDbContextTransaction)
+  nameWithType: BEThemeViewModel.RemoveRelatedModels(BEThemeViewModel, SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public override RepositoryResponse<bool> RemoveRelatedModels(BEThemeViewModel view, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: view
+      type: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+    content.vb: Public Overrides Function RemoveRelatedModels(view As BEThemeViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public
   - override
@@ -3979,6 +4049,107 @@ references:
   name: BEThemeViewModel
   nameWithType: BEThemeViewModel
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels
+  isExternal: true
+  name: SaveSubModels
+  nameWithType: BEThemeViewModel.SaveSubModels
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.SaveSubModels
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+  parent: Swastika.Domain.Core.ViewModels
+  definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  name: RepositoryResponse<Boolean>
+  nameWithType: RepositoryResponse<Boolean>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>
+  nameWithType.vb: RepositoryResponse(Of Boolean)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean)
+  name.vb: RepositoryResponse(Of Boolean)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  isExternal: true
+  name: RepositoryResponse<TResult>
+  nameWithType: RepositoryResponse<TResult>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<TResult>
+  nameWithType.vb: RepositoryResponse(Of TResult)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of TResult)
+  name.vb: RepositoryResponse(Of TResult)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels
+  commentId: N:Swastika.Domain.Core.ViewModels
+  isExternal: false
+  name: Swastika.Domain.Core.ViewModels
+  nameWithType: Swastika.Domain.Core.ViewModels
+  fullName: Swastika.Domain.Core.ViewModels
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels
+  isExternal: true
+  name: RemoveRelatedModels
+  nameWithType: BEThemeViewModel.RemoveRelatedModels
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.RemoveRelatedModels
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.Id*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.Id
   isExternal: true

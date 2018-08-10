@@ -5,7 +5,6 @@ items:
   id: Program
   parent: Swastka.Cms.Api
   children:
-  - Swastka.Cms.Api.Program.#ctor
   - Swastka.Cms.Api.Program.BuildWebHost(System.String[])
   - Swastka.Cms.Api.Program.Main(System.String[])
   langs:
@@ -22,18 +21,19 @@ items:
   - Swastka.Cms.Api
   namespace: Swastka.Cms.Api
   syntax:
-    content: 'public class Program : Object'
+    content: 'public static class Program : Object'
     content.vb: >-
-      Public Class Program
+      Public Module Program
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastka.Cms.Api.Program.Main(System.String[])
   commentId: M:Swastka.Cms.Api.Program.Main(System.String[])
   id: Main(System.String[])
@@ -102,31 +102,6 @@ items:
   - Shared
   fullName.vb: Swastka.Cms.Api.Program.BuildWebHost(System.String())
   name.vb: BuildWebHost(String())
-- uid: Swastka.Cms.Api.Program.#ctor
-  commentId: M:Swastka.Cms.Api.Program.#ctor
-  id: '#ctor'
-  parent: Swastka.Cms.Api.Program
-  langs:
-  - csharp
-  - vb
-  name: Program()
-  nameWithType: Program.Program()
-  fullName: Swastka.Cms.Api.Program.Program()
-  type: Constructor
-  source:
-    path: Swastka.Cms.Api
-    isExternal: true
-  assemblies:
-  - Swastka.Cms.Api
-  namespace: Swastka.Cms.Api
-  syntax:
-    content: public Program()
-    content.vb: Public Sub New
-  overload: Swastka.Cms.Api.Program.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastka.Cms.Api
   commentId: N:Swastka.Cms.Api
@@ -185,13 +160,8 @@ references:
   nameWithType: Program.BuildWebHost
   fullName: Swastka.Cms.Api.Program.BuildWebHost
 - uid: Microsoft.AspNetCore.Hosting.IWebHost
+  commentId: '!:Microsoft.AspNetCore.Hosting.IWebHost'
   isExternal: true
   name: IWebHost
   nameWithType: IWebHost
   fullName: Microsoft.AspNetCore.Hosting.IWebHost
-- uid: Swastka.Cms.Api.Program.#ctor*
-  commentId: Overload:Swastka.Cms.Api.Program.#ctor
-  isExternal: true
-  name: Program
-  nameWithType: Program.Program
-  fullName: Swastka.Cms.Api.Program.Program

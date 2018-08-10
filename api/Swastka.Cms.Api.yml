@@ -17,6 +17,12 @@ items:
   assemblies:
   - Swastka.Cms.Api
 references:
+- uid: Swastka.Cms.Api.Program
+  commentId: T:Swastka.Cms.Api.Program
+  isExternal: true
+  name: Program
+  nameWithType: Program
+  fullName: Swastka.Cms.Api.Program
 - uid: Swastka.Cms.Api.Startup
   commentId: T:Swastka.Cms.Api.Startup
   isExternal: true
@@ -29,9 +35,3 @@ references:
   name: JwtSecurityKey
   nameWithType: JwtSecurityKey
   fullName: Swastka.Cms.Api.JwtSecurityKey
-- uid: Swastka.Cms.Api.Program
-  commentId: T:Swastka.Cms.Api.Program
-  isExternal: true
-  name: Program
-  nameWithType: Program
-  fullName: Swastka.Cms.Api.Program

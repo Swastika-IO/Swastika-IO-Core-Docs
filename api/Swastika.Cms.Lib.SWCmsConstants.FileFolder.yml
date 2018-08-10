@@ -8,6 +8,7 @@ items:
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Fonts
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Images
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Others
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Scripts
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Styles
@@ -171,6 +172,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const Styles As String = "Styles"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  id: Medias
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Medias
+  nameWithType: SWCmsConstants.FileFolder.Medias
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Medias = "Medias"
+    return:
+      type: System.String
+    content.vb: Public Const Medias As String = "Medias"
   modifiers.csharp:
   - public
   - const

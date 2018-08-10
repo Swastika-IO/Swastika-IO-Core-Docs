@@ -123,7 +123,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;List&lt;BEArticleModuleViewModel&gt;&gt; GetArticleModuleNav(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;List&lt;NavArticleModuleViewModel&gt;&gt; GetArticleModuleNav(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,7 +137,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">articleId</span></td>
+        <td><span class="parametername">ArticleId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -167,7 +167,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.html">BEArticleModuleViewModel</a>&gt;&gt;</td>
+        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel.html">NavArticleModuleViewModel</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -180,7 +180,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;List&lt;InfoArticleModuleViewModel&gt;&gt;&gt; GetArticleModuleNavAsync(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;List&lt;NavArticleModuleViewModel&gt;&gt;&gt; GetArticleModuleNavAsync(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,7 +194,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">articleId</span></td>
+        <td><span class="parametername">ArticleId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -224,7 +224,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel.html">InfoArticleModuleViewModel</a>&gt;&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel.html">NavArticleModuleViewModel</a>&gt;&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -237,7 +237,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;List&lt;CategoryArticleViewModel&gt;&gt; GetCategoryArticleNav(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;List&lt;NavCategoryArticleViewModel&gt;&gt; GetCategoryArticleNav(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +251,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">articleId</span></td>
+        <td><span class="parametername">ArticleId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -281,7 +281,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel.html">CategoryArticleViewModel</a>&gt;&gt;</td>
+        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel.html">NavCategoryArticleViewModel</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -294,7 +294,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;List&lt;CategoryArticleViewModel&gt;&gt;&gt; GetCategoryArticleNavAsync(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;List&lt;NavCategoryArticleViewModel&gt;&gt;&gt; GetCategoryArticleNavAsync(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -308,7 +308,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">articleId</span></td>
+        <td><span class="parametername">ArticleId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -338,7 +338,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel.html">CategoryArticleViewModel</a>&gt;&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel.html">NavCategoryArticleViewModel</a>&gt;&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -465,7 +465,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;List&lt;ModuleArticleViewModel&gt;&gt; GetModuleArticleNav(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;List&lt;NavModuleArticleViewModel&gt;&gt; GetModuleArticleNav(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -479,7 +479,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">articleId</span></td>
+        <td><span class="parametername">ArticleId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -509,7 +509,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel.html">ModuleArticleViewModel</a>&gt;&gt;</td>
+        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel.html">NavModuleArticleViewModel</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -522,7 +522,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;List&lt;ModuleArticleViewModel&gt;&gt;&gt; GetModuleArticleNavAsync(string articleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;List&lt;NavModuleArticleViewModel&gt;&gt;&gt; GetModuleArticleNavAsync(string ArticleId, string specificulture, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -536,7 +536,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">articleId</span></td>
+        <td><span class="parametername">ArticleId</span></td>
         <td></td>
       </tr>
       <tr>
@@ -566,7 +566,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel.html">ModuleArticleViewModel</a>&gt;&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel.html">NavModuleArticleViewModel</a>&gt;&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -795,6 +795,58 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavProductModuleViewModel.html">NavProductModuleViewModel</a>&gt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Repositories_CommonRepository_LoadCultures_" data-uid="Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures*"></a>
+  <h4 id="Swastika_Cms_Lib_Repositories_CommonRepository_LoadCultures_System_String_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Repositories.CommonRepository.LoadCultures(System.String,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">LoadCultures(String, SiocCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SupportedCulture&gt; LoadCultures(string initCulture = null, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">initCulture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Domain.Core.Models.SupportedCulture.html">SupportedCulture</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

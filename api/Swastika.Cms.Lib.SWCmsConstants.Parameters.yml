@@ -5,7 +5,6 @@ items:
   id: SWCmsConstants.Parameters
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsConstants.Parameters.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
   - Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplateExtension
   - Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesAssetFolder
@@ -26,18 +25,19 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class Parameters : Object'
+    content: 'public static class Parameters : Object'
     content.vb: >-
-      Public Class Parameters
+      Public Module Parameters
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
   id: FileFolder
@@ -206,31 +206,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsConstants.Parameters.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
-  langs:
-  - csharp
-  - vb
-  name: Parameters()
-  nameWithType: SWCmsConstants.Parameters.Parameters()
-  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.Parameters()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public Parameters()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsConstants.Parameters.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
@@ -258,9 +233,3 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.Parameters.#ctor
-  isExternal: true
-  name: Parameters
-  nameWithType: SWCmsConstants.Parameters.Parameters
-  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.Parameters

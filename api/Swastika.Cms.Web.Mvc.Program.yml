@@ -5,8 +5,7 @@ items:
   id: Program
   parent: Swastika.Cms.Web.Mvc
   children:
-  - Swastika.Cms.Web.Mvc.Program.#ctor
-  - Swastika.Cms.Web.Mvc.Program.BuildWebHost(System.String[])
+  - Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder(System.String[])
   - Swastika.Cms.Web.Mvc.Program.Main(System.String[])
   langs:
   - csharp
@@ -22,18 +21,19 @@ items:
   - Swastika.Cms.Web.Mvc
   namespace: Swastika.Cms.Web.Mvc
   syntax:
-    content: 'public class Program : Object'
+    content: 'public static class Program : Object'
     content.vb: >-
-      Public Class Program
+      Public Module Program
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Web.Mvc.Program.Main(System.String[])
   commentId: M:Swastika.Cms.Web.Mvc.Program.Main(System.String[])
   id: Main(System.String[])
@@ -67,16 +67,16 @@ items:
   - Shared
   fullName.vb: Swastika.Cms.Web.Mvc.Program.Main(System.String())
   name.vb: Main(String())
-- uid: Swastika.Cms.Web.Mvc.Program.BuildWebHost(System.String[])
-  commentId: M:Swastika.Cms.Web.Mvc.Program.BuildWebHost(System.String[])
-  id: BuildWebHost(System.String[])
+- uid: Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder(System.String[])
+  commentId: M:Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder(System.String[])
+  id: CreateWebHostBuilder(System.String[])
   parent: Swastika.Cms.Web.Mvc.Program
   langs:
   - csharp
   - vb
-  name: BuildWebHost(String[])
-  nameWithType: Program.BuildWebHost(String[])
-  fullName: Swastika.Cms.Web.Mvc.Program.BuildWebHost(System.String[])
+  name: CreateWebHostBuilder(String[])
+  nameWithType: Program.CreateWebHostBuilder(String[])
+  fullName: Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder(System.String[])
   type: Method
   source:
     path: Swastika.Cms.Web.Mvc
@@ -85,48 +85,23 @@ items:
   - Swastika.Cms.Web.Mvc
   namespace: Swastika.Cms.Web.Mvc
   syntax:
-    content: public static IWebHost BuildWebHost(string[] args)
+    content: public static IWebHostBuilder CreateWebHostBuilder(string[] args)
     parameters:
     - id: args
       type: System.String[]
     return:
-      type: Microsoft.AspNetCore.Hosting.IWebHost
-    content.vb: Public Shared Function BuildWebHost(args As String()) As IWebHost
-  overload: Swastika.Cms.Web.Mvc.Program.BuildWebHost*
-  nameWithType.vb: Program.BuildWebHost(String())
+      type: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    content.vb: Public Shared Function CreateWebHostBuilder(args As String()) As IWebHostBuilder
+  overload: Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder*
+  nameWithType.vb: Program.CreateWebHostBuilder(String())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Swastika.Cms.Web.Mvc.Program.BuildWebHost(System.String())
-  name.vb: BuildWebHost(String())
-- uid: Swastika.Cms.Web.Mvc.Program.#ctor
-  commentId: M:Swastika.Cms.Web.Mvc.Program.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Web.Mvc.Program
-  langs:
-  - csharp
-  - vb
-  name: Program()
-  nameWithType: Program.Program()
-  fullName: Swastika.Cms.Web.Mvc.Program.Program()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Web.Mvc
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Web.Mvc
-  namespace: Swastika.Cms.Web.Mvc
-  syntax:
-    content: public Program()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Web.Mvc.Program.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  fullName.vb: Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder(System.String())
+  name.vb: CreateWebHostBuilder(String())
 references:
 - uid: Swastika.Cms.Web.Mvc
   commentId: N:Swastika.Cms.Web.Mvc
@@ -178,20 +153,14 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Swastika.Cms.Web.Mvc.Program.BuildWebHost*
-  commentId: Overload:Swastika.Cms.Web.Mvc.Program.BuildWebHost
+- uid: Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder
   isExternal: true
-  name: BuildWebHost
-  nameWithType: Program.BuildWebHost
-  fullName: Swastika.Cms.Web.Mvc.Program.BuildWebHost
-- uid: Microsoft.AspNetCore.Hosting.IWebHost
+  name: CreateWebHostBuilder
+  nameWithType: Program.CreateWebHostBuilder
+  fullName: Swastika.Cms.Web.Mvc.Program.CreateWebHostBuilder
+- uid: Microsoft.AspNetCore.Hosting.IWebHostBuilder
   isExternal: true
-  name: IWebHost
-  nameWithType: IWebHost
-  fullName: Microsoft.AspNetCore.Hosting.IWebHost
-- uid: Swastika.Cms.Web.Mvc.Program.#ctor*
-  commentId: Overload:Swastika.Cms.Web.Mvc.Program.#ctor
-  isExternal: true
-  name: Program
-  nameWithType: Program.Program
-  fullName: Swastika.Cms.Web.Mvc.Program.Program
+  name: IWebHostBuilder
+  nameWithType: IWebHostBuilder
+  fullName: Microsoft.AspNetCore.Hosting.IWebHostBuilder

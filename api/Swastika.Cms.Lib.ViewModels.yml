@@ -11,6 +11,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.CategoryPositionViewModel
   - Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
   - Swastika.Cms.Lib.ViewModels.DashboardViewModel
+  - Swastika.Cms.Lib.ViewModels.DataValueViewModel
   - Swastika.Cms.Lib.ViewModels.ExtraProperty
   - Swastika.Cms.Lib.ViewModels.FileStreamViewModel
   - Swastika.Cms.Lib.ViewModels.FileViewModel
@@ -19,6 +20,8 @@ items:
   - Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  - Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel
+  - Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel
   - Swastika.Cms.Lib.ViewModels.TemplateViewModel
   langs:
   - csharp
@@ -62,7 +65,6 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.DashboardViewModel
 - uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.InitCmsViewModel
-  parent: Swastika.Cms.Lib.ViewModels
   isExternal: true
   name: InitCmsViewModel
   nameWithType: InitCmsViewModel
@@ -101,6 +103,12 @@ references:
   name: ModuleDataValueViewModel
   nameWithType: ModuleDataValueViewModel
   fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel
+- uid: Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel
+  isExternal: true
+  name: SpaModuleDataValueViewModel
+  nameWithType: SpaModuleDataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel
 - uid: Swastika.Cms.Lib.ViewModels.ExtraProperty
   commentId: T:Swastika.Cms.Lib.ViewModels.ExtraProperty
   isExternal: true
@@ -113,9 +121,21 @@ references:
   name: AccessTokenViewModel
   nameWithType: AccessTokenViewModel
   fullName: Swastika.Cms.Lib.ViewModels.AccessTokenViewModel
+- uid: Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel
+  isExternal: true
+  name: SiteSettingsViewModel
+  nameWithType: SiteSettingsViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  parent: Swastika.Cms.Lib.ViewModels
+  isExternal: true
+  name: DataValueViewModel
+  nameWithType: DataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel
 - uid: Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.ConfigurationViewModel
-  parent: Swastika.Cms.Lib.ViewModels
   isExternal: true
   name: ConfigurationViewModel
   nameWithType: ConfigurationViewModel

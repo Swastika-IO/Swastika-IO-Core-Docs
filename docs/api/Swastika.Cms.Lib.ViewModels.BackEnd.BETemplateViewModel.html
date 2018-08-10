@@ -752,8 +752,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel&gt;.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BETemplateViewModel_ParseModel_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.ParseModel*"></a>
@@ -801,8 +799,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel&gt;.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BETemplateViewModel_RemoveModel_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.RemoveModel*"></a>
@@ -811,7 +807,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override RepositoryResponse&lt;bool&gt; RemoveModel(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override RepositoryResponse&lt;SiocTemplate&gt; RemoveModel(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -850,13 +846,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocTemplate.html">SiocTemplate</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel&gt;.RemoveModel(System.Boolean, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BETemplateViewModel_RemoveModelAsync_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.RemoveModelAsync*"></a>
@@ -865,7 +859,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;RepositoryResponse&lt;bool&gt;&gt; RemoveModelAsync(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task&lt;RepositoryResponse&lt;SiocTemplate&gt;&gt; RemoveModelAsync(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -904,13 +898,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocTemplate.html">SiocTemplate</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel&gt;.RemoveModelAsync(System.Boolean, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BETemplateViewModel_SaveSubModels_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.SaveSubModels*"></a>
@@ -963,8 +955,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel&gt;.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BETemplateViewModel_SaveSubModelsAsync_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.SaveSubModelsAsync*"></a>
@@ -1017,8 +1007,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel&gt;.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocTemplate, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
 </article>
           </div>
           

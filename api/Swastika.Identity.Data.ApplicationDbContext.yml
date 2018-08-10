@@ -30,8 +30,6 @@ items:
           Inherits IdentityDbContext(Of ApplicationUser)
   inheritance:
   - System.Object
-  derivedClasses:
-  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
   modifiers.csharp:
   - public
   - class

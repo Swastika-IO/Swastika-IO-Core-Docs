@@ -8,8 +8,12 @@ items:
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.#ctor
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.DataType
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.GetValue``1
+  - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay
+  - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy
+  - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.ModuleId
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Name
+  - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.StringValue
   - Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Value
   langs:
@@ -245,6 +249,126 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay
+  id: IsDisplay
+  parent: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsDisplay
+  nameWithType: ModuleDataValueViewModel.IsDisplay
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsDisplay { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDisplay As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect
+  id: IsSelect
+  parent: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsSelect
+  nameWithType: ModuleDataValueViewModel.IsSelect
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsSelect { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSelect As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy
+  id: IsGroupBy
+  parent: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsGroupBy
+  nameWithType: ModuleDataValueViewModel.IsGroupBy
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsGroupBy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsGroupBy As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options
+  id: Options
+  parent: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: ModuleDataValueViewModel.Options
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public JArray Options { get; set; }
+    parameters: []
+    return:
+      type: Newtonsoft.Json.Linq.JArray
+    content.vb: Public Property Options As JArray
+  overload: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Swastika.Cms.Lib.ViewModels
   commentId: N:Swastika.Cms.Lib.ViewModels
@@ -350,3 +474,39 @@ references:
   name: StringValue
   nameWithType: ModuleDataValueViewModel.StringValue
   fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.StringValue
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay
+  isExternal: true
+  name: IsDisplay
+  nameWithType: ModuleDataValueViewModel.IsDisplay
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsDisplay
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect
+  isExternal: true
+  name: IsSelect
+  nameWithType: ModuleDataValueViewModel.IsSelect
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsSelect
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy
+  isExternal: true
+  name: IsGroupBy
+  nameWithType: ModuleDataValueViewModel.IsGroupBy
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.IsGroupBy
+- uid: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options
+  isExternal: true
+  name: Options
+  nameWithType: ModuleDataValueViewModel.Options
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.Options
+- uid: Newtonsoft.Json.Linq.JArray
+  isExternal: true
+  name: JArray
+  nameWithType: JArray
+  fullName: Newtonsoft.Json.Linq.JArray

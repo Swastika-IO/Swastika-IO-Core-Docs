@@ -124,6 +124,7 @@ references:
   nameWithType: IServiceCollection
   fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
 - uid: Microsoft.Extensions.Configuration.IConfigurationRoot
+  commentId: '!:Microsoft.Extensions.Configuration.IConfigurationRoot'
   isExternal: true
   name: IConfigurationRoot
   nameWithType: IConfigurationRoot

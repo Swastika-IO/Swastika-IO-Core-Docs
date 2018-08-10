@@ -102,13 +102,13 @@
   </h3>
   
   
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_ConnectionString_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_ConnectionString" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.ConnectionString">ConnectionString</h4>
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_CmsConfigurations_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_CmsConfigurations" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsConfigurations">CmsConfigurations</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ConnectionString { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CmsConfiguration CmsConfigurations { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,20 +120,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Swastika.Cms.Lib.Services.CmsConfiguration.html">CmsConfiguration</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_Culture_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_Culture" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.Culture">Culture</h4>
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_CmsCulture_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_CmsCulture" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.CmsCulture">CmsCulture</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Culture { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CmsCultureConfiguration CmsCulture { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,7 +145,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Swastika.Cms.Lib.Services.CmsCultureConfiguration.html">CmsCultureConfiguration</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -175,17 +175,150 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_IsInit_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_IsInit" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.IsInit">IsInit</h4>
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalInt_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalInt_System_String_System_String_System_Int32_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String,System.Int32)">GetLocalInt(String, String, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsInit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetLocalInt(string key, string culture, int defaultValue = 0)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalString_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalString_System_String_System_String_System_String_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String,System.String)">GetLocalString(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetLocalString(string key, string culture, string defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitCultures_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitCultures_Swastika_Cms_Lib_ViewModels_Api_InitCulture_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitCultures(Swastika.Cms.Lib.ViewModels.Api.InitCulture,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">InitCultures(InitCulture, SiocCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool InitCultures(InitCulture culture, SiocCmsContext context, IDbContextTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.Api.InitCulture.html">InitCulture</a></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -202,115 +335,13 @@
   </table>
   
   
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_ListConfiguration_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_ListConfiguration" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.ListConfiguration">ListConfiguration</h4>
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitPositions_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitPositions_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitPositions(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">InitPositions(SiocCmsContext, IDbContextTransaction)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;ConfigurationViewModel&gt; ListConfiguration { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.ConfigurationViewModel.html">ConfigurationViewModel</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_Name_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.Name*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_Name" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetConfigConnectionKey_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetConfigConnectionKey" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConfigConnectionKey">GetConfigConnectionKey()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetConfigConnectionKey()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetConnectionString_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetConnectionString" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetConnectionString">GetConnectionString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetConnectionString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalInt_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalInt_System_String_System_String_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String)">GetLocalInt(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetLocalInt(string key, string culture)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool InitPositions(SiocCmsContext context, IDbContextTransaction transaction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -323,193 +354,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">culture</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalInt_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalInt_System_String_System_String_System_Int32_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalInt(System.String,System.String,System.Int32)">GetLocalInt(String, String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetLocalInt(string key, string culture, int defaultValue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">culture</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalString_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalString_System_String_System_String_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String)">GetLocalString(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetLocalString(string key, string culture)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">culture</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalString_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_GetLocalString_System_String_System_String_System_String_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.GetLocalString(System.String,System.String,System.String)">GetLocalString(String, String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetLocalString(string key, string culture, string defaultValue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">culture</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitConnectionString_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitConnectionString" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitConnectionString">InitConnectionString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool InitConnectionString()</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -528,22 +383,54 @@
   
   
   <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitSWCms_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitSWCms" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms">InitSWCms()</h4>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_InitSWCms_Swastika_Cms_Lib_ViewModels_Api_InitCulture_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.InitSWCms(Swastika.Cms.Lib.ViewModels.Api.InitCulture)">InitSWCms(InitCulture)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void InitSWCms()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;RepositoryResponse&lt;bool&gt;&gt; InitSWCms(InitCulture culture)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.Api.InitCulture.html">InitCulture</a></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_Refresh_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_Refresh_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.Refresh(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">Refresh(SiocCmsContext, IDbContextTransaction)</h4>
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_RefreshAll_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_RefreshAll_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshAll(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">RefreshAll(SiocCmsContext, IDbContextTransaction)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RefreshAll(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -569,13 +456,13 @@
   </table>
   
   
-  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_UpdateConfiguration_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration*"></a>
-  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_UpdateConfiguration_System_String_System_String_System_String_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.UpdateConfiguration(System.String,System.String,System.String)">UpdateConfiguration(String, String, String)</h4>
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_RefreshConfigurations_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_RefreshConfigurations_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshConfigurations(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">RefreshConfigurations(SiocCmsContext, IDbContextTransaction)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateConfiguration(string key, string culture, string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RefreshConfigurations(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -588,18 +475,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">key</span></td>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">culture</span></td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Services_GlobalConfigurationService_RefreshCultures_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures*"></a>
+  <h4 id="Swastika_Cms_Lib_Services_GlobalConfigurationService_RefreshCultures_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.Services.GlobalConfigurationService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">RefreshCultures(SiocCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshCultures(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -9,7 +9,6 @@ items:
   - Swastka.Cms.Web.Startup.Configuration
   - Swastka.Cms.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)
   - Swastka.Cms.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  - Swastka.Cms.Web.Startup.CONST_ROUTE_DEFAULT_CULTURE
   langs:
   - csharp
   - vb
@@ -36,34 +35,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Swastka.Cms.Web.Startup.CONST_ROUTE_DEFAULT_CULTURE
-  commentId: F:Swastka.Cms.Web.Startup.CONST_ROUTE_DEFAULT_CULTURE
-  id: CONST_ROUTE_DEFAULT_CULTURE
-  parent: Swastka.Cms.Web.Startup
-  langs:
-  - csharp
-  - vb
-  name: CONST_ROUTE_DEFAULT_CULTURE
-  nameWithType: Startup.CONST_ROUTE_DEFAULT_CULTURE
-  fullName: Swastka.Cms.Web.Startup.CONST_ROUTE_DEFAULT_CULTURE
-  type: Field
-  source:
-    path: Swastka.Cms.Api
-    isExternal: true
-  assemblies:
-  - Swastka.Cms.Api
-  namespace: Swastka.Cms.Web
-  syntax:
-    content: public const string CONST_ROUTE_DEFAULT_CULTURE = "vi-vn"
-    return:
-      type: System.String
-    content.vb: Public Const CONST_ROUTE_DEFAULT_CULTURE As String = "vi-vn"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: Swastka.Cms.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
   commentId: M:Swastka.Cms.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
   id: '#ctor(Microsoft.Extensions.Configuration.IConfiguration)'
@@ -198,13 +169,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Swastka.Cms.Web.Startup.#ctor*
   commentId: Overload:Swastka.Cms.Web.Startup.#ctor
   isExternal: true

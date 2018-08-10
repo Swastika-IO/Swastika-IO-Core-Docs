@@ -4,20 +4,7 @@ items:
   commentId: N:Swastika.Cms.Mvc.Areas.Portal.Controllers
   id: Swastika.Cms.Mvc.Areas.Portal.Controllers
   children:
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController
   - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController
   langs:
   - csharp
   - vb
@@ -28,94 +15,9 @@ items:
   assemblies:
   - Swastika.Cms.Web.Mvc
 references:
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController
-  isExternal: true
-  name: ArticlesController
-  nameWithType: ArticlesController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController
-  isExternal: true
-  name: CultureController
-  nameWithType: CultureController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController
-  isExternal: true
-  name: DashboardController
-  nameWithType: DashboardController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController
-  isExternal: true
-  name: FileController
-  nameWithType: FileController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController
-  isExternal: true
-  name: MediaController
-  nameWithType: MediaController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController
-  isExternal: true
-  name: ModuleController
-  nameWithType: ModuleController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController
-  isExternal: true
-  name: PagesController
-  nameWithType: PagesController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
   commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
   isExternal: true
   name: PortalController
   nameWithType: PortalController
   fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController
-  isExternal: true
-  name: ProductController
-  nameWithType: ProductController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController
-  isExternal: true
-  name: ProfileController
-  nameWithType: ProfileController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
-  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers
-  isExternal: true
-  name: ProfileController.ManageMessageId
-  nameWithType: ProfileController.ManageMessageId
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController
-  isExternal: true
-  name: SettingController
-  nameWithType: SettingController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController
-  isExternal: true
-  name: TemplateController
-  nameWithType: TemplateController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController
-  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController
-  isExternal: true
-  name: ThemeController
-  nameWithType: ThemeController
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers
-  commentId: N:Swastika.Cms.Mvc.Areas.Portal.Controllers
-  isExternal: false
-  name: Swastika.Cms.Mvc.Areas.Portal.Controllers
-  nameWithType: Swastika.Cms.Mvc.Areas.Portal.Controllers
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers

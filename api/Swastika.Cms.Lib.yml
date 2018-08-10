@@ -15,16 +15,17 @@ items:
   - Swastika.Cms.Lib.SWCmsConstants.ConfigurationType
   - Swastika.Cms.Lib.SWCmsConstants.DataType
   - Swastika.Cms.Lib.SWCmsConstants.Default
+  - Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
   - Swastika.Cms.Lib.SWCmsConstants.FileFolder
-  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
-  - Swastika.Cms.Lib.SWCmsConstants.JWTSettings
+  - Swastika.Cms.Lib.SWCmsConstants.JwtSettings
   - Swastika.Cms.Lib.SWCmsConstants.ModuleType
   - Swastika.Cms.Lib.SWCmsConstants.Parameters
   - Swastika.Cms.Lib.SWCmsConstants.SearchType
   - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
-  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
   - Swastika.Cms.Lib.SWCmsConstants.ViewModelType
-  - Swastika.Cms.Lib.SWCmsHelper
+  - Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
@@ -83,13 +84,13 @@ references:
   name: SWCmsConstants.DataType
   nameWithType: SWCmsConstants.DataType
   fullName: Swastika.Cms.Lib.SWCmsConstants.DataType
-- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
-  commentId: T:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder
   parent: Swastika.Cms.Lib
   isExternal: true
-  name: SWCmsConstants.FileFolderEnum
-  nameWithType: SWCmsConstants.FileFolderEnum
-  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  name: SWCmsConstants.EnumFileFolder
+  nameWithType: SWCmsConstants.EnumFileFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder
 - uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType
   commentId: T:Swastika.Cms.Lib.SWCmsConstants.ModuleType
   parent: Swastika.Cms.Lib
@@ -97,6 +98,13 @@ references:
   name: SWCmsConstants.ModuleType
   nameWithType: SWCmsConstants.ModuleType
   fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.UrlAliasType
+  nameWithType: SWCmsConstants.UrlAliasType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
 - uid: Swastika.Cms.Lib.SWCmsConstants.SearchType
   commentId: T:Swastika.Cms.Lib.SWCmsConstants.SearchType
   parent: Swastika.Cms.Lib
@@ -104,13 +112,13 @@ references:
   name: SWCmsConstants.SearchType
   nameWithType: SWCmsConstants.SearchType
   fullName: Swastika.Cms.Lib.SWCmsConstants.SearchType
-- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum
-  commentId: T:Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
   parent: Swastika.Cms.Lib
   isExternal: true
-  name: SWCmsConstants.TemplateFolderEnum
-  nameWithType: SWCmsConstants.TemplateFolderEnum
-  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum
+  name: SWCmsConstants.EnumTemplateFolder
+  nameWithType: SWCmsConstants.EnumTemplateFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
 - uid: Swastika.Cms.Lib.SWCmsConstants.ViewModelType
   commentId: T:Swastika.Cms.Lib.SWCmsConstants.ViewModelType
   parent: Swastika.Cms.Lib
@@ -149,12 +157,12 @@ references:
   name: SWCmsConstants.FileFolder
   nameWithType: SWCmsConstants.FileFolder
   fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder
-- uid: Swastika.Cms.Lib.SWCmsConstants.JWTSettings
-  commentId: T:Swastika.Cms.Lib.SWCmsConstants.JWTSettings
+- uid: Swastika.Cms.Lib.SWCmsConstants.JwtSettings
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.JwtSettings
   isExternal: true
-  name: SWCmsConstants.JWTSettings
-  nameWithType: SWCmsConstants.JWTSettings
-  fullName: Swastika.Cms.Lib.SWCmsConstants.JWTSettings
+  name: SWCmsConstants.JwtSettings
+  nameWithType: SWCmsConstants.JwtSettings
+  fullName: Swastika.Cms.Lib.SWCmsConstants.JwtSettings
 - uid: Swastika.Cms.Lib.SWCmsConstants.Parameters
   commentId: T:Swastika.Cms.Lib.SWCmsConstants.Parameters
   isExternal: true
@@ -167,12 +175,12 @@ references:
   name: SWCmsConstants.TemplateFolder
   nameWithType: SWCmsConstants.TemplateFolder
   fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
-- uid: Swastika.Cms.Lib.SWCmsHelper
-  commentId: T:Swastika.Cms.Lib.SWCmsHelper
+- uid: Swastika.Cms.Lib.SwCmsHelper
+  commentId: T:Swastika.Cms.Lib.SwCmsHelper
   isExternal: true
-  name: SWCmsHelper
-  nameWithType: SWCmsHelper
-  fullName: Swastika.Cms.Lib.SWCmsHelper
+  name: SwCmsHelper
+  nameWithType: SwCmsHelper
+  fullName: Swastika.Cms.Lib.SwCmsHelper
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
   isExternal: false

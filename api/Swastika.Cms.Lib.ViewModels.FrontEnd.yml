@@ -7,6 +7,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleModuleViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel
@@ -42,6 +43,13 @@ references:
   name: FECategoryViewModel
   nameWithType: FECategoryViewModel
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+- uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel
+  parent: Swastika.Cms.Lib.ViewModels.FrontEnd
+  isExternal: true
+  name: FEMediaViewModel
+  nameWithType: FEMediaViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
   parent: Swastika.Cms.Lib.ViewModels.FrontEnd

@@ -64,7 +64,6 @@ references:
   fullName: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
 - uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
   commentId: T:Swastika.Identity.Models.AccountViewModels.RegisterViewModel
-  parent: Swastika.Identity.Models.AccountViewModels
   isExternal: true
   name: RegisterViewModel
   nameWithType: RegisterViewModel

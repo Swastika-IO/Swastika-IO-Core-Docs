@@ -4,10 +4,12 @@ items:
   commentId: N:Swastika.Cms.Lib.ViewModels.BackEnd
   id: Swastika.Cms.Lib.ViewModels.BackEnd
   children:
+  - Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel
@@ -19,6 +21,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
+  - Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel
   langs:
   - csharp
   - vb
@@ -29,6 +32,19 @@ items:
   assemblies:
   - Swastika.Cms.Lib
 references:
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel
+  isExternal: true
+  name: UserViewModel
+  nameWithType: UserViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd
+  isExternal: true
+  name: ApiProductViewModel
+  nameWithType: ApiProductViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel
   isExternal: true
@@ -51,11 +67,17 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
-  parent: Swastika.Cms.Lib.ViewModels.BackEnd
   isExternal: true
   name: BECategoryViewModel
   nameWithType: BECategoryViewModel
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd
+  isExternal: true
+  name: BEConfigurationViewModel
+  nameWithType: BEConfigurationViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel
   parent: Swastika.Cms.Lib.ViewModels.BackEnd
@@ -65,7 +87,6 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
-  parent: Swastika.Cms.Lib.ViewModels.BackEnd
   isExternal: true
   name: BELanguageViewModel
   nameWithType: BELanguageViewModel
@@ -79,7 +100,6 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleDataViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleDataViewModel
-  parent: Swastika.Cms.Lib.ViewModels.BackEnd
   isExternal: true
   name: BEModuleDataViewModel
   nameWithType: BEModuleDataViewModel

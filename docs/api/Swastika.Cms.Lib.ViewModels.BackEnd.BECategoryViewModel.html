@@ -276,7 +276,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;CategoryCategoryViewModel&gt; ChildNavs { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;NavCategoryCategoryViewModel&gt; ChildNavs { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -288,7 +288,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel.html">CategoryCategoryViewModel</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.html">NavCategoryCategoryViewModel</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -395,13 +395,38 @@
   </table>
   
   
+  <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_DetailsUrl_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_DetailsUrl" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.DetailsUrl">DetailsUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DetailsUrl { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_Domain_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.Domain*"></a>
   <h4 id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_Domain" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.Domain">Domain</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Domain { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Domain { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -720,13 +745,13 @@
   </table>
   
   
-  <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_ParentNavs_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParentNavs*"></a>
-  <h4 id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_ParentNavs" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParentNavs">ParentNavs</h4>
+  <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_PageSize_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_PageSize" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.PageSize">PageSize</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;CategoryCategoryViewModel&gt; ParentNavs { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Nullable&lt;int&gt; PageSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -738,7 +763,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel.html">CategoryCategoryViewModel</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_ParentNavs_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParentNavs*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_ParentNavs" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.ParentNavs">ParentNavs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;NavCategoryCategoryViewModel&gt; ParentNavs { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.html">NavCategoryCategoryViewModel</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1252,8 +1302,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocCategory, Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel&gt;.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_GetChildNavs_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.GetChildNavs*"></a>
@@ -1262,7 +1310,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;CategoryCategoryViewModel&gt; GetChildNavs(SiocCmsContext context, IDbContextTransaction transaction)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;NavCategoryCategoryViewModel&gt; GetChildNavs(SiocCmsContext context, IDbContextTransaction transaction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1296,7 +1344,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel.html">CategoryCategoryViewModel</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.html">NavCategoryCategoryViewModel</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1356,7 +1404,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;CategoryCategoryViewModel&gt; GetParentNavs(SiocCmsContext context, IDbContextTransaction transaction)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;NavCategoryCategoryViewModel&gt; GetParentNavs(SiocCmsContext context, IDbContextTransaction transaction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1390,7 +1438,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel.html">CategoryCategoryViewModel</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.html">NavCategoryCategoryViewModel</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1489,8 +1537,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocCategory, Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel&gt;.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_SaveSubModels_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.SaveSubModels*"></a>
@@ -1543,8 +1589,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocCategory, Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel&gt;.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocCategory, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BECategoryViewModel_SaveSubModelsAsync_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.SaveSubModelsAsync*"></a>
@@ -1597,8 +1641,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocCategory, Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel&gt;.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocCategory, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
 </article>
           </div>
           

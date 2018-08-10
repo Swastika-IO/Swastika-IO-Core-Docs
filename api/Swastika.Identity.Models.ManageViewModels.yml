@@ -25,14 +25,12 @@ items:
 references:
 - uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
   commentId: T:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
-  parent: Swastika.Identity.Models.ManageViewModels
   isExternal: true
   name: AddPhoneNumberViewModel
   nameWithType: AddPhoneNumberViewModel
   fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
 - uid: Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel
   commentId: T:Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel
-  parent: Swastika.Identity.Models.ManageViewModels
   isExternal: true
   name: ChangePasswordViewModel
   nameWithType: ChangePasswordViewModel
@@ -63,28 +61,19 @@ references:
   fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
 - uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
   commentId: T:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
-  parent: Swastika.Identity.Models.ManageViewModels
   isExternal: true
   name: RemoveLoginViewModel
   nameWithType: RemoveLoginViewModel
   fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
 - uid: Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
   commentId: T:Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
-  parent: Swastika.Identity.Models.ManageViewModels
   isExternal: true
   name: SetPasswordViewModel
   nameWithType: SetPasswordViewModel
   fullName: Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
 - uid: Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
   commentId: T:Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
-  parent: Swastika.Identity.Models.ManageViewModels
   isExternal: true
   name: VerifyPhoneNumberViewModel
   nameWithType: VerifyPhoneNumberViewModel
   fullName: Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
-- uid: Swastika.Identity.Models.ManageViewModels
-  commentId: N:Swastika.Identity.Models.ManageViewModels
-  isExternal: false
-  name: Swastika.Identity.Models.ManageViewModels
-  nameWithType: Swastika.Identity.Models.ManageViewModels
-  fullName: Swastika.Identity.Models.ManageViewModels

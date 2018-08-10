@@ -5,7 +5,6 @@ items:
   id: SWCmsConstants.TemplateFolder
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
   - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Layouts
   - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Modules
@@ -26,18 +25,19 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class TemplateFolder : Object'
+    content: 'public static class TemplateFolder : Object'
     content.vb: >-
-      Public Class TemplateFolder
+      Public Module TemplateFolder
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
   id: Articles
@@ -206,31 +206,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
-  langs:
-  - csharp
-  - vb
-  name: TemplateFolder()
-  nameWithType: SWCmsConstants.TemplateFolder.TemplateFolder()
-  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.TemplateFolder()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public TemplateFolder()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
@@ -258,9 +233,3 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.#ctor
-  isExternal: true
-  name: TemplateFolder
-  nameWithType: SWCmsConstants.TemplateFolder.TemplateFolder
-  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.TemplateFolder

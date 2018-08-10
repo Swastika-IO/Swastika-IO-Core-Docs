@@ -13,8 +13,9 @@ items:
   - Swastika.Cms.Lib.Repositories.FileRepository.DeleteWebFile(System.String)
   - Swastika.Cms.Lib.Repositories.FileRepository.DeleteWebFile(System.String,System.String)
   - Swastika.Cms.Lib.Repositories.FileRepository.DeleteWebFolder(System.String)
+  - Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder(System.String)
   - Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.FileViewModel},System.String)
-  - Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String)
+  - Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String,System.Boolean,System.String)
   - Swastika.Cms.Lib.Repositories.FileRepository.GetFiles(Swastika.Cms.Lib.SWCmsConstants.FileFolder)
   - Swastika.Cms.Lib.Repositories.FileRepository.GetFiles(System.String)
   - Swastika.Cms.Lib.Repositories.FileRepository.GetFilesWithContent(System.String)
@@ -29,6 +30,7 @@ items:
   - Swastika.Cms.Lib.Repositories.FileRepository.SaveFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
   - Swastika.Cms.Lib.Repositories.FileRepository.SaveWebFile(Microsoft.AspNetCore.Http.IFormFile,System.String)
   - Swastika.Cms.Lib.Repositories.FileRepository.SaveWebFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
+  - Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
   - Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile(System.String,System.String)
   langs:
   - csharp
@@ -251,16 +253,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String)
-  id: GetFile(System.String,System.String,System.String)
+- uid: Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String,System.Boolean,System.String)
+  commentId: M:Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String,System.Boolean,System.String)
+  id: GetFile(System.String,System.String,System.String,System.Boolean,System.String)
   parent: Swastika.Cms.Lib.Repositories.FileRepository
   langs:
   - csharp
   - vb
-  name: GetFile(String, String, String)
-  nameWithType: FileRepository.GetFile(String, String, String)
-  fullName: Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String, System.String, System.String)
+  name: GetFile(String, String, String, Boolean, String)
+  nameWithType: FileRepository.GetFile(String, String, String, Boolean, String)
+  fullName: Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String, System.String, System.String, System.Boolean, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -269,7 +271,7 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.Repositories
   syntax:
-    content: public FileViewModel GetFile(string name, string ext, string FileFolder)
+    content: public FileViewModel GetFile(string name, string ext, string FileFolder, bool isCreate = false, string defaultContent = "")
     parameters:
     - id: name
       type: System.String
@@ -277,9 +279,13 @@ items:
       type: System.String
     - id: FileFolder
       type: System.String
+    - id: isCreate
+      type: System.Boolean
+    - id: defaultContent
+      type: System.String
     return:
       type: Swastika.Cms.Lib.ViewModels.FileViewModel
-    content.vb: Public Function GetFile(name As String, ext As String, FileFolder As String) As FileViewModel
+    content.vb: Public Function GetFile(name As String, ext As String, FileFolder As String, isCreate As Boolean = False, defaultContent As String = "") As FileViewModel
   overload: Swastika.Cms.Lib.Repositories.FileRepository.GetFile*
   modifiers.csharp:
   - public
@@ -375,6 +381,36 @@ items:
       type: System.Boolean
     content.vb: Public Function DeleteFolder(folderPath As String) As Boolean
   overload: Swastika.Cms.Lib.Repositories.FileRepository.DeleteFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder(System.String)
+  commentId: M:Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder(System.String)
+  id: EmptyFolder(System.String)
+  parent: Swastika.Cms.Lib.Repositories.FileRepository
+  langs:
+  - csharp
+  - vb
+  name: EmptyFolder(String)
+  nameWithType: FileRepository.EmptyFolder(String)
+  fullName: Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder(System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Repositories
+  syntax:
+    content: public bool EmptyFolder(string folderPath)
+    parameters:
+    - id: folderPath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function EmptyFolder(folderPath As String) As Boolean
+  overload: Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -775,6 +811,36 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
+  commentId: M:Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
+  id: UnZipFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
+  parent: Swastika.Cms.Lib.Repositories.FileRepository
+  langs:
+  - csharp
+  - vb
+  name: UnZipFile(FileViewModel)
+  nameWithType: FileRepository.UnZipFile(FileViewModel)
+  fullName: Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile(Swastika.Cms.Lib.ViewModels.FileViewModel)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Repositories
+  syntax:
+    content: public bool UnZipFile(FileViewModel file)
+    parameters:
+    - id: file
+      type: Swastika.Cms.Lib.ViewModels.FileViewModel
+    return:
+      type: System.Boolean
+    content.vb: Public Function UnZipFile(file As FileViewModel) As Boolean
+  overload: Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Repositories.FileRepository.CurrentDirectory
   commentId: P:Swastika.Cms.Lib.Repositories.FileRepository.CurrentDirectory
   id: CurrentDirectory
@@ -1007,6 +1073,12 @@ references:
   name: DeleteFolder
   nameWithType: FileRepository.DeleteFolder
   fullName: Swastika.Cms.Lib.Repositories.FileRepository.DeleteFolder
+- uid: Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder*
+  commentId: Overload:Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder
+  isExternal: true
+  name: EmptyFolder
+  nameWithType: FileRepository.EmptyFolder
+  fullName: Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder
 - uid: Swastika.Cms.Lib.Repositories.FileRepository.CopyDirectory*
   commentId: Overload:Swastika.Cms.Lib.Repositories.FileRepository.CopyDirectory
   isExternal: true

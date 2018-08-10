@@ -174,7 +174,6 @@ items:
     return:
       type: Swastika.Cms.Lib.Models.Cms.SiocModuleData
     content.vb: Public Overrides Function ParseModel(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As SiocModuleData
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleData,Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel}.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.ParseModel*
   modifiers.csharp:
   - public
@@ -207,7 +206,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleData,Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -233,7 +231,7 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.Info
   syntax:
-    content: public override RepositoryResponse<bool> RemoveModel(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public override RepositoryResponse<SiocModuleData> RemoveModel(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
     - id: isRemoveRelatedModels
       type: System.Boolean
@@ -242,9 +240,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
-    content.vb: Public Overrides Function RemoveModel(isRemoveRelatedModels As Boolean = False, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleData,Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel}.RemoveModel(System.Boolean,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocModuleData}
+    content.vb: Public Overrides Function RemoveModel(isRemoveRelatedModels As Boolean = False, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of SiocModuleData)
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.RemoveModel*
   modifiers.csharp:
   - public
@@ -270,7 +267,7 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib.ViewModels.Info
   syntax:
-    content: public override Task<RepositoryResponse<bool>> RemoveModelAsync(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    content: public override Task<RepositoryResponse<SiocModuleData>> RemoveModelAsync(bool isRemoveRelatedModels = false, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
     parameters:
     - id: isRemoveRelatedModels
       type: System.Boolean
@@ -279,9 +276,8 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     return:
-      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
-    content.vb: Public Overrides Function RemoveModelAsync(isRemoveRelatedModels As Boolean = False, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocModuleData,Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel}.RemoveModelAsync(System.Boolean,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocModuleData}}
+    content.vb: Public Overrides Function RemoveModelAsync(isRemoveRelatedModels As Boolean = False, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of SiocModuleData))
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.RemoveModelAsync*
   modifiers.csharp:
   - public
@@ -4083,16 +4079,16 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
-  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocModuleData}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocModuleData}
   parent: Swastika.Domain.Core.ViewModels
   definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
-  name: RepositoryResponse<Boolean>
-  nameWithType: RepositoryResponse<Boolean>
-  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>
-  nameWithType.vb: RepositoryResponse(Of Boolean)
-  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean)
-  name.vb: RepositoryResponse(Of Boolean)
+  name: RepositoryResponse<SiocModuleData>
+  nameWithType: RepositoryResponse<SiocModuleData>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Cms.Lib.Models.Cms.SiocModuleData>
+  nameWithType.vb: RepositoryResponse(Of SiocModuleData)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Cms.Lib.Models.Cms.SiocModuleData)
+  name.vb: RepositoryResponse(Of SiocModuleData)
   spec.csharp:
   - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
     name: RepositoryResponse
@@ -4102,10 +4098,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    name: SiocModuleData
+    nameWithType: SiocModuleData
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleData
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -4119,10 +4115,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    name: SiocModuleData
+    nameWithType: SiocModuleData
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleData
     isExternal: true
   - name: )
     nameWithType: )
@@ -4178,15 +4174,15 @@ references:
   name: RemoveModelAsync
   nameWithType: InfoModuleDataViewModel.RemoveModelAsync
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.RemoveModelAsync
-- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
-  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}'
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocModuleData}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocModuleData}}'
   definition: System.Threading.Tasks.Task`1
-  name: Task<RepositoryResponse<Boolean>>
-  nameWithType: Task<RepositoryResponse<Boolean>>
-  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>>
-  nameWithType.vb: Task(Of RepositoryResponse(Of Boolean))
-  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean))
-  name.vb: Task(Of RepositoryResponse(Of Boolean))
+  name: Task<RepositoryResponse<SiocModuleData>>
+  nameWithType: Task<RepositoryResponse<SiocModuleData>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Cms.Lib.Models.Cms.SiocModuleData>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of SiocModuleData))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Cms.Lib.Models.Cms.SiocModuleData))
+  name.vb: Task(Of RepositoryResponse(Of SiocModuleData))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -4204,10 +4200,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    name: SiocModuleData
+    nameWithType: SiocModuleData
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleData
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -4232,10 +4228,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    name: SiocModuleData
+    nameWithType: SiocModuleData
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleData
     isExternal: true
   - name: )
     nameWithType: )

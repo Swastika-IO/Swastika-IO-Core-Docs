@@ -5,8 +5,9 @@ items:
   id: SWCmsConstants.ConfigurationKeyword
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
   - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
   - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
   langs:
@@ -23,18 +24,19 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class ConfigurationKeyword : Object'
+    content: 'public static class ConfigurationKeyword : Object'
     content.vb: >-
-      Public Class ConfigurationKeyword
+      Public Module ConfigurationKeyword
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
   id: ConnectionString
@@ -91,6 +93,62 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  id: Language
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: SWCmsConstants.ConfigurationKeyword.Language
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Language = "Language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "Language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  id: IsSqlite
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: IsSqlite
+  nameWithType: SWCmsConstants.ConfigurationKeyword.IsSqlite
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string IsSqlite = "IsSqlite"
+    return:
+      type: System.String
+    content.vb: Public Const IsSqlite As String = "IsSqlite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
   id: ThemeId
@@ -119,31 +177,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
-  langs:
-  - csharp
-  - vb
-  name: ConfigurationKeyword()
-  nameWithType: SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword()
-  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public ConfigurationKeyword()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
@@ -171,9 +204,3 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.#ctor
-  isExternal: true
-  name: ConfigurationKeyword
-  nameWithType: SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword
-  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConfigurationKeyword

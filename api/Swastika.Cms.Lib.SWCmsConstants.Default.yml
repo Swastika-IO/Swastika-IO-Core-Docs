@@ -5,7 +5,6 @@ items:
   id: SWCmsConstants.Default
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsConstants.Default.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
   - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateFolder
   - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayout
@@ -13,7 +12,6 @@ items:
   - Swastika.Cms.Lib.SWCmsConstants.Default.OrderBy
   - Swastika.Cms.Lib.SWCmsConstants.Default.PageSizeArticle
   - Swastika.Cms.Lib.SWCmsConstants.Default.Password
-  - Swastika.Cms.Lib.SWCmsConstants.Default.Specificulture
   langs:
   - csharp
   - vb
@@ -28,18 +26,19 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class Default : Object'
+    content: 'public static class Default : Object'
     content.vb: >-
-      Public Class Default
+      Public Module Default
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
   id: DefaultTemplate
@@ -86,10 +85,10 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: public const string DefaultTemplateFolder = "Default-Templates"
+    content: public const string DefaultTemplateFolder = "Default_Blank"
     return:
       type: System.String
-    content.vb: Public Const DefaultTemplateFolder As String = "Default-Templates"
+    content.vb: Public Const DefaultTemplateFolder As String = "Default_Blank"
   modifiers.csharp:
   - public
   - const
@@ -226,69 +225,16 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: public const string Password = "1234qwe@"
+    content: public const string Password = ""
     return:
       type: System.String
-    content.vb: Public Const Password As String = "1234qwe@"
+    content.vb: Public Const Password As String = ""
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.Default.Specificulture
-  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.Specificulture
-  id: Specificulture
-  parent: Swastika.Cms.Lib.SWCmsConstants.Default
-  langs:
-  - csharp
-  - vb
-  name: Specificulture
-  nameWithType: SWCmsConstants.Default.Specificulture
-  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.Specificulture
-  type: Field
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public const string Specificulture = "vi-vn"
-    return:
-      type: System.String
-    content.vb: Public Const Specificulture As String = "vi-vn"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.Default.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsConstants.Default.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsConstants.Default
-  langs:
-  - csharp
-  - vb
-  name: Default()
-  nameWithType: SWCmsConstants.Default.Default()
-  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.Default()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public Default()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsConstants.Default.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
@@ -323,9 +269,3 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Swastika.Cms.Lib.SWCmsConstants.Default.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.Default.#ctor
-  isExternal: true
-  name: Default
-  nameWithType: SWCmsConstants.Default.Default
-  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.Default

@@ -22,6 +22,7 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocMedia.SiocProductMedia
   - Swastika.Cms.Lib.Models.Cms.SiocMedia.Specificulture
   - Swastika.Cms.Lib.Models.Cms.SiocMedia.Status
+  - Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags
   - Swastika.Cms.Lib.Models.Cms.SiocMedia.Title
   langs:
   - csharp
@@ -524,6 +525,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags
+  id: Tags
+  parent: Swastika.Cms.Lib.Models.Cms.SiocMedia
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: SiocMedia.Tags
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Tags { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tags As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocMedia.SiocArticleMedia
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocMedia.SiocArticleMedia
   id: SiocArticleMedia
@@ -807,6 +838,12 @@ references:
   name: Title
   nameWithType: SiocMedia.Title
   fullName: Swastika.Cms.Lib.Models.Cms.SiocMedia.Title
+- uid: Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags
+  isExternal: true
+  name: Tags
+  nameWithType: SiocMedia.Tags
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocMedia.Tags
 - uid: Swastika.Cms.Lib.Models.Cms.SiocMedia.SiocArticleMedia*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocMedia.SiocArticleMedia
   isExternal: true

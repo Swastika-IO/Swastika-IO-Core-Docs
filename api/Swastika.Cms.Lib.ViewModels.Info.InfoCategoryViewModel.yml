@@ -20,6 +20,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Icon
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Id
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Image
+  - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.IsActived
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Level
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Name
@@ -33,6 +34,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Type
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UpdatedBy
   - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UpdatedDateTime
+  - Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias
   langs:
   - csharp
   - vb
@@ -177,7 +179,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocCategory,Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -725,6 +726,96 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias
+  id: UrlAlias
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: UrlAlias
+  nameWithType: InfoCategoryViewModel.UrlAlias
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public ApiUrlAliasViewModel UrlAlias { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+    content.vb: Public Property UrlAlias As ApiUrlAliasViewModel
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
+  id: Domain
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: InfoCategoryViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string Domain { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Domain As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl
+  id: ImageUrl
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: InfoCategoryViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string ImageUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ImageUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Childs
   commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Childs
   id: Childs
@@ -899,36 +990,6 @@ items:
       type: System.String
     content.vb: Public Property DetailsUrl As String
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.DetailsUrl*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
-  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
-  id: Domain
-  parent: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel
-  langs:
-  - csharp
-  - vb
-  name: Domain
-  nameWithType: InfoCategoryViewModel.Domain
-  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.ViewModels.Info
-  syntax:
-    content: public string Domain { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Domain As String
-  overload: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain*
   modifiers.csharp:
   - public
   - get
@@ -4463,6 +4524,37 @@ references:
   name: Tags
   nameWithType: InfoCategoryViewModel.Tags
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Tags
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias
+  isExternal: true
+  name: UrlAlias
+  nameWithType: InfoCategoryViewModel.UrlAlias
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.UrlAlias
+- uid: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+  parent: Swastika.Cms.Lib.ViewModels.Api
+  isExternal: true
+  name: ApiUrlAliasViewModel
+  nameWithType: ApiUrlAliasViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Api
+  commentId: N:Swastika.Cms.Lib.ViewModels.Api
+  isExternal: false
+  name: Swastika.Cms.Lib.ViewModels.Api
+  nameWithType: Swastika.Cms.Lib.ViewModels.Api
+  fullName: Swastika.Cms.Lib.ViewModels.Api
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: InfoCategoryViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl
+  isExternal: true
+  name: ImageUrl
+  nameWithType: InfoCategoryViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.ImageUrl
 - uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Childs*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Childs
   isExternal: true
@@ -4587,9 +4679,3 @@ references:
   name: DetailsUrl
   nameWithType: InfoCategoryViewModel.DetailsUrl
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.DetailsUrl
-- uid: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain*
-  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain
-  isExternal: true
-  name: Domain
-  nameWithType: InfoCategoryViewModel.Domain
-  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.Domain

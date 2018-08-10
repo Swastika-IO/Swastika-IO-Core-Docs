@@ -456,6 +456,48 @@
   </table>
   
   
+  <a id="Swastika_Cms_Lib_Repositories_FileRepository_EmptyFolder_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder*"></a>
+  <h4 id="Swastika_Cms_Lib_Repositories_FileRepository_EmptyFolder_System_String_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.EmptyFolder(System.String)">EmptyFolder(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EmptyFolder(string folderPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folderPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Swastika_Cms_Lib_Repositories_FileRepository_GetFile_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.GetFile*"></a>
   <h4 id="Swastika_Cms_Lib_Repositories_FileRepository_GetFile_System_String_System_Collections_Generic_List_Swastika_Cms_Lib_ViewModels_FileViewModel__System_String_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.FileViewModel},System.String)">GetFile(String, List&lt;FileViewModel&gt;, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -509,12 +551,12 @@
   
   
   <a id="Swastika_Cms_Lib_Repositories_FileRepository_GetFile_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.GetFile*"></a>
-  <h4 id="Swastika_Cms_Lib_Repositories_FileRepository_GetFile_System_String_System_String_System_String_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String)">GetFile(String, String, String)</h4>
+  <h4 id="Swastika_Cms_Lib_Repositories_FileRepository_GetFile_System_String_System_String_System_String_System_Boolean_System_String_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.GetFile(System.String,System.String,System.String,System.Boolean,System.String)">GetFile(String, String, String, Boolean, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FileViewModel GetFile(string name, string ext, string FileFolder)</code></pre>
+    <pre><code class="lang-csharp hljs">public FileViewModel GetFile(string name, string ext, string FileFolder, bool isCreate = false, string defaultContent = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -539,6 +581,16 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">FileFolder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isCreate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defaultContent</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1096,6 +1148,48 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool SaveWebFile(FileViewModel file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.FileViewModel.html">FileViewModel</a></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Repositories_FileRepository_UnZipFile_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile*"></a>
+  <h4 id="Swastika_Cms_Lib_Repositories_FileRepository_UnZipFile_Swastika_Cms_Lib_ViewModels_FileViewModel_" data-uid="Swastika.Cms.Lib.Repositories.FileRepository.UnZipFile(Swastika.Cms.Lib.ViewModels.FileViewModel)">UnZipFile(FileViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UnZipFile(FileViewModel file)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

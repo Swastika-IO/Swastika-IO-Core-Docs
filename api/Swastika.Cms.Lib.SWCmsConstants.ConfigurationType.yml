@@ -5,7 +5,6 @@ items:
   id: SWCmsConstants.ConfigurationType
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.#ctor
   - Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.System
   - Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.User
   langs:
@@ -22,18 +21,19 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class ConfigurationType : Object'
+    content: 'public static class ConfigurationType : Object'
     content.vb: >-
-      Public Class ConfigurationType
+      Public Module ConfigurationType
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.System
   commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.System
   id: System
@@ -90,31 +90,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType
-  langs:
-  - csharp
-  - vb
-  name: ConfigurationType()
-  nameWithType: SWCmsConstants.ConfigurationType.ConfigurationType()
-  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.ConfigurationType()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public ConfigurationType()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
@@ -142,9 +117,3 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.#ctor
-  isExternal: true
-  name: ConfigurationType
-  nameWithType: SWCmsConstants.ConfigurationType.ConfigurationType
-  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.ConfigurationType

@@ -14,10 +14,13 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
   - Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct
   - Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsUser
   - Swastika.Cms.Lib.Models.Cms.SiocComment
   - Swastika.Cms.Lib.Models.Cms.SiocConfiguration
   - Swastika.Cms.Lib.Models.Cms.SiocCopy
   - Swastika.Cms.Lib.Models.Cms.SiocCulture
+  - Swastika.Cms.Lib.Models.Cms.SiocCustomer
   - Swastika.Cms.Lib.Models.Cms.SiocFile
   - Swastika.Cms.Lib.Models.Cms.SiocLanguage
   - Swastika.Cms.Lib.Models.Cms.SiocMedia
@@ -27,7 +30,12 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue
   - Swastika.Cms.Lib.Models.Cms.SiocModuleData
   - Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocOrder
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem
   - Swastika.Cms.Lib.Models.Cms.SiocParameter
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
   - Swastika.Cms.Lib.Models.Cms.SiocPosition
   - Swastika.Cms.Lib.Models.Cms.SiocProduct
   - Swastika.Cms.Lib.Models.Cms.SiocProductMedia
@@ -35,6 +43,7 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct
   - Swastika.Cms.Lib.Models.Cms.SiocTemplate
   - Swastika.Cms.Lib.Models.Cms.SiocTheme
+  - Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
   langs:
   - csharp
   - vb
@@ -108,6 +117,19 @@ references:
   name: SiocCategoryProduct
   nameWithType: SiocCategoryProduct
   fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  isExternal: true
+  name: SiocCmsCustomer
+  nameWithType: SiocCmsCustomer
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocCmsUser
+  nameWithType: SiocCmsUser
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
 - uid: Swastika.Cms.Lib.Models.Cms.SiocComment
   commentId: T:Swastika.Cms.Lib.Models.Cms.SiocComment
   isExternal: true
@@ -134,6 +156,13 @@ references:
   name: SiocCulture
   nameWithType: SiocCulture
   fullName: Swastika.Cms.Lib.Models.Cms.SiocCulture
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCustomer
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCustomer
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocCustomer
+  nameWithType: SiocCustomer
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCustomer
 - uid: Swastika.Cms.Lib.Models.Cms.SiocFile
   commentId: T:Swastika.Cms.Lib.Models.Cms.SiocFile
   parent: Swastika.Cms.Lib.Models.Cms
@@ -197,6 +226,20 @@ references:
   name: SiocModuleProduct
   nameWithType: SiocModuleProduct
   fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocOrder
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocOrder
+  nameWithType: SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrder
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocOrderItem
+  nameWithType: SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
 - uid: Swastika.Cms.Lib.Models.Cms.SiocParameter
   commentId: T:Swastika.Cms.Lib.Models.Cms.SiocParameter
   parent: Swastika.Cms.Lib.Models.Cms
@@ -204,6 +247,27 @@ references:
   name: SiocParameter
   nameWithType: SiocParameter
   fullName: Swastika.Cms.Lib.Models.Cms.SiocParameter
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocPortalPage
+  nameWithType: SiocPortalPage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocPortalPageNavigation
+  nameWithType: SiocPortalPageNavigation
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocPortalPageRole
+  nameWithType: SiocPortalPageRole
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
 - uid: Swastika.Cms.Lib.Models.Cms.SiocPosition
   commentId: T:Swastika.Cms.Lib.Models.Cms.SiocPosition
   parent: Swastika.Cms.Lib.Models.Cms
@@ -253,6 +317,13 @@ references:
   name: SiocTheme
   nameWithType: SiocTheme
   fullName: Swastika.Cms.Lib.Models.Cms.SiocTheme
+- uid: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocUrlAlias
+  nameWithType: SiocUrlAlias
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
 - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
   commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsContext
   parent: Swastika.Cms.Lib.Models.Cms

@@ -78,26 +78,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Swastika.Identity.Data.ApplicationDbContext.html">ApplicationDbContext</a></div>
-    <div class="level2"><span class="xref">SiocCmsAccountContext</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Swastika.Identity.Data.ApplicationDbContext.html#Swastika_Identity_Data_ApplicationDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_">ApplicationDbContext.OnModelCreating(ModelBuilder)</a>
-    </div>
-    <div>
-      <a class="xref" href="Swastika.Identity.Data.ApplicationDbContext.html#Swastika_Identity_Data_ApplicationDbContext_Clients">ApplicationDbContext.Clients</a>
-    </div>
-    <div>
-      <a class="xref" href="Swastika.Identity.Data.ApplicationDbContext.html#Swastika_Identity_Data_ApplicationDbContext_RefreshTokens">ApplicationDbContext.RefreshTokens</a>
-    </div>
+    <div class="level1"><span class="xref">SiocCmsAccountContext</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Swastika.Cms.Lib.Models.Account.html">Swastika.Cms.Lib.Models.Account</a></h6>
   <h6><strong>Assembly</strong>: Swastika.Cms.Lib.dll</h6>
   <h5 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SiocCmsAccountContext : ApplicationDbContext</code></pre>
+    <pre><code class="lang-csharp hljs">public class SiocCmsAccountContext : DbContext</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -138,6 +125,233 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetRoleClaims_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetRoleClaims" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims">AspNetRoleClaims</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetRoleClaims&gt; AspNetRoleClaims { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetRoleClaims.html">AspNetRoleClaims</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetRoles_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetRoles" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles">AspNetRoles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetRoles&gt; AspNetRoles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetRoles.html">AspNetRoles</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserClaims_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserClaims" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims">AspNetUserClaims</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetUserClaims&gt; AspNetUserClaims { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetUserClaims.html">AspNetUserClaims</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserLogins_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserLogins" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins">AspNetUserLogins</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetUserLogins&gt; AspNetUserLogins { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetUserLogins.html">AspNetUserLogins</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserRoles_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserRoles" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles">AspNetUserRoles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetUserRoles&gt; AspNetUserRoles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetUserRoles.html">AspNetUserRoles</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUsers_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUsers" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers">AspNetUsers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetUsers&gt; AspNetUsers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetUsers.html">AspNetUsers</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserTokens_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_AspNetUserTokens" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens">AspNetUserTokens</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;AspNetUserTokens&gt; AspNetUserTokens { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.AspNetUserTokens.html">AspNetUserTokens</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_Clients_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_Clients" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients">Clients</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;Clients&gt; Clients { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.Clients.html">Clients</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_RefreshTokens_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_RefreshTokens" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens">RefreshTokens</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;RefreshTokens&gt; RefreshTokens { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Account.RefreshTokens.html">RefreshTokens</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -163,6 +377,33 @@
       <tr>
         <td><span class="xref">Microsoft.EntityFrameworkCore.DbContextOptionsBuilder</span></td>
         <td><span class="parametername">optionsBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_OnModelCreating_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating*"></a>
+  <h4 id="Swastika_Cms_Lib_Models_Account_SiocCmsAccountContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">OnModelCreating(ModelBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(ModelBuilder modelBuilder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.ModelBuilder</span></td>
+        <td><span class="parametername">modelBuilder</span></td>
         <td></td>
       </tr>
     </tbody>

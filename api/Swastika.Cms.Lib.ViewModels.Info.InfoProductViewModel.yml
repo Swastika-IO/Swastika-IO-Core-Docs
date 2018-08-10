@@ -14,6 +14,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.DealPrice
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.DetailsUrl
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Discount
+  - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Excerpt
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ExtraProperties
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.GetModelListByCategory(System.Int32,System.String,System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
@@ -22,6 +23,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Icon
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Id
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Image
+  - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImportPrice
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.LastModified
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Material
@@ -42,6 +44,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Tags
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Template
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Thumbnail
+  - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Title
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.TotalSaled
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Type
@@ -1272,6 +1275,66 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain
+  id: Domain
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: InfoProductViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string Domain { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Domain As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl
+  id: ImageUrl
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: InfoProductViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string ImageUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ImageUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.StrNormalPrice
   commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.StrNormalPrice
   id: StrNormalPrice
@@ -1392,6 +1455,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl
+  id: ThumbnailUrl
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel
+  langs:
+  - csharp
+  - vb
+  name: ThumbnailUrl
+  nameWithType: InfoProductViewModel.ThumbnailUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string ThumbnailUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ThumbnailUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: Swastika.Cms.Lib.ViewModels.Info
   commentId: N:Swastika.Cms.Lib.ViewModels.Info
@@ -5294,6 +5387,18 @@ references:
   name: Size
   nameWithType: InfoProductViewModel.Size
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Size
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: InfoProductViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.Domain
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl
+  isExternal: true
+  name: ImageUrl
+  nameWithType: InfoProductViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ImageUrl
 - uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.StrNormalPrice*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.StrNormalPrice
   isExternal: true
@@ -5318,3 +5423,9 @@ references:
   name: DetailsUrl
   nameWithType: InfoProductViewModel.DetailsUrl
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.DetailsUrl
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl
+  isExternal: true
+  name: ThumbnailUrl
+  nameWithType: InfoProductViewModel.ThumbnailUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.ThumbnailUrl

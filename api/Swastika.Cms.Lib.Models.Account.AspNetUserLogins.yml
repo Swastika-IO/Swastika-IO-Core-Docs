@@ -8,7 +8,6 @@ items:
   - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.#ctor
   - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.ApplicationUser
   - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.ApplicationUserId
-  - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id
   - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider
   - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.ProviderDisplayName
   - Swastika.Cms.Lib.Models.Account.AspNetUserLogins.ProviderKey
@@ -63,36 +62,6 @@ items:
   overload: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.#ctor*
   modifiers.csharp:
   - public
-  modifiers.vb:
-  - Public
-- uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id
-  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id
-  id: Id
-  parent: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
-  langs:
-  - csharp
-  - vb
-  name: Id
-  nameWithType: AspNetUserLogins.Id
-  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id
-  type: Property
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib.Models.Account
-  syntax:
-    content: public string Id { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Id As String
-  overload: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id*
-  modifiers.csharp:
-  - public
-  - get
-  - set
   modifiers.vb:
   - Public
 - uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider
@@ -331,12 +300,12 @@ references:
   name: AspNetUserLogins
   nameWithType: AspNetUserLogins.AspNetUserLogins
   fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.AspNetUserLogins
-- uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id*
-  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider
   isExternal: true
-  name: Id
-  nameWithType: AspNetUserLogins.Id
-  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.Id
+  name: LoginProvider
+  nameWithType: AspNetUserLogins.LoginProvider
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -344,12 +313,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider*
-  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider
-  isExternal: true
-  name: LoginProvider
-  nameWithType: AspNetUserLogins.LoginProvider
-  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.LoginProvider
 - uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins.ProviderKey*
   commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserLogins.ProviderKey
   isExternal: true

@@ -11,10 +11,13 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.AssetFolder
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.CreatedBy
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.CreatedDateTime
+  - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Id
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Image
+  - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.IsActived
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Name
+  - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.TemplateFolder
   langs:
   - csharp
@@ -189,6 +192,36 @@ items:
       type: System.String
     content.vb: Public Property Name As String
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl
+  id: PreviewUrl
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel
+  langs:
+  - csharp
+  - vb
+  name: PreviewUrl
+  nameWithType: InfoThemeViewModel.PreviewUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string PreviewUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PreviewUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl*
   modifiers.csharp:
   - public
   - get
@@ -399,6 +432,66 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property TemplateFolder As String
   overload: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.TemplateFolder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain
+  id: Domain
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: InfoThemeViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string Domain { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Domain As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl
+  commentId: P:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl
+  id: ImageUrl
+  parent: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: InfoThemeViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Info
+  syntax:
+    content: public string ImageUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ImageUrl As String
+  overload: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl*
   modifiers.csharp:
   - public
   - get
@@ -3689,6 +3782,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl
+  isExternal: true
+  name: PreviewUrl
+  nameWithType: InfoThemeViewModel.PreviewUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.PreviewUrl
 - uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Image*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Image
   isExternal: true
@@ -3748,3 +3847,15 @@ references:
   name: TemplateFolder
   nameWithType: InfoThemeViewModel.TemplateFolder
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.TemplateFolder
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: InfoThemeViewModel.Domain
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.Domain
+- uid: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl
+  isExternal: true
+  name: ImageUrl
+  nameWithType: InfoThemeViewModel.ImageUrl
+  fullName: Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.ImageUrl

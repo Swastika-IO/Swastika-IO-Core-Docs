@@ -29,11 +29,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/RewriteRules.MethodRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RewriteRules.MethodRules.html",
+          "hash": "j+e/jZUSJyZWW7T+JpwIdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RewriteRules.RedirectImageRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RewriteRules.RedirectImageRequests.html",
+          "hash": "JI6B4g5C7+s4OjmsAq+ZDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RewriteRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RewriteRules.html",
+          "hash": "A+QgEt/Nf1CDRke7qxavEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Api.Controllers.BaseApiController-2.yml",
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Api.Controllers.BaseApiController-2.html",
-          "hash": "lzTTOaIEscuspcrWgTFltA=="
+          "hash": "4/hiOxYb+oH0MJ6zUEHyoA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Api.Controllers.BaseApiController.html",
-          "hash": "+ajA/r078qR9chImBZ842g=="
+          "hash": "MyoVXVKmfTktwKOPXapElA=="
         }
       },
       "is_incremental": false,
@@ -70,6 +106,30 @@
         ".html": {
           "relative_path": "api/Swastika.Api.Controllers.html",
           "hash": "1QdTgoORCyC9ICOemGY0Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Api.Controllers.ApiAccountController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Api.Controllers.ApiAccountController.html",
+          "hash": "OcfkrdOpX0iQe2gWNunmjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Api.Controllers.html",
+          "hash": "l7vdlPSJ/9+1iJyj27gQJQ=="
         }
       },
       "is_incremental": false,
@@ -113,11 +173,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.html",
+          "hash": "+pXPUzGmCp+WUWcPLG1qUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.yml",
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.html",
-          "hash": "YAqdCFAdmwKtlEujwOJJzA=="
+          "hash": "bH07c9TB5/6wBbB3fui+MQ=="
         }
       },
       "is_incremental": false,
@@ -130,6 +202,18 @@
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Migrations.first.html",
           "hash": "ob8VYT/6ciyOtxCAZt5Rpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.init.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.init.html",
+          "hash": "+v/+vCucaaCpkmUZVVqFbw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Migrations.html",
-          "hash": "eEd92YAyHE4Z8FNEPtlaZA=="
+          "hash": "sfl+2ZU2PK1Q1V7cRQVTHQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserLogins.html",
-          "hash": "pjhXRGOJRXKVKCp0No3WDg=="
+          "hash": "dfQGkyzAnHRK1Pym8SAnPA=="
         }
       },
       "is_incremental": false,
@@ -261,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Account.RefreshTokens.html",
-          "hash": "sdun1dlo8JDX9rv4Ei1twQ=="
+          "hash": "ntZnz4V1G6R0HeYnzi6wWg=="
         }
       },
       "is_incremental": false,
@@ -273,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.html",
-          "hash": "4qn0hcvBeOUuXChcg7FP1w=="
+          "hash": "oUcZ28a2K7JPbHOB2qBwkQ=="
         }
       },
       "is_incremental": false,
@@ -297,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticle.html",
-          "hash": "/Rad4KC5Lf0liM7H98WGOg=="
+          "hash": "VCxJaxOQV65+kVKS+I6inw=="
         }
       },
       "is_incremental": false,
@@ -333,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategory.html",
-          "hash": "rtkKH6+7W41YFwOVTmPKDg=="
+          "hash": "Ofjvbipk+VCWTk3+WifJag=="
         }
       },
       "is_incremental": false,
@@ -405,7 +489,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html",
-          "hash": "aPt330ekvYDs9shS3LQd4Q=="
+          "hash": "42t2UQ7jAsoKwiQI8ZggRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.html",
+          "hash": "3FZaJz5MNAAF7LwuQgczcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsUser.html",
+          "hash": "UB6nB2COi3PWQpo48somew=="
         }
       },
       "is_incremental": false,
@@ -417,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocComment.html",
-          "hash": "8wlN556n15Q0HnhuazSwHA=="
+          "hash": "Huv1T+lhJyScq8lZFtvnQQ=="
         }
       },
       "is_incremental": false,
@@ -453,7 +561,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCulture.html",
-          "hash": "yUtdF2PLjEORG4TUTYiVDQ=="
+          "hash": "2w7gP2S8SSf68nCP2x1B+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCustomer.html",
+          "hash": "9Ymn6fkeDSwNQF/cWuifCg=="
         }
       },
       "is_incremental": false,
@@ -477,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocLanguage.html",
-          "hash": "GEh0+k+uG4wMDkHo8Pw2Hw=="
+          "hash": "E86luF5aXJ8cmsxuoNeywA=="
         }
       },
       "is_incremental": false,
@@ -489,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocMedia.html",
-          "hash": "YhZNO8b1VPpVO4oCt23BNg=="
+          "hash": "JEgQsuHOdhtHgolF4vMpgw=="
         }
       },
       "is_incremental": false,
@@ -501,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModule.html",
-          "hash": "Rw/o4ExvrvXTzpFv7xL5gQ=="
+          "hash": "sV4QxOh7QVKXkVbKWmQrDA=="
         }
       },
       "is_incremental": false,
@@ -569,11 +689,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrder.html",
+          "hash": "0RUEIj/6L2NoiTYENMC17A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrderItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrderItem.html",
+          "hash": "LW7ni+VbGKBqVyQEzKmyDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocParameter.yml",
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocParameter.html",
           "hash": "qhanbb3ZiaNfafYnj+capw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPage.html",
+          "hash": "jh182GmMHATAKuaSfmQ2pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation.html",
+          "hash": "vn9hKLh6atKH/Dw7pDqJxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole.html",
+          "hash": "KxbLvb00up90T+kJGPgZow=="
         }
       },
       "is_incremental": false,
@@ -597,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProduct.html",
-          "hash": "HM0lEhRoVoMSSZZ0ZoAsag=="
+          "hash": "0kC9R0gH02rz4otZlkCDcg=="
         }
       },
       "is_incremental": false,
@@ -657,7 +837,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocTheme.html",
-          "hash": "cgT9ltb/mKMeZgEIk20YHw=="
+          "hash": "TZ2ts1PrlBTW6ixxKoFtvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocUrlAlias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocUrlAlias.html",
+          "hash": "ain3bDu1lLnWBW7c7gcLlA=="
         }
       },
       "is_incremental": false,
@@ -669,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Models.Cms.html",
-          "hash": "HGSl0vZsl+VwV7sXbc4Wcw=="
+          "hash": "d1bzmjOvMmSOPq0CEVwHsw=="
         }
       },
       "is_incremental": false,
@@ -681,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Repositories.CommonRepository.html",
-          "hash": "z78qO8T1cJgCua/Q7b+OgQ=="
+          "hash": "ilm2id+1R6prgxNsBm0VEw=="
         }
       },
       "is_incremental": false,
@@ -693,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Repositories.FileRepository.html",
-          "hash": "S0ZGmWyLItWR3VRI2wy3tg=="
+          "hash": "h9JYU8Y0mtXUNOYk2b5iGA=="
         }
       },
       "is_incremental": false,
@@ -729,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.html",
-          "hash": "6XVk5nk1vVFeaLAIs9fO9w=="
+          "hash": "Rke069ysvY28qxH7rPB2tg=="
         }
       },
       "is_incremental": false,
@@ -777,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.html",
-          "hash": "iFq1y/wg60vCZRdKAKRgYQ=="
+          "hash": "3zBtzYVHQxnlZmYSlGgUpg=="
         }
       },
       "is_incremental": false,
@@ -789,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.html",
-          "hash": "GRvAZI1U91YLRCni6K2yTA=="
+          "hash": "xQ5mRKUNB3knQvqzG6sLOQ=="
         }
       },
       "is_incremental": false,
@@ -813,7 +1005,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.Default.html",
-          "hash": "WlyCg8Z9hCXlq2ssiqejog=="
+          "hash": "2dE13/V1zqn2c040eX93cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder.html",
+          "hash": "HVuSU2XzkkFVaNYDeTarwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.html",
+          "hash": "Mpmu9xkLo1zIF0eQwK6E/A=="
         }
       },
       "is_incremental": false,
@@ -825,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.FileFolder.html",
-          "hash": "W0EIPK3cGNJ9jfVEqFhuLg=="
+          "hash": "/djl6l6P+8QKh34jU6Ik0w=="
         }
       },
       "is_incremental": false,
@@ -849,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.JWTSettings.html",
-          "hash": "SmlJtk6OdPDnEPDaRHBRzA=="
+          "hash": "f4gMukix0bIwiEvc2TH2mg=="
         }
       },
       "is_incremental": false,
@@ -873,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.Parameters.html",
-          "hash": "tf0BfUckNLSHLJBq72FrvA=="
+          "hash": "i5DCO569Qx6c03WIEG77OA=="
         }
       },
       "is_incremental": false,
@@ -897,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.html",
-          "hash": "IFK3rVQXnPPtqgqUH1ND+g=="
+          "hash": "qBcyLfbtbaAXf74judleQg=="
         }
       },
       "is_incremental": false,
@@ -910,6 +1126,18 @@
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum.html",
           "hash": "oP2lmNU/8APnCSSF/P+WUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.html",
+          "hash": "tnPHsraH4KSXp1CIOX89RQ=="
         }
       },
       "is_incremental": false,
@@ -933,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.html",
-          "hash": "j7tvLvhlwykqr5rSKX4Ntg=="
+          "hash": "Qa866I3rmsoAEnrv1FVf5Q=="
         }
       },
       "is_incremental": false,
@@ -945,7 +1173,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.SWCmsHelper.html",
-          "hash": "ypeJjKHRkQ7aHfem6AB4tg=="
+          "hash": "Ff5YRVIWGjfTRA6z/fgv7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.CmsConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.CmsConfiguration.html",
+          "hash": "7k+SKeu5JXPtNz0lKVlW0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.CmsCultureConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.CmsCultureConfiguration.html",
+          "hash": "YLo82t4XlHvpj8DvsHsXag=="
         }
       },
       "is_incremental": false,
@@ -957,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Services.GlobalConfigurationService.html",
-          "hash": "ZZyVIUoYBM8NjmB4jDtteg=="
+          "hash": "b/gMy33NhcyES+qwCOA5XA=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.Services.html",
-          "hash": "MJd1dBN6uRNrZF5Om8CV2A=="
+          "hash": "/rZ8XxkkeCaCgTOp6gOCjA=="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.html",
-          "hash": "eSkanrdxbsuDGLoK8mvoVg=="
+          "hash": "4fG+1Qvk2ykjokdmvrKLTg=="
         }
       },
       "is_incremental": false,
@@ -1049,11 +1301,251 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.RoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.RoleViewModel.html",
+          "hash": "PB8+zDNJuvs6MyRBSJq0TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel.html",
+          "hash": "QKlHrzdtG82tBZmjWSxfzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.yml",
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.html",
-          "hash": "kkLOV7X+8FOQX0omEWaP/Q=="
+          "hash": "mTgtv/gNWdU9xW9mkZupRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCategoryViewModel.html",
+          "hash": "SwvGaIUfVYmabcPL+3pDeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiConfigurationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiConfigurationViewModel.html",
+          "hash": "TA1pHzGmtbltfLAN9S4iGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCultureViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCultureViewModel.html",
+          "hash": "sZoQ/r6tYk3978agkO4HHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCustomerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCustomerViewModel.html",
+          "hash": "NkoiGgp8LkQRoliiJAzS4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiFilePageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiFilePageViewModel.html",
+          "hash": "UHFJeBARG1KHWw7arX9/5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiInitCmsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiInitCmsViewModel.html",
+          "hash": "XQQmoThJOGe24AdAP2PgTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiLanguageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiLanguageViewModel.html",
+          "hash": "rIVXLvTGEMZVPRARJTZ+kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleDataViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleDataViewModel.html",
+          "hash": "WwlEwDJQ7nDyg0OLm2aQ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleViewModel.html",
+          "hash": "KFst2oDMVUBA5nyrODXkCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderItemViewModel.html",
+          "hash": "Zx6ysP4Q8f0DhKG6KSppbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderViewModel.html",
+          "hash": "ej0n8XiVhzuHttdzmmr2uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiTemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiTemplateViewModel.html",
+          "hash": "q5E+fttu18UbqJDDakURpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiThemeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiThemeViewModel.html",
+          "hash": "bCrTK3G6TLnn8Aw3kgWWuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel.html",
+          "hash": "zDVKUZGdDkHpnQLt2eLkow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.InitCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.InitCulture.html",
+          "hash": "NCW5cgxNDVHAP04LJMSCbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ModuleDataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ModuleDataValueViewModel.html",
+          "hash": "n7lH1D4ojui9jprjySK5kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.html",
+          "hash": "0xKegt5iIH6eGQjzmtg36Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel.html",
+          "hash": "VIms4uo0AM3ugxpLFCYodA=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel.html",
-          "hash": "X/5h9fhYsKFrKQwTdb5Sig=="
+          "hash": "pnPnem+RvVD21deA/CK7bA=="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.html",
-          "hash": "4RaoQ1XEMe6whw4yJUNfKg=="
+          "hash": "CqBrEcpdh5lDcGyb41imMQ=="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.html",
-          "hash": "bwtrkMYDMxNscl++rRis7w=="
+          "hash": "IdCS00O23frishQiU8OwEQ=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1593,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.html",
-          "hash": "VQnYHW6vG0ak2QZPVwzsPQ=="
+          "hash": "Np+yWFRtyxbVEr+44bK3Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel.html",
+          "hash": "smt8LWJzVVYKBWdcCFbzQA=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel.html",
-          "hash": "eZ3GZxAZeWPkHbJedHX3uQ=="
+          "hash": "9Wm3qWOdFb1+Q7YjlLzwxw=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel.html",
-          "hash": "IGenFFfxT9WonrJVYsaoRQ=="
+          "hash": "NCZjigZbH+5Tr6yx5D6lIw=="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.html",
-          "hash": "Xo7UmFZZlRXqojYTjRBgbQ=="
+          "hash": "y6+nM5ukEQJ/uAimspCz9g=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleDataViewModel.html",
-          "hash": "fwwcsOFFoLW3kYOdga0CIg=="
+          "hash": "X2S7aj5VFcSWHYD6XCn8QQ=="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleViewModel.html",
-          "hash": "urNcSSxg1BvEGKqmbvDiSg=="
+          "hash": "Bg85APC0P7d4aKyEPWxQOA=="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEProductMediaViewModel.html",
-          "hash": "9WdzEhxjHtzvw106EjhXhA=="
+          "hash": "Q0KuCHgAXc+vYsdYW+l+0g=="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.html",
-          "hash": "Xv0FBFbkuMcyxFkOcnyZMA=="
+          "hash": "WP6MkZd0T8Yf7DNnuJFs2Q=="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.html",
-          "hash": "q49t/E/3ED5fN6NOj0pBoA=="
+          "hash": "l8XhIYjLVKxWz5G5JAJ6vw=="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1737,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.html",
-          "hash": "NNoAwyyTbpeoHjgghDmepQ=="
+          "hash": "ljaeprPDrXsEarhB+1BEcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel.html",
+          "hash": "a3XKkulKhVcf+xSg3JBr9Q=="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1761,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.html",
-          "hash": "Is1Ghzvy/h6A+n/6ubP0Xg=="
+          "hash": "bxXoydCUi1mI6CiVfNj7ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel.html",
+          "hash": "CRAxJP9nDyrAdjpyGMlPkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend_1.html",
+          "hash": "NEqpIeJ5kM3YQL+YUt8ZNA=="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryModuleViewModel.html",
-          "hash": "DI3xrBIu7DZJSm0aK8fKHw=="
+          "hash": "yGRjtPQf/9YCde2ry4IJow=="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryPositionViewModel.html",
-          "hash": "XN3QjHK1EIsxsz2bMyfmoQ=="
+          "hash": "z74/sZRG5YFAzxvIrKXVTA=="
         }
       },
       "is_incremental": false,
@@ -1305,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.ConfigurationViewModel.html",
-          "hash": "obeBcNkPCsfYS/r+cZ5sOg=="
+          "hash": "9DdZkaAPUNwa5ZtUc6ouVw=="
         }
       },
       "is_incremental": false,
@@ -1318,6 +1858,18 @@
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.DashboardViewModel.html",
           "hash": "tnY92P3pEhI0NS+bU1LI7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.DataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.DataValueViewModel.html",
+          "hash": "7GYmYtcBJztjx3rzFv2uSA=="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FileViewModel.html",
-          "hash": "0H9U9dCpay0cNepftxLT9Q=="
+          "hash": "j1eMfP9hHBtPfTW1d1q6yg=="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleModuleViewModel.html",
-          "hash": "v4XqvAFphEiILA934QxKeA=="
+          "hash": "vUIXV/MZDT7/9ozFGV5Fjg=="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleViewModel.html",
-          "hash": "OD53nOEwBFDlmYHZgSedGg=="
+          "hash": "lT/3bvh/xd0ZX1xn1G1a0w=="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1941,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.html",
-          "hash": "AcJQRVGewUHeJmDk900aog=="
+          "hash": "pENq7Vm0H5kthGsMuj7B3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel.html",
+          "hash": "sYl+ZjCWzt4gEF1u75MNNA=="
         }
       },
       "is_incremental": false,
@@ -1401,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel.html",
-          "hash": "zwf33urXdTbejSnrvZkyJg=="
+          "hash": "a/JyrNZdxBmNG/HcNrxKdQ=="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.html",
-          "hash": "SWT+rojNGJ1O2ZsI7I0imA=="
+          "hash": "52eAiwgIG1z2Z0ka1RM2OQ=="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel.html",
-          "hash": "gkioUQXWpPYylf03BUqMrg=="
+          "hash": "2gOl5zLRO1Hurg9S7v7paQ=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.SpaModuleViewModel.html",
-          "hash": "znvstG+0wPnl/maAqX2MtQ=="
+          "hash": "icn80t+o8Nz/qyEwGK7uuQ=="
         }
       },
       "is_incremental": false,
@@ -1473,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.html",
-          "hash": "L8RL1AQ2K8wYW0Ky3dTuZA=="
+          "hash": "04bFuqejavGivzedPh4yyw=="
         }
       },
       "is_incremental": false,
@@ -1509,7 +2073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.html",
-          "hash": "Ws5ZbFFW+V+ssE8z6C4JjQ=="
+          "hash": "sQGK+qn99Vx+YgxGgo+krg=="
         }
       },
       "is_incremental": false,
@@ -1533,7 +2097,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoFileViewModel.html",
-          "hash": "t8KJrwABeGCPZnvPgn8E4A=="
+          "hash": "UHYftmjvHg5aJvmW8y4Pyw=="
         }
       },
       "is_incremental": false,
@@ -1557,7 +2121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.html",
-          "hash": "OQ1sPMtsOyg0wwFN+1k0bw=="
+          "hash": "6qcGrjHr1yXkfp6gWFVYRA=="
         }
       },
       "is_incremental": false,
@@ -1577,11 +2141,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoOrderViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoOrderViewModel.html",
+          "hash": "QrVVxFPg6qWRtYl8PSf7Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoPortalPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoPortalPageViewModel.html",
+          "hash": "oY49oROhbwp34V2W1QTiAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.yml",
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.html",
-          "hash": "3Z/zUXflnBN4Y+BxSRZVlg=="
+          "hash": "oN5clwTzlm2Mq0FqVpXzaQ=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +2193,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.html",
-          "hash": "FBiDAM1a4khqNJ9z1ZZ3iQ=="
+          "hash": "o2SfEvGoUp55Ts2uGyK81A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel.html",
+          "hash": "/KXRTbmEyvPxtLS5VGaXbw=="
         }
       },
       "is_incremental": false,
@@ -1617,7 +2217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.html",
-          "hash": "QO3CjynK4P09cdmYvrSjBg=="
+          "hash": "3iX+efERgxtmjXpXMKMaug=="
         }
       },
       "is_incremental": false,
@@ -1629,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.InitCmsViewModel.html",
-          "hash": "dVOs7p+jSJ1Wnma+hxWG5g=="
+          "hash": "+xwWvF5KGknqI2MEA1Xzdg=="
         }
       },
       "is_incremental": false,
@@ -1653,7 +2253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel.html",
-          "hash": "zODFjWYwg+MsOoJLaNgWGA=="
+          "hash": "psY4eFVMmPtBKz/bA7xHrw=="
         }
       },
       "is_incremental": false,
@@ -1665,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.html",
-          "hash": "6BU42cma1Xj5vP/tofOaUg=="
+          "hash": "WNDNSm3nV6qvNF4I28Dngw=="
         }
       },
       "is_incremental": false,
@@ -1677,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.html",
-          "hash": "ylQgZnm+BZ93dwOJBoTeZQ=="
+          "hash": "+3ezK0zoAqCOZ8TbYmOadQ=="
         }
       },
       "is_incremental": false,
@@ -1689,7 +2289,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleMediaViewModel.html",
-          "hash": "xVbO/QDrJyFGW0xL9d6MIA=="
+          "hash": "iBXqbMGAo5efgXIg7bf3qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel.html",
+          "hash": "EttuYje/pPqVfzaseneZhg=="
         }
       },
       "is_incremental": false,
@@ -1701,7 +2313,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel.html",
-          "hash": "YtCvCd0ONWWTcrvl/h8A2Q=="
+          "hash": "ShS7YKlPd1KFebVCERBM0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.html",
+          "hash": "LLMx5Ql+saigLwkS0deRwA=="
         }
       },
       "is_incremental": false,
@@ -1713,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryProductViewModel.html",
-          "hash": "B29ykD/139ZMEeN3A9r/iQ=="
+          "hash": "LAmg3McwnxJ4ijVa0ntQVg=="
         }
       },
       "is_incremental": false,
@@ -1725,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel.html",
-          "hash": "9pFDRFgcCP8xDvCLvBvo/A=="
+          "hash": "lODKCjDQBgRif/gOWSFOeg=="
         }
       },
       "is_incremental": false,
@@ -1737,7 +2361,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavModuleProductViewModel.html",
-          "hash": "zWEACim972yb7tK9uHcGMQ=="
+          "hash": "b7PqSFzAR4VmLUoVQFhQVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageRoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageRoleViewModel.html",
+          "hash": "hown/d6wv0T9FlFrSSk4ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageViewModel.html",
+          "hash": "xmZ6ARFex49OrniCh+pbgg=="
         }
       },
       "is_incremental": false,
@@ -1749,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavProductMediaViewModel.html",
-          "hash": "ORCzLjcVT5lMMGGl+0Tpdg=="
+          "hash": "RgOX6CZYQzn+Dcsta2n5UQ=="
         }
       },
       "is_incremental": false,
@@ -1761,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavProductModuleViewModel.html",
-          "hash": "B46Ol7/Rk2r54AWlLOqCIg=="
+          "hash": "WMWZ0vVzT83R76D2V8IofQ=="
         }
       },
       "is_incremental": false,
@@ -1773,7 +2421,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavRelatedProductViewModel.html",
-          "hash": "eKzT8AQDTPcTHWgYxFckmg=="
+          "hash": "0Wg+T2du/6+GD8y5+4wRqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavUserRoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavUserRoleViewModel.html",
+          "hash": "jh+vmnQSMtGBE8GvKomtRQ=="
         }
       },
       "is_incremental": false,
@@ -1785,7 +2445,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.html",
-          "hash": "dfdj/AiweDassgNO/bR3Bw=="
+          "hash": "gZIbPt9Ivu6kVwj27gWfwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel.html",
+          "hash": "2cGJHUnqjRD+2dRZs5y5kA=="
         }
       },
       "is_incremental": false,
@@ -1809,7 +2481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.html",
-          "hash": "UrfVfLO5T+G5rHV2eynqSg=="
+          "hash": "f+hDYha4HJIp3NiJBt6aQQ=="
         }
       },
       "is_incremental": false,
@@ -1821,7 +2493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel.html",
-          "hash": "cdgUuPHZMZrm+y9DlhSHjA=="
+          "hash": "upwjIExxZfV6/+Cl0FgXhw=="
         }
       },
       "is_incremental": false,
@@ -1834,6 +2506,18 @@
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.html",
           "hash": "97npP37jLMvahIoAKXvB9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel.html",
+          "hash": "ON4h1aTcmdCOTcWsCV7svQ=="
         }
       },
       "is_incremental": false,
@@ -1857,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.ViewModels.html",
-          "hash": "VLvybnNZW/bpVE8mmr6xqQ=="
+          "hash": "T84x6O4KQRmCUPkMJKeluw=="
         }
       },
       "is_incremental": false,
@@ -1869,7 +2553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Lib.html",
-          "hash": "dn2TyCaXzSUDObYt95+Jcg=="
+          "hash": "7EzsltS+nQJWcwKzkO1bOQ=="
         }
       },
       "is_incremental": false,
@@ -1965,7 +2649,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.html",
-          "hash": "ZCBR4MeZ1VuguqiwieLWVQ=="
+          "hash": "MXK7oaxr30lnrD5qYsoyxw=="
         }
       },
       "is_incremental": false,
@@ -2049,7 +2733,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.html",
-          "hash": "m/5herJAivII39c3KVDM4g=="
+          "hash": "H4xczgsXxOFEKomNkPkY+g=="
         }
       },
       "is_incremental": false,
@@ -2177,6 +2861,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.BackendController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.BackendController.html",
+          "hash": "CNQSusJgySEFNcJ/cI77Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController-1.yml",
       "output": {
         ".html": {
@@ -2189,11 +2885,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController.html",
+          "hash": "A4qwe8JpRWnsy2XNetWW7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.HomeController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Mvc.Controllers.HomeController.html",
-          "hash": "R6KQhemauM7xONcCMssYIg=="
+          "hash": "8ccRdSoyPMjZYFb/qWSVGw=="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2913,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Mvc.Controllers.html",
-          "hash": "qPsodNrGqgMjaa4WBJocVw=="
+          "hash": "vRVlgZ82eEC+DBGpRjw34g=="
         }
       },
       "is_incremental": false,
@@ -2277,7 +2985,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController.html",
-          "hash": "IsWxiAyRMsVURoQM/ePHww=="
+          "hash": "tdPj0BZMq/36XH4JK19ExA=="
         }
       },
       "is_incremental": false,
@@ -2325,7 +3033,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Controllers.InitCmsController.html",
-          "hash": "+61AvpAOqKG5i2rkY1xZ6A=="
+          "hash": "/gSEnU9fdfjjI5oFFXeV7Q=="
         }
       },
       "is_incremental": false,
@@ -2745,7 +3453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Identity.JWTSettings.html",
-          "hash": "C7Lkh6ImLpTAIll5zaiswA=="
+          "hash": "LV6/A2xwu+wHhXRk8v97QA=="
         }
       },
       "is_incremental": false,
@@ -2757,7 +3465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Identity.html",
-          "hash": "ffEd8bxJygJqgZRO0inNIg=="
+          "hash": "r+lspbehzl9nkZ0cLeswPg=="
         }
       },
       "is_incremental": false,
@@ -2781,7 +3489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Program.html",
-          "hash": "fX4Sljd86eTntC90rKQK7Q=="
+          "hash": "NPwUfGYJFasy+4FHQrjYMQ=="
         }
       },
       "is_incremental": false,
@@ -2793,7 +3501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.html",
-          "hash": "7ziBb+iX/DoFTBNhT9FQrw=="
+          "hash": "3ujGRTw3w9bvnsD9pB5zLA=="
         }
       },
       "is_incremental": false,
@@ -2829,7 +3537,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.Startup.html",
-          "hash": "uKh0TXuTkyVQFyCo+iqO4w=="
+          "hash": "8Bxbzx56fSEsvclykixJLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.StartupEnhancementHostingStartup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.StartupEnhancementHostingStartup.html",
+          "hash": "AvKi0ycDDXpAbQJxFnpivQ=="
         }
       },
       "is_incremental": false,
@@ -2841,7 +3561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Cms.Web.Mvc.html",
-          "hash": "R6nE2GeUfPqBdmyXYawKPg=="
+          "hash": "ZvPjiKylvRC2bDOh/9S+jg=="
         }
       },
       "is_incremental": false,
@@ -2854,6 +3574,42 @@
         ".html": {
           "relative_path": "api/Swastika.Common.Helper.CommonHelper.html",
           "hash": "xVA76IjG6NkTZALFo8ULGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.html",
+          "hash": "esms+p2Uu4BkHIBMM2lfBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.Rating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.Rating.html",
+          "hash": "XLnz53gchZrFt2uHBixr2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.html",
+          "hash": "a+TBDfk9VRxHN7N3AEPmKg=="
         }
       },
       "is_incremental": false,
@@ -2877,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Common.Helper.html",
-          "hash": "PcaPBcDIwkyPpFbaUu61cA=="
+          "hash": "3gthtKP+X97qNHb4rwLPGA=="
         }
       },
       "is_incremental": false,
@@ -3273,7 +4029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Domain.Data.ViewModels.ViewModelBase-3.html",
-          "hash": "9Bt778hqVi6OJ+XGVDuctQ=="
+          "hash": "I6OW28tMkbpaD/Vec6RhWQ=="
         }
       },
       "is_incremental": false,
@@ -3381,7 +4137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastika.Identity.Data.ApplicationDbContext.html",
-          "hash": "CnyaVa2ZEXyA08XZYgvI3g=="
+          "hash": "M5Dwtz9ivL8R/tOxLHG20g=="
         }
       },
       "is_incremental": false,
@@ -4077,7 +4833,79 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Controllers.ApiArticleController.html",
-          "hash": "+hDqty87G73CxEztoEkeJw=="
+          "hash": "5pofEi7rUZ97JmqqWau8ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiCategoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiCategoryController.html",
+          "hash": "He8IBDm6gjnTUB79k3VwvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiConfigurationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiConfigurationController.html",
+          "hash": "MHQUSyqknrJYye4tJJ1BZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiCultureController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiCultureController.html",
+          "hash": "Ps1RlVd+eXYu1cBNzIRyXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiCustomerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiCustomerController.html",
+          "hash": "2Mbhe2p3w4G7qeMp6lgTiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiFileController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiFileController.html",
+          "hash": "Cur9cW1HK6V1FP4fLiLA6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiLanguageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiLanguageController.html",
+          "hash": "gTKu6+Ep1ZFfOi6tDumtFA=="
         }
       },
       "is_incremental": false,
@@ -4089,7 +4917,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Controllers.ApiMediaController.html",
-          "hash": "OhuX+cOkGvHQd5d5SHjNHg=="
+          "hash": "oPH6SLtNiIdQk3pIlFq66Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleController.html",
+          "hash": "1qbRBxONAcr1yUA/Uw84ww=="
         }
       },
       "is_incremental": false,
@@ -4101,7 +4941,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleDataController.html",
-          "hash": "SNxhiC9c7urtlynX3H6m2A=="
+          "hash": "0HlKpKnfxpcnG4qblizHvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavPageModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavPageModuleController.html",
+          "hash": "YvWNKXlcl/2LmoxBiXdd7w=="
         }
       },
       "is_incremental": false,
@@ -4113,7 +4965,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavigationController.html",
-          "hash": "wTzQd3C32sfkF7BhrJ/EQw=="
+          "hash": "UhTfBqtLnwo/Bj15e7EaOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiPortalController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiPortalController.html",
+          "hash": "BRQl1G+wYp5EYC7zeeL1Ag=="
         }
       },
       "is_incremental": false,
@@ -4125,7 +4989,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Controllers.ApiProductController.html",
-          "hash": "cJG6kTffo/hgDAxGKOAVmA=="
+          "hash": "pju3p2ZOTfxhzZIwKPumPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiRoleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiRoleController.html",
+          "hash": "gxdcNo5WW2AB/0vpcWPCxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiTemplateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiTemplateController.html",
+          "hash": "Ilnqey5624bhICBpo9psFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiThemeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiThemeController.html",
+          "hash": "DFZjaHoaKHx7kEbK+5ZTow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController-3.html",
+          "hash": "jtosPKoHbTUA+05DK51z8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController.html",
+          "hash": "r7WONxS1ry0RmSrZ3dSi8A=="
         }
       },
       "is_incremental": false,
@@ -4137,7 +5061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Controllers.html",
-          "hash": "1aVSOdOebZTEMqKL0WGY0Q=="
+          "hash": "l45k495UZrgm1Or3O33Srg=="
         }
       },
       "is_incremental": false,
@@ -4161,7 +5085,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Api.Program.html",
-          "hash": "0JHks8mBKSausQJGCD0StQ=="
+          "hash": "dAlYg1RQIZjaaumvu5SSzg=="
         }
       },
       "is_incremental": false,
@@ -4197,7 +5121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Swastka.Cms.Web.Startup.html",
-          "hash": "dzdPkx9qNYZDLLqmf+1ANA=="
+          "hash": "hzBvjBdnQGfz3zFQA5yZSQ=="
         }
       },
       "is_incremental": false,
@@ -4317,7 +5241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+UyNX+bND8ZBp5dEr6YqQQ=="
+          "hash": "hqO6fsftcHicRLcQs++CrA=="
         }
       },
       "is_incremental": false,
@@ -4336,12 +5260,137 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/page/create-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/page/create-page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/page/set-parent-pages.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/page/set-parent-pages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/readme/opt_nuk_thumbnail.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/readme/opt_nuk_thumbnail.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/readme/swastika-history.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/readme/swastika-history.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/article-and-product.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/article-and-product.html",
+          "hash": "MHOV3+u8YoxiqdfXgTCq7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "documents/components/index.md",
       "output": {
         ".html": {
           "relative_path": "documents/components/index.html",
-          "hash": "T6zM7suxSbEcGwaEKjozvQ=="
+          "hash": "VZsSML+lsJnzbZts7i14YA=="
         }
       },
       "is_incremental": false,
@@ -4354,6 +5403,18 @@
         ".html": {
           "relative_path": "documents/dependency-injection.html",
           "hash": "6tkTUB9M2gtzL3d3qbt5CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/firststep.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/firststep.html",
+          "hash": "r8ENqvgRzXy0zbHjnEAT2Q=="
         }
       },
       "is_incremental": false,
@@ -4392,7 +5453,19 @@
       "output": {
         ".html": {
           "relative_path": "documents/index.html",
-          "hash": "DoDAdn+4IAKiLXtNPHUMzw=="
+          "hash": "VAC4iZvNPVOuAhFP0vhxhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/installing.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/installing.html",
+          "hash": "ohNNgpkF47yNPsU74Vp3BA=="
         }
       },
       "is_incremental": false,
@@ -4435,15 +5508,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
-      "type": "Toc",
-      "source_relative_path": "documents/toc.md",
+      "type": "Conceptual",
+      "source_relative_path": "documents/module.md",
       "output": {
         ".html": {
-          "relative_path": "documents/toc.html",
-          "hash": "fcECtMRb7XH24Km3Sha+Qg=="
+          "relative_path": "documents/module.html",
+          "hash": "fvV4G7K14mVshz3x6dxxtQ=="
         }
       },
       "is_incremental": false,
@@ -4451,11 +5521,62 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "documents/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/page.html",
+          "hash": "cA7e38TpnOaDQBR9Ig4YZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/template.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/template.html",
+          "hash": "933sH07EY4IiS5oH8kqehQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/theme.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/theme.html",
+          "hash": "325s1LOgd4NNxAi6uqZZoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documents/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/toc.html",
+          "hash": "52XsI0Kuourp1JEdyZd2hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
       "source_relative_path": "documents/tutorials/build-your-first-blazor-app.md",
       "output": {
         ".html": {
           "relative_path": "documents/tutorials/build-your-first-blazor-app.html",
-          "hash": "xHw5e9411ZTGLeWmTXTmow=="
+          "hash": "bjCwS9BEV+87gtRbcSYyig=="
         }
       },
       "is_incremental": false,
@@ -4514,7 +5635,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+hDVbvibPGdhC+5/AVo2xg=="
+          "hash": "n2G3jWCajqNKRw9nKQlQKQ=="
         }
       },
       "is_incremental": false,
@@ -4526,7 +5647,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "NcRtA4+r5/T8DG8g3rZoqg=="
+          "hash": "4C7JuOldVjIR6YrMFytYwA=="
         }
       },
       "is_incremental": false,
@@ -4541,17 +5662,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ResourceDocumentProcessor": {

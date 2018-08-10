@@ -19,7 +19,6 @@ items:
 references:
 - uid: Swastika.Api.Controllers.BaseApiController
   commentId: T:Swastika.Api.Controllers.BaseApiController
-  parent: Swastika.Api.Controllers
   isExternal: true
   name: BaseApiController
   nameWithType: BaseApiController
@@ -138,9 +137,3 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Swastika.Api.Controllers
-  commentId: N:Swastika.Api.Controllers
-  isExternal: false
-  name: Swastika.Api.Controllers
-  nameWithType: Swastika.Api.Controllers
-  fullName: Swastika.Api.Controllers

@@ -18,6 +18,7 @@ items:
   - Swastika.Cms.Lib.Models.Cms.SiocCategory.Layout
   - Swastika.Cms.Lib.Models.Cms.SiocCategory.Level
   - Swastika.Cms.Lib.Models.Cms.SiocCategory.ModifiedBy
+  - Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize
   - Swastika.Cms.Lib.Models.Cms.SiocCategory.Priority
   - Swastika.Cms.Lib.Models.Cms.SiocCategory.SeoDescription
   - Swastika.Cms.Lib.Models.Cms.SiocCategory.SeoKeywords
@@ -839,6 +840,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize
+  id: PageSize
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategory
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: SiocCategory.PageSize
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public Nullable<int> PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property PageSize As Nullable(Of Integer)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.Models.Cms.SiocCategory.SpecificultureNavigation
   commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategory.SpecificultureNavigation
   id: SpecificultureNavigation
@@ -1368,6 +1399,12 @@ references:
   name: Views
   nameWithType: SiocCategory.Views
   fullName: Swastika.Cms.Lib.Models.Cms.SiocCategory.Views
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: SiocCategory.PageSize
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategory.PageSize
 - uid: Swastika.Cms.Lib.Models.Cms.SiocCategory.SpecificultureNavigation*
   commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategory.SpecificultureNavigation
   isExternal: true

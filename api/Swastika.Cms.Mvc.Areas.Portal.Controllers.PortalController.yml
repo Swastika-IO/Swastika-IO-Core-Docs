@@ -5,10 +5,9 @@ items:
   id: PortalController
   parent: Swastika.Cms.Mvc.Areas.Portal.Controllers
   children:
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfigurationRoot)
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole})
   - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Index
   - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init
-  - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init(Swastika.Cms.Lib.ViewModels.InitCmsViewModel)
   - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Search(System.String,Swastika.Cms.Lib.SWCmsConstants.SearchType)
   langs:
   - csharp
@@ -24,41 +23,41 @@ items:
   - Swastika.Cms.Web.Mvc
   namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
   syntax:
-    content: 'public class PortalController : BaseController<PortalController>'
+    content: 'public class PortalController : BaseController'
     content.vb: >-
       Public Class PortalController
-          Inherits BaseController(Of PortalController)
+          Inherits BaseController
   inheritance:
   - System.Object
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
+  - Swastika.Cms.Mvc.Controllers.BaseController
   inheritedMembers:
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ROUTE_CULTURE_NAME
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ROUTE_DEFAULT_CULTURE
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._domain
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._configuration
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._env
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.GetLanguage
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.UploadListFileAsync(System.String)
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ViewContext
-  - Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.CurrentLanguage
+  - Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  - Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  - Swastika.Cms.Mvc.Controllers.BaseController._domain
+  - Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  - Swastika.Cms.Mvc.Controllers.BaseController._env
+  - Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  - Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  - Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  - Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  - Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfigurationRoot)
-  commentId: M:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfigurationRoot)
-  id: '#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfigurationRoot)'
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole})
+  commentId: M:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole})
+  id: '#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole})'
   parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
   langs:
   - csharp
   - vb
-  name: PortalController(IHostingEnvironment, IConfigurationRoot)
-  nameWithType: PortalController.PortalController(IHostingEnvironment, IConfigurationRoot)
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.PortalController(Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Configuration.IConfigurationRoot)
+  name: PortalController(IHostingEnvironment, IConfiguration, UserManager<ApplicationUser>, RoleManager<IdentityRole>)
+  nameWithType: PortalController.PortalController(IHostingEnvironment, IConfiguration, UserManager<ApplicationUser>, RoleManager<IdentityRole>)
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.PortalController(Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.AspNetCore.Identity.UserManager<Swastika.Identity.Models.ApplicationUser>, Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole>)
   type: Constructor
   source:
     path: Swastika.Cms.Web.Mvc
@@ -67,18 +66,25 @@ items:
   - Swastika.Cms.Web.Mvc
   namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
   syntax:
-    content: public PortalController(IHostingEnvironment env, IConfigurationRoot configuration)
+    content: public PortalController(IHostingEnvironment env, IConfiguration configuration, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
     parameters:
     - id: env
       type: Microsoft.AspNetCore.Hosting.IHostingEnvironment
     - id: configuration
-      type: Microsoft.Extensions.Configuration.IConfigurationRoot
-    content.vb: Public Sub New(env As IHostingEnvironment, configuration As IConfigurationRoot)
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    - id: userManager
+      type: Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}
+    - id: roleManager
+      type: Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole}
+    content.vb: Public Sub New(env As IHostingEnvironment, configuration As IConfiguration, userManager As UserManager(Of ApplicationUser), roleManager As RoleManager(Of IdentityRole))
   overload: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor*
+  nameWithType.vb: PortalController.PortalController(IHostingEnvironment, IConfiguration, UserManager(Of ApplicationUser), RoleManager(Of IdentityRole))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+  fullName.vb: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.PortalController(Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.AspNetCore.Identity.UserManager(Of Swastika.Identity.Models.ApplicationUser), Microsoft.AspNetCore.Identity.RoleManager(Of Microsoft.AspNetCore.Identity.IdentityRole))
+  name.vb: PortalController(IHostingEnvironment, IConfiguration, UserManager(Of ApplicationUser), RoleManager(Of IdentityRole))
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Index
   commentId: M:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Index
   id: Index
@@ -133,36 +139,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init(Swastika.Cms.Lib.ViewModels.InitCmsViewModel)
-  commentId: M:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init(Swastika.Cms.Lib.ViewModels.InitCmsViewModel)
-  id: Init(Swastika.Cms.Lib.ViewModels.InitCmsViewModel)
-  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-  langs:
-  - csharp
-  - vb
-  name: Init(InitCmsViewModel)
-  nameWithType: PortalController.Init(InitCmsViewModel)
-  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init(Swastika.Cms.Lib.ViewModels.InitCmsViewModel)
-  type: Method
-  source:
-    path: Swastika.Cms.Web.Mvc
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Web.Mvc
-  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
-  syntax:
-    content: public IActionResult Init(InitCmsViewModel model)
-    parameters:
-    - id: model
-      type: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
-    return:
-      type: Microsoft.AspNetCore.Mvc.IActionResult
-    content.vb: Public Function Init(model As InitCmsViewModel) As IActionResult
-  overload: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Search(System.String,Swastika.Cms.Lib.SWCmsConstants.SearchType)
   commentId: M:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Search(System.String,Swastika.Cms.Lib.SWCmsConstants.SearchType)
   id: Search(System.String,Swastika.Cms.Lib.SWCmsConstants.SearchType)
@@ -209,109 +185,60 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
+- uid: Swastika.Cms.Mvc.Controllers.BaseController
+  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController
   parent: Swastika.Cms.Mvc.Controllers
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1
-  name: BaseController<PortalController>
-  nameWithType: BaseController<PortalController>
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>
-  nameWithType.vb: BaseController(Of PortalController)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController)
-  name.vb: BaseController(Of PortalController)
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController
-    nameWithType: BaseController
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-    name: PortalController
-    nameWithType: PortalController
-    fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController
-    nameWithType: BaseController
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-    name: PortalController
-    nameWithType: PortalController
-    fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ROUTE_CULTURE_NAME
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ROUTE_CULTURE_NAME
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.ROUTE_CULTURE_NAME
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: ROUTE_CULTURE_NAME
-  nameWithType: BaseController<PortalController>.ROUTE_CULTURE_NAME
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.ROUTE_CULTURE_NAME
-  nameWithType.vb: BaseController(Of PortalController).ROUTE_CULTURE_NAME
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).ROUTE_CULTURE_NAME
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ROUTE_DEFAULT_CULTURE
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ROUTE_DEFAULT_CULTURE
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.ROUTE_DEFAULT_CULTURE
+  nameWithType: BaseController.ROUTE_CULTURE_NAME
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: ROUTE_DEFAULT_CULTURE
-  nameWithType: BaseController<PortalController>.ROUTE_DEFAULT_CULTURE
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.ROUTE_DEFAULT_CULTURE
-  nameWithType.vb: BaseController(Of PortalController).ROUTE_DEFAULT_CULTURE
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).ROUTE_DEFAULT_CULTURE
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._domain
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._domain
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1._domain
+  nameWithType: BaseController.ROUTE_DEFAULT_CULTURE
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+- uid: Swastika.Cms.Mvc.Controllers.BaseController._domain
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController._domain
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: _domain
-  nameWithType: BaseController<PortalController>._domain
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>._domain
-  nameWithType.vb: BaseController(Of PortalController)._domain
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController)._domain
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._configuration
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._configuration
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1._configuration
+  nameWithType: BaseController._domain
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController._domain
+- uid: Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: _configuration
-  nameWithType: BaseController<PortalController>._configuration
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>._configuration
-  nameWithType.vb: BaseController(Of PortalController)._configuration
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController)._configuration
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._env
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}._env
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1._env
+  nameWithType: BaseController._configuration
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController._configuration
+- uid: Swastika.Cms.Mvc.Controllers.BaseController._env
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController._env
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: _env
-  nameWithType: BaseController<PortalController>._env
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>._env
-  nameWithType.vb: BaseController(Of PortalController)._env
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController)._env
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType: BaseController._env
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController._env
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: OnActionExecuting(ActionExecutingContext)
-  nameWithType: BaseController<PortalController>.OnActionExecuting(ActionExecutingContext)
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  nameWithType.vb: BaseController(Of PortalController).OnActionExecuting(ActionExecutingContext)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType: BaseController.OnActionExecuting(ActionExecutingContext)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
   spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
     name: OnActionExecuting
-    nameWithType: BaseController<PortalController>.OnActionExecuting
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.OnActionExecuting
+    nameWithType: BaseController.OnActionExecuting
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting
     isExternal: true
   - name: (
     nameWithType: (
@@ -325,10 +252,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
     name: OnActionExecuting
-    nameWithType: BaseController(Of PortalController).OnActionExecuting
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).OnActionExecuting
+    nameWithType: BaseController.OnActionExecuting
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting
     isExternal: true
   - name: (
     nameWithType: (
@@ -341,20 +268,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.GetLanguage
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.GetLanguage
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: GetLanguage()
-  nameWithType: BaseController<PortalController>.GetLanguage()
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.GetLanguage()
-  nameWithType.vb: BaseController(Of PortalController).GetLanguage()
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).GetLanguage()
+  nameWithType: BaseController.GetLanguage()
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage()
   spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
     name: GetLanguage
-    nameWithType: BaseController<PortalController>.GetLanguage
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.GetLanguage
+    nameWithType: BaseController.GetLanguage
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
     isExternal: true
   - name: (
     nameWithType: (
@@ -363,10 +288,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
     name: GetLanguage
-    nameWithType: BaseController(Of PortalController).GetLanguage
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).GetLanguage
+    nameWithType: BaseController.GetLanguage
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
     isExternal: true
   - name: (
     nameWithType: (
@@ -374,20 +299,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: UploadFileAsync(IFormFile, String)
-  nameWithType: BaseController<PortalController>.UploadFileAsync(IFormFile, String)
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
-  nameWithType.vb: BaseController(Of PortalController).UploadFileAsync(IFormFile, String)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
+  nameWithType: BaseController.UploadFileAsync(IFormFile, String)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
   spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
     name: UploadFileAsync
-    nameWithType: BaseController<PortalController>.UploadFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.UploadFileAsync
+    nameWithType: BaseController.UploadFileAsync
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -409,10 +332,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
     name: UploadFileAsync
-    nameWithType: BaseController(Of PortalController).UploadFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).UploadFileAsync
+    nameWithType: BaseController.UploadFileAsync
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -433,20 +356,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.UploadListFileAsync(System.String)
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.UploadListFileAsync(System.String)
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: UploadListFileAsync(String)
-  nameWithType: BaseController<PortalController>.UploadListFileAsync(String)
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.UploadListFileAsync(System.String)
-  nameWithType.vb: BaseController(Of PortalController).UploadListFileAsync(String)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).UploadListFileAsync(System.String)
+  nameWithType: BaseController.UploadListFileAsync(String)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
   spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
     name: UploadListFileAsync
-    nameWithType: BaseController<PortalController>.UploadListFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.UploadListFileAsync
+    nameWithType: BaseController.UploadListFileAsync
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -460,10 +381,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
+  - uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
     name: UploadListFileAsync
-    nameWithType: BaseController(Of PortalController).UploadListFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).UploadListFileAsync
+    nameWithType: BaseController.UploadListFileAsync
+    fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync
     isExternal: true
   - name: (
     nameWithType: (
@@ -476,305 +397,32 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ViewContext
-  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.ViewContext
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.ViewContext
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: ViewContext
-  nameWithType: BaseController<PortalController>.ViewContext
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.ViewContext
-  nameWithType.vb: BaseController(Of PortalController).ViewContext
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).ViewContext
-- uid: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.CurrentLanguage
-  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}.CurrentLanguage
-  parent: Swastika.Cms.Mvc.Controllers.BaseController{Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController}
-  definition: Swastika.Cms.Mvc.Controllers.BaseController`1.CurrentLanguage
+  nameWithType: BaseController.ViewContext
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  isExternal: true
   name: CurrentLanguage
-  nameWithType: BaseController<PortalController>.CurrentLanguage
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController>.CurrentLanguage
-  nameWithType.vb: BaseController(Of PortalController).CurrentLanguage
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController).CurrentLanguage
+  nameWithType: BaseController.CurrentLanguage
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
 - uid: System
   commentId: N:System
   isExternal: false
   name: System
   nameWithType: System
   fullName: System
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController`1
-  isExternal: true
-  name: BaseController<T>
-  nameWithType: BaseController<T>
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>
-  nameWithType.vb: BaseController(Of T)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T)
-  name.vb: BaseController(Of T)
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController
-    nameWithType: BaseController
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1
-    name: BaseController
-    nameWithType: BaseController
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Swastika.Cms.Mvc.Controllers
   commentId: N:Swastika.Cms.Mvc.Controllers
   isExternal: false
   name: Swastika.Cms.Mvc.Controllers
   nameWithType: Swastika.Cms.Mvc.Controllers
   fullName: Swastika.Cms.Mvc.Controllers
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.ROUTE_CULTURE_NAME
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController`1.ROUTE_CULTURE_NAME
-  isExternal: true
-  name: ROUTE_CULTURE_NAME
-  nameWithType: BaseController<T>.ROUTE_CULTURE_NAME
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.ROUTE_CULTURE_NAME
-  nameWithType.vb: BaseController(Of T).ROUTE_CULTURE_NAME
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).ROUTE_CULTURE_NAME
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.ROUTE_DEFAULT_CULTURE
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController`1.ROUTE_DEFAULT_CULTURE
-  isExternal: true
-  name: ROUTE_DEFAULT_CULTURE
-  nameWithType: BaseController<T>.ROUTE_DEFAULT_CULTURE
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.ROUTE_DEFAULT_CULTURE
-  nameWithType.vb: BaseController(Of T).ROUTE_DEFAULT_CULTURE
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).ROUTE_DEFAULT_CULTURE
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1._domain
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController`1._domain
-  isExternal: true
-  name: _domain
-  nameWithType: BaseController<T>._domain
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>._domain
-  nameWithType.vb: BaseController(Of T)._domain
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T)._domain
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1._configuration
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController`1._configuration
-  isExternal: true
-  name: _configuration
-  nameWithType: BaseController<T>._configuration
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>._configuration
-  nameWithType.vb: BaseController(Of T)._configuration
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T)._configuration
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1._env
-  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController`1._env
-  isExternal: true
-  name: _env
-  nameWithType: BaseController<T>._env
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>._env
-  nameWithType.vb: BaseController(Of T)._env
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T)._env
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  isExternal: true
-  name: OnActionExecuting(ActionExecutingContext)
-  nameWithType: BaseController<T>.OnActionExecuting(ActionExecutingContext)
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  nameWithType.vb: BaseController(Of T).OnActionExecuting(ActionExecutingContext)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-    name: OnActionExecuting
-    nameWithType: BaseController<T>.OnActionExecuting
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.OnActionExecuting
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
-    name: ActionExecutingContext
-    nameWithType: ActionExecutingContext
-    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
-    name: OnActionExecuting
-    nameWithType: BaseController(Of T).OnActionExecuting
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of T).OnActionExecuting
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
-    name: ActionExecutingContext
-    nameWithType: ActionExecutingContext
-    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
-  isExternal: true
-  name: GetLanguage()
-  nameWithType: BaseController<T>.GetLanguage()
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.GetLanguage()
-  nameWithType.vb: BaseController(Of T).GetLanguage()
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).GetLanguage()
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
-    name: GetLanguage
-    nameWithType: BaseController<T>.GetLanguage
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.GetLanguage
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.GetLanguage
-    name: GetLanguage
-    nameWithType: BaseController(Of T).GetLanguage
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of T).GetLanguage
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-  isExternal: true
-  name: UploadFileAsync(IFormFile, String)
-  nameWithType: BaseController<T>.UploadFileAsync(IFormFile, String)
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
-  nameWithType.vb: BaseController(Of T).UploadFileAsync(IFormFile, String)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-    name: UploadFileAsync
-    nameWithType: BaseController<T>.UploadFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.UploadFileAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.AspNetCore.Http.IFormFile
-    name: IFormFile
-    nameWithType: IFormFile
-    fullName: Microsoft.AspNetCore.Http.IFormFile
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
-    name: UploadFileAsync
-    nameWithType: BaseController(Of T).UploadFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of T).UploadFileAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Microsoft.AspNetCore.Http.IFormFile
-    name: IFormFile
-    nameWithType: IFormFile
-    fullName: Microsoft.AspNetCore.Http.IFormFile
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
-  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
-  isExternal: true
-  name: UploadListFileAsync(String)
-  nameWithType: BaseController<T>.UploadListFileAsync(String)
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.UploadListFileAsync(System.String)
-  nameWithType.vb: BaseController(Of T).UploadListFileAsync(String)
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).UploadListFileAsync(System.String)
-  spec.csharp:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
-    name: UploadListFileAsync
-    nameWithType: BaseController<T>.UploadListFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.UploadListFileAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Swastika.Cms.Mvc.Controllers.BaseController`1.UploadListFileAsync(System.String)
-    name: UploadListFileAsync
-    nameWithType: BaseController(Of T).UploadListFileAsync
-    fullName: Swastika.Cms.Mvc.Controllers.BaseController(Of T).UploadListFileAsync
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.ViewContext
-  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController`1.ViewContext
-  isExternal: true
-  name: ViewContext
-  nameWithType: BaseController<T>.ViewContext
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.ViewContext
-  nameWithType.vb: BaseController(Of T).ViewContext
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).ViewContext
-- uid: Swastika.Cms.Mvc.Controllers.BaseController`1.CurrentLanguage
-  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController`1.CurrentLanguage
-  isExternal: true
-  name: CurrentLanguage
-  nameWithType: BaseController<T>.CurrentLanguage
-  fullName: Swastika.Cms.Mvc.Controllers.BaseController<T>.CurrentLanguage
-  nameWithType.vb: BaseController(Of T).CurrentLanguage
-  fullName.vb: Swastika.Cms.Mvc.Controllers.BaseController(Of T).CurrentLanguage
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor*
   commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.#ctor
   isExternal: true
@@ -786,11 +434,173 @@ references:
   name: IHostingEnvironment
   nameWithType: IHostingEnvironment
   fullName: Microsoft.AspNetCore.Hosting.IHostingEnvironment
-- uid: Microsoft.Extensions.Configuration.IConfigurationRoot
+- uid: Microsoft.Extensions.Configuration.IConfiguration
   isExternal: true
-  name: IConfigurationRoot
-  nameWithType: IConfigurationRoot
-  fullName: Microsoft.Extensions.Configuration.IConfigurationRoot
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
+- uid: Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}
+  commentId: '!:Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}'
+  definition: Microsoft.AspNetCore.Identity.UserManager`1
+  name: UserManager<ApplicationUser>
+  nameWithType: UserManager<ApplicationUser>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<Swastika.Identity.Models.ApplicationUser>
+  nameWithType.vb: UserManager(Of ApplicationUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of Swastika.Identity.Models.ApplicationUser)
+  name.vb: UserManager(Of ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Swastika.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Swastika.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole}
+  commentId: '!:Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole}'
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1
+  name: RoleManager<IdentityRole>
+  nameWithType: RoleManager<IdentityRole>
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole>
+  nameWithType.vb: RoleManager(Of IdentityRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of Microsoft.AspNetCore.Identity.IdentityRole)
+  name.vb: RoleManager(Of IdentityRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.IdentityRole
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.IdentityRole
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.IdentityRole
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.IdentityRole
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.UserManager`1
+  isExternal: true
+  name: UserManager<>
+  nameWithType: UserManager<>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<>
+  nameWithType.vb: UserManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of )
+  name.vb: UserManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1
+  isExternal: true
+  name: RoleManager<>
+  nameWithType: RoleManager<>
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<>
+  nameWithType.vb: RoleManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of )
+  name.vb: RoleManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Index*
   commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Index
   isExternal: true
@@ -808,19 +618,6 @@ references:
   name: Init
   nameWithType: PortalController.Init
   fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Init
-- uid: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
-  commentId: T:Swastika.Cms.Lib.ViewModels.InitCmsViewModel
-  parent: Swastika.Cms.Lib.ViewModels
-  isExternal: true
-  name: InitCmsViewModel
-  nameWithType: InitCmsViewModel
-  fullName: Swastika.Cms.Lib.ViewModels.InitCmsViewModel
-- uid: Swastika.Cms.Lib.ViewModels
-  commentId: N:Swastika.Cms.Lib.ViewModels
-  isExternal: false
-  name: Swastika.Cms.Lib.ViewModels
-  nameWithType: Swastika.Cms.Lib.ViewModels
-  fullName: Swastika.Cms.Lib.ViewModels
 - uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Search*
   commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.Search
   isExternal: true

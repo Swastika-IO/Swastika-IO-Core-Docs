@@ -13,6 +13,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.FileViewModel.FileStream
   - Swastika.Cms.Lib.ViewModels.FileViewModel.FolderName
   - Swastika.Cms.Lib.ViewModels.FileViewModel.FullPath
+  - Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath
   langs:
   - csharp
   - vb
@@ -88,6 +89,36 @@ items:
       type: System.String
     content.vb: Public Property FullPath As String
   overload: Swastika.Cms.Lib.ViewModels.FileViewModel.FullPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath
+  commentId: P:Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath
+  id: WebPath
+  parent: Swastika.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: WebPath
+  nameWithType: FileViewModel.WebPath
+  fullName: Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string WebPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WebPath As String
+  overload: Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath*
   modifiers.csharp:
   - public
   - get
@@ -313,6 +344,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath
+  isExternal: true
+  name: WebPath
+  nameWithType: FileViewModel.WebPath
+  fullName: Swastika.Cms.Lib.ViewModels.FileViewModel.WebPath
 - uid: Swastika.Cms.Lib.ViewModels.FileViewModel.FolderName*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.FileViewModel.FolderName
   isExternal: true

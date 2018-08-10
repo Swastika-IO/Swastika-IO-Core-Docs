@@ -5,6 +5,9 @@ items:
   id: Swastika.Common.Helper
   children:
   - Swastika.Common.Helper.CommonHelper
+  - Swastika.Common.Helper.GravatarHtmlHelper
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  - Swastika.Common.Helper.GravatarHtmlHelper.Rating
   - Swastika.Common.Helper.SEOHelper
   langs:
   - csharp
@@ -14,8 +17,28 @@ items:
   fullName: Swastika.Common.Helper
   type: Namespace
   assemblies:
-  - Swastika
+  - Swastika.Cms.Lib
 references:
+- uid: Swastika.Common.Helper.GravatarHtmlHelper
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper
+  isExternal: true
+  name: GravatarHtmlHelper
+  nameWithType: GravatarHtmlHelper
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  parent: Swastika.Common.Helper
+  isExternal: true
+  name: GravatarHtmlHelper.DefaultImage
+  nameWithType: GravatarHtmlHelper.DefaultImage
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  parent: Swastika.Common.Helper
+  isExternal: true
+  name: GravatarHtmlHelper.Rating
+  nameWithType: GravatarHtmlHelper.Rating
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating
 - uid: Swastika.Common.Helper.CommonHelper
   commentId: T:Swastika.Common.Helper.CommonHelper
   isExternal: true
@@ -28,3 +51,9 @@ references:
   name: SEOHelper
   nameWithType: SEOHelper
   fullName: Swastika.Common.Helper.SEOHelper
+- uid: Swastika.Common.Helper
+  commentId: N:Swastika.Common.Helper
+  isExternal: false
+  name: Swastika.Common.Helper
+  nameWithType: Swastika.Common.Helper
+  fullName: Swastika.Common.Helper

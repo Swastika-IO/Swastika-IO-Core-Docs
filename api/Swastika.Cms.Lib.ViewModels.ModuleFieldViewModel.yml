@@ -8,8 +8,14 @@ items:
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.#ctor
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.DataType
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
+  - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy
+  - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired
+  - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect
+  - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Name
+  - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Priority
+  - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title
   - Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Width
   langs:
   - csharp
@@ -92,6 +98,66 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title
+  id: Title
+  parent: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ModuleFieldViewModel.Title
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options
+  id: Options
+  parent: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: ModuleFieldViewModel.Options
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public JArray Options { get; set; }
+    parameters: []
+    return:
+      type: Newtonsoft.Json.Linq.JArray
+    content.vb: Public Property Options As JArray
+  overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Priority
   commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Priority
   id: Priority
@@ -152,6 +218,66 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique
+  id: IsUnique
+  parent: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsUnique
+  nameWithType: ModuleFieldViewModel.IsUnique
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsUnique { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsUnique As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired
+  id: IsRequired
+  parent: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsRequired
+  nameWithType: ModuleFieldViewModel.IsRequired
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsRequired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsRequired As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
   commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
   id: IsDisplay
@@ -176,6 +302,66 @@ items:
       type: System.Boolean
     content.vb: Public Property IsDisplay As Boolean
   overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect
+  id: IsSelect
+  parent: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsSelect
+  nameWithType: ModuleFieldViewModel.IsSelect
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsSelect { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSelect As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy
+  commentId: P:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy
+  id: IsGroupBy
+  parent: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsGroupBy
+  nameWithType: ModuleFieldViewModel.IsGroupBy
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public bool IsGroupBy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsGroupBy As Boolean
+  overload: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy*
   modifiers.csharp:
   - public
   - get
@@ -251,6 +437,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title
+  isExternal: true
+  name: Title
+  nameWithType: ModuleFieldViewModel.Title
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Title
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options
+  isExternal: true
+  name: Options
+  nameWithType: ModuleFieldViewModel.Options
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Options
+- uid: Newtonsoft.Json.Linq.JArray
+  isExternal: true
+  name: JArray
+  nameWithType: JArray
+  fullName: Newtonsoft.Json.Linq.JArray
 - uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Priority*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Priority
   isExternal: true
@@ -283,12 +486,12 @@ references:
   name: Swastika.Cms.Lib
   nameWithType: Swastika.Cms.Lib
   fullName: Swastika.Cms.Lib
-- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay*
-  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique
   isExternal: true
-  name: IsDisplay
-  nameWithType: ModuleFieldViewModel.IsDisplay
-  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
+  name: IsUnique
+  nameWithType: ModuleFieldViewModel.IsUnique
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsUnique
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -296,6 +499,30 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired
+  isExternal: true
+  name: IsRequired
+  nameWithType: ModuleFieldViewModel.IsRequired
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsRequired
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
+  isExternal: true
+  name: IsDisplay
+  nameWithType: ModuleFieldViewModel.IsDisplay
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsDisplay
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect
+  isExternal: true
+  name: IsSelect
+  nameWithType: ModuleFieldViewModel.IsSelect
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsSelect
+- uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy
+  isExternal: true
+  name: IsGroupBy
+  nameWithType: ModuleFieldViewModel.IsGroupBy
+  fullName: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.IsGroupBy
 - uid: Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Width*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.Width
   isExternal: true

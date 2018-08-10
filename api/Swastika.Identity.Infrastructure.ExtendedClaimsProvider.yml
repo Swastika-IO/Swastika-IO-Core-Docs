@@ -234,7 +234,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.Security.Claims.Claim
-  commentId: '!:System.Security.Claims.Claim'
   isExternal: true
   name: Claim
   nameWithType: Claim

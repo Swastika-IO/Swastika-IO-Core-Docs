@@ -1,32 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Swastika.Cms.Lib.SWCmsHelper
-  commentId: T:Swastika.Cms.Lib.SWCmsHelper
-  id: SWCmsHelper
+- uid: Swastika.Cms.Lib.SwCmsHelper
+  commentId: T:Swastika.Cms.Lib.SwCmsHelper
+  id: SwCmsHelper
   parent: Swastika.Cms.Lib
   children:
-  - Swastika.Cms.Lib.SWCmsHelper.#ctor
-  - Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice(System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.FormatPrice(System.Nullable{System.Double},System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.GenerateKey
-  - Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.GetFullPath(System.String[])
-  - Swastika.Cms.Lib.SWCmsHelper.GetModule(System.String,System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.GetRandomName(System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
-  - Swastika.Cms.Lib.SWCmsHelper.GetTranslator(System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.RemoveFile(System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.ReversePrice(System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64(System.String,System.String,System.String)
-  - Swastika.Cms.Lib.SWCmsHelper.SubString(System.String,System.Int32)
-  - Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile(System.String,System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice(System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.FormatPrice(System.Nullable{System.Double},System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.GenerateKey
+  - Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.GetFullPath(System.String[])
+  - Swastika.Cms.Lib.SwCmsHelper.GetModule(System.String,System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.GetRandomName(System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
+  - Swastika.Cms.Lib.SwCmsHelper.GetTranslator(System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.RemoveFile(System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.ReversePrice(System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64(System.String,System.String,System.String)
+  - Swastika.Cms.Lib.SwCmsHelper.SubString(System.String,System.Int32)
+  - Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile(System.String,System.String)
   langs:
   - csharp
   - vb
-  name: SWCmsHelper
-  nameWithType: SWCmsHelper
-  fullName: Swastika.Cms.Lib.SWCmsHelper
+  name: SwCmsHelper
+  nameWithType: SwCmsHelper
+  fullName: Swastika.Cms.Lib.SwCmsHelper
   type: Class
   source:
     path: Swastika.Cms.Lib
@@ -35,28 +34,29 @@ items:
   - Swastika.Cms.Lib
   namespace: Swastika.Cms.Lib
   syntax:
-    content: 'public class SWCmsHelper : Object'
+    content: 'public static class SwCmsHelper : Object'
     content.vb: >-
-      Public Class SWCmsHelper
+      Public Module SwCmsHelper
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetTranslator(System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetTranslator(System.String)
+  - Module
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetTranslator(System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetTranslator(System.String)
   id: GetTranslator(System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetTranslator(String)
-  nameWithType: SWCmsHelper.GetTranslator(String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetTranslator(System.String)
+  nameWithType: SwCmsHelper.GetTranslator(String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetTranslator(System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -72,23 +72,23 @@ items:
     return:
       type: Swastika.Cms.Lib.Services.Translator
     content.vb: Public Shared Function GetTranslator(culture As String) As Translator
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetTranslator*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetTranslator*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.GenerateKey
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GenerateKey
+- uid: Swastika.Cms.Lib.SwCmsHelper.GenerateKey
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GenerateKey
   id: GenerateKey
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GenerateKey()
-  nameWithType: SWCmsHelper.GenerateKey()
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GenerateKey()
+  nameWithType: SwCmsHelper.GenerateKey()
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GenerateKey()
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -101,23 +101,23 @@ items:
     return:
       type: System.Security.Cryptography.RSAParameters
     content.vb: Public Shared Function GenerateKey As RSAParameters
-  overload: Swastika.Cms.Lib.SWCmsHelper.GenerateKey*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GenerateKey*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetModule(System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetModule(System.String,System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetModule(System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetModule(System.String,System.String)
   id: GetModule(System.String,System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetModule(String, String)
-  nameWithType: SWCmsHelper.GetModule(String, String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetModule(System.String, System.String)
+  nameWithType: SwCmsHelper.GetModule(String, String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetModule(System.String, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -135,23 +135,23 @@ items:
     return:
       type: Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
     content.vb: Public Shared Function GetModule(name As String, culture As String) As FEModuleViewModel
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetModule*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetModule*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
   id: GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CatePosition,System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetCategory(IUrlHelper, String, SWCmsConstants.CatePosition, String)
-  nameWithType: SWCmsHelper.GetCategory(IUrlHelper, String, SWCmsConstants.CatePosition, String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper, System.String, Swastika.Cms.Lib.SWCmsConstants.CatePosition, System.String)
+  nameWithType: SwCmsHelper.GetCategory(IUrlHelper, String, SWCmsConstants.CatePosition, String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper, System.String, Swastika.Cms.Lib.SWCmsConstants.CatePosition, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -173,23 +173,23 @@ items:
     return:
       type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel}
     content.vb: Public Shared Function GetCategory(Url As IUrlHelper, culture As String, position As SWCmsConstants.CatePosition, activePath As String = "") As List(Of InfoCategoryViewModel)
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetCategory*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetCategory*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
   id: GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,Swastika.Cms.Lib.SWCmsConstants.CateType,System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetCategory(IUrlHelper, String, SWCmsConstants.CateType, String)
-  nameWithType: SWCmsHelper.GetCategory(IUrlHelper, String, SWCmsConstants.CateType, String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper, System.String, Swastika.Cms.Lib.SWCmsConstants.CateType, System.String)
+  nameWithType: SwCmsHelper.GetCategory(IUrlHelper, String, SWCmsConstants.CateType, String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetCategory(Microsoft.AspNetCore.Mvc.IUrlHelper, System.String, Swastika.Cms.Lib.SWCmsConstants.CateType, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -211,23 +211,23 @@ items:
     return:
       type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel}
     content.vb: Public Shared Function GetCategory(Url As IUrlHelper, culture As String, cateType As SWCmsConstants.CateType, activePath As String = "") As List(Of InfoCategoryViewModel)
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetCategory*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetCategory*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetFullPath(System.String[])
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetFullPath(System.String[])
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetFullPath(System.String[])
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetFullPath(System.String[])
   id: GetFullPath(System.String[])
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetFullPath(String[])
-  nameWithType: SWCmsHelper.GetFullPath(String[])
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetFullPath(System.String[])
+  nameWithType: SwCmsHelper.GetFullPath(String[])
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetFullPath(System.String[])
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -243,26 +243,26 @@ items:
     return:
       type: System.String
     content.vb: Public Shared Function GetFullPath(subPaths As String()) As String
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetFullPath*
-  nameWithType.vb: SWCmsHelper.GetFullPath(String())
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetFullPath*
+  nameWithType.vb: SwCmsHelper.GetFullPath(String())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Swastika.Cms.Lib.SWCmsHelper.GetFullPath(System.String())
+  fullName.vb: Swastika.Cms.Lib.SwCmsHelper.GetFullPath(System.String())
   name.vb: GetFullPath(String())
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetRandomName(System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetRandomName(System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetRandomName(System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetRandomName(System.String)
   id: GetRandomName(System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetRandomName(String)
-  nameWithType: SWCmsHelper.GetRandomName(String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetRandomName(System.String)
+  nameWithType: SwCmsHelper.GetRandomName(String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetRandomName(System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -278,23 +278,23 @@ items:
     return:
       type: System.String
     content.vb: Public Shared Function GetRandomName(filename As String) As String
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetRandomName*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetRandomName*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
   id: GetRouterUrl(System.String,System.Object,Microsoft.AspNetCore.Http.HttpRequest,Microsoft.AspNetCore.Mvc.IUrlHelper)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: GetRouterUrl(String, Object, HttpRequest, IUrlHelper)
-  nameWithType: SWCmsHelper.GetRouterUrl(String, Object, HttpRequest, IUrlHelper)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl(System.String, System.Object, Microsoft.AspNetCore.Http.HttpRequest, Microsoft.AspNetCore.Mvc.IUrlHelper)
+  nameWithType: SwCmsHelper.GetRouterUrl(String, Object, HttpRequest, IUrlHelper)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl(System.String, System.Object, Microsoft.AspNetCore.Http.HttpRequest, Microsoft.AspNetCore.Mvc.IUrlHelper)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -316,23 +316,23 @@ items:
     return:
       type: System.String
     content.vb: Public Shared Function GetRouterUrl(routerName As String, routeValues As Object, request As HttpRequest, Url As IUrlHelper) As String
-  overload: Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl*
+  overload: Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.RemoveFile(System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.RemoveFile(System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.RemoveFile(System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.RemoveFile(System.String)
   id: RemoveFile(System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: RemoveFile(String)
-  nameWithType: SWCmsHelper.RemoveFile(String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.RemoveFile(System.String)
+  nameWithType: SwCmsHelper.RemoveFile(String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.RemoveFile(System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -348,23 +348,23 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Shared Function RemoveFile(filePath As String) As Boolean
-  overload: Swastika.Cms.Lib.SWCmsHelper.RemoveFile*
+  overload: Swastika.Cms.Lib.SwCmsHelper.RemoveFile*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64(System.String,System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64(System.String,System.String,System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64(System.String,System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64(System.String,System.String,System.String)
   id: SaveFileBase64(System.String,System.String,System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: SaveFileBase64(String, String, String)
-  nameWithType: SWCmsHelper.SaveFileBase64(String, String, String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64(System.String, System.String, System.String)
+  nameWithType: SwCmsHelper.SaveFileBase64(String, String, String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64(System.String, System.String, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -384,23 +384,23 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Shared Function SaveFileBase64(folder As String, filename As String, strBase64 As String) As Boolean
-  overload: Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64*
+  overload: Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile(System.String,System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile(System.String,System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile(System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile(System.String,System.String)
   id: WriteBytesToFile(System.String,System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: WriteBytesToFile(String, String)
-  nameWithType: SWCmsHelper.WriteBytesToFile(String, String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile(System.String, System.String)
+  nameWithType: SwCmsHelper.WriteBytesToFile(String, String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile(System.String, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -416,23 +416,23 @@ items:
     - id: strBase64
       type: System.String
     content.vb: Public Shared Sub WriteBytesToFile(fullPath As String, strBase64 As String)
-  overload: Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile*
+  overload: Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.SubString(System.String,System.Int32)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.SubString(System.String,System.Int32)
+- uid: Swastika.Cms.Lib.SwCmsHelper.SubString(System.String,System.Int32)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.SubString(System.String,System.Int32)
   id: SubString(System.String,System.Int32)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: SubString(String, Int32)
-  nameWithType: SWCmsHelper.SubString(String, Int32)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.SubString(System.String, System.Int32)
+  nameWithType: SwCmsHelper.SubString(String, Int32)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.SubString(System.String, System.Int32)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -450,23 +450,23 @@ items:
     return:
       type: System.String
     content.vb: Public Shared Function SubString(src As String, length As Integer) As String
-  overload: Swastika.Cms.Lib.SWCmsHelper.SubString*
+  overload: Swastika.Cms.Lib.SwCmsHelper.SubString*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.FormatPrice(System.Nullable{System.Double},System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.FormatPrice(System.Nullable{System.Double},System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.FormatPrice(System.Nullable{System.Double},System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.FormatPrice(System.Nullable{System.Double},System.String)
   id: FormatPrice(System.Nullable{System.Double},System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: FormatPrice(Nullable<Double>, String)
-  nameWithType: SWCmsHelper.FormatPrice(Nullable<Double>, String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.FormatPrice(System.Nullable<System.Double>, System.String)
+  nameWithType: SwCmsHelper.FormatPrice(Nullable<Double>, String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.FormatPrice(System.Nullable<System.Double>, System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -484,26 +484,26 @@ items:
     return:
       type: System.String
     content.vb: Public Shared Function FormatPrice(price As Nullable(Of Double), oldPrice As String = "0") As String
-  overload: Swastika.Cms.Lib.SWCmsHelper.FormatPrice*
-  nameWithType.vb: SWCmsHelper.FormatPrice(Nullable(Of Double), String)
+  overload: Swastika.Cms.Lib.SwCmsHelper.FormatPrice*
+  nameWithType.vb: SwCmsHelper.FormatPrice(Nullable(Of Double), String)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Swastika.Cms.Lib.SWCmsHelper.FormatPrice(System.Nullable(Of System.Double), System.String)
+  fullName.vb: Swastika.Cms.Lib.SwCmsHelper.FormatPrice(System.Nullable(Of System.Double), System.String)
   name.vb: FormatPrice(Nullable(Of Double), String)
-- uid: Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice(System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice(System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice(System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice(System.String)
   id: CheckIsPrice(System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: CheckIsPrice(String)
-  nameWithType: SWCmsHelper.CheckIsPrice(String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice(System.String)
+  nameWithType: SwCmsHelper.CheckIsPrice(String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice(System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -519,23 +519,23 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Shared Function CheckIsPrice(number As String) As Boolean
-  overload: Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice*
+  overload: Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.ReversePrice(System.String)
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.ReversePrice(System.String)
+- uid: Swastika.Cms.Lib.SwCmsHelper.ReversePrice(System.String)
+  commentId: M:Swastika.Cms.Lib.SwCmsHelper.ReversePrice(System.String)
   id: ReversePrice(System.String)
-  parent: Swastika.Cms.Lib.SWCmsHelper
+  parent: Swastika.Cms.Lib.SwCmsHelper
   langs:
   - csharp
   - vb
   name: ReversePrice(String)
-  nameWithType: SWCmsHelper.ReversePrice(String)
-  fullName: Swastika.Cms.Lib.SWCmsHelper.ReversePrice(System.String)
+  nameWithType: SwCmsHelper.ReversePrice(String)
+  fullName: Swastika.Cms.Lib.SwCmsHelper.ReversePrice(System.String)
   type: Method
   source:
     path: Swastika.Cms.Lib
@@ -551,38 +551,13 @@ items:
     return:
       type: System.Double
     content.vb: Public Shared Function ReversePrice(formatedPrice As String) As Double
-  overload: Swastika.Cms.Lib.SWCmsHelper.ReversePrice*
+  overload: Swastika.Cms.Lib.SwCmsHelper.ReversePrice*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Swastika.Cms.Lib.SWCmsHelper.#ctor
-  commentId: M:Swastika.Cms.Lib.SWCmsHelper.#ctor
-  id: '#ctor'
-  parent: Swastika.Cms.Lib.SWCmsHelper
-  langs:
-  - csharp
-  - vb
-  name: SWCmsHelper()
-  nameWithType: SWCmsHelper.SWCmsHelper()
-  fullName: Swastika.Cms.Lib.SWCmsHelper.SWCmsHelper()
-  type: Constructor
-  source:
-    path: Swastika.Cms.Lib
-    isExternal: true
-  assemblies:
-  - Swastika.Cms.Lib
-  namespace: Swastika.Cms.Lib
-  syntax:
-    content: public SWCmsHelper()
-    content.vb: Public Sub New
-  overload: Swastika.Cms.Lib.SWCmsHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
@@ -603,12 +578,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetTranslator*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GetTranslator
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetTranslator*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GetTranslator
   isExternal: true
   name: GetTranslator
-  nameWithType: SWCmsHelper.GetTranslator
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetTranslator
+  nameWithType: SwCmsHelper.GetTranslator
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetTranslator
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -629,23 +604,23 @@ references:
   name: Swastika.Cms.Lib.Services
   nameWithType: Swastika.Cms.Lib.Services
   fullName: Swastika.Cms.Lib.Services
-- uid: Swastika.Cms.Lib.SWCmsHelper.GenerateKey*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GenerateKey
+- uid: Swastika.Cms.Lib.SwCmsHelper.GenerateKey*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GenerateKey
   isExternal: true
   name: GenerateKey
-  nameWithType: SWCmsHelper.GenerateKey
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GenerateKey
+  nameWithType: SwCmsHelper.GenerateKey
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GenerateKey
 - uid: System.Security.Cryptography.RSAParameters
   isExternal: true
   name: RSAParameters
   nameWithType: RSAParameters
   fullName: System.Security.Cryptography.RSAParameters
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetModule*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GetModule
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetModule*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GetModule
   isExternal: true
   name: GetModule
-  nameWithType: SWCmsHelper.GetModule
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetModule
+  nameWithType: SwCmsHelper.GetModule
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetModule
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
   commentId: T:Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
   parent: Swastika.Cms.Lib.ViewModels.FrontEnd
@@ -659,12 +634,12 @@ references:
   name: Swastika.Cms.Lib.ViewModels.FrontEnd
   nameWithType: Swastika.Cms.Lib.ViewModels.FrontEnd
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetCategory*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GetCategory
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetCategory*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GetCategory
   isExternal: true
   name: GetCategory
-  nameWithType: SWCmsHelper.GetCategory
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetCategory
+  nameWithType: SwCmsHelper.GetCategory
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetCategory
 - uid: Microsoft.AspNetCore.Mvc.IUrlHelper
   isExternal: true
   name: IUrlHelper
@@ -765,12 +740,12 @@ references:
   name: SWCmsConstants.CateType
   nameWithType: SWCmsConstants.CateType
   fullName: Swastika.Cms.Lib.SWCmsConstants.CateType
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetFullPath*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GetFullPath
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetFullPath*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GetFullPath
   isExternal: true
   name: GetFullPath
-  nameWithType: SWCmsHelper.GetFullPath
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetFullPath
+  nameWithType: SwCmsHelper.GetFullPath
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetFullPath
 - uid: System.String[]
   name: String[]
   nameWithType: String[]
@@ -796,30 +771,30 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetRandomName*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GetRandomName
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetRandomName*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GetRandomName
   isExternal: true
   name: GetRandomName
-  nameWithType: SWCmsHelper.GetRandomName
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetRandomName
-- uid: Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl
+  nameWithType: SwCmsHelper.GetRandomName
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetRandomName
+- uid: Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl
   isExternal: true
   name: GetRouterUrl
-  nameWithType: SWCmsHelper.GetRouterUrl
-  fullName: Swastika.Cms.Lib.SWCmsHelper.GetRouterUrl
+  nameWithType: SwCmsHelper.GetRouterUrl
+  fullName: Swastika.Cms.Lib.SwCmsHelper.GetRouterUrl
 - uid: Microsoft.AspNetCore.Http.HttpRequest
   commentId: '!:Microsoft.AspNetCore.Http.HttpRequest'
   isExternal: true
   name: HttpRequest
   nameWithType: HttpRequest
   fullName: Microsoft.AspNetCore.Http.HttpRequest
-- uid: Swastika.Cms.Lib.SWCmsHelper.RemoveFile*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.RemoveFile
+- uid: Swastika.Cms.Lib.SwCmsHelper.RemoveFile*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.RemoveFile
   isExternal: true
   name: RemoveFile
-  nameWithType: SWCmsHelper.RemoveFile
-  fullName: Swastika.Cms.Lib.SWCmsHelper.RemoveFile
+  nameWithType: SwCmsHelper.RemoveFile
+  fullName: Swastika.Cms.Lib.SwCmsHelper.RemoveFile
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -827,24 +802,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64
+- uid: Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64
   isExternal: true
   name: SaveFileBase64
-  nameWithType: SWCmsHelper.SaveFileBase64
-  fullName: Swastika.Cms.Lib.SWCmsHelper.SaveFileBase64
-- uid: Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile
+  nameWithType: SwCmsHelper.SaveFileBase64
+  fullName: Swastika.Cms.Lib.SwCmsHelper.SaveFileBase64
+- uid: Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile
   isExternal: true
   name: WriteBytesToFile
-  nameWithType: SWCmsHelper.WriteBytesToFile
-  fullName: Swastika.Cms.Lib.SWCmsHelper.WriteBytesToFile
-- uid: Swastika.Cms.Lib.SWCmsHelper.SubString*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.SubString
+  nameWithType: SwCmsHelper.WriteBytesToFile
+  fullName: Swastika.Cms.Lib.SwCmsHelper.WriteBytesToFile
+- uid: Swastika.Cms.Lib.SwCmsHelper.SubString*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.SubString
   isExternal: true
   name: SubString
-  nameWithType: SWCmsHelper.SubString
-  fullName: Swastika.Cms.Lib.SWCmsHelper.SubString
+  nameWithType: SwCmsHelper.SubString
+  fullName: Swastika.Cms.Lib.SwCmsHelper.SubString
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -852,12 +827,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: Swastika.Cms.Lib.SWCmsHelper.FormatPrice*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.FormatPrice
+- uid: Swastika.Cms.Lib.SwCmsHelper.FormatPrice*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.FormatPrice
   isExternal: true
   name: FormatPrice
-  nameWithType: SWCmsHelper.FormatPrice
-  fullName: Swastika.Cms.Lib.SWCmsHelper.FormatPrice
+  nameWithType: SwCmsHelper.FormatPrice
+  fullName: Swastika.Cms.Lib.SwCmsHelper.FormatPrice
 - uid: System.Nullable{System.Double}
   commentId: '!:System.Nullable{System.Double}'
   definition: System.Nullable`1
@@ -939,18 +914,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice
+- uid: Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice
   isExternal: true
   name: CheckIsPrice
-  nameWithType: SWCmsHelper.CheckIsPrice
-  fullName: Swastika.Cms.Lib.SWCmsHelper.CheckIsPrice
-- uid: Swastika.Cms.Lib.SWCmsHelper.ReversePrice*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.ReversePrice
+  nameWithType: SwCmsHelper.CheckIsPrice
+  fullName: Swastika.Cms.Lib.SwCmsHelper.CheckIsPrice
+- uid: Swastika.Cms.Lib.SwCmsHelper.ReversePrice*
+  commentId: Overload:Swastika.Cms.Lib.SwCmsHelper.ReversePrice
   isExternal: true
   name: ReversePrice
-  nameWithType: SWCmsHelper.ReversePrice
-  fullName: Swastika.Cms.Lib.SWCmsHelper.ReversePrice
+  nameWithType: SwCmsHelper.ReversePrice
+  fullName: Swastika.Cms.Lib.SwCmsHelper.ReversePrice
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -958,9 +933,3 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: Swastika.Cms.Lib.SWCmsHelper.#ctor*
-  commentId: Overload:Swastika.Cms.Lib.SWCmsHelper.#ctor
-  isExternal: true
-  name: SWCmsHelper
-  nameWithType: SWCmsHelper.SWCmsHelper
-  fullName: Swastika.Cms.Lib.SWCmsHelper.SWCmsHelper

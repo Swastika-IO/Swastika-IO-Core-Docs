@@ -19,11 +19,14 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.FullPath
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Id
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.LastModified
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ModifiedBy
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Title
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   langs:
   - csharp
   - vb
@@ -170,8 +173,39 @@ items:
     return:
       type: Swastika.Cms.Lib.Models.Cms.SiocMedia
     content.vb: Public Overrides Function ParseModel(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As SiocMedia
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocMedia,Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel}.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ParseModel*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: Validate(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel
+  langs:
+  - csharp
+  - vb
+  name: Validate(SiocCmsContext, IDbContextTransaction)
+  nameWithType: BEMediaViewModel.Validate(SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public override void Validate(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    content.vb: Public Overrides Sub Validate(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate*
   modifiers.csharp:
   - public
   - override
@@ -203,7 +237,6 @@ items:
     - id: _transaction
       type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
     content.vb: Public Overrides Sub ExpandView(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocMedia,Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel}.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ExpandView*
   modifiers.csharp:
   - public
@@ -240,7 +273,6 @@ items:
     return:
       type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
     content.vb: Public Overrides Function RemoveRelatedModels(view As BEMediaViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocMedia,Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel}.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.RemoveRelatedModels*
   modifiers.csharp:
   - public
@@ -277,7 +309,6 @@ items:
     return:
       type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
     content.vb: Public Overrides Function RemoveRelatedModelsAsync(view As BEMediaViewModel, _context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
-  overridden: Swastika.Domain.Data.ViewModels.ViewModelBase{Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Swastika.Cms.Lib.Models.Cms.SiocMedia,Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel}.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
   overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.RemoveRelatedModelsAsync*
   modifiers.csharp:
   - public
@@ -525,6 +556,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags
+  id: Tags
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: BEMediaViewModel.Tags
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public string Tags { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tags As String
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.CreatedDateTime
   commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.CreatedDateTime
   id: CreatedDateTime
@@ -675,6 +736,36 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile
+  commentId: P:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile
+  id: MediaFile
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel
+  langs:
+  - csharp
+  - vb
+  name: MediaFile
+  nameWithType: BEMediaViewModel.MediaFile
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.BackEnd
+  syntax:
+    content: public FileViewModel MediaFile { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.ViewModels.FileViewModel
+    content.vb: Public Property MediaFile As FileViewModel
+  overload: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd
   commentId: N:Swastika.Cms.Lib.ViewModels.BackEnd
@@ -3939,6 +4030,12 @@ references:
   name: ParseModel
   nameWithType: BEMediaViewModel.ParseModel
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ParseModel
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate
+  isExternal: true
+  name: Validate
+  nameWithType: BEMediaViewModel.Validate
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Validate
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ExpandView*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.ExpandView
   isExternal: true
@@ -4218,6 +4315,12 @@ references:
   name: Description
   nameWithType: BEMediaViewModel.Description
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Description
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags
+  isExternal: true
+  name: Tags
+  nameWithType: BEMediaViewModel.Tags
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.Tags
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.CreatedDateTime*
   commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.CreatedDateTime
   isExternal: true
@@ -4334,3 +4437,22 @@ references:
   name: FullPath
   nameWithType: BEMediaViewModel.FullPath
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.FullPath
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile
+  isExternal: true
+  name: MediaFile
+  nameWithType: BEMediaViewModel.MediaFile
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.MediaFile
+- uid: Swastika.Cms.Lib.ViewModels.FileViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.FileViewModel
+  parent: Swastika.Cms.Lib.ViewModels
+  isExternal: true
+  name: FileViewModel
+  nameWithType: FileViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.FileViewModel
+- uid: Swastika.Cms.Lib.ViewModels
+  commentId: N:Swastika.Cms.Lib.ViewModels
+  isExternal: false
+  name: Swastika.Cms.Lib.ViewModels
+  nameWithType: Swastika.Cms.Lib.ViewModels
+  fullName: Swastika.Cms.Lib.ViewModels

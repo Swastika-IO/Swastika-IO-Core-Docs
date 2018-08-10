@@ -68,10 +68,26 @@ items:
   - System.Object
   derivedClasses:
   - Swastika.Cms.Lib.ViewModels.Account.RefreshTokenViewModel
+  - Swastika.Cms.Lib.ViewModels.Account.RoleViewModel
+  - Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiCategoryViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiConfigurationViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiCultureViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiCustomerViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiLanguageViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiModuleDataViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiModuleViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiOrderItemViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiOrderViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiTemplateViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiThemeViewModel
+  - Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
+  - Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel
+  - Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel
@@ -83,6 +99,8 @@ items:
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel
   - Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
+  - Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel
+  - Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel
   - Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel
   - Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel
   - Swastika.Cms.Lib.ViewModels.CategoryModuleViewModel
@@ -91,6 +109,7 @@ items:
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleModuleViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel
+  - Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel
   - Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel
@@ -104,19 +123,27 @@ items:
   - Swastika.Cms.Lib.ViewModels.Info.InfoModuleAttributeViewModel
   - Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel
   - Swastika.Cms.Lib.ViewModels.Info.InfoModuleViewModel
+  - Swastika.Cms.Lib.ViewModels.Info.InfoOrderViewModel
+  - Swastika.Cms.Lib.ViewModels.Info.InfoPortalPageViewModel
   - Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel
   - Swastika.Cms.Lib.ViewModels.Info.InfoTemplateViewModel
   - Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel
+  - Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
   - Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel
   - Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavArticleMediaViewModel
+  - Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel
+  - Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryProductViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavModuleProductViewModel
+  - Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageRoleViewModel
+  - Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavProductMediaViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavProductModuleViewModel
   - Swastika.Cms.Lib.ViewModels.Navigation.NavRelatedProductViewModel
+  - Swastika.Cms.Lib.ViewModels.Navigation.NavUserRoleViewModel
   - Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel
   - Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel
   nameWithType.vb: ViewModelBase(Of TDbContext, TModel, TView)

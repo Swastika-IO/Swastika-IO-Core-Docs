@@ -18,7 +18,6 @@ items:
 references:
 - uid: Swastika.Identity.Data.ApplicationDbContext
   commentId: T:Swastika.Identity.Data.ApplicationDbContext
-  parent: Swastika.Identity.Data
   isExternal: true
   name: ApplicationDbContext
   nameWithType: ApplicationDbContext
@@ -29,9 +28,3 @@ references:
   name: IdentityBasedData
   nameWithType: IdentityBasedData
   fullName: Swastika.Identity.Data.IdentityBasedData
-- uid: Swastika.Identity.Data
-  commentId: N:Swastika.Identity.Data
-  isExternal: false
-  name: Swastika.Identity.Data
-  nameWithType: Swastika.Identity.Data
-  fullName: Swastika.Identity.Data

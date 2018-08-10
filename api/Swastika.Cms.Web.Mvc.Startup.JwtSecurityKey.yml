@@ -20,18 +20,18 @@ items:
   - Swastika.Cms.Web.Mvc
   namespace: Swastika.Cms.Web.Mvc
   syntax:
-    content: 'public static class JwtSecurityKey : Object'
+    content: 'protected static class JwtSecurityKey : Object'
     content.vb: >-
-      Public Module JwtSecurityKey
+      Protected Module JwtSecurityKey
           Inherits Object
   inheritance:
   - System.Object
   modifiers.csharp:
-  - public
+  - protected
   - static
   - class
   modifiers.vb:
-  - Public
+  - Protected
   - Module
 - uid: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create(System.String)
   commentId: M:Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create(System.String)

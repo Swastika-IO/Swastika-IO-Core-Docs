@@ -501,7 +501,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Domain { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Domain { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1702,8 +1702,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.CloneSubModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel, System.Collections.Generic.List&lt;Swastika.Domain.Core.Models.SupportedCulture&gt;, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_ExpandView_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ExpandView*"></a>
@@ -1736,8 +1734,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_ParseModel_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.ParseModel*"></a>
@@ -1785,8 +1781,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.ParseModel(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_RemoveRelatedModels_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.RemoveRelatedModels*"></a>
@@ -1795,7 +1789,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override RepositoryResponse&lt;bool&gt; RemoveRelatedModels(BEProductViewModel model, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override RepositoryResponse&lt;bool&gt; RemoveRelatedModels(BEProductViewModel view, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1809,7 +1803,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.html">BEProductViewModel</a></td>
-        <td><span class="parametername">model</span></td>
+        <td><span class="parametername">view</span></td>
         <td></td>
       </tr>
       <tr>
@@ -1839,8 +1833,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.RemoveRelatedModels(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_RemoveRelatedModelsAsync_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.RemoveRelatedModelsAsync*"></a>
@@ -1893,8 +1885,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.RemoveRelatedModelsAsync(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_SaveSubModels_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.SaveSubModels*"></a>
@@ -1947,8 +1937,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.SaveSubModels(Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
   
   
   <a id="Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_SaveSubModelsAsync_" data-uid="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.SaveSubModelsAsync*"></a>
@@ -2001,8 +1989,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Swastika.Domain.Data.ViewModels.ViewModelBase&lt;Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel&gt;.SaveSubModelsAsync(Swastika.Cms.Lib.Models.Cms.SiocProduct, Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
 </article>
           </div>
           
