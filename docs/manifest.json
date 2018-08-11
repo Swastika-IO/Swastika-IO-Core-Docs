@@ -5261,6 +5261,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "documents/_images/1st-step/config-db.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/1st-step/config-db.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/1st-step/connect-local-db.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/1st-step/connect-local-db.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/1st-step/create-admin.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/1st-step/create-admin.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/1st-step/select-default-culture.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/1st-step/select-default-culture.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "documents/_images/page/create-page.png",
       "output": {
         "resource": {
@@ -5414,7 +5458,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/firststep.html",
-          "hash": "r8ENqvgRzXy0zbHjnEAT2Q=="
+          "hash": "/Fu2DLfXv0r0Rsfm7+HIQA=="
         }
       },
       "is_incremental": false,
@@ -5662,22 +5706,22 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

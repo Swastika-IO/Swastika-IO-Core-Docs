@@ -19,6 +19,16 @@ You’ve just completed the 5 Minute Installation of Swastika I/O Core CMS or on
 
 Let’s take a step-by-step tour through your Swastika I/O Core CMS site and see how the different functions work and how to make your new site your own. During the first part of this tutorial, please don’t change anything within the program unless it is part of the tutorial. After following these steps, you’ll soon be changing everything.
 
+## Config CMS
+
+ ![config-db.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/config-db.jpg)
+
+ ![connect-local-db.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/connect-local-db.jpg)
+
+ ![select-default-culture.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/select-default-culture.jpg)
+ 
+ ![create-admin.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/create-admin.jpg)
+
 ## Register
 
 TBC
