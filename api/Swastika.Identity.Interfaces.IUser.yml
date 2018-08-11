@@ -107,7 +107,7 @@ items:
 references:
 - uid: Swastika.Identity.Interfaces
   commentId: N:Swastika.Identity.Interfaces
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Interfaces
   nameWithType: Swastika.Identity.Interfaces
   fullName: Swastika.Identity.Interfaces
@@ -126,7 +126,7 @@ references:
   fullName: System.Boolean
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

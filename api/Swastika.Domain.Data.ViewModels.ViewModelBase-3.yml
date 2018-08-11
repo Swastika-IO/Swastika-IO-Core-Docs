@@ -1447,7 +1447,7 @@ items:
 references:
 - uid: Swastika.Domain.Data.ViewModels
   commentId: N:Swastika.Domain.Data.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Data.ViewModels
   nameWithType: Swastika.Domain.Data.ViewModels
   fullName: Swastika.Domain.Data.ViewModels
@@ -1460,7 +1460,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1491,7 +1491,6 @@ references:
   nameWithType: IDbContextTransaction
   fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
 - uid: TDbContext
-  isExternal: false
   name: TDbContext
   nameWithType: TDbContext
   fullName: TDbContext
@@ -1518,7 +1517,6 @@ references:
   nameWithType: TModel
   fullName: TModel
 - uid: TModel
-  isExternal: false
   name: TModel
   nameWithType: TModel
   fullName: TModel
@@ -1537,7 +1535,6 @@ references:
   nameWithType: TView
   fullName: TView
 - uid: TView
-  isExternal: false
   name: TView
   nameWithType: TView
   fullName: TView
@@ -2052,7 +2049,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels
@@ -2326,7 +2323,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Data.Repository
   commentId: N:Swastika.Domain.Data.Repository
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Data.Repository
   nameWithType: Swastika.Domain.Data.Repository
   fullName: Swastika.Domain.Data.Repository
@@ -2525,7 +2522,7 @@ references:
   fullName: Swastika.Common.Utility.Enums.SWStatus
 - uid: Swastika.Common.Utility
   commentId: N:Swastika.Common.Utility
-  isExternal: false
+  isExternal: true
   name: Swastika.Common.Utility
   nameWithType: Swastika.Common.Utility
   fullName: Swastika.Common.Utility

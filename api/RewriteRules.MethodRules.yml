@@ -91,7 +91,7 @@ items:
 references:
 - uid: RewriteRules
   commentId: N:RewriteRules
-  isExternal: false
+  isExternal: true
   name: RewriteRules
   nameWithType: RewriteRules
   fullName: RewriteRules
@@ -104,7 +104,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

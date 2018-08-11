@@ -279,7 +279,7 @@ items:
 references:
 - uid: Swastika.Web.Start.TagHelpers
   commentId: N:Swastika.Web.Start.TagHelpers
-  isExternal: false
+  isExternal: true
   name: Swastika.Web.Start.TagHelpers
   nameWithType: Swastika.Web.Start.TagHelpers
   fullName: Swastika.Web.Start.TagHelpers
@@ -292,7 +292,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

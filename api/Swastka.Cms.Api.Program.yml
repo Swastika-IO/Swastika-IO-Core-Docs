@@ -105,7 +105,7 @@ items:
 references:
 - uid: Swastka.Cms.Api
   commentId: N:Swastka.Cms.Api
-  isExternal: false
+  isExternal: true
   name: Swastka.Cms.Api
   nameWithType: Swastka.Cms.Api
   fullName: Swastka.Cms.Api
@@ -118,7 +118,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -129,6 +129,7 @@ references:
   nameWithType: Program.Main
   fullName: Swastka.Cms.Api.Program.Main
 - uid: System.String[]
+  isExternal: true
   name: String[]
   nameWithType: String[]
   fullName: System.String[]

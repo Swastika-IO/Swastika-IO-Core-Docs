@@ -249,7 +249,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd
   commentId: N:Swastika.Cms.Lib.ViewModels.FrontEnd
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.FrontEnd
   nameWithType: Swastika.Cms.Lib.ViewModels.FrontEnd
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd
@@ -262,7 +262,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

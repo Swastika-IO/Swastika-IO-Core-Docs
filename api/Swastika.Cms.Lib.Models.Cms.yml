@@ -333,7 +333,7 @@ references:
   fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
 - uid: Swastika.Cms.Lib.Models.Cms
   commentId: N:Swastika.Cms.Lib.Models.Cms
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Models.Cms
   nameWithType: Swastika.Cms.Lib.Models.Cms
   fullName: Swastika.Cms.Lib.Models.Cms

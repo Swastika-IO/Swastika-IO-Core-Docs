@@ -520,7 +520,7 @@ items:
 references:
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels
@@ -533,7 +533,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -640,7 +640,6 @@ references:
   nameWithType: TModel
   fullName: TModel
 - uid: TModel
-  isExternal: false
   name: TModel
   nameWithType: TModel
   fullName: TModel
@@ -664,7 +663,6 @@ references:
   nameWithType: IDbContextTransaction
   fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
 - uid: TDbContext
-  isExternal: false
   name: TDbContext
   nameWithType: TDbContext
   fullName: TDbContext

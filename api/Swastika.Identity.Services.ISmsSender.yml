@@ -59,7 +59,7 @@ items:
 references:
 - uid: Swastika.Identity.Services
   commentId: N:Swastika.Identity.Services
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Services
   nameWithType: Swastika.Identity.Services
   fullName: Swastika.Identity.Services
@@ -83,7 +83,7 @@ references:
   fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

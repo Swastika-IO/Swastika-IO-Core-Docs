@@ -562,7 +562,7 @@ items:
 references:
 - uid: Swastika.Identity.Models
   commentId: N:Swastika.Identity.Models
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Models
   nameWithType: Swastika.Identity.Models
   fullName: Swastika.Identity.Models
@@ -575,7 +575,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

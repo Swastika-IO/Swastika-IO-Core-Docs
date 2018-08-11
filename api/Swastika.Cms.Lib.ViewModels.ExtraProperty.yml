@@ -184,7 +184,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.ViewModels
   commentId: N:Swastika.Cms.Lib.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels
   nameWithType: Swastika.Cms.Lib.ViewModels
   fullName: Swastika.Cms.Lib.ViewModels
@@ -197,7 +197,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -248,7 +248,7 @@ references:
   fullName: Swastika.Cms.Lib.SWCmsConstants.DataType
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib
   nameWithType: Swastika.Cms.Lib
   fullName: Swastika.Cms.Lib

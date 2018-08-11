@@ -215,7 +215,7 @@ items:
 references:
 - uid: Swastika.Identity.Models.ManageViewModels
   commentId: N:Swastika.Identity.Models.ManageViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Models.ManageViewModels
   nameWithType: Swastika.Identity.Models.ManageViewModels
   fullName: Swastika.Identity.Models.ManageViewModels
@@ -228,7 +228,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

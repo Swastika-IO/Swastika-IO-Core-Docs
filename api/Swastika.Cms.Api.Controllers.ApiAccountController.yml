@@ -428,7 +428,7 @@ items:
 references:
 - uid: Swastika.Cms.Api.Controllers
   commentId: N:Swastika.Cms.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Api.Controllers
   nameWithType: Swastika.Cms.Api.Controllers
   fullName: Swastika.Cms.Api.Controllers
@@ -893,13 +893,13 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: Swastka.Cms.Api.Controllers
   commentId: N:Swastka.Cms.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastka.Cms.Api.Controllers
   nameWithType: Swastka.Cms.Api.Controllers
   fullName: Swastka.Cms.Api.Controllers
@@ -1461,7 +1461,7 @@ references:
     fullName: )
 - uid: Swastika.Identity.Models.AccountViewModels
   commentId: N:Swastika.Identity.Models.AccountViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Models.AccountViewModels
   nameWithType: Swastika.Identity.Models.AccountViewModels
   fullName: Swastika.Identity.Models.AccountViewModels
@@ -1493,7 +1493,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Backend
   commentId: N:Swastika.Cms.Lib.ViewModels.Backend
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Backend
   nameWithType: Swastika.Cms.Lib.ViewModels.Backend
   fullName: Swastika.Cms.Lib.ViewModels.Backend
@@ -1638,7 +1638,7 @@ references:
     fullName: )
 - uid: Swastika.Cms.Lib.ViewModels.Info
   commentId: N:Swastika.Cms.Lib.ViewModels.Info
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Info
   nameWithType: Swastika.Cms.Lib.ViewModels.Info
   fullName: Swastika.Cms.Lib.ViewModels.Info
@@ -1744,7 +1744,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels
@@ -1828,7 +1828,7 @@ references:
     fullName: )
 - uid: Swastika.Identity.Models
   commentId: N:Swastika.Identity.Models
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Models
   nameWithType: Swastika.Identity.Models
   fullName: Swastika.Identity.Models

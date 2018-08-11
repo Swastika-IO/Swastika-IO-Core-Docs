@@ -38,7 +38,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Account
   commentId: N:Swastika.Cms.Lib.ViewModels.Account
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Account
   nameWithType: Swastika.Cms.Lib.ViewModels.Account
   fullName: Swastika.Cms.Lib.ViewModels.Account

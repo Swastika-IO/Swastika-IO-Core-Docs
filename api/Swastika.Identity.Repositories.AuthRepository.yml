@@ -82,7 +82,7 @@ items:
 references:
 - uid: Swastika.Identity.Repositories
   commentId: N:Swastika.Identity.Repositories
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Repositories
   nameWithType: Swastika.Identity.Repositories
   fullName: Swastika.Identity.Repositories
@@ -95,7 +95,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

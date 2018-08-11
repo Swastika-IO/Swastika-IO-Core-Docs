@@ -82,7 +82,7 @@ items:
 references:
 - uid: Swastika.Identity.Infrastructure
   commentId: N:Swastika.Identity.Infrastructure
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Infrastructure
   nameWithType: Swastika.Identity.Infrastructure
   fullName: Swastika.Identity.Infrastructure
@@ -95,7 +95,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

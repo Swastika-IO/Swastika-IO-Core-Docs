@@ -152,7 +152,7 @@ items:
 references:
 - uid: Swastka.Cms.Web
   commentId: N:Swastka.Cms.Web
-  isExternal: false
+  isExternal: true
   name: Swastka.Cms.Web
   nameWithType: Swastka.Cms.Web
   fullName: Swastka.Cms.Web
@@ -165,7 +165,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

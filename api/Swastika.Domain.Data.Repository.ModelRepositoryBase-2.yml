@@ -1231,7 +1231,7 @@ items:
 references:
 - uid: Swastika.Domain.Data.Repository
   commentId: N:Swastika.Domain.Data.Repository
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Data.Repository
   nameWithType: Swastika.Domain.Data.Repository
   fullName: Swastika.Domain.Data.Repository
@@ -1244,7 +1244,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1289,12 +1289,10 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: TModel
-  isExternal: false
   name: TModel
   nameWithType: TModel
   fullName: TModel
 - uid: TDbContext
-  isExternal: false
   name: TDbContext
   nameWithType: TDbContext
   fullName: TDbContext
@@ -1492,7 +1490,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels

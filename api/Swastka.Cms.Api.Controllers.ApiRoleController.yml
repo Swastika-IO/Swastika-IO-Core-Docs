@@ -351,7 +351,7 @@ items:
 references:
 - uid: Swastka.Cms.Api.Controllers
   commentId: N:Swastka.Cms.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastka.Cms.Api.Controllers
   nameWithType: Swastka.Cms.Api.Controllers
   fullName: Swastka.Cms.Api.Controllers
@@ -816,7 +816,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1111,7 +1111,7 @@ references:
   fullName: Swastika.Identity.Services.IEmailSender
 - uid: Swastika.Identity.Services
   commentId: N:Swastika.Identity.Services
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Services
   nameWithType: Swastika.Identity.Services
   fullName: Swastika.Identity.Services

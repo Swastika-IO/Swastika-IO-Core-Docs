@@ -181,7 +181,7 @@ items:
 references:
 - uid: Swastika.Common.Helper
   commentId: N:Swastika.Common.Helper
-  isExternal: false
+  isExternal: true
   name: Swastika.Common.Helper
   nameWithType: Swastika.Common.Helper
   fullName: Swastika.Common.Helper
@@ -194,7 +194,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

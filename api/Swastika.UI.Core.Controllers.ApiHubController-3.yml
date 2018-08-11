@@ -155,7 +155,7 @@ items:
 references:
 - uid: Swastika.UI.Core.Controllers
   commentId: N:Swastika.UI.Core.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastika.UI.Core.Controllers
   nameWithType: Swastika.UI.Core.Controllers
   fullName: Swastika.UI.Core.Controllers
@@ -619,7 +619,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -676,7 +676,7 @@ references:
     fullName: )
 - uid: Swastika.Api.Controllers
   commentId: N:Swastika.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastika.Api.Controllers
   nameWithType: Swastika.Api.Controllers
   fullName: Swastika.Api.Controllers

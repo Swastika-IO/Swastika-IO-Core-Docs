@@ -40,7 +40,7 @@ references:
   fullName: Swastika.Cms.Lib.Repositories.TemplateRepository
 - uid: Swastika.Cms.Lib.Repositories
   commentId: N:Swastika.Cms.Lib.Repositories
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Repositories
   nameWithType: Swastika.Cms.Lib.Repositories
   fullName: Swastika.Cms.Lib.Repositories

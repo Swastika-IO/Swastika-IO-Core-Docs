@@ -207,7 +207,7 @@ references:
     fullName: )
 - uid: Swastka.Cms.Api.Controllers
   commentId: N:Swastka.Cms.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastka.Cms.Api.Controllers
   nameWithType: Swastka.Cms.Api.Controllers
   fullName: Swastka.Cms.Api.Controllers

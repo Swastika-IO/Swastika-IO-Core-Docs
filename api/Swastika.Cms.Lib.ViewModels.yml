@@ -155,7 +155,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel
 - uid: Swastika.Cms.Lib.ViewModels
   commentId: N:Swastika.Cms.Lib.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels
   nameWithType: Swastika.Cms.Lib.ViewModels
   fullName: Swastika.Cms.Lib.ViewModels

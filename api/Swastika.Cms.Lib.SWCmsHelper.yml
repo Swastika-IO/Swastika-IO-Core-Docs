@@ -561,7 +561,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib
   nameWithType: Swastika.Cms.Lib
   fullName: Swastika.Cms.Lib
@@ -574,7 +574,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -600,7 +600,7 @@ references:
   fullName: Swastika.Cms.Lib.Services.Translator
 - uid: Swastika.Cms.Lib.Services
   commentId: N:Swastika.Cms.Lib.Services
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Services
   nameWithType: Swastika.Cms.Lib.Services
   fullName: Swastika.Cms.Lib.Services
@@ -630,7 +630,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd
   commentId: N:Swastika.Cms.Lib.ViewModels.FrontEnd
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.FrontEnd
   nameWithType: Swastika.Cms.Lib.ViewModels.FrontEnd
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd
@@ -747,6 +747,7 @@ references:
   nameWithType: SwCmsHelper.GetFullPath
   fullName: Swastika.Cms.Lib.SwCmsHelper.GetFullPath
 - uid: System.String[]
+  isExternal: true
   name: String[]
   nameWithType: String[]
   fullName: System.String[]

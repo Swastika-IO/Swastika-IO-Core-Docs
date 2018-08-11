@@ -368,7 +368,7 @@ items:
 references:
 - uid: Swastika.Api.Controllers
   commentId: N:Swastika.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastika.Api.Controllers
   nameWithType: Swastika.Api.Controllers
   fullName: Swastika.Api.Controllers
@@ -381,7 +381,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -515,7 +515,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Data.Repository
   commentId: N:Swastika.Domain.Data.Repository
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Data.Repository
   nameWithType: Swastika.Domain.Data.Repository
   fullName: Swastika.Domain.Data.Repository
@@ -614,7 +614,6 @@ references:
   nameWithType: TResult
   fullName: TResult
 - uid: TResult
-  isExternal: false
   name: TResult
   nameWithType: TResult
   fullName: TResult

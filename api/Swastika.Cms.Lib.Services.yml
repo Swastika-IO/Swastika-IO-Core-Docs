@@ -63,7 +63,7 @@ references:
   fullName: Swastika.Cms.Lib.Services.ViewRenderService
 - uid: Swastika.Cms.Lib.Services
   commentId: N:Swastika.Cms.Lib.Services
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Services
   nameWithType: Swastika.Cms.Lib.Services
   fullName: Swastika.Cms.Lib.Services

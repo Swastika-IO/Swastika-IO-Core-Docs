@@ -97,7 +97,7 @@ items:
 references:
 - uid: RewriteRules
   commentId: N:RewriteRules
-  isExternal: false
+  isExternal: true
   name: RewriteRules
   nameWithType: RewriteRules
   fullName: RewriteRules
@@ -116,7 +116,7 @@ references:
   fullName: Microsoft.AspNetCore.Rewrite.IRule
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

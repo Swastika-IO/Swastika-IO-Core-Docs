@@ -421,7 +421,7 @@ items:
 references:
 - uid: Swastika.Cms.Mvc.Controllers
   commentId: N:Swastika.Cms.Mvc.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Mvc.Controllers
   nameWithType: Swastika.Cms.Mvc.Controllers
   fullName: Swastika.Cms.Mvc.Controllers
@@ -434,7 +434,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

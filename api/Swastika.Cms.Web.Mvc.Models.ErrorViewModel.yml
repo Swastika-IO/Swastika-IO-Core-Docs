@@ -122,7 +122,7 @@ items:
 references:
 - uid: Swastika.Cms.Web.Mvc.Models
   commentId: N:Swastika.Cms.Web.Mvc.Models
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Web.Mvc.Models
   nameWithType: Swastika.Cms.Web.Mvc.Models
   fullName: Swastika.Cms.Web.Mvc.Models
@@ -135,7 +135,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

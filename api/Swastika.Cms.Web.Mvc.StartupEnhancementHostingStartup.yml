@@ -92,7 +92,7 @@ items:
 references:
 - uid: Swastika.Cms.Web.Mvc
   commentId: N:Swastika.Cms.Web.Mvc
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Web.Mvc
   nameWithType: Swastika.Cms.Web.Mvc
   fullName: Swastika.Cms.Web.Mvc
@@ -111,7 +111,7 @@ references:
   fullName: Microsoft.AspNetCore.Hosting.IHostingStartup
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

@@ -152,7 +152,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib
   nameWithType: Swastika.Cms.Lib
   fullName: Swastika.Cms.Lib
@@ -165,7 +165,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

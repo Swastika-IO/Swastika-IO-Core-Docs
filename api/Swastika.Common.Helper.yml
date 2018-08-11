@@ -53,7 +53,7 @@ references:
   fullName: Swastika.Common.Helper.SEOHelper
 - uid: Swastika.Common.Helper
   commentId: N:Swastika.Common.Helper
-  isExternal: false
+  isExternal: true
   name: Swastika.Common.Helper
   nameWithType: Swastika.Common.Helper
   fullName: Swastika.Common.Helper

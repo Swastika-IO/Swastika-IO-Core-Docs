@@ -118,7 +118,7 @@ items:
 references:
 - uid: Swastika.Domain.Core.Interfaces
   commentId: N:Swastika.Domain.Core.Interfaces
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.Interfaces
   nameWithType: Swastika.Domain.Core.Interfaces
   fullName: Swastika.Domain.Core.Interfaces
@@ -137,7 +137,6 @@ references:
   nameWithType: TModel
   fullName: TModel
 - uid: TModel
-  isExternal: false
   name: TModel
   nameWithType: TModel
   fullName: TModel
@@ -247,7 +246,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

@@ -463,7 +463,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.ViewModels.Api
   commentId: N:Swastika.Cms.Lib.ViewModels.Api
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Api
   nameWithType: Swastika.Cms.Lib.ViewModels.Api
   fullName: Swastika.Cms.Lib.ViewModels.Api
@@ -476,7 +476,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

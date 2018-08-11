@@ -120,7 +120,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Info
   commentId: N:Swastika.Cms.Lib.ViewModels.Info
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Info
   nameWithType: Swastika.Cms.Lib.ViewModels.Info
   fullName: Swastika.Cms.Lib.ViewModels.Info

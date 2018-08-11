@@ -100,7 +100,7 @@ items:
 references:
 - uid: Swastika.Identity.Services
   commentId: N:Swastika.Identity.Services
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Services
   nameWithType: Swastika.Identity.Services
   fullName: Swastika.Identity.Services
@@ -120,7 +120,7 @@ references:
   fullName: Swastika.Identity.Services.IEmailSender
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

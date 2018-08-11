@@ -159,7 +159,7 @@ items:
 references:
 - uid: Swastika.Identity.Models
   commentId: N:Swastika.Identity.Models
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Models
   nameWithType: Swastika.Identity.Models
   fullName: Swastika.Identity.Models
@@ -179,13 +179,13 @@ references:
   fullName: Swastika.Identity.Interfaces.IUser
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: Swastika.Identity.Interfaces
   commentId: N:Swastika.Identity.Interfaces
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Interfaces
   nameWithType: Swastika.Identity.Interfaces
   fullName: Swastika.Identity.Interfaces

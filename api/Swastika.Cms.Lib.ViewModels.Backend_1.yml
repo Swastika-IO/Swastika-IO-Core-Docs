@@ -24,7 +24,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Backend
   commentId: N:Swastika.Cms.Lib.ViewModels.Backend
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Backend
   nameWithType: Swastika.Cms.Lib.ViewModels.Backend
   fullName: Swastika.Cms.Lib.ViewModels.Backend

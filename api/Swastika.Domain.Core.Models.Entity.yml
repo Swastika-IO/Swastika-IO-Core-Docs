@@ -256,7 +256,7 @@ items:
 references:
 - uid: Swastika.Domain.Core.Models
   commentId: N:Swastika.Domain.Core.Models
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.Models
   nameWithType: Swastika.Domain.Core.Models
   fullName: Swastika.Domain.Core.Models
@@ -269,7 +269,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

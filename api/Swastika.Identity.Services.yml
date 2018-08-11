@@ -61,7 +61,7 @@ references:
   fullName: Swastika.Identity.Services.AuthSMSMessageSender
 - uid: Swastika.Identity.Services
   commentId: N:Swastika.Identity.Services
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Services
   nameWithType: Swastika.Identity.Services
   fullName: Swastika.Identity.Services

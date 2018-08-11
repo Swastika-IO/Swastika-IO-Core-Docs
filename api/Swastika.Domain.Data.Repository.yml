@@ -314,7 +314,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Data.Repository
   commentId: N:Swastika.Domain.Data.Repository
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Data.Repository
   nameWithType: Swastika.Domain.Data.Repository
   fullName: Swastika.Domain.Data.Repository

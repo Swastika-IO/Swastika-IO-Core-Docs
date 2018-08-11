@@ -94,7 +94,7 @@ references:
   fullName: Swastika.Identity.Models.AccountViewModels.VerifyCodeViewModel
 - uid: Swastika.Identity.Models.AccountViewModels
   commentId: N:Swastika.Identity.Models.AccountViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Models.AccountViewModels
   nameWithType: Swastika.Identity.Models.AccountViewModels
   fullName: Swastika.Identity.Models.AccountViewModels

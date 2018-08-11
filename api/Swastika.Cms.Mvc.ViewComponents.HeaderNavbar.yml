@@ -88,7 +88,7 @@ items:
 references:
 - uid: Swastika.Cms.Mvc.ViewComponents
   commentId: N:Swastika.Cms.Mvc.ViewComponents
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Mvc.ViewComponents
   nameWithType: Swastika.Cms.Mvc.ViewComponents
   fullName: Swastika.Cms.Mvc.ViewComponents
@@ -101,7 +101,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

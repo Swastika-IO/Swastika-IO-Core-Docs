@@ -265,7 +265,7 @@ items:
 references:
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels
@@ -278,7 +278,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -452,7 +452,6 @@ references:
   nameWithType: TResult
   fullName: TResult
 - uid: TResult
-  isExternal: false
   name: TResult
   nameWithType: TResult
   fullName: TResult

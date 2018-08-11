@@ -140,7 +140,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Api
   commentId: N:Swastika.Cms.Lib.ViewModels.Api
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Api
   nameWithType: Swastika.Cms.Lib.ViewModels.Api
   fullName: Swastika.Cms.Lib.ViewModels.Api

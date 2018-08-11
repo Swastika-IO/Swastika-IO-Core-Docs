@@ -261,7 +261,7 @@ items:
 references:
 - uid: Swastika.Extension.Core.Interfaces
   commentId: N:Swastika.Extension.Core.Interfaces
-  isExternal: false
+  isExternal: true
   name: Swastika.Extension.Core.Interfaces
   nameWithType: Swastika.Extension.Core.Interfaces
   fullName: Swastika.Extension.Core.Interfaces
@@ -471,7 +471,7 @@ references:
   fullName: System.Int32
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -497,7 +497,6 @@ references:
   nameWithType: TView
   fullName: TView
 - uid: TView
-  isExternal: false
   name: TView
   nameWithType: TView
   fullName: TView

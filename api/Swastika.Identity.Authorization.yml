@@ -31,7 +31,7 @@ references:
   fullName: Swastika.Identity.Authorization.ClaimsRequirementHandler
 - uid: Swastika.Identity.Authorization
   commentId: N:Swastika.Identity.Authorization
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Authorization
   nameWithType: Swastika.Identity.Authorization
   fullName: Swastika.Identity.Authorization

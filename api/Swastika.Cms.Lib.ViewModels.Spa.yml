@@ -38,7 +38,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
 - uid: Swastika.Cms.Lib.ViewModels.Spa
   commentId: N:Swastika.Cms.Lib.ViewModels.Spa
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Spa
   nameWithType: Swastika.Cms.Lib.ViewModels.Spa
   fullName: Swastika.Cms.Lib.ViewModels.Spa

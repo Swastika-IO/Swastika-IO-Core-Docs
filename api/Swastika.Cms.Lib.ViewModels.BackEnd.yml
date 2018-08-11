@@ -152,7 +152,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel
 - uid: Swastika.Cms.Lib.ViewModels.BackEnd
   commentId: N:Swastika.Cms.Lib.ViewModels.BackEnd
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.BackEnd
   nameWithType: Swastika.Cms.Lib.ViewModels.BackEnd
   fullName: Swastika.Cms.Lib.ViewModels.BackEnd

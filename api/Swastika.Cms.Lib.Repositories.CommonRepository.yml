@@ -546,7 +546,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.Repositories
   commentId: N:Swastika.Cms.Lib.Repositories
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Repositories
   nameWithType: Swastika.Cms.Lib.Repositories
   fullName: Swastika.Cms.Lib.Repositories
@@ -559,7 +559,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -656,7 +656,7 @@ references:
     fullName: )
 - uid: Swastika.Cms.Lib.Models.Cms
   commentId: N:Swastika.Cms.Lib.Models.Cms
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Models.Cms
   nameWithType: Swastika.Cms.Lib.Models.Cms
   fullName: Swastika.Cms.Lib.Models.Cms
@@ -701,7 +701,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels

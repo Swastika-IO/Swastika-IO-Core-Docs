@@ -906,7 +906,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.Repositories
   commentId: N:Swastika.Cms.Lib.Repositories
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Repositories
   nameWithType: Swastika.Cms.Lib.Repositories
   fullName: Swastika.Cms.Lib.Repositories
@@ -919,7 +919,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1026,7 +1026,7 @@ references:
     fullName: )
 - uid: Swastika.Cms.Lib.ViewModels
   commentId: N:Swastika.Cms.Lib.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels
   nameWithType: Swastika.Cms.Lib.ViewModels
   fullName: Swastika.Cms.Lib.ViewModels
@@ -1173,7 +1173,7 @@ references:
   fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder
 - uid: Swastika.Cms.Lib
   commentId: N:Swastika.Cms.Lib
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib
   nameWithType: Swastika.Cms.Lib
   fullName: Swastika.Cms.Lib

@@ -90,7 +90,7 @@ items:
 references:
 - uid: Swastika.UI.Base.Controllers
   commentId: N:Swastika.UI.Base.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastika.UI.Base.Controllers
   nameWithType: Swastika.UI.Base.Controllers
   fullName: Swastika.UI.Base.Controllers
@@ -103,7 +103,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

@@ -215,7 +215,7 @@ items:
 references:
 - uid: Swastika.Identity.Entities
   commentId: N:Swastika.Identity.Entities
-  isExternal: false
+  isExternal: true
   name: Swastika.Identity.Entities
   nameWithType: Swastika.Identity.Entities
   fullName: Swastika.Identity.Entities
@@ -228,7 +228,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

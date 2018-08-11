@@ -1030,7 +1030,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.ViewModels.Spa
   commentId: N:Swastika.Cms.Lib.ViewModels.Spa
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Spa
   nameWithType: Swastika.Cms.Lib.ViewModels.Spa
   fullName: Swastika.Cms.Lib.ViewModels.Spa
@@ -2719,7 +2719,7 @@ references:
   fullName.vb: Swastika.Domain.Data.ViewModels.ViewModelBase(Of Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Swastika.Cms.Lib.Models.Cms.SiocArticle, Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel).Errors
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -2788,7 +2788,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Data.ViewModels
   commentId: N:Swastika.Domain.Data.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Data.ViewModels
   nameWithType: Swastika.Domain.Data.ViewModels
   fullName: Swastika.Domain.Data.ViewModels
@@ -4281,7 +4281,7 @@ references:
   fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
 - uid: Swastika.Cms.Lib.Models.Cms
   commentId: N:Swastika.Cms.Lib.Models.Cms
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Models.Cms
   nameWithType: Swastika.Cms.Lib.Models.Cms
   fullName: Swastika.Cms.Lib.Models.Cms
@@ -4588,7 +4588,7 @@ references:
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel
 - uid: Swastika.Cms.Lib.ViewModels.FrontEnd
   commentId: N:Swastika.Cms.Lib.ViewModels.FrontEnd
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.FrontEnd
   nameWithType: Swastika.Cms.Lib.ViewModels.FrontEnd
   fullName: Swastika.Cms.Lib.ViewModels.FrontEnd

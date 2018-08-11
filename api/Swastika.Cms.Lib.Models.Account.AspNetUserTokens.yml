@@ -215,7 +215,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.Models.Account
   commentId: N:Swastika.Cms.Lib.Models.Account
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Models.Account
   nameWithType: Swastika.Cms.Lib.Models.Account
   fullName: Swastika.Cms.Lib.Models.Account
@@ -228,7 +228,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System

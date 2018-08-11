@@ -239,7 +239,7 @@ items:
 references:
 - uid: Swastka.Cms.Api.Controllers
   commentId: N:Swastka.Cms.Api.Controllers
-  isExternal: false
+  isExternal: true
   name: Swastka.Cms.Api.Controllers
   nameWithType: Swastka.Cms.Api.Controllers
   fullName: Swastka.Cms.Api.Controllers
@@ -704,7 +704,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1179,7 +1179,7 @@ references:
     fullName: )
 - uid: Swastika.Cms.Lib.ViewModels.Api
   commentId: N:Swastika.Cms.Lib.ViewModels.Api
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.ViewModels.Api
   nameWithType: Swastika.Cms.Lib.ViewModels.Api
   fullName: Swastika.Cms.Lib.ViewModels.Api
@@ -1285,7 +1285,7 @@ references:
     fullName: )
 - uid: Swastika.Domain.Core.ViewModels
   commentId: N:Swastika.Domain.Core.ViewModels
-  isExternal: false
+  isExternal: true
   name: Swastika.Domain.Core.ViewModels
   nameWithType: Swastika.Domain.Core.ViewModels
   fullName: Swastika.Domain.Core.ViewModels

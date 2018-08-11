@@ -153,7 +153,7 @@ items:
 references:
 - uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount
   commentId: N:Swastika.Cms.Lib.Migrations.SiocCmsAccount
-  isExternal: false
+  isExternal: true
   name: Swastika.Cms.Lib.Migrations.SiocCmsAccount
   nameWithType: Swastika.Cms.Lib.Migrations.SiocCmsAccount
   fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount
@@ -166,7 +166,7 @@ references:
   fullName: System.Object
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
