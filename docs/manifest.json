@@ -1,0 +1,5700 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/_Workspace/Github/Swastika-IO-Core-Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "FWPKjoG4GcdOVzx0li4TIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "7+Nedre4KRjgFxhUrtnsvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RewriteRules.MethodRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RewriteRules.MethodRules.html",
+          "hash": "j+e/jZUSJyZWW7T+JpwIdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RewriteRules.RedirectImageRequests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RewriteRules.RedirectImageRequests.html",
+          "hash": "JI6B4g5C7+s4OjmsAq+ZDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RewriteRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RewriteRules.html",
+          "hash": "A+QgEt/Nf1CDRke7qxavEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Api.Controllers.BaseApiController-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Api.Controllers.BaseApiController-2.html",
+          "hash": "4/hiOxYb+oH0MJ6zUEHyoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Api.Controllers.BaseApiController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Api.Controllers.BaseApiController-3.html",
+          "hash": "GFVGa7bmq3dchHYVZAYnEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Api.Controllers.BaseApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Api.Controllers.BaseApiController.html",
+          "hash": "MyoVXVKmfTktwKOPXapElA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Api.Controllers.html",
+          "hash": "1QdTgoORCyC9ICOemGY0Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Api.Controllers.ApiAccountController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Api.Controllers.ApiAccountController.html",
+          "hash": "OcfkrdOpX0iQe2gWNunmjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Api.Controllers.html",
+          "hash": "l7vdlPSJ/9+1iJyj27gQJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.JwtToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.JwtToken.html",
+          "hash": "4cNUgdrWdfKlUPOnfBYNKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.JwtTokenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.JwtTokenBuilder.html",
+          "hash": "Mky4T3ZffFYW0J2aADoavw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.First_Account.html",
+          "hash": "iU96S++9s+xe76oTcNrDGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.html",
+          "hash": "+pXPUzGmCp+WUWcPLG1qUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.SiocCmsAccount.html",
+          "hash": "bH07c9TB5/6wBbB3fui+MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.first.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.first.html",
+          "hash": "ob8VYT/6ciyOtxCAZt5Rpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.init.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.init.html",
+          "hash": "+v/+vCucaaCpkmUZVVqFbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.upd_product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.upd_product.html",
+          "hash": "OOmllWIOz1sSAoEMSxVXYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Migrations.html",
+          "hash": "sfl+2ZU2PK1Q1V7cRQVTHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetRoleClaims.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetRoleClaims.html",
+          "hash": "apYQWMi13jNZqpzkUOza/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetRoles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetRoles.html",
+          "hash": "+w+XJmzB/7oRDn4gZ+BnPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserClaims.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserClaims.html",
+          "hash": "RKim+cpCabIE6TE5QCpO0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserLogins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserLogins.html",
+          "hash": "dfQGkyzAnHRK1Pym8SAnPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserRoles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserRoles.html",
+          "hash": "KOEWUL/77PCxsIU/+v6czg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserTokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUserTokens.html",
+          "hash": "Vq7W9+EiZesXKC5O7QDU1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.AspNetUsers.html",
+          "hash": "T8tGAt7PpWXxgCgEEtrS3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.Clients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.Clients.html",
+          "hash": "YumMGFanur5sFenrpJ5LEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.RefreshTokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.RefreshTokens.html",
+          "hash": "ntZnz4V1G6R0HeYnzi6wWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.html",
+          "hash": "oUcZ28a2K7JPbHOB2qBwkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Account.html",
+          "hash": "1QbztUprOVpXlVRw9zsC+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticle.html",
+          "hash": "VCxJaxOQV65+kVKS+I6inw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticleMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticleMedia.html",
+          "hash": "qAOw3mhvIs8nRBEHezey3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticleModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocArticleModule.html",
+          "hash": "xYUxDz/vZrwr4b224zdHgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategory.html",
+          "hash": "Ofjvbipk+VCWTk3+WifJag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle.html",
+          "hash": "AA3UL3G0zwAqOU+85cCDVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory.html",
+          "hash": "CRvsYIl848lBvpnFw+yvtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryModule.html",
+          "hash": "KcIC8UA6sMrIu79LjHGmhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.html",
+          "hash": "dM7w73RVrMpe1IURWbThvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct.html",
+          "hash": "AGwOR3cjHlWWzEvmaO5bfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html",
+          "hash": "42t2UQ7jAsoKwiQI8ZggRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.html",
+          "hash": "3FZaJz5MNAAF7LwuQgczcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCmsUser.html",
+          "hash": "UB6nB2COi3PWQpo48somew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocComment.html",
+          "hash": "Huv1T+lhJyScq8lZFtvnQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocConfiguration.html",
+          "hash": "fMERZmftB/tFVfJ7Jk6FyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCopy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCopy.html",
+          "hash": "iprt18Oj7vYztTv+XkVP4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCulture.html",
+          "hash": "2w7gP2S8SSf68nCP2x1B+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocCustomer.html",
+          "hash": "9Ymn6fkeDSwNQF/cWuifCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocFile.html",
+          "hash": "mg8g9pvWjFI3TyZwrxGOdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocLanguage.html",
+          "hash": "E86luF5aXJ8cmsxuoNeywA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocMedia.html",
+          "hash": "JEgQsuHOdhtHgolF4vMpgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModule.html",
+          "hash": "sV4QxOh7QVKXkVbKWmQrDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleArticle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleArticle.html",
+          "hash": "y4Xo7aNe5KZgxU67zE0YkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet.html",
+          "hash": "81KdSF9EgvUuO346qjmwfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue.html",
+          "hash": "v82sAuTsSWzOCV0UiZmp0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleData.html",
+          "hash": "ne89RINaVI36EcVTvY5dqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocModuleProduct.html",
+          "hash": "tJ71oax5LPna6sk3mmHqNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrder.html",
+          "hash": "0RUEIj/6L2NoiTYENMC17A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrderItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocOrderItem.html",
+          "hash": "LW7ni+VbGKBqVyQEzKmyDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocParameter.html",
+          "hash": "qhanbb3ZiaNfafYnj+capw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPage.html",
+          "hash": "jh182GmMHATAKuaSfmQ2pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation.html",
+          "hash": "vn9hKLh6atKH/Dw7pDqJxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole.html",
+          "hash": "KxbLvb00up90T+kJGPgZow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocPosition.html",
+          "hash": "9vy/y+74faJb3KO2kT2Vvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProduct.html",
+          "hash": "0kC9R0gH02rz4otZlkCDcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProductMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProductMedia.html",
+          "hash": "SAmvXfSKDLhHoq6qn3Pwgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProductModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocProductModule.html",
+          "hash": "15xrps+5fqAY77M3joom3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct.html",
+          "hash": "UGcA6BJhF07Mr13CNO1RxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocTemplate.html",
+          "hash": "xgn9IjzgqeC6ua0uf+53BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocTheme.html",
+          "hash": "TZ2ts1PrlBTW6ixxKoFtvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocUrlAlias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.SiocUrlAlias.html",
+          "hash": "ain3bDu1lLnWBW7c7gcLlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Models.Cms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Models.Cms.html",
+          "hash": "d1bzmjOvMmSOPq0CEVwHsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Repositories.CommonRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Repositories.CommonRepository.html",
+          "hash": "ilm2id+1R6prgxNsBm0VEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Repositories.FileRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Repositories.FileRepository.html",
+          "hash": "h9JYU8Y0mtXUNOYk2b5iGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Repositories.TemplateRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Repositories.TemplateRepository.html",
+          "hash": "hmH91s3cG3/zJ59xIXU+Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Repositories.html",
+          "hash": "KIAGHOuQa7t2VOmYkIldaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.html",
+          "hash": "Rke069ysvY28qxH7rPB2tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.CatePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.CatePosition.html",
+          "hash": "8eMWwPqXO1FBXxJFjVHfVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.CateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.CateType.html",
+          "hash": "rNJbSkK2xiyj/xVyQ5jKkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationCategory.html",
+          "hash": "HBc8K/kRK9JMTvcKgHvs6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.html",
+          "hash": "3zBtzYVHQxnlZmYSlGgUpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ConfigurationType.html",
+          "hash": "xQ5mRKUNB3knQvqzG6sLOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.DataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.DataType.html",
+          "hash": "bmaMw0D86ciAprDEBefxow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.Default.html",
+          "hash": "2dE13/V1zqn2c040eX93cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumFileFolder.html",
+          "hash": "HVuSU2XzkkFVaNYDeTarwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.html",
+          "hash": "Mpmu9xkLo1zIF0eQwK6E/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.FileFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.FileFolder.html",
+          "hash": "/djl6l6P+8QKh34jU6Ik0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.html",
+          "hash": "zByYsK0QjBxcVvo9xUNSKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.JWTSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.JWTSettings.html",
+          "hash": "f4gMukix0bIwiEvc2TH2mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ModuleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ModuleType.html",
+          "hash": "GxYlvOZK0RbzH5YaeBY7DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.Parameters.html",
+          "hash": "i5DCO569Qx6c03WIEG77OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.SearchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.SearchType.html",
+          "hash": "i+he+1NxLz+zIL83JRoA9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.html",
+          "hash": "qBcyLfbtbaAXf74judleQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.TemplateFolderEnum.html",
+          "hash": "oP2lmNU/8APnCSSF/P+WUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.html",
+          "hash": "tnPHsraH4KSXp1CIOX89RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ViewModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.ViewModelType.html",
+          "hash": "KdPidM0NfgDyycVgklh3tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsConstants.html",
+          "hash": "Qa866I3rmsoAEnrv1FVf5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.SWCmsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.SWCmsHelper.html",
+          "hash": "Ff5YRVIWGjfTRA6z/fgv7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.CmsConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.CmsConfiguration.html",
+          "hash": "7k+SKeu5JXPtNz0lKVlW0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.CmsCultureConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.CmsCultureConfiguration.html",
+          "hash": "YLo82t4XlHvpj8DvsHsXag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.GlobalConfigurationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.GlobalConfigurationService.html",
+          "hash": "b/gMy33NhcyES+qwCOA5XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.GlobalLanguageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.GlobalLanguageService.html",
+          "hash": "5wysZdntQI//zbQ1JlR9rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.IViewRenderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.IViewRenderService.html",
+          "hash": "gYkGmI5Rqy09TTxkoBa29g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.Translator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.Translator.html",
+          "hash": "mblUifxylmfTDKSaWbnDig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.ViewRenderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.ViewRenderService.html",
+          "hash": "jssg6qq6Fakk0TPcuuLvrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.Services.html",
+          "hash": "/rZ8XxkkeCaCgTOp6gOCjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.AccessTokenViewModel.html",
+          "hash": "4fG+1Qvk2ykjokdmvrKLTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.RefreshTokenViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.RefreshTokenViewModel.html",
+          "hash": "jdD4XJjGQAWrQlOEQNusYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.RoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.RoleViewModel.html",
+          "hash": "PB8+zDNJuvs6MyRBSJq0TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.UserRoleViewModel.html",
+          "hash": "QKlHrzdtG82tBZmjWSxfzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Account.html",
+          "hash": "mTgtv/gNWdU9xW9mkZupRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCategoryViewModel.html",
+          "hash": "SwvGaIUfVYmabcPL+3pDeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiConfigurationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiConfigurationViewModel.html",
+          "hash": "TA1pHzGmtbltfLAN9S4iGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCultureViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCultureViewModel.html",
+          "hash": "sZoQ/r6tYk3978agkO4HHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCustomerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiCustomerViewModel.html",
+          "hash": "NkoiGgp8LkQRoliiJAzS4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiFilePageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiFilePageViewModel.html",
+          "hash": "UHFJeBARG1KHWw7arX9/5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiInitCmsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiInitCmsViewModel.html",
+          "hash": "XQQmoThJOGe24AdAP2PgTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiLanguageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiLanguageViewModel.html",
+          "hash": "rIVXLvTGEMZVPRARJTZ+kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleDataViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleDataViewModel.html",
+          "hash": "WwlEwDJQ7nDyg0OLm2aQ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiModuleViewModel.html",
+          "hash": "KFst2oDMVUBA5nyrODXkCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderItemViewModel.html",
+          "hash": "Zx6ysP4Q8f0DhKG6KSppbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiOrderViewModel.html",
+          "hash": "ej0n8XiVhzuHttdzmmr2uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiTemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiTemplateViewModel.html",
+          "hash": "q5E+fttu18UbqJDDakURpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiThemeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiThemeViewModel.html",
+          "hash": "bCrTK3G6TLnn8Aw3kgWWuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ApiUrlAliasViewModel.html",
+          "hash": "zDVKUZGdDkHpnQLt2eLkow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.InitCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.InitCulture.html",
+          "hash": "NCW5cgxNDVHAP04LJMSCbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ModuleDataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.ModuleDataValueViewModel.html",
+          "hash": "n7lH1D4ojui9jprjySK5kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Api.html",
+          "hash": "0xKegt5iIH6eGQjzmtg36Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.ApiProductViewModel.html",
+          "hash": "VIms4uo0AM3ugxpLFCYodA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleMediaViewModel.html",
+          "hash": "pnPnem+RvVD21deA/CK7bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleModuleViewModel.html",
+          "hash": "CqBrEcpdh5lDcGyb41imMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel.html",
+          "hash": "IdCS00O23frishQiU8OwEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BECategoryViewModel.html",
+          "hash": "Np+yWFRtyxbVEr+44bK3Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEConfigurationViewModel.html",
+          "hash": "smt8LWJzVVYKBWdcCFbzQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BECultureViewModel.html",
+          "hash": "9Wm3qWOdFb1+Q7YjlLzwxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel.html",
+          "hash": "NCZjigZbH+5Tr6yx5D6lIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEMediaViewModel.html",
+          "hash": "y6+nM5ukEQJ/uAimspCz9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleDataViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleDataViewModel.html",
+          "hash": "X2S7aj5VFcSWHYD6XCn8QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEModuleViewModel.html",
+          "hash": "Bg85APC0P7d4aKyEPWxQOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEParameterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEParameterViewModel.html",
+          "hash": "ZBBsfG8wVouZfvtX99rRHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEPositionViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEPositionViewModel.html",
+          "hash": "+Jp7RTz8/GCySRjhmT6fSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEProductMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEProductMediaViewModel.html",
+          "hash": "Q0KuCHgAXc+vYsdYW+l+0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.html",
+          "hash": "WP6MkZd0T8Yf7DNnuJFs2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BETemplateViewModel.html",
+          "hash": "l8XhIYjLVKxWz5G5JAJ6vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.BEThemeViewModel.html",
+          "hash": "ljaeprPDrXsEarhB+1BEcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.UserViewModel.html",
+          "hash": "a3XKkulKhVcf+xSg3JBr9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.BackEnd.html",
+          "hash": "bxXoydCUi1mI6CiVfNj7ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend.BEUserViewModel.html",
+          "hash": "CRAxJP9nDyrAdjpyGMlPkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Backend_1.html",
+          "hash": "NEqpIeJ5kM3YQL+YUt8ZNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryArticleViewModel.html",
+          "hash": "PXxPNn/fEM0L64XYOuD5qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryCategoryViewModel.html",
+          "hash": "Nfjxe4UOqCTlQnzlgkVcyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryModuleViewModel.html",
+          "hash": "yGRjtPQf/9YCde2ry4IJow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryPositionViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.CategoryPositionViewModel.html",
+          "hash": "z74/sZRG5YFAzxvIrKXVTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.ConfigurationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.ConfigurationViewModel.html",
+          "hash": "9DdZkaAPUNwa5ZtUc6ouVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.DashboardViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.DashboardViewModel.html",
+          "hash": "tnY92P3pEhI0NS+bU1LI7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.DataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.DataValueViewModel.html",
+          "hash": "7GYmYtcBJztjx3rzFv2uSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.ExtraProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.ExtraProperty.html",
+          "hash": "Bd75DhmzaR/91N46eBDEHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FileStreamViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FileStreamViewModel.html",
+          "hash": "R/UMo1jkrE7b1eYnkDNRyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FileViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FileViewModel.html",
+          "hash": "j1eMfP9hHBtPfTW1d1q6yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleModuleViewModel.html",
+          "hash": "vUIXV/MZDT7/9ozFGV5Fjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEArticleViewModel.html",
+          "hash": "lT/3bvh/xd0ZX1xn1G1a0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FECategoryViewModel.html",
+          "hash": "pENq7Vm0H5kthGsMuj7B3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEMediaViewModel.html",
+          "hash": "sYl+ZjCWzt4gEF1u75MNNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel.html",
+          "hash": "a/JyrNZdxBmNG/HcNrxKdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FEProductViewModel.html",
+          "hash": "52eAiwgIG1z2Z0ka1RM2OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel.html",
+          "hash": "2gOl5zLRO1Hurg9S7v7paQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.MobileComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.MobileComponent.html",
+          "hash": "YDrnLlr7SUZyhShZYse9nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.SpaModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.SpaModuleViewModel.html",
+          "hash": "icn80t+o8Nz/qyEwGK7uuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.SpaTemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.SpaTemplateViewModel.html",
+          "hash": "VTXqXw3WIKpDMPluoKD0mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.FrontEnd.html",
+          "hash": "04bFuqejavGivzedPh4yyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoArticleModuleViewModel.html",
+          "hash": "77R5wpHkJ3msrtKgHoIIQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel.html",
+          "hash": "/sghN5eWR3CvyVbfhRvORg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoCategoryViewModel.html",
+          "hash": "sQGK+qn99Vx+YgxGgo+krg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoConfigurationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoConfigurationViewModel.html",
+          "hash": "LR7xhYQ6tLErA78XPrOroQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoFileViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoFileViewModel.html",
+          "hash": "UHYftmjvHg5aJvmW8y4Pyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleAttributeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleAttributeViewModel.html",
+          "hash": "XqzaAvBvfa8FXcnolTPRZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleDataViewModel.html",
+          "hash": "6qcGrjHr1yXkfp6gWFVYRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoModuleViewModel.html",
+          "hash": "XUlaXpg2FEPe9P0/VA8q/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoOrderViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoOrderViewModel.html",
+          "hash": "QrVVxFPg6qWRtYl8PSf7Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoPortalPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoPortalPageViewModel.html",
+          "hash": "oY49oROhbwp34V2W1QTiAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoProductViewModel.html",
+          "hash": "oN5clwTzlm2Mq0FqVpXzaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoTemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoTemplateViewModel.html",
+          "hash": "w7rEW9Ew9qDVHEMrU4Yj3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoThemeViewModel.html",
+          "hash": "o2SfEvGoUp55Ts2uGyK81A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.InfoUserViewModel.html",
+          "hash": "/KXRTbmEyvPxtLS5VGaXbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Info.html",
+          "hash": "3iX+efERgxtmjXpXMKMaug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.InitCmsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.InitCmsViewModel.html",
+          "hash": "+xwWvF5KGknqI2MEA1Xzdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleArticleViewModel.html",
+          "hash": "47xmll/QBOUFGFKJMqlzKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleAttributeValueViewModel.html",
+          "hash": "psY4eFVMmPtBKz/bA7xHrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleDataValueViewModel.html",
+          "hash": "WNDNSm3nV6qvNF4I28Dngw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.ModuleFieldViewModel.html",
+          "hash": "+3ezK0zoAqCOZ8TbYmOadQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleMediaViewModel.html",
+          "hash": "iBXqbMGAo5efgXIg7bf3qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavArticleModuleViewModel.html",
+          "hash": "EttuYje/pPqVfzaseneZhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryArticleViewModel.html",
+          "hash": "ShS7YKlPd1KFebVCERBM0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryCategoryViewModel.html",
+          "hash": "LLMx5Ql+saigLwkS0deRwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavCategoryProductViewModel.html",
+          "hash": "LAmg3McwnxJ4ijVa0ntQVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavModuleArticleViewModel.html",
+          "hash": "lODKCjDQBgRif/gOWSFOeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavModuleProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavModuleProductViewModel.html",
+          "hash": "b7PqSFzAR4VmLUoVQFhQVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageRoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageRoleViewModel.html",
+          "hash": "hown/d6wv0T9FlFrSSk4ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavPortalPageViewModel.html",
+          "hash": "xmZ6ARFex49OrniCh+pbgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavProductMediaViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavProductMediaViewModel.html",
+          "hash": "RgOX6CZYQzn+Dcsta2n5UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavProductModuleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavProductModuleViewModel.html",
+          "hash": "WMWZ0vVzT83R76D2V8IofQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavRelatedProductViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavRelatedProductViewModel.html",
+          "hash": "0Wg+T2du/6+GD8y5+4wRqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavUserRoleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.NavUserRoleViewModel.html",
+          "hash": "jh+vmnQSMtGBE8GvKomtRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Navigation.html",
+          "hash": "gZIbPt9Ivu6kVwj27gWfwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.SiteSettingsViewModel.html",
+          "hash": "2cGJHUnqjRD+2dRZs5y5kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.html",
+          "hash": "D97kAq0g8oLBPUum5GTVcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.html",
+          "hash": "f+hDYha4HJIp3NiJBt6aQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel.html",
+          "hash": "upwjIExxZfV6/+Cl0FgXhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.Spa.html",
+          "hash": "97npP37jLMvahIoAKXvB9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.SpaModuleDataValueViewModel.html",
+          "hash": "ON4h1aTcmdCOTcWsCV7svQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.TemplateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.TemplateViewModel.html",
+          "hash": "W7zI7nqYLKfjmHUeq9f7YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.ViewModels.html",
+          "hash": "T84x6O4KQRmCUPkMJKeluw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Lib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Lib.html",
+          "hash": "7EzsltS+nQJWcwKzkO1bOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ArticlesController.html",
+          "hash": "JH8CFxLWJoDPvz/KoN1+pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.CultureController.html",
+          "hash": "4bybfw1mmzUjrnHdIvt0eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.DashboardController.html",
+          "hash": "CeyZDVRDMzHmklpeysTJ9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.FileController.html",
+          "hash": "XeeJOkfF1xDjmrgotNF/6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.MediaController.html",
+          "hash": "vMlMB3fQQVrR5Pgnd7SKYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ModuleController.html",
+          "hash": "8nSiEO5+idcCzh4NnF9MtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.PagesController.html",
+          "hash": "qqZxgUOfHVLimTb1hVtEQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController.html",
+          "hash": "MXK7oaxr30lnrD5qYsoyxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.html",
+          "hash": "rE0qWX+kN42QuWWx0G06rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.html",
+          "hash": "ljMZAA951KnCymyDUcTEnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.html",
+          "hash": "WELthWq3oq11wfdwGhbxFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.SettingController.html",
+          "hash": "60ZUlt+nMH7/qg80MzZVyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.TemplateController.html",
+          "hash": "CRd6lz8u3t0Xny5hc901vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.ThemeController.html",
+          "hash": "3nlo5VaHbacGpboEa9oEjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.Controllers.html",
+          "hash": "H4xczgsXxOFEKomNkPkY+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs.html",
+          "hash": "2tpcvLE5xaMhgvjnWrueaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.html",
+          "hash": "Dq1eYwLTj90VI0JXFnsDWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.html",
+          "hash": "Nbo1mXPg5WKKnWf2rxLVeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter.html",
+          "hash": "jl52OB9vF3fHqoAg4R+rQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar.html",
+          "hash": "SpCHS5Oyk9n296XH//VmWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals.html",
+          "hash": "CTaJKVgFI/Jp+z1CHH1fsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.Portal.ViewComponents.html",
+          "hash": "H1fs41MPDpxulo7WZ1C1qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId.html",
+          "hash": "g/AzRxMjmdaq01o+b3bQFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.html",
+          "hash": "L3j95Z/80BZi4nXU0+WH7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Areas.User.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Areas.User.Controllers.html",
+          "hash": "BQ7am/58wrdfR8Oz6iUyag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.BackendController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.BackendController.html",
+          "hash": "CNQSusJgySEFNcJ/cI77Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController-1.html",
+          "hash": "Pu8k7ulvIWwKZoX+KTCA5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.BaseController.html",
+          "hash": "A4qwe8JpRWnsy2XNetWW7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.HomeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.HomeController.html",
+          "hash": "8ccRdSoyPMjZYFb/qWSVGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.Controllers.html",
+          "hash": "vRVlgZ82eEC+DBGpRjw34g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.html",
+          "hash": "jdT9ADra0pRXPp1/J8jrkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.TagHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.TagHelpers.html",
+          "hash": "WUQ2vroaAKKQdcEzdyfAxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.ViewComponents.FooterNavbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.ViewComponents.FooterNavbar.html",
+          "hash": "60zv0MM4dnU6Aqsb7lyRgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.ViewComponents.HeaderNavbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.ViewComponents.HeaderNavbar.html",
+          "hash": "G6XiWgzSXBtP5EPLrlx2dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Mvc.ViewComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Mvc.ViewComponents.html",
+          "hash": "spFK9UdCxDfvk+kIS0qa0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController.html",
+          "hash": "tdPj0BZMq/36XH4JK19ExA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.html",
+          "hash": "loe8PVEvtgG8ioVZ5WuwtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController.html",
+          "hash": "yISPVMRAWzJKjr/tPvBLyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.html",
+          "hash": "0S0E7x4WCZKsIO7LNe/BZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Controllers.InitCmsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Controllers.InitCmsController.html",
+          "hash": "/gSEnU9fdfjjI5oFFXeV7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Controllers.html",
+          "hash": "nk8vdnN0pg3j9zmGwUbJnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.html",
+          "hash": "e5CVBJ6gY7ObiPW/D4Qbtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia.html",
+          "hash": "gVbeGq5AVXwjYXnqpeAxEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule.html",
+          "hash": "jmwSocJBIJYI19l33miKqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategory.html",
+          "hash": "4QY1bfgmNwJzUjRQrYBYFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle.html",
+          "hash": "8MLhHNH/wSceHOzPgEW0AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryCategory.html",
+          "hash": "2+xxbw4FrCE09ljh1BucYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryModule.html",
+          "hash": "ymzMtgqzbDXYmMZ8IhjL7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryPosition.html",
+          "hash": "uIl4vTTc58qVMGeExEQDHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryProduct.html",
+          "hash": "dK9vmb0HFYFvi8D1Q03zbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocComment.html",
+          "hash": "ac2v8e0rRdcrOrh/7hKt+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocConfiguration.html",
+          "hash": "fMLPZAc3GePMOYYLPedG6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.html",
+          "hash": "2HsOUeQy+a5xMl0Vl6kMlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture.html",
+          "hash": "VN9GKjCEjz/GKYZZLSIbMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocFile.html",
+          "hash": "bd+H7Zr1jDqvXvBOd7X6Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocLanguage.html",
+          "hash": "8Uy2gq/+sqhujZw7L7Dpsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocMedia.html",
+          "hash": "70jIHPT9gDI6zh8RD/1W5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModule.html",
+          "hash": "YccjEq6PwGJRq2E5ldbYAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle.html",
+          "hash": "OrkOjZp08qj6sPdbcWYo2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleAttributeSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleAttributeSet.html",
+          "hash": "8RAhSHLyUimx9qzvSInprA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleAttributeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleAttributeValue.html",
+          "hash": "N4Lg9l8t2IoH1T/WBM5c+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleData.html",
+          "hash": "87NF7E7M/IpsGTgwMBHaJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleProduct.html",
+          "hash": "8adIlINgFzIV8yrjm7C02g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.html",
+          "hash": "T/9XxImSi4OaigtfIL/0tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocPosition.html",
+          "hash": "gDxccbF5aizFcc6Vxt9LSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocProduct.html",
+          "hash": "I5bS+seIMkfOhEpmtN551A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocProductMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocProductMedia.html",
+          "hash": "GJRVAda9LfE7HtIeioq11g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocProductModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocProductModule.html",
+          "hash": "ZaNWSdywHA2wxiZPuAFHLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocRelatedProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocRelatedProduct.html",
+          "hash": "fKtuHUCo2/+ijV3A7jzDTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocTemplate.html",
+          "hash": "MsrxANkTBgs8QgjediyCUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocTheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.SiocTheme.html",
+          "hash": "9pP+OcYw0U+pLcmuY2XUiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.sw_cms_structureContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.sw_cms_structureContext.html",
+          "hash": "eu6r3mng2+Lw8rbcMcbYLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Cms.html",
+          "hash": "55CeT40dOE8cLKhQSfiJAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.ErrorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.ErrorViewModel.html",
+          "hash": "6Ltx0USgYM7lmT/SWawRQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Identity.JWTSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Identity.JWTSettings.html",
+          "hash": "LV6/A2xwu+wHhXRk8v97QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.Identity.html",
+          "hash": "r+lspbehzl9nkZ0cLeswPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Models.html",
+          "hash": "ilFPCZDaQUVGvul+jkHNYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Program.html",
+          "hash": "NPwUfGYJFasy+4FHQrjYMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.html",
+          "hash": "3ujGRTw3w9bvnsD9pB5zLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Startup.LanguageRouteConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Startup.LanguageRouteConstraint.html",
+          "hash": "CGigQBxtuuqwVt9Gg0LHUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.html",
+          "hash": "HNMVekaGVApLhSIjB/MBZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.Startup.html",
+          "hash": "8Bxbzx56fSEsvclykixJLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.StartupEnhancementHostingStartup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.StartupEnhancementHostingStartup.html",
+          "hash": "AvKi0ycDDXpAbQJxFnpivQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Cms.Web.Mvc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Cms.Web.Mvc.html",
+          "hash": "ZvPjiKylvRC2bDOh/9S+jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.CommonHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.CommonHelper.html",
+          "hash": "xVA76IjG6NkTZALFo8ULGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.html",
+          "hash": "esms+p2Uu4BkHIBMM2lfBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.Rating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.Rating.html",
+          "hash": "XLnz53gchZrFt2uHBixr2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.GravatarHtmlHelper.html",
+          "hash": "a+TBDfk9VRxHN7N3AEPmKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.SEOHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.SEOHelper.html",
+          "hash": "Hf7ju2ti1jHUEzeZc8bW3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Helper.html",
+          "hash": "3gthtKP+X97qNHb4rwLPGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Utility.Const.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Utility.Const.html",
+          "hash": "dVuOeXtSmCB9rnkg4ciamg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Utility.Enums.SWStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Utility.Enums.SWStatus.html",
+          "hash": "3+xS3HDEFy5v5pGrFdxOdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Utility.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Utility.Enums.html",
+          "hash": "2fUS7mdh1hryYKnABGMmnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Common.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Common.Utility.html",
+          "hash": "Uw15WAJgoNPPIIVFaM+xtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Core.Controllers.ApiAccountController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Core.Controllers.ApiAccountController.html",
+          "hash": "6li6BiogG2/SmG1GTSUGcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Core.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Core.Controllers.html",
+          "hash": "gBNIP+X0pZqbJDA9PttKRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Interfaces.IExpandViewModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Interfaces.IExpandViewModel-1.html",
+          "hash": "8cXDZJHJ4oWbwN5TATLpAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Interfaces.IUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Interfaces.IUser.html",
+          "hash": "pUBajwpd1+2GB05i85hsSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Interfaces.html",
+          "hash": "8kOcRd/dVEIdC4iHMJmNZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.Entity.html",
+          "hash": "GXETfFag2AsbOSL78jxR7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.Enums.ResponseKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.Enums.ResponseKey.html",
+          "hash": "TomYiCZodqe8eFa3RLepxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.Enums.html",
+          "hash": "wA2rnVH2wd8AXRLzqq3Yaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.HistoryData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.HistoryData-1.html",
+          "hash": "+b/PJfEqe2vkB6QR6yLkxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.SignalRClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.SignalRClient.html",
+          "hash": "gx/ldNWqB4Ds8NQR/YTmug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.SupportedCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.SupportedCulture.html",
+          "hash": "dFvwIfQt42u9m2bEajaSUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.ValueObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.ValueObject-1.html",
+          "hash": "hXQJSG6jY2tWmHeG4XH9Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.Models.html",
+          "hash": "7UEXWd7NOrPy5MbjgzTFVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.ApiResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.ApiResult-1.html",
+          "hash": "6LBNb75mMjIsu0mzDboVbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.EntityField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.EntityField.html",
+          "hash": "wz9P+tY9lqKN0hxl6RDDtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.ExpandViewModelBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.ExpandViewModelBase-2.html",
+          "hash": "OvFI/EoL5MfPKHTxde/4bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.FileStreamViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.FileStreamViewModel.html",
+          "hash": "8khahtHDfJ1ctMhM9QRRcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.PaginationModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.PaginationModel-1.html",
+          "hash": "okKRXxwvp7m/GdAhx7wjlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.RepositoryResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.RepositoryResponse-1.html",
+          "hash": "NIuwT3Wq5DlqZ+oTnV93Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.RequestPaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.RequestPaging.html",
+          "hash": "1wpBU6klKkT5uXlob7JLmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.ViewModelBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.ViewModelBase-2.html",
+          "hash": "zD1Rd+8f3bhdn7je7IWk6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Core.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Core.ViewModels.html",
+          "hash": "+Df8WuPbY+2cV1YpUj1rjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.Repository.DefaultRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.Repository.DefaultRepository-2.html",
+          "hash": "vLcEr1FezWo241AiGEtIWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.Repository.DefaultRepository-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.Repository.DefaultRepository-3.html",
+          "hash": "UvXfqyiTRWcA0UwwVS0fuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.Repository.ModelRepositoryBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.Repository.ModelRepositoryBase-2.html",
+          "hash": "FsQtWnzEUbMRX+NlLSTTtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.Repository.RepositoryBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.Repository.RepositoryBase-3.html",
+          "hash": "vYAAAh48LyBntYBTqjlFEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.Repository.ViewRepositoryBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.Repository.ViewRepositoryBase-3.html",
+          "hash": "aDdCJhNXA4V0wiwj0MeF7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.Repository.html",
+          "hash": "DvUdT4unJnwzV++HOpWrfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.ViewModels.ViewModelBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.ViewModels.ViewModelBase-3.html",
+          "hash": "I6OW28tMkbpaD/Vec6RhWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Domain.Data.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Domain.Data.ViewModels.html",
+          "hash": "jj4pyenmqwLtSvdK7N+1jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Extension.Core.Interfaces.IService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Extension.Core.Interfaces.IService-2.html",
+          "hash": "9o5X5DugKe5qhM2oSX6lyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Extension.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Extension.Core.Interfaces.html",
+          "hash": "mrIYukchX4zLQ8VmUFSS+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Authorization.ClaimRequirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Authorization.ClaimRequirement.html",
+          "hash": "XMVHvaSNRQqV7jzyD35ZXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Authorization.ClaimsRequirementHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Authorization.ClaimsRequirementHandler.html",
+          "hash": "5D4xV2bFUYC8nljwuZlAsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Authorization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Authorization.html",
+          "hash": "4TWXsH9ebxVqUlELgrbYvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Const.ApplicationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Const.ApplicationTypes.html",
+          "hash": "h2LzPKOYiNVtUm3LxD8+ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Const.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Const.html",
+          "hash": "XyVUPLPiajOymlvzbC+JUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Data.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Data.ApplicationDbContext.html",
+          "hash": "M5Dwtz9ivL8R/tOxLHG20g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Data.IdentityBasedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Data.IdentityBasedData.html",
+          "hash": "MRcVSWGOuzP+bqOwK6UqXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Data.html",
+          "hash": "Ivjw93zEU07b8JzfyLraYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Entities.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Entities.Client.html",
+          "hash": "Yy3t+r0OraRz2kyUzp2ZyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Entities.RefreshToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Entities.RefreshToken.html",
+          "hash": "mYz+8asEjQvUn+NHTb9+GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Entities.html",
+          "hash": "5v8O+ydFOmtGBLQgH9IF3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Infrastructure.ApplicationUserManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Infrastructure.ApplicationUserManager.html",
+          "hash": "cPQI3vrCd2uwbFqo2rBOkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Infrastructure.ExtendedClaimsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Infrastructure.ExtendedClaimsProvider.html",
+          "hash": "LGoDn1lgJ1W0Fm2IikWDnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Infrastructure.html",
+          "hash": "fiw5yi2MMil9/ODU9cTWjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Interfaces.IUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Interfaces.IUser.html",
+          "hash": "WJab/7TGS38t04kn6jwRNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Interfaces.html",
+          "hash": "dGPqkEsNCwAnNldkNpOUpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.html",
+          "hash": "I9XQHdqL/qoJiX6AVqcCDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.ExternalLoginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.ExternalLoginViewModel.html",
+          "hash": "n4tahmk9KbKE3oq6O/zrLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.ForgotPasswordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.ForgotPasswordViewModel.html",
+          "hash": "2OuWspP6m1VrtWNGAUceXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.LoginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.LoginViewModel.html",
+          "hash": "FQUPaeBx8NsL+FRjMWdV5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.LoginWith2faViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.LoginWith2faViewModel.html",
+          "hash": "Hg5cPMK0NsyZaMNvTlWLRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.html",
+          "hash": "Xta6mxIA1jFZF2hkRgbzFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.RegisterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.RegisterViewModel.html",
+          "hash": "f1KDyTzLAROHIrnk19m/zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.ResetPasswordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.ResetPasswordViewModel.html",
+          "hash": "aDLHqo0TB12DhMq1OE71rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.SendCodeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.SendCodeViewModel.html",
+          "hash": "FBJRG5z2lsQRmWRS6BFhFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.UserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.UserViewModel.html",
+          "hash": "nu2RckNfmTo4c7eQl6J8UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.VerifyCodeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.VerifyCodeViewModel.html",
+          "hash": "LOZP2F62eZPw/vEyJZWY8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AccountViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AccountViewModels.html",
+          "hash": "MrxJ0boQOD/R5YWB8LYunQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ApplicationUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ApplicationUser.html",
+          "hash": "9rU1P1jHhQGZ04ZxI12/Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.AspNetUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.AspNetUser.html",
+          "hash": "wCPXQy+nRRKeF+PSIJGS4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.html",
+          "hash": "DcroA3Z0lDpCFghVMp34EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel.html",
+          "hash": "5UKSN1Rt6sSIBS0bO9muxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.ConfigureTwoFactorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.ConfigureTwoFactorViewModel.html",
+          "hash": "+ubAbTz9pSsA9MXo3lAOjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.FactorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.FactorViewModel.html",
+          "hash": "kZze/y1bntZLAl/C7M3rvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.IndexViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.IndexViewModel.html",
+          "hash": "5prDyZA77Y/aYy2eNWi5Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.html",
+          "hash": "oxXgQzT2ZJt1zukNwC1ScA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.html",
+          "hash": "Nrce9q+3dHv8h2fpvQCzIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel.html",
+          "hash": "3mn478nFoQ9Ho/y+cIt41g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel.html",
+          "hash": "QMdVeSu/vhshIWMv7rxv8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.ManageViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.ManageViewModels.html",
+          "hash": "atYSVIu7k6zkqWJTU94gQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Models.html",
+          "hash": "LNp/d2la3EoB1G0BwrR79A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Repositories.AuthRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Repositories.AuthRepository.html",
+          "hash": "I13k4XIFbn/59YoeY0LlBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Repositories.html",
+          "hash": "C2QSdOoVcpEieXiIN591gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.AuthEmailMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.AuthEmailMessageSender.html",
+          "hash": "vZKqxLuXPhd3ib/ivZAqPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.AuthSMSMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.AuthSMSMessageSender.html",
+          "hash": "WPKr+Ehzh7DndA+rWbCcYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.EmailSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.EmailSender.html",
+          "hash": "1xUPQN4QaMfQjBaahk9Stg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.EmailSenderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.EmailSenderExtensions.html",
+          "hash": "n+cYjpLaY5lRiVJcdzK8Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.IEmailSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.IEmailSender.html",
+          "hash": "il2NB1ktGgKrHiOeMP7sEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.ISmsSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.ISmsSender.html",
+          "hash": "BBXTET0eglK8GG8FUrmtxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Services.html",
+          "hash": "tngiJmjN8Zkqkbi31bXCdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.Startup.html",
+          "hash": "8yqanFicEbxK4jnHaTYUWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Identity.html",
+          "hash": "3UWprD0Qv8KHaUweSAbioA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Base.ApiHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Base.ApiHelper-1.html",
+          "hash": "H5a5wP1Q3EMdrbeSES8LHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Base.Controllers.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Base.Controllers.BaseController.html",
+          "hash": "F/rVagQAur5Ynuui54xf9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Base.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Base.Controllers.html",
+          "hash": "qItyeHzBYd6tGEK2uxQ57A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Base.html",
+          "hash": "nOVYs7if6CUr/IN6Q9RSFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Core.Controllers.ApiHubController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Core.Controllers.ApiHubController-3.html",
+          "hash": "clVuJyI/fXVUa1Y+dJib8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Core.Controllers.ApiHubController-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Core.Controllers.ApiHubController-4.html",
+          "hash": "+r2nv0JO9EQMDo3imc8pxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Core.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Core.Controllers.html",
+          "hash": "Eq80HucIJZoD3mQortxgOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Core.SignalR.BaseSignalRHub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Core.SignalR.BaseSignalRHub.html",
+          "hash": "0FIiff6fqNW6ubTnIjZ0KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.UI.Core.SignalR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.UI.Core.SignalR.html",
+          "hash": "auM0Zg5Uu+S0Olci25zsgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.html",
+          "hash": "22yHctrhaf34xrepHIsxqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastika.Web.Start.TagHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastika.Web.Start.TagHelpers.html",
+          "hash": "H5fQUu8bHZx8Uk61qCsBUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiArticleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiArticleController.html",
+          "hash": "5pofEi7rUZ97JmqqWau8ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiCategoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiCategoryController.html",
+          "hash": "He8IBDm6gjnTUB79k3VwvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiConfigurationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiConfigurationController.html",
+          "hash": "MHQUSyqknrJYye4tJJ1BZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiCultureController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiCultureController.html",
+          "hash": "Ps1RlVd+eXYu1cBNzIRyXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiCustomerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiCustomerController.html",
+          "hash": "2Mbhe2p3w4G7qeMp6lgTiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiFileController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiFileController.html",
+          "hash": "Cur9cW1HK6V1FP4fLiLA6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiLanguageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiLanguageController.html",
+          "hash": "gTKu6+Ep1ZFfOi6tDumtFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiMediaController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiMediaController.html",
+          "hash": "oPH6SLtNiIdQk3pIlFq66Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleController.html",
+          "hash": "1qbRBxONAcr1yUA/Uw84ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleDataController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiModuleDataController.html",
+          "hash": "0HlKpKnfxpcnG4qblizHvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavPageModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavPageModuleController.html",
+          "hash": "YvWNKXlcl/2LmoxBiXdd7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavigationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiNavigationController.html",
+          "hash": "UhTfBqtLnwo/Bj15e7EaOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiPortalController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiPortalController.html",
+          "hash": "BRQl1G+wYp5EYC7zeeL1Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiProductController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiProductController.html",
+          "hash": "pju3p2ZOTfxhzZIwKPumPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiRoleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiRoleController.html",
+          "hash": "gxdcNo5WW2AB/0vpcWPCxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiTemplateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiTemplateController.html",
+          "hash": "Ilnqey5624bhICBpo9psFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.ApiThemeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.ApiThemeController.html",
+          "hash": "DFZjaHoaKHx7kEbK+5ZTow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController-3.html",
+          "hash": "jtosPKoHbTUA+05DK51z8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.BaseApiController.html",
+          "hash": "r7WONxS1ry0RmSrZ3dSi8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Controllers.html",
+          "hash": "l45k495UZrgm1Or3O33Srg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.JwtSecurityKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.JwtSecurityKey.html",
+          "hash": "k2vLyTJtfa6+DSx6PjqjXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Program.html",
+          "hash": "dAlYg1RQIZjaaumvu5SSzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.Startup.html",
+          "hash": "kazpkJQWGXBATeOYAQ4GBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Api.html",
+          "hash": "ChY8PNd2UHbQEu2mQqFxzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Web.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Web.Startup.html",
+          "hash": "hzBvjBdnQGfz3zFQA5yZSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.Cms.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.Cms.Web.html",
+          "hash": "WcEonoB5wcNGtsJ4FFAsHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiCategoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiCategoryController.html",
+          "hash": "ModuvCIY3VsaSf0IV/52Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiFileController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiFileController.html",
+          "hash": "cd9bvpYWoLdc5RU386Igjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiModuleController.html",
+          "hash": "6z/FRu4XB/1dtk484Ykf6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiTemplateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.IO.Cms.Api.Controllers.ApiTemplateController.html",
+          "hash": "FGHvsS9kY+PX+tMbN3RXgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Swastka.IO.Cms.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Swastka.IO.Cms.Api.Controllers.html",
+          "hash": "uhCJUgNguY/Vk9de/oVaAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController.html",
+          "hash": "KbtLMUYJtWmMvXJ5fVewdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TTS.Web.Areas.Portal.Controllers.Apis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TTS.Web.Areas.Portal.Controllers.Apis.html",
+          "hash": "mPbQaeMRx6ZWR+vHkkKPrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "xjbMQdZ0UUD5pG0UHeqw2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "hqO6fsftcHicRLcQs++CrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "community.md",
+      "output": {
+        ".html": {
+          "relative_path": "community.html",
+          "hash": "wohMov21fvFGXRCzA1p0nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/page/create-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/page/create-page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/page/set-parent-pages.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/page/set-parent-pages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/plesk_create_db_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/plesk_create_db_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/readme/opt_nuk_thumbnail.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/readme/opt_nuk_thumbnail.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/_images/readme/swastika-history.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/_images/readme/swastika-history.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/article-and-product.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/article-and-product.html",
+          "hash": "MHOV3+u8YoxiqdfXgTCq7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documents/components/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/components/index.html",
+          "hash": "VZsSML+lsJnzbZts7i14YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/dependency-injection.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/dependency-injection.html",
+          "hash": "6tkTUB9M2gtzL3d3qbt5CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/firststep.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/firststep.html",
+          "hash": "r8ENqvgRzXy0zbHjnEAT2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/get-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/get-started.html",
+          "hash": "ZWHa3khHH6k0UdWoIyODUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/host-and-deploy/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/host-and-deploy/index.html",
+          "hash": "tVSzyLVjH7QZ0Xyt8XjC0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documents/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/index.html",
+          "hash": "VAC4iZvNPVOuAhFP0vhxhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/installing.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/installing.html",
+          "hash": "a1FDV2nlbX4FGNMV/j6t0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/introduction/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/introduction/faq.html",
+          "hash": "er7N1YTyj+gNgz9+AOnqtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/introduction/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/introduction/index.html",
+          "hash": "Pkr05qvoOhfYw7VAfeaWWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/layouts.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/layouts.html",
+          "hash": "gGOW9cETRzX7RAPHKnCZNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/module.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/module.html",
+          "hash": "fvV4G7K14mVshz3x6dxxtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/page.html",
+          "hash": "G4FLNXqr1CEmeXBpH0/OZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/template.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/template.html",
+          "hash": "933sH07EY4IiS5oH8kqehQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documents/theme.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/theme.html",
+          "hash": "325s1LOgd4NNxAi6uqZZoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documents/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/toc.html",
+          "hash": "52XsI0Kuourp1JEdyZd2hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documents/tutorials/build-your-first-blazor-app.md",
+      "output": {
+        ".html": {
+          "relative_path": "documents/tutorials/build-your-first-blazor-app.html",
+          "hash": "bjCwS9BEV+87gtRbcSYyig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/tutorials/build-your-first-blazor-app/_static/blazor-publish-create-appservice2.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/tutorials/build-your-first-blazor-app/_static/blazor-publish-create-appservice2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/tutorials/build-your-first-blazor-app/_static/blazor-publish-pick-target.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/tutorials/build-your-first-blazor-app/_static/blazor-publish-pick-target.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/tutorials/build-your-first-blazor-app/_static/new-aspnet-core-project.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/tutorials/build-your-first-blazor-app/_static/new-aspnet-core-project.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documents/tutorials/build-your-first-blazor-app/_static/new-blazor-app-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "documents/tutorials/build-your-first-blazor-app/_static/new-blazor-app-dialog.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "index",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "n2G3jWCajqNKRw9nKQlQKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "4C7JuOldVjIR6YrMFytYwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
