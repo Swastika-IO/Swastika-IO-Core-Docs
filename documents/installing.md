@@ -91,25 +91,25 @@ Note: Plesk recommends all users to install and manage Swastika I/O Core CMS usi
 1. Log in to Plesk.
 2. In the upper right corner of the screen, click Databases.
 
- ![plesk_create_db_1](_images/plesk_create_db_1.png)
+ ![plesk_create_db_1](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_1.png)
 
 3. Click Add Database.
 
- ![plesk_create_db_2](_images/plesk_create_db_2.png)
+ ![plesk_create_db_2](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_2.png)
 
 4. Type in the database name.
 
- ![plesk_create_db_3](_images/plesk_create_db_3.png)
+ ![plesk_create_db_3](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_3.png)
 
 5. Type in the database user name and password, and then click Ok.
 
- ![plesk_create_db_4](_images/plesk_create_db_4.png)
+ ![plesk_create_db_4](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_4.png)
 
 6. Once the database has been created, click Connection info to see the information you will need to connect to the database (database server hostname and port, database name, and the database user name). plesk 
 
- ![plesk_create_db_5](_images/plesk_create_db_5.png)
+ ![plesk_create_db_5](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_5.png)
 
- ![plesk_create_db_6](_images/plesk_create_db_6.png)
+ ![plesk_create_db_6](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_6.png)
 
 ## Step 3: Set up sw-config.php
 
