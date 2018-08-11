@@ -21,21 +21,25 @@ Let’s take a step-by-step tour through your Swastika I/O Core CMS site and see
 
 ## Config CMS
 
+### Connect to external Database Server
+
  ![config-db.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/config-db.jpg)
+
+### Connect to local Database Server
 
  ![connect-local-db.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/connect-local-db.jpg)
 
+### Select default culture and language
+
  ![select-default-culture.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/select-default-culture.jpg)
- 
+
+### Create super admin account
+
  ![create-admin.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/create-admin.jpg)
-
-## Register
-
-TBC
 
 ## Log In
 
-Begin by logging into the “administration area” or the back end of your website. Visit your site’s login page by placing “portal” after your domain name (e.g. http://example.com/en-us/portal). Now log into Swastika I/O Core CMS using your username and password.
+Begin by logging into the “administration area” or the back end of your website. Visit your site’s login page by placing “backend” after your domain name (e.g. http://example.com/backend/login). Now log into Swastika I/O Core CMS using your admin username and password that you have created above.
 
 ## Start at the Top
 
